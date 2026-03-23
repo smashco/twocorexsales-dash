@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: twocorexsales-dash
+    runtime: node
+    plan: free
+    buildCommand: npm install && npx prisma generate && npm run build
+    startCommand: npm start
+    envVars:
+      - key: DATABASE_URL
+        value: postgresql://twocorexsales_user:TVDvA5jACGcaXaiu8fFr0JtYv3EAFw2q@dpg-d70djgffte5s73eca22g-a/twocorexsales
+      - key: NEXT_PUBLIC_APP_NAME
+        value: TwoCoreX Sales
+      - key: NODE_ENV
+        value: production
+      - key: ANTHROPIC_API_KEY
+        sync: false

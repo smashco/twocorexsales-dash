@@ -1,0 +1,70 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+model LeadCRM {
+  leadId                String    @id @map("lead_id")
+  status                String    @default("not_started")
+  generalNotes          String    @default("") @map("general_notes")
+  customOutreachMessage String?   @map("custom_outreach_message")
+  lastContactedAt       DateTime? @map("last_contacted_at")
+  nextFollowUpAt        DateTime? @map("next_follow_up_at")
+  isStarred             Boolean   @default(false) @map("is_starred")
+  updatedAt             DateTime  @default(now()) @updatedAt @map("updated_at")
+  callLogs              CallLog[]
+
+  @@map("lead_crm")
+}
+
+model CallLog {
+  id        String   @id @default(cuid())
+  leadId    String   @map("lead_id")
+  timestamp DateTime @default(now())
+  channel   String
+  outcome   String
+  notes     String   @default("")
+  createdBy String   @default("") @map("created_by")
+  lead      LeadCRM  @relation(fields: [leadId], references: [leadId], onDelete: Cascade)
+
+  @@map("call_logs")
+}
+
+model LeadViewer {
+  id       String   @id @default(cuid())
+  leadId   String   @map("lead_id")
+  repName  String   @map("rep_name")
+  lastSeen DateTime @default(now()) @map("last_seen")
+
+  @@unique([leadId, repName])
+  @@map("lead_viewers")
+}
+
+model LeadEnrichment {
+  leadId         String   @id @map("lead_id")
+  websiteValid   Boolean? @map("website_valid")
+  scrapedAddress String?  @map("scraped_address")
+  scrapedPhone   String?  @map("scraped_phone")
+  scrapedEmail   String?  @map("scraped_email")
+  contactName    String?  @map("contact_name")
+  linkedinUrl    String?  @map("linkedin_url")
+  instagramUrl   String?  @map("instagram_url")
+  facebookUrl    String?  @map("facebook_url")
+  websiteTitle   String?  @map("website_title")
+  websiteAbout   String?  @map("website_about")
+  enrichedAt     DateTime @default(now()) @map("enriched_at")
+  rawData        Json?    @map("raw_data")
+
+  @@map("lead_enrichment")
+}
+
+model AIInsightsCache {
+  leadId      String   @id @map("lead_id")
+  data        Json
+  generatedAt DateTime @default(now()) @map("generated_at")
+
+  @@map("ai_insights_cache")
+}
