@@ -9,7 +9,7 @@ const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"]
 
 export const metadata: Metadata = {
   title: "TwoCoreX Sales — B2B Lead Intelligence",
-  description: "TwoCoreX (OPC) Pvt Ltd — B2B Sales Intelligence Platform for Mumbai, Pune & Navi Mumbai",
+  description: "TwoCoreX (OPC) Pvt Ltd — B2B Sales Intelligence Platform across Maharashtra",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

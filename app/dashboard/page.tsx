@@ -18,7 +18,7 @@ export default function DashboardPage() {
 
         {/* KPI Row — 2 cols on mobile, 4 on desktop (5th card wraps to next row on md, full row on lg) */}
         <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-3">
-          <StatsCard label="Total Leads" value={stats.totalLeads} sub="Mumbai · Pune · NM" icon={Users} color="navy" />
+          <StatsCard label="Total Leads" value={stats.totalLeads} sub="Across Maharashtra" icon={Users} color="navy" />
           <StatsCard label="HOT Leads" value={stats.hotCount} sub="Ready to close" icon={Flame} color="red" />
           <StatsCard label="WARM Leads" value={stats.warmCount} sub="Need nurturing" icon={Thermometer} color="amber" />
           <StatsCard label="High Value" value={stats.highValueCount} sub="Priority targets" icon={Star} color="green" />

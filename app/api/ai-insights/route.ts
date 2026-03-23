@@ -35,7 +35,7 @@ export async function POST(req: NextRequest) {
 
     const recentLog = crmState.callLogs[0]?.notes ?? "none";
 
-    const prompt = `You are a senior B2B sales coach helping a new software company in Mumbai, India close their first customers.
+    const prompt = `You are a senior B2B sales coach helping a new software company in Maharashtra, India close their first customers.
 
 The product is a custom CRM and business automation platform for small businesses (under 25 employees).
 Pricing is ₹799–₹1,999/month with 3 months free for first customers.
