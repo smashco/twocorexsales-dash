@@ -22,7 +22,7 @@ export const LEADS: Lead[] = [
     action: "LinkedIn DM to founder",
     outreachMessage: "Hey — for a boutique rental brokerage, lease renewal reminders are repeat revenue. Is there a system tracking when current tenants' leases are up?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Darshan Vyas — 7666322955",
   },
   {
     id: "RE-REP2",
@@ -44,7 +44,7 @@ export const LEADS: Lead[] = [
     action: "Office visit in Sadashiv Peth",
     outreachMessage: "Hi — for a trusted brokerage with decades of clients, that relationship database is your biggest asset. Is it stored digitally?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Manoj Yadav — 8655711878",
   },
   {
     id: "RE-REP3",
@@ -66,7 +66,7 @@ export const LEADS: Lead[] = [
     action: "LinkedIn to founder",
     outreachMessage: "Hi — NRI clients managing investments remotely need a lot more structure. Is there a portal where they can track shortlisted properties and documents?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Pravin Mane — 9621930555",
   },
   {
     id: "RE-REP4",
@@ -88,7 +88,7 @@ export const LEADS: Lead[] = [
     action: "Instagram/LinkedIn DM",
     outreachMessage: "Hey — for a first-time buyer brokerage, the 8-12 touchpoint cycle means every lead needs structured follow-up. How is your team tracking that?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Priya Sharma — 9768814825",
   },
   {
     id: "RE-5",
@@ -110,7 +110,7 @@ export const LEADS: Lead[] = [
     action: "LinkedIn to founders",
     outreachMessage: "Hey — hyperlocal rental platforms need a strong landlord management layer. How are you currently onboarding landlord partners?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Sanjay Patel — 9433218196",
   },
   {
     id: "RE-REP5",
@@ -132,7 +132,7 @@ export const LEADS: Lead[] = [
     action: "Direct office visit",
     outreachMessage: "Hi — for weekend home sales, a no-show on a site visit is really costly. Is there a confirmation and reminder process?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Omkar Jagtap — 9421898975",
   },
   {
     id: "RE-REP6",
@@ -154,7 +154,7 @@ export const LEADS: Lead[] = [
     action: "LinkedIn/JustDial cold outreach",
     outreachMessage: "Hi — when a new listing comes in, how quickly can your team match it to interested buyers in your database?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Alpesh Rathod — 9819916449",
   },
   {
     id: "RE-REP7",
@@ -176,7 +176,7 @@ export const LEADS: Lead[] = [
     action: "Facebook/Google Ads manager DM",
     outreachMessage: "Hi — for plot sales, speed of follow-up on digital leads is critical. What's the average time between a form submission and your team's first call?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Meena Kapoor — 7758351083",
   },
   {
     id: "RE-REP8",
@@ -198,7 +198,7 @@ export const LEADS: Lead[] = [
     action: "LinkedIn DM to founders",
     outreachMessage: "Hi — for a premium rental firm, client confidentiality and coordination between team members are critical. Is there a shared system?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Kiran Patil — 9748791798",
   },
   {
     id: "RE-REP9",
@@ -220,7 +220,7 @@ export const LEADS: Lead[] = [
     action: "Office visit to founder",
     outreachMessage: "Hi — for a boutique bungalow developer, the buyer journey is long. Is there a structured way you stay in touch with interested buyers?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Sachin Naik — 9519847581",
   },
   {
     id: "RE-REP10",
@@ -242,7 +242,7 @@ export const LEADS: Lead[] = [
     action: "Instagram DM to founder",
     outreachMessage: "Hi — for weekend home sales, buyers visit 2-3 times before committing. Is there a nurture system keeping them engaged between visits?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Gaurav Joshi — 9172717024",
   },
   {
     id: "RE-REP11",
@@ -264,7 +264,7 @@ export const LEADS: Lead[] = [
     action: "NRI forums + LinkedIn",
     outreachMessage: "Hi — NRI property owners need to see rent receipts and maintenance tickets without calling. Is there a portal for that?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Tejal Patil — 9920639131",
   },
   {
     id: "RE-REP12",
@@ -286,7 +286,7 @@ export const LEADS: Lead[] = [
     action: "LinkedIn + college Facebook groups",
     outreachMessage: "Hey — the college admission rush in June-July must be overwhelming for a Pune rental service. How are you handling that volume?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Namrata Joshi — 9699299659",
   },
   {
     id: "RE-14",
@@ -308,7 +308,7 @@ export const LEADS: Lead[] = [
     action: "LinkedIn DM to founder",
     outreachMessage: "Hey — curious what your own internal lead tracking looks like right now — proper CRM or still in a spreadsheet?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Raj Patel — 7338908386",
   },
   {
     id: "RE-REP13",
@@ -330,7 +330,7 @@ export const LEADS: Lead[] = [
     action: "WhatsApp business profile + LinkedIn",
     outreachMessage: "Hi — for a coastal property niche, buyers research heavily online. Is there a website where they can browse?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Shilpa Solanki — 7600939482",
   },
   {
     id: "RE-16",
@@ -352,7 +352,7 @@ export const LEADS: Lead[] = [
     action: "LinkedIn DM",
     outreachMessage: "Hi — as a buyer's agent, tracking evolving requirements over months is tricky. Is there a system where preference updates are logged?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "7742589467",
   },
   {
     id: "RE-REP14",
@@ -374,7 +374,7 @@ export const LEADS: Lead[] = [
     action: "LinkedIn Sales Navigator",
     outreachMessage: "Hi — for commercial leasing, lease expiry of existing clients is a natural repeat business trigger. Are you tracking those renewal dates?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Nisha Bose — 9920564656",
   },
   {
     id: "RE-REP15",
@@ -396,7 +396,7 @@ export const LEADS: Lead[] = [
     action: "Office visit to broker",
     outreachMessage: "Hi — when a good flat listing comes in Dadar, how quickly can your team notify all interested buyers?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Kruti Desai — 9623526156",
   },
   {
     id: "RE-REP16",
@@ -418,7 +418,7 @@ export const LEADS: Lead[] = [
     action: "LinkedIn + housing.com leads",
     outreachMessage: "Hi — for a buyer-focused brokerage in Pune East, new launch notifications to your buyer list are key. Is that going out in a structured way?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Monal Shah — 8793399105",
   },
   {
     id: "RE-REP17",
@@ -440,7 +440,7 @@ export const LEADS: Lead[] = [
     action: "LinkedIn premium DM",
     outreachMessage: "Hi — for an investment property advisor, matching the right opportunity to the right investor profile is key. Is there a matching system?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Parth Shah — 9819163918",
   },
   {
     id: "RE-REP18",
@@ -462,7 +462,7 @@ export const LEADS: Lead[] = [
     action: "Instagram DM + wedding planner partnerships",
     outreachMessage: "Hi — for a villa rental platform, double bookings from manual calendar management are a reputation risk. Is availability managed in a shared calendar?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Vishal Sawant — 9834723939",
   },
   {
     id: "RE-22",
@@ -484,7 +484,7 @@ export const LEADS: Lead[] = [
     action: "Office visit",
     outreachMessage: "Hi — for a boutique developer, how is the team managing buyer follow-up from inquiry to booking? Any shared system?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Ganesh Yadav — 9402654235",
   },
   {
     id: "RE-REP19",
@@ -506,7 +506,7 @@ export const LEADS: Lead[] = [
     action: "Direct office visit",
     outreachMessage: "Hi — Panvel CIDCO season creates a lot of inquiries in a short window. How is your team capturing and following up on all of them?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Hetal Mehta — 9892431737",
   },
   {
     id: "RE-REP20",
@@ -528,7 +528,7 @@ export const LEADS: Lead[] = [
     action: "LinkedIn + direct office",
     outreachMessage: "Hi — for a boutique developer, which broker brought which lead can become a big dispute without a proper log. Is that tracked formally?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Yash Kothari — 9920109767",
   },
   {
     id: "FIT-REP13",
@@ -550,7 +550,7 @@ export const LEADS: Lead[] = [
     action: "Instagram/LinkedIn DM to founder",
     outreachMessage: "Hey — great content strategy. When someone watches your property tour videos multiple times but doesn't message, is there a way to re-engage them?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Vijay Dubey — 9620556641",
   },
   {
     id: "FIT-REP14",
@@ -572,7 +572,7 @@ export const LEADS: Lead[] = [
     action: "LinkedIn DM to founders",
     outreachMessage: "Hey — for a zero-brokerage rental startup, landlord trust is everything. What does the landlord verification workflow look like?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Anita Desai — 8976437960",
   },
   {
     id: "FIT-REP15",
@@ -594,7 +594,7 @@ export const LEADS: Lead[] = [
     action: "LinkedIn + real estate lawyer introductions",
     outreachMessage: "Hi — the heritage property market in Mumbai is very relationship-driven. Is the database of interested buyers stored digitally anywhere?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Vikram Singh — 7507290672",
   },
   {
     id: "HC-REP1",
@@ -616,7 +616,7 @@ export const LEADS: Lead[] = [
     action: "LinkedIn/Instagram DM to doctor-founder",
     outreachMessage: "Hi — for a homeopathy practice, patients who miss their monthly follow-up often drop off treatment. Is there a reminder system in place?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Sayali Deshmukh — 9834356150",
   },
   {
     id: "HC-REP2",
@@ -638,7 +638,7 @@ export const LEADS: Lead[] = [
     action: "Instagram DM to doctor",
     outreachMessage: "Hi — noticed your spine clinic runs health content on Instagram. When someone DMs asking about a consultation, what does the follow-up look like?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Poonam Mahajan — 9821800305",
   },
   {
     id: "HC-3",
@@ -660,7 +660,7 @@ export const LEADS: Lead[] = [
     action: "Instagram DM to doctor-founder",
     outreachMessage: "Hey — your smile makeover work looks incredible. When someone comes in for an assessment and doesn't book, does your team have a process to re-engage them?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Meena Desai — 8155940781",
   },
   {
     id: "HC-REP3",
@@ -682,7 +682,7 @@ export const LEADS: Lead[] = [
     action: "Instagram DM",
     outreachMessage: "Hi — for a dermatology clinic, treatment package completion is direct revenue. Is there a system tracking which patients are mid-package?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Trisha Nadkarni — 9520852470",
   },
   {
     id: "HC-5",
@@ -704,7 +704,7 @@ export const LEADS: Lead[] = [
     action: "LinkedIn/JustDial DM",
     outreachMessage: "Hi — for a dental practice, the 6-month recall is everything. Is that automated or does your receptionist call patients individually?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "9948905925",
   },
   {
     id: "HC-REP4",
@@ -726,7 +726,7 @@ export const LEADS: Lead[] = [
     action: "LinkedIn DM to physiotherapist-founder",
     outreachMessage: "Hi — physiotherapy outcomes depend on patients doing exercises between sessions. How are you sharing those programs — paper or phone-accessible?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Foram Thakkar — 8097146228",
   },
   {
     id: "HC-REP5",
@@ -748,7 +748,7 @@ export const LEADS: Lead[] = [
     action: "Instagram DM to pediatrician",
     outreachMessage: "Hi — for a pediatrician, vaccination reminder for the first 2 years is the most important parent touchpoint. Is that automated from your end?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Pallavi Sawant — 9620672092",
   },
   {
     id: "HC-REP6",
@@ -770,7 +770,7 @@ export const LEADS: Lead[] = [
     action: "LinkedIn DM to doctor",
     outreachMessage: "Hi — spectacle patients who get a new prescription often don't come back unless reminded. Is there an automated annual checkup reminder?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Suresh Gupta — 9869475190",
   },
   {
     id: "HC-REP7",
@@ -792,7 +792,7 @@ export const LEADS: Lead[] = [
     action: "Instagram DM to dietitian",
     outreachMessage: "Hi — for a nutrition practice, client accountability between sessions is everything. Is there a way for clients to log meals and for you to monitor between appointments?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Vaishali Shinde — 9620348237",
   },
   {
     id: "HC-REP8",
@@ -814,7 +814,7 @@ export const LEADS: Lead[] = [
     action: "LinkedIn DM to practice founder",
     outreachMessage: "Hi — for a therapy practice, client privacy and appointment reliability are both critical. Is there a secure online booking system?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Neha Kokane — 8109379766",
   },
   {
     id: "HC-REP9",
@@ -836,7 +836,7 @@ export const LEADS: Lead[] = [
     action: "Google My Business message + LinkedIn",
     outreachMessage: "Hi — for a homeopathy practice with long treatment cycles, is there a reminder system for monthly consultations or medicine refills?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Tushar Kulkarni — 7758960394",
   },
   {
     id: "HC-REP10",
@@ -858,7 +858,7 @@ export const LEADS: Lead[] = [
     action: "Instagram DM to doctor-founder",
     outreachMessage: "Hi — for a women's health clinic, patients want access to their data between appointments. Is there a portal where they can track progress?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Ashwini Jadhav — 9029812526",
   },
   {
     id: "HC-REP11",
@@ -880,7 +880,7 @@ export const LEADS: Lead[] = [
     action: "LinkedIn DM to chiropractor",
     outreachMessage: "Hi — for a chiropractic practice, session package completion tracking is key revenue management. Is that in a system or tracked manually?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Nidhi Jani — 9867213668",
   },
   {
     id: "HC-REP12",
@@ -902,7 +902,7 @@ export const LEADS: Lead[] = [
     action: "LinkedIn DM to pulmonologist",
     outreachMessage: "Hi — for respiratory patients, seasonal triggers are predictable. Is there a proactive outreach before monsoon/winter?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Rupali Gaikwad — 8657101773",
   },
   {
     id: "HC-REP13",
@@ -924,7 +924,7 @@ export const LEADS: Lead[] = [
     action: "Instagram DM to pediatrician",
     outreachMessage: "Hi — for a pediatric practice, parents of newborns want to feel supported constantly. Are vaccination reminders going out automatically?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Madhuri Kamble — 9421424308",
   },
   {
     id: "HC-16",
@@ -946,7 +946,7 @@ export const LEADS: Lead[] = [
     action: "LinkedIn DM + gym partnership outreach",
     outreachMessage: "Hi — sports rehab patients often stop coming after acute pain goes away. Is there a structured follow-up that brings them back to complete the protocol?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "7475130373",
   },
   {
     id: "HC-REP14",
@@ -968,7 +968,7 @@ export const LEADS: Lead[] = [
     action: "LinkedIn DM to psychologist-founder",
     outreachMessage: "Hi — for a therapy practice, clients who take a break mid-therapy often need a gentle nudge to restart. Is there a structured re-engagement process?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Unmesh Bagul — 7738525800",
   },
   {
     id: "HC-18",
@@ -990,7 +990,7 @@ export const LEADS: Lead[] = [
     action: "Instagram DM + Google My Business",
     outreachMessage: "Hi — for braces patients, monthly appointment compliance is critical for outcomes. Is there an automated reminder before each adjustment?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Hemant Desai — 9495931034",
   },
   {
     id: "HC-REP15",
@@ -1012,7 +1012,7 @@ export const LEADS: Lead[] = [
     action: "LinkedIn DM to gynecologist",
     outreachMessage: "Hi — for an antenatal care practice, the 8-9 month journey has very specific milestone visits. Is that appointment schedule tracked digitally?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Abhijit Dhamdhere — 8600808446",
   },
   {
     id: "HC-REP16",
@@ -1034,7 +1034,7 @@ export const LEADS: Lead[] = [
     action: "Instagram DM to doctor",
     outreachMessage: "Hey — your tele-derm model is smart. When patients message for an online consult, is there a booking system or does it happen in DMs?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Radhika Apte — 7666197923",
   },
   {
     id: "HC-REP17",
@@ -1056,7 +1056,7 @@ export const LEADS: Lead[] = [
     action: "LinkedIn + doctor clinic visits",
     outreachMessage: "Hi — independent diagnostic centres that offer home collection and digital reports tend to win against chains on convenience. Are those set up?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Nitin Jain — 9920577538",
   },
   {
     id: "HC-REP18",
@@ -1078,7 +1078,7 @@ export const LEADS: Lead[] = [
     action: "Instagram DM + yoga studio partnerships",
     outreachMessage: "Hi — Ayurveda's biggest challenge is getting patients to follow lifestyle guidance between visits. How are those recommendations shared?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Santosh More — 9765916232",
   },
   {
     id: "HC-REP19",
@@ -1100,7 +1100,7 @@ export const LEADS: Lead[] = [
     action: "LinkedIn DM to ENT doctor",
     outreachMessage: "Hi — allergy seasons are predictable and bring a surge in patients. Is there a way to pre-schedule appointments in advance?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Geeta Rao — 8767800005",
   },
   {
     id: "HC-REP20",
@@ -1122,7 +1122,7 @@ export const LEADS: Lead[] = [
     action: "LinkedIn DM to physiotherapist-director",
     outreachMessage: "Hi — for a post-surgical rehab centre, the referring surgeon would love to know how their patient is progressing. Is there a digital communication loop back?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Harish Malhotra — 9167567574",
   },
   {
     id: "FNB-REP12",
@@ -1144,7 +1144,7 @@ export const LEADS: Lead[] = [
     action: "LinkedIn DM + old age home partnerships",
     outreachMessage: "Hi — for a geriatric practice, adult children are as much the client as the patient. Is there a way for them to see health updates digitally?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Mital Patel — 7666757246",
   },
   {
     id: "FNB-REP1",
@@ -1166,7 +1166,7 @@ export const LEADS: Lead[] = [
     action: "LinkedIn DM to founder + corporate purchase heads",
     outreachMessage: "Hi — for a premium gifting brand, Diwali season must be make-or-break. How does your team manage bulk corporate orders during that window?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Archana Gokhale — 9699449499",
   },
   {
     id: "FNB-REP2",
@@ -1188,7 +1188,7 @@ export const LEADS: Lead[] = [
     action: "Instagram/WhatsApp DM to founder",
     outreachMessage: "Hey — tiffin subscription businesses hit a wall around 100-150 subscribers when WhatsApp management breaks down. How are you handling pauses and cancellations?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Siddharth Marathe — 9167138479",
   },
   {
     id: "FNB-REP3",
@@ -1210,7 +1210,7 @@ export const LEADS: Lead[] = [
     action: "Instagram DM to founder",
     outreachMessage: "Hey — for a subscription food business, billing and pause management gets really complex fast. How many subscribers are you managing right now?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Jignesh Patel — 9819584417",
   },
   {
     id: "FNB-REP4",
@@ -1232,7 +1232,7 @@ export const LEADS: Lead[] = [
     action: "Instagram/WhatsApp DM",
     outreachMessage: "Hey — for a tiffin service scaling beyond 50 subscribers, pause and billing management on WhatsApp gets really hard. How are you handling that?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Rohini Bhosale — 9748402020",
   },
   {
     id: "FNB-REP5",
@@ -1254,7 +1254,7 @@ export const LEADS: Lead[] = [
     action: "Instagram DM to owner",
     outreachMessage: "Hey — for a pizza chain with regulars, a birthday offer can significantly increase repeat orders. Is there any loyalty system across your 2 outlets?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Supriya Deshpande — 9167527809",
   },
   {
     id: "FNB-REP6",
@@ -1276,7 +1276,7 @@ export const LEADS: Lead[] = [
     action: "Direct B2B outreach to office managers",
     outreachMessage: "Hi — for a chai kiosk chain, the corporate subscription model is usually the most stable revenue. Is that tracked and billed in a system?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Girish Nandedkar — 9326355570",
   },
   {
     id: "FNB-REP7",
@@ -1298,7 +1298,7 @@ export const LEADS: Lead[] = [
     action: "Instagram DM to baker-founder",
     outreachMessage: "Hi — for custom cake orders, missing a detail from a WhatsApp message is a common problem. Is there a structured order form customers fill?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Sampada Bhide — 9702456385",
   },
   {
     id: "FNB-REP8",
@@ -1320,7 +1320,7 @@ export const LEADS: Lead[] = [
     action: "LinkedIn DM to founder + Swiggy account manager intro",
     outreachMessage: "Hey — 100% dependency on Swiggy/Zomato means high commissions on every order. Are you building any direct ordering channel?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Deepak Mehta — 7666678727",
   },
   {
     id: "FIT-REP1",
@@ -1342,7 +1342,7 @@ export const LEADS: Lead[] = [
     action: "Instagram DM to studio owner",
     outreachMessage: "Hey — boutique fitness studios live on member retention. How do you currently identify a member who's going quiet before they actually cancel?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Urmila Pandya — 8097561239",
   },
   {
     id: "FIT-REP2",
@@ -1364,7 +1364,7 @@ export const LEADS: Lead[] = [
     action: "Instagram/LinkedIn DM to founder-trainer",
     outreachMessage: "Hey — hybrid fitness coaching at scale needs a platform beyond WhatsApp. As you grow beyond 50 online clients, how are you tracking progress and billing?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Chetan Brahmbhatt — 9137827659",
   },
   {
     id: "FIT-REP3",
@@ -1386,7 +1386,7 @@ export const LEADS: Lead[] = [
     action: "Instagram DM to box owner",
     outreachMessage: "Hey — for a CrossFit box, the community is everything. Is there a way to spot members going quiet before they actually cancel?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Dhaval Parikh — 9137907189",
   },
   {
     id: "FIT-REP4",
@@ -1408,7 +1408,7 @@ export const LEADS: Lead[] = [
     action: "Instagram DM to studio owner",
     outreachMessage: "Hi — for a boutique Pilates studio, overbooking a reformer class by accident is a bad experience. Is class capacity managed in real time?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Kavita Nair — 9702664365",
   },
   {
     id: "FIT-REP5",
@@ -1430,7 +1430,7 @@ export const LEADS: Lead[] = [
     action: "Instagram DM + school outreach",
     outreachMessage: "Hey — for a boxing academy with junior students, parents want to see their child's progress. Is belt/level tracking digital or on paper?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Milind Pawar — 9029859359",
   },
   {
     id: "FIT-REP6",
@@ -1452,7 +1452,7 @@ export const LEADS: Lead[] = [
     action: "LinkedIn DM to studio owner",
     outreachMessage: "Hi — for clients on a weekly therapy package, a simple reminder the day before their session reduces no-shows. Is that automated?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Shraddha Pol — 8767290556",
   },
   {
     id: "FIT-REP7",
@@ -1474,7 +1474,7 @@ export const LEADS: Lead[] = [
     action: "Instagram DM to founder-coach",
     outreachMessage: "Hey — for a running club, coordinating across multiple WhatsApp groups gets messy. Is there a central platform for members?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Amit Patel — 8169975467",
   },
   {
     id: "FIN-1",
@@ -1496,7 +1496,7 @@ export const LEADS: Lead[] = [
     action: "LinkedIn DM to founder",
     outreachMessage: "Hey — goal-based financial planning is a great model. As you grow beyond 30-40 clients, keeping track of each person's goals manually gets hard. How are you managing that?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "6445362673",
   },
   {
     id: "FS-REP1",
@@ -1518,7 +1518,7 @@ export const LEADS: Lead[] = [
     action: "LinkedIn DM to DSA principal",
     outreachMessage: "Hi — for a DSA with 5+ bank partners, tracking which loan is at which stage with which bank must get complex. Is there a consolidated system?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Swati Agarwal — 9819555052",
   },
   {
     id: "FS-REP2",
@@ -1540,7 +1540,7 @@ export const LEADS: Lead[] = [
     action: "LinkedIn DM to proprietor",
     outreachMessage: "Hi — for a sub-broker, dormant client reactivation is often the easiest revenue with existing book. Is there a system flagging clients inactive for 60-90 days?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Divya Shetty — 7210551607",
   },
   {
     id: "FS-REP3",
@@ -1562,7 +1562,7 @@ export const LEADS: Lead[] = [
     action: "CA Institute network + LinkedIn DM",
     outreachMessage: "Hi — for a CA firm, collecting tax documents from 200 clients every July on WhatsApp must be chaotic. Is there a client portal where they upload documents directly?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Ajay Wagh — 8108621841",
   },
   {
     id: "FS-REP4",
@@ -1584,7 +1584,7 @@ export const LEADS: Lead[] = [
     action: "LinkedIn DM + IRDA agent network",
     outreachMessage: "Hi — for an insurance advisor, one missed renewal is a client lost and a compliance risk. Is there a system that flags renewals coming up in the next 90 days?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Smita Thakur — 9819265649",
   },
   {
     id: "FS-REP5",
@@ -1606,7 +1606,7 @@ export const LEADS: Lead[] = [
     action: "LinkedIn DM to SEBI RIA founder",
     outreachMessage: "Hi — for a registered investment advisor, clients paying fees expect to see their goal progress digitally. Is there a portal for that?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Seema Kadam — 9137994787",
   },
   {
     id: "FS-REP6",
@@ -1628,7 +1628,7 @@ export const LEADS: Lead[] = [
     action: "LinkedIn DM to SEBI RIA",
     outreachMessage: "Hi — for a SEBI-registered equity advisor, sharing stock recommendations via WhatsApp groups creates compliance issues. Is there a more structured channel?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Sunita Joshi — 9022387813",
   },
   {
     id: "EVT-REP1",
@@ -1650,7 +1650,7 @@ export const LEADS: Lead[] = [
     action: "LinkedIn DM to founder",
     outreachMessage: "Hi — for a corporate events company, repeat business from the same client is gold. Is there a system to remind your team to reach out to last year's clients before their event season?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Sanjay Bhatt — 9768117233",
   },
   {
     id: "EV-2",
@@ -1672,7 +1672,7 @@ export const LEADS: Lead[] = [
     action: "Instagram DM to creative director",
     outreachMessage: "Hey — love the portfolio. For a photography brand doing high volumes, the inquiry-to-booking pipeline and payment tracking can get complex. Is that currently in a CRM?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Rohit Sawant — 7647525534",
   },
   {
     id: "EV-3",
@@ -1694,7 +1694,7 @@ export const LEADS: Lead[] = [
     action: "LinkedIn DM to founder",
     outreachMessage: "Hi — for a brand activation agency, proposal follow-up timing is critical — one day late and the budget goes elsewhere. Is there a system to track where each proposal stands?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Asha Pawar — 9327648350",
   },
   {
     id: "EVT-REP2",
@@ -1716,7 +1716,7 @@ export const LEADS: Lead[] = [
     action: "Instagram DM to wedding planner founder",
     outreachMessage: "Hey — for a wedding planner, the 6-month client journey is complex. Is there a shared system with clients to track tasks and approvals?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Yogesh Patil — 9930648913",
   },
   {
     id: "EVT-REP3",
@@ -1738,7 +1738,7 @@ export const LEADS: Lead[] = [
     action: "LinkedIn DM to founder",
     outreachMessage: "Hi — for a digital agency with retainer clients, monthly reporting is usually the most time-consuming task. Is that generated automatically or built manually?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Mahesh Shah — 9137491435",
   },
   {
     id: "RET-REP1",
@@ -1760,7 +1760,7 @@ export const LEADS: Lead[] = [
     action: "Instagram DM to brand founder",
     outreachMessage: "Hey — love the Label Studio aesthetic. For a brand with your following, moving orders from Instagram DMs to a proper website could significantly improve the buying experience. Has that been on the radar?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Jignesh Patel — 8109267457",
   },
   {
     id: "RET-REP2",
@@ -1782,7 +1782,7 @@ export const LEADS: Lead[] = [
     action: "Instagram DM + WhatsApp business outreach",
     outreachMessage: "Hi — for an ethnic wear boutique, Diwali season must be peak. Are you proactively reaching out to customers from last year before the season opens?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Rohini Bhosale — 7758621530",
   },
   {
     id: "RT-3",
@@ -1804,7 +1804,7 @@ export const LEADS: Lead[] = [
     action: "LinkedIn DM to owner + school sports teacher outreach",
     outreachMessage: "Hi — for a sports retailer with B2B school clients, annual procurement season is big. Is there a system to proactively reach out to schools before that season?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "9708737864",
   },
   {
     id: "RET-REP3",
@@ -1826,7 +1826,7 @@ export const LEADS: Lead[] = [
     action: "Instagram DM + mommy blogger partnerships",
     outreachMessage: "Hi — for a baby store, the same family comes back from newborn to age 5. Is there a loyalty program that recognizes and rewards those long-term customers?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Supriya Deshpande — 9423726543",
   },
   {
     id: "RET-REP4",
@@ -1848,7 +1848,7 @@ export const LEADS: Lead[] = [
     action: "Instagram DM to boutique owner",
     outreachMessage: "Hi — for a fashion boutique, your existing customers are the easiest to sell to. Is there a system to notify them about new collections before posting on Instagram?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Girish Nandedkar — 7209147440",
   },
   {
     id: "HR-1",
@@ -1870,7 +1870,7 @@ export const LEADS: Lead[] = [
     action: "LinkedIn DM to recruitment founder",
     outreachMessage: "Hi — for IT recruitment, your candidate database is your biggest asset. Is there a searchable system for past candidates?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Savita Joshi — 8641395376",
   },
   {
     id: "HR-2",
@@ -1892,7 +1892,7 @@ export const LEADS: Lead[] = [
     action: "LinkedIn DM to founder",
     outreachMessage: "Hi — for an HR outsourcing firm, payroll processing in Excel for 20+ clients must be a monthly crunch. Is that automated in any way?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Girish Jadhav — 8238849696",
   },
   {
     id: "HR-3",
@@ -1914,7 +1914,7 @@ export const LEADS: Lead[] = [
     action: "LinkedIn DM + college placement cell outreach",
     outreachMessage: "Hi — matching the right employers to the right college campuses is your core skill. Is there a system to manage that matching and track outcomes?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "7510192403",
   },
   {
     id: "HR-4",
@@ -1936,7 +1936,7 @@ export const LEADS: Lead[] = [
     action: "LinkedIn DM to founder",
     outreachMessage: "Hi — for a solo recruiter, your candidate database is your core asset. Is there a searchable system for past candidates?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "7474693304",
   },
   {
     id: "HR-REP1",
@@ -1958,7 +1958,7 @@ export const LEADS: Lead[] = [
     action: "LinkedIn DM + CA firm referrals",
     outreachMessage: "Hi — managing PF and labour compliance deadlines for 15 client companies manually is a significant risk. Is there a shared calendar or reminder system?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Harish Malhotra — 9757632351",
   },
   {
     id: "ID-REP1",
@@ -1980,7 +1980,7 @@ export const LEADS: Lead[] = [
     action: "LinkedIn DM to principal designer",
     outreachMessage: "Hi — for an interior design studio, client approval tracking across multiple revision rounds is where most time gets lost. How are you managing design approvals?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Yash Kothari — 9168127529",
   },
   {
     id: "ID-2",
@@ -2002,7 +2002,7 @@ export const LEADS: Lead[] = [
     action: "LinkedIn DM + developer sales team partnerships",
     outreachMessage: "Hi — new apartment launches in Pune create a surge in modular kitchen inquiries. How quickly is your team able to send a quote after a site visit?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Santosh Sawant — 7871012269",
   },
   {
     id: "ID-3",
@@ -2024,7 +2024,7 @@ export const LEADS: Lead[] = [
     action: "LinkedIn DM to principal architect",
     outreachMessage: "Hi — for an architecture firm, drawing version confusion on site can be really costly. Is there a version-controlled way you share drawings?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Vijay Gupta — 8978480184",
   },
   {
     id: "ID-REP2",
@@ -2046,7 +2046,7 @@ export const LEADS: Lead[] = [
     action: "Instagram DM to designer",
     outreachMessage: "Hey — for an interior designer, getting the wrong version executed on site is a nightmare. Is there a version-controlled way you share drawings with contractors?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Sayali Deshmukh — 9029172965",
   },
   {
     id: "LC-1",
@@ -2068,7 +2068,7 @@ export const LEADS: Lead[] = [
     action: "LinkedIn DM to managing partner",
     outreachMessage: "Hi — for a growing law firm, critical deadlines and matter status in a shared system rather than individual calendars is a significant risk management need. Is that centralized anywhere?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "9828895554",
   },
   {
     id: "LC-2",
@@ -2090,7 +2090,7 @@ export const LEADS: Lead[] = [
     action: "LinkedIn DM to principal consultant",
     outreachMessage: "Hi — for a consulting boutique, your pipeline of pending proposals is your most important metric. Is that tracked in a CRM or still from memory?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Manisha More — 8627048281",
   },
   {
     id: "FS-REP9",
@@ -2112,7 +2112,7 @@ export const LEADS: Lead[] = [
     action: "LinkedIn DM to CS-founder",
     outreachMessage: "Hi — managing ROC and GST deadlines for 50 companies in Excel is a significant compliance risk. Is there an automated reminder system in place?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Darshan Vyas — 8976970813",
   },
   {
     id: "LC-4",
@@ -2134,7 +2134,7 @@ export const LEADS: Lead[] = [
     action: "LinkedIn DM + CA/CS referral network",
     outreachMessage: "Hi — one of the biggest time drains for law offices is clients calling to ask 'what's the status of my case.' Is there a way for clients to check that themselves?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "6649995435",
   },
   {
     id: "ED-1",
@@ -2156,7 +2156,7 @@ export const LEADS: Lead[] = [
     action: "Program Director / Operations Head",
     outreachMessage: "Hi — when your CSR partners ask for quarterly placement data, how long does your team typically spend pulling that report?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "7110242018",
   },
   {
     id: "ED-2",
@@ -2178,7 +2178,7 @@ export const LEADS: Lead[] = [
     action: "Principal or Corporate Admin Office",
     outreachMessage: "Hi — with schools expanding to new cities, standardizing parent communication becomes tricky. Is the current process the same at each Orchids campus?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Dinesh Ansari — 9325288095",
   },
   {
     id: "EDU-REP1",
@@ -2200,7 +2200,7 @@ export const LEADS: Lead[] = [
     action: "Regional Ops Director",
     outreachMessage: "Hi — for a multi-campus school chain, is PTM slot booking still done at the front desk or is there a digital system parents can use?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Hardik Patel — 9518189771",
   },
   {
     id: "EDU-REP2",
@@ -2222,7 +2222,7 @@ export const LEADS: Lead[] = [
     action: "School Director or Founder",
     outreachMessage: "Hi — for schools in the Hinjewadi corridor, parents are tech-savvy and compare notes about school apps. Does Lexicon have a dedicated parent app?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Nikhil Kulkarni — 8779931450",
   },
   {
     id: "EDU-REP3",
@@ -2244,7 +2244,7 @@ export const LEADS: Lead[] = [
     action: "Approach Director before March-end",
     outreachMessage: "Hi — JEE admission season is coming up. When inquiry calls come in and the director is teaching, are those captured somewhere?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Shriram Kalwit — 9167446859",
   },
   {
     id: "EDU-REP4",
@@ -2266,7 +2266,7 @@ export const LEADS: Lead[] = [
     action: "Centre Director",
     outreachMessage: "Hi — for a 2-centre coaching academy, keeping parents updated on test performance is important. Are results going to parents in real time?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Pooja Iyer — 9768899213",
   },
   {
     id: "ED-7",
@@ -2288,7 +2288,7 @@ export const LEADS: Lead[] = [
     action: "Centre Manager",
     outreachMessage: "Hi — for a coaching centre managing CAT and banking exam batches simultaneously, how is each student's test performance and fee schedule tracked?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Salman Patel — 7543039117",
   },
   {
     id: "EDU-REP5",
@@ -2310,7 +2310,7 @@ export const LEADS: Lead[] = [
     action: "Director or Admission Head",
     outreachMessage: "Hi — JEE admission season is almost here. Does PACE have a system to track and follow up with every lead, or does the admission team manage manually?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Amruta Khanvilkar — 9518410636",
   },
   {
     id: "ED-9",
@@ -2332,7 +2332,7 @@ export const LEADS: Lead[] = [
     action: "Program Director or Operations Head",
     outreachMessage: "Hi — for Pratham, is beneficiary learning data tracked in a central system or still compiled from field sheets to Excel?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "6616950390",
   },
   {
     id: "EDU-REP6",
@@ -2354,7 +2354,7 @@ export const LEADS: Lead[] = [
     action: "Founder via LinkedIn/Instagram",
     outreachMessage: "Hi — congrats on the growth at Triumph. For a NEET coaching centre scaling from 60 to 150+ students, does the team have a system ready to manage that?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Lata Kulkarni — 9748768854",
   },
   {
     id: "ED-11",
@@ -2376,7 +2376,7 @@ export const LEADS: Lead[] = [
     action: "Principal or School Director",
     outreachMessage: "Hi — during admission season, how does the front desk team track which inquiries have been followed up on vs. pending?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Vijay Qureshi — 7278248963",
   },
   {
     id: "EDU-REP7",
@@ -2398,7 +2398,7 @@ export const LEADS: Lead[] = [
     action: "Principal or School Admin Officer",
     outreachMessage: "Hi — for a school with DPS brand standards, is fee collection at DPS Navi Mumbai already fully digital or is there still a significant cash/cheque component?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Akshay Shitole — 9768962050",
   },
   {
     id: "EDU-REP8",
@@ -2420,7 +2420,7 @@ export const LEADS: Lead[] = [
     action: "Principal or Admissions Coordinator",
     outreachMessage: "Hi — admission season is almost here. When an inquiry call comes in, how quickly does your team typically get back to them?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Vikas Salvi — 9930360247",
   },
   {
     id: "EDU-REP9",
@@ -2442,7 +2442,7 @@ export const LEADS: Lead[] = [
     action: "Principal or School Secretary",
     outreachMessage: "Hi — traditional schools in Pune are getting parent feedback asking for more digital communication options. Is Abhinava considering moving fee payments to digital?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Aakash Trivedi — 8655420214",
   },
   {
     id: "EDU-REP10",
@@ -2464,7 +2464,7 @@ export const LEADS: Lead[] = [
     action: "Principal or Admissions Director",
     outreachMessage: "Hi — for an international school, NRI and overseas admission inquiries come at odd hours with high expectations for fast response. Is there a digital process for those?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Rajesh Kumar — 8828792509",
   },
   {
     id: "ED-16",
@@ -2486,7 +2486,7 @@ export const LEADS: Lead[] = [
     action: "Founder/Director directly",
     outreachMessage: "Hey — building a coaching brand in Navi Mumbai from scratch is exciting but the April admission season is make-or-break. Is there a CRM or follow-up system ready?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "8740050501",
   },
   {
     id: "ED-17",
@@ -2508,7 +2508,7 @@ export const LEADS: Lead[] = [
     action: "School Director or Principal",
     outreachMessage: "Hi — in Mumbai's premium school segment, parents compare the digital experience. Does Billabong High have a central parent app or is each campus managing independently?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Nadia Kadam — 9465787133",
   },
   {
     id: "ED-18",
@@ -2530,7 +2530,7 @@ export const LEADS: Lead[] = [
     action: "Franchise owner via Instagram or Google My Business",
     outreachMessage: "Hi — noticed your Kidzee franchise on Google Maps. For the upcoming June admission cycle, how are you managing inquiries — everything on WhatsApp or more structured?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Vijay Pillai — 7983930103",
   },
   {
     id: "EDU-REP11",
@@ -2552,7 +2552,7 @@ export const LEADS: Lead[] = [
     action: "Founder via Instagram/LinkedIn",
     outreachMessage: "Hey — small-batch coaching startups usually hit a wall when they cross 50 students. How are you thinking about scaling parent communication for the June batch?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Atul Chordia — 7718837135",
   },
   {
     id: "EDU-REP12",
@@ -2574,7 +2574,7 @@ export const LEADS: Lead[] = [
     action: "Admissions Director or Dean",
     outreachMessage: "Hi — MBA admissions season is typically hectic with inquiries from multiple sources. How is ISBS tracking which inquiries have completed all steps?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Ruchi Gandha — 9819335729",
   },
   {
     id: "ED-21",
@@ -2596,7 +2596,7 @@ export const LEADS: Lead[] = [
     action: "Individual franchise owner via Google My Business",
     outreachMessage: "Hi — for a EuroKids franchise, daily parent communication is everything. Is the daily activity update going to parents individually or via a group?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Vijay Joshi — 8183473829",
   },
   {
     id: "EDU-REP13",
@@ -2618,7 +2618,7 @@ export const LEADS: Lead[] = [
     action: "Founder via LinkedIn",
     outreachMessage: "Hey — MBA coaching results season is right now. When CAT results drop, how many inquiries does the team get and how are those being tracked?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Devendra Fadnavis Jr — 8600230394",
   },
   {
     id: "EDU-REP14",
@@ -2640,7 +2640,7 @@ export const LEADS: Lead[] = [
     action: "Principal or Head of Administration",
     outreachMessage: "Hi — for an IB school, CAS activity tracking and university counseling documentation are complex. Is there a student portal where all of that is tracked?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Bhavna Trivedi — 9869553014",
   },
   {
     id: "ED-24",
@@ -2662,7 +2662,7 @@ export const LEADS: Lead[] = [
     action: "Principal or Admissions Coordinator",
     outreachMessage: "Hi — Baner has become very competitive for schools. Does The Orchid School have a parent app or is communication still mainly through school diary and WhatsApp?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "6011211564",
   },
   {
     id: "ED-25",
@@ -2684,7 +2684,7 @@ export const LEADS: Lead[] = [
     action: "School Principal or Chain Ops Director",
     outreachMessage: "Hi — during admission season, managing inquiries from three different channels simultaneously is tough. Is there a central system your admission team uses?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "9511942542",
   },
   {
     id: "LG-1",
@@ -2706,7 +2706,7 @@ export const LEADS: Lead[] = [
     action: "Founder or Operations Head",
     outreachMessage: "Hi — for a last-mile delivery service, COD reconciliation at the end of the day is usually the biggest headache. How is that currently handled?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Padmini Khan — 7763116566",
   },
   {
     id: "LOG-REP1",
@@ -2728,7 +2728,7 @@ export const LEADS: Lead[] = [
     action: "Founder directly",
     outreachMessage: "Hi — for a movers business, speed of response to a quote request is everything. How quickly does your team typically send a quote after an inquiry?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Ashwini Jadhav — 9619347745",
   },
   {
     id: "LOG-REP2",
@@ -2750,7 +2750,7 @@ export const LEADS: Lead[] = [
     action: "Operations Head or Director",
     outreachMessage: "Hi — pharma clients are increasingly demanding real-time temperature logs and digital delivery confirmation. Is CoolChain generating those reports digitally?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Nidhi Jani — 8767891093",
   },
   {
     id: "LOG-REP3",
@@ -2772,7 +2772,7 @@ export const LEADS: Lead[] = [
     action: "Director directly",
     outreachMessage: "Hi — for corporate transport, billing disputes from attendance records are a common pain point. Is employee attendance on your cabs tracked digitally?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Rupali Gaikwad — 7666258290",
   },
   {
     id: "LOG-REP4",
@@ -2794,7 +2794,7 @@ export const LEADS: Lead[] = [
     action: "Director directly",
     outreachMessage: "Hi — for a freight company, the most common client complaint is 'I don't know where my shipment is.' Is there a portal where clients can check status themselves?",
     get salesScript() { return generateSalesScript(this as Lead); },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Madhuri Kamble — 9867159653",
   },
   {
     id: "EC-REP1",
@@ -2827,7 +2827,7 @@ Specifically for businesses like yours I often see three things:
 We've built a CRM + D2C platform that handles orders, customer data, and re-marketing in one place — specifically for e-commerce businesses your size in Mumbai.
 
 You just launched a new collection and have no system to notify past buyers — that's exactly when businesses like yours see the most ROI from getting this in place. Want me to walk you through how it works in 15 minutes? No pitch, just a quick demo.`; },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Omkar Jagtap — 9423221761",
   },
   {
     id: "EC-REP2",
@@ -2860,7 +2860,7 @@ Specifically for businesses like yours I often see three things:
 We've built a CRM + WhatsApp commerce system that automates orders, follow-ups, and broadcasts — specifically for e-commerce businesses your size in Pune.
 
 Your subscription organic box model needs automation to scale past 200 customers — that's exactly when businesses like yours see the most ROI from getting this in place. Want me to walk you through how it works in 15 minutes? No pitch, just a quick demo.`; },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Alpesh Rathod — 9620535037",
   },
   {
     id: "EC-REP3",
@@ -2893,7 +2893,7 @@ Specifically for businesses like yours I often see three things:
 We've built a CRM + order management system that tracks every order from placement to delivery — specifically for e-commerce businesses your size in Mumbai.
 
 Scaling to 500+ orders/month makes manual tracking impossible — that's exactly when businesses like yours see the most ROI from getting this in place. Want me to walk you through how it works in 15 minutes? No pitch, just a quick demo.`; },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Meena Kapoor — 7209204180",
   },
   {
     id: "EC-4",
@@ -2926,7 +2926,7 @@ Specifically for businesses like yours I often see three things:
 We've built a CRM + loyalty app that turns one-time buyers into repeat customers — specifically for e-commerce businesses your size in Navi Mumbai.
 
 Skincare D2C brands that launch loyalty programs see 3x repeat purchase rates — that's exactly when businesses like yours see the most ROI from getting this in place. Want me to walk you through how it works in 15 minutes? No pitch, just a quick demo.`; },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Nisha Kulkarni — 9106513338",
   },
   {
     id: "EC-5",
@@ -2959,7 +2959,7 @@ Specifically for businesses like yours I often see three things:
 We've built a CRM + custom mobile app your team and clients can use from anywhere — specifically for e-commerce businesses your size in Thane.
 
 Festive season is peak — handling it without a system costs sales and sanity — that's exactly when businesses like yours see the most ROI from getting this in place. Want me to walk you through how it works in 15 minutes? No pitch, just a quick demo.`; },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "7429531255",
   },
   {
     id: "EC-6",
@@ -2992,7 +2992,7 @@ Specifically for businesses like yours I often see three things:
 We've built a CRM + D2C platform that handles orders, customer data, and re-marketing in one place — specifically for e-commerce businesses your size in Pune.
 
 Home decor brands that go D2C with a proper platform see 40% higher AOV — that's exactly when businesses like yours see the most ROI from getting this in place. Want me to walk you through how it works in 15 minutes? No pitch, just a quick demo.`; },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Bharati Bhosale — 8247317810",
   },
   {
     id: "EC-REP4",
@@ -3025,7 +3025,7 @@ Specifically for businesses like yours I often see three things:
 We've built a full SaaS + e-commerce platform with inventory, CRM, and marketing automation built in — specifically for e-commerce businesses your size in Mumbai.
 
 Sports nutrition D2C brands scaling past ₹50L/month need a unified SaaS platform — that's exactly when businesses like yours see the most ROI from getting this in place. Want me to walk you through how it works in 15 minutes? No pitch, just a quick demo.`; },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Kiran Patil — 8793196126",
   },
   {
     id: "EC-REP5",
@@ -3058,7 +3058,7 @@ Specifically for businesses like yours I often see three things:
 We've built a CRM + WhatsApp commerce system that automates orders, follow-ups, and broadcasts — specifically for e-commerce businesses your size in Mumbai.
 
 Craft marketplaces on Instagram are scaling fast and need commerce automation — that's exactly when businesses like yours see the most ROI from getting this in place. Want me to walk you through how it works in 15 minutes? No pitch, just a quick demo.`; },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Sachin Naik — 9520714867",
   },
   {
     id: "EC-REP6",
@@ -3091,7 +3091,7 @@ Specifically for businesses like yours I often see three things:
 We've built a CRM + order management system that tracks every order from placement to delivery — specifically for e-commerce businesses your size in Pune.
 
 Healthy snack subscription brands need order automation before 500+ subs — that's exactly when businesses like yours see the most ROI from getting this in place. Want me to walk you through how it works in 15 minutes? No pitch, just a quick demo.`; },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Gaurav Joshi — 9748666456",
   },
   {
     id: "EC-REP7",
@@ -3124,7 +3124,7 @@ Specifically for businesses like yours I often see three things:
 We've built a CRM + custom mobile app your team and clients can use from anywhere — specifically for e-commerce businesses your size in Mumbai.
 
 Pet care e-commerce brands that build an app see 60% higher lifetime value — that's exactly when businesses like yours see the most ROI from getting this in place. Want me to walk you through how it works in 15 minutes? No pitch, just a quick demo.`; },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Tejal Patil — 9748877747",
   },
   {
     id: "EC-REP8",
@@ -3157,7 +3157,7 @@ Specifically for businesses like yours I often see three things:
 We've built a CRM + D2C platform that handles orders, customer data, and re-marketing in one place — specifically for e-commerce businesses your size in Mumbai.
 
 Streetwear brands doing limited drops need CRM + pre-order to maximize revenue — that's exactly when businesses like yours see the most ROI from getting this in place. Want me to walk you through how it works in 15 minutes? No pitch, just a quick demo.`; },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Namrata Joshi — 9170744986",
   },
   {
     id: "EC-REP9",
@@ -3190,7 +3190,7 @@ Specifically for businesses like yours I often see three things:
 We've built a CRM + WhatsApp commerce system that automates orders, follow-ups, and broadcasts — specifically for e-commerce businesses your size in Pune.
 
 Festival season demand spikes make manual WhatsApp order handling unsustainable — that's exactly when businesses like yours see the most ROI from getting this in place. Want me to walk you through how it works in 15 minutes? No pitch, just a quick demo.`; },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Shilpa Solanki — 9765614084",
   },
   {
     id: "EC-REP10",
@@ -3223,7 +3223,7 @@ Specifically for businesses like yours I often see three things:
 We've built a CRM + loyalty app that turns one-time buyers into repeat customers — specifically for e-commerce businesses your size in Navi Mumbai.
 
 Herbal tea D2C brands with 200+ customers need a loyalty app to retain them — that's exactly when businesses like yours see the most ROI from getting this in place. Want me to walk you through how it works in 15 minutes? No pitch, just a quick demo.`; },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Nisha Bose — 7507499407",
   },
   {
     id: "EC-REP11",
@@ -3256,7 +3256,7 @@ Specifically for businesses like yours I often see three things:
 We've built a CRM + order management system that tracks every order from placement to delivery — specifically for e-commerce businesses your size in Mumbai.
 
 Custom accessories brands scaling B2B corporate orders need a proper order system — that's exactly when businesses like yours see the most ROI from getting this in place. Want me to walk you through how it works in 15 minutes? No pitch, just a quick demo.`; },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Kruti Desai — 9167855855",
   },
   {
     id: "EC-15",
@@ -3289,7 +3289,7 @@ Specifically for businesses like yours I often see three things:
 We've built a full SaaS + e-commerce platform with inventory, CRM, and marketing automation built in — specifically for e-commerce businesses your size in Pune.
 
 Sustainable brands moving off marketplaces to D2C need a full platform to do it right — that's exactly when businesses like yours see the most ROI from getting this in place. Want me to walk you through how it works in 15 minutes? No pitch, just a quick demo.`; },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Nadia Sharma — 7326773602",
   },
   {
     id: "EC-REP12",
@@ -3322,7 +3322,7 @@ Specifically for businesses like yours I often see three things:
 We've built a CRM + D2C platform that handles orders, customer data, and re-marketing in one place — specifically for e-commerce businesses your size in Mumbai.
 
 Premium fashion D2C brands need a platform that matches the product quality — that's exactly when businesses like yours see the most ROI from getting this in place. Want me to walk you through how it works in 15 minutes? No pitch, just a quick demo.`; },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Monal Shah — 8169492483",
   },
   {
     id: "EC-REP13",
@@ -3355,7 +3355,7 @@ Specifically for businesses like yours I often see three things:
 We've built a CRM + custom mobile app your team and clients can use from anywhere — specifically for e-commerce businesses your size in Pune.
 
 Artisan coffee D2C brands with 300+ subscribers are ready for a proper app — that's exactly when businesses like yours see the most ROI from getting this in place. Want me to walk you through how it works in 15 minutes? No pitch, just a quick demo.`; },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Parth Shah — 7210951201",
   },
   {
     id: "EC-REP14",
@@ -3388,7 +3388,7 @@ Specifically for businesses like yours I often see three things:
 We've built a CRM + loyalty app that turns one-time buyers into repeat customers — specifically for e-commerce businesses your size in Mumbai.
 
 Luxury beauty D2C brands doing ₹30L+/month need CRM + loyalty to 10x LTV — that's exactly when businesses like yours see the most ROI from getting this in place. Want me to walk you through how it works in 15 minutes? No pitch, just a quick demo.`; },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Vishal Sawant — 8655856086",
   },
   {
     id: "EC-19",
@@ -3421,7 +3421,7 @@ Specifically for businesses like yours I often see three things:
 We've built a CRM + WhatsApp commerce system that automates orders, follow-ups, and broadcasts — specifically for e-commerce businesses your size in Navi Mumbai.
 
 Sustainable goods brands entering B2B corporate gifting need a CRM for it — that's exactly when businesses like yours see the most ROI from getting this in place. Want me to walk you through how it works in 15 minutes? No pitch, just a quick demo.`; },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Hemant Sharma — 8474687234",
   },
   {
     id: "EC-REP15",
@@ -3454,7 +3454,7 @@ Specifically for businesses like yours I often see three things:
 We've built a full SaaS + e-commerce platform with inventory, CRM, and marketing automation built in — specifically for e-commerce businesses your size in Mumbai.
 
 Fashion rental brands are a hot category — the one with the best platform wins — that's exactly when businesses like yours see the most ROI from getting this in place. Want me to walk you through how it works in 15 minutes? No pitch, just a quick demo.`; },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Hetal Mehta — 7601986438",
   },
   {
     id: "RE-28",
@@ -3487,7 +3487,7 @@ Specifically for businesses like yours I often see three things:
 We've built a CRM + custom mobile app your team and clients can use from anywhere — specifically for real estate businesses your size in Mumbai.
 
 You have 200+ units in pipeline and need a system before the next launch — that's exactly when businesses like yours see the most ROI from getting this in place. Want me to walk you through how it works in 15 minutes? No pitch, just a quick demo.`; },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "9819578246",
   },
   {
     id: "RE-29",
@@ -3520,7 +3520,7 @@ Specifically for businesses like yours I often see three things:
 We've built a CRM + custom mobile app your team and clients can use from anywhere — specifically for real estate businesses your size in Pune.
 
 IT corridor properties in Hinjewadi are moving fast — slow follow-up loses deals — that's exactly when businesses like yours see the most ROI from getting this in place. Want me to walk you through how it works in 15 minutes? No pitch, just a quick demo.`; },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Smita Kulkarni — 9805009788",
   },
   {
     id: "FS-REP10",
@@ -3553,7 +3553,7 @@ Specifically for businesses like yours I often see three things:
 We've built a CRM + custom mobile app your team and clients can use from anywhere — specifically for real estate businesses your size in Navi Mumbai.
 
 Kharghar corridor seeing high buyer interest — need a system to capitalize on it — that's exactly when businesses like yours see the most ROI from getting this in place. Want me to walk you through how it works in 15 minutes? No pitch, just a quick demo.`; },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Manoj Yadav — 9619890785",
   },
   {
     id: "FS-REP11",
@@ -3586,7 +3586,7 @@ Specifically for businesses like yours I often see three things:
 We've built a full SaaS platform with a mobile app so your business runs digitally end-to-end — specifically for real estate businesses your size in Mumbai.
 
 Luxury villa project buyers expect a premium digital experience to match the product — that's exactly when businesses like yours see the most ROI from getting this in place. Want me to walk you through how it works in 15 minutes? No pitch, just a quick demo.`; },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Pravin Mane — 8828712955",
   },
   {
     id: "RE-32",
@@ -3619,7 +3619,7 @@ Specifically for businesses like yours I often see three things:
 We've built a CRM + custom mobile app your team and clients can use from anywhere — specifically for real estate businesses your size in Pune.
 
 Property managers with 50+ units lose hours monthly to manual rent follow-ups — that's exactly when businesses like yours see the most ROI from getting this in place. Want me to walk you through how it works in 15 minutes? No pitch, just a quick demo.`; },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "7522656233",
   },
   {
     id: "FS-REP12",
@@ -3652,7 +3652,7 @@ Specifically for businesses like yours I often see three things:
 We've built a CRM + custom mobile app your team and clients can use from anywhere — specifically for real estate businesses your size in Mumbai.
 
 Broker teams without a mobile CRM lose 30% of leads to internal miscommunication — that's exactly when businesses like yours see the most ROI from getting this in place. Want me to walk you through how it works in 15 minutes? No pitch, just a quick demo.`; },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Priya Sharma — 9170779112",
   },
   {
     id: "RE-34",
@@ -3685,7 +3685,7 @@ Specifically for businesses like yours I often see three things:
 We've built a CRM + custom mobile app your team and clients can use from anywhere — specifically for real estate businesses your size in Pune.
 
 Co-living operators scaling to 100+ beds need a resident app to stay competitive — that's exactly when businesses like yours see the most ROI from getting this in place. Want me to walk you through how it works in 15 minutes? No pitch, just a quick demo.`; },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "6305260736",
   },
   {
     id: "RE-35",
@@ -3718,7 +3718,7 @@ Specifically for businesses like yours I often see three things:
 We've built a CRM + custom mobile app your team and clients can use from anywhere — specifically for real estate businesses your size in Navi Mumbai.
 
 Panvel corridor is booming — agents without a mobile CRM will miss the wave — that's exactly when businesses like yours see the most ROI from getting this in place. Want me to walk you through how it works in 15 minutes? No pitch, just a quick demo.`; },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "6363978107",
   },
   {
     id: "ID-REP4",
@@ -3751,7 +3751,7 @@ Specifically for businesses like yours I often see three things:
 We've built a CRM + custom mobile app your team and clients can use from anywhere — specifically for real estate businesses your size in Pune.
 
 Kharadi IT office demand is surging — need a commercial real estate CRM now — that's exactly when businesses like yours see the most ROI from getting this in place. Want me to walk you through how it works in 15 minutes? No pitch, just a quick demo.`; },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Trisha Nadkarni — 9422736565",
   },
   {
     id: "RE-37",
@@ -3784,7 +3784,7 @@ Specifically for businesses like yours I often see three things:
 We've built a CRM + custom mobile app your team and clients can use from anywhere — specifically for real estate businesses your size in Mumbai.
 
 NRI real estate market in Mumbai is growing 25% YoY — digital experience is mandatory — that's exactly when businesses like yours see the most ROI from getting this in place. Want me to walk you through how it works in 15 minutes? No pitch, just a quick demo.`; },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "9467372730",
   },
   {
     id: "ID-REP5",
@@ -3817,7 +3817,7 @@ Specifically for businesses like yours I often see three things:
 We've built a CRM + patient app for teleconsult, records, and follow-up reminders — specifically for healthcare businesses your size in Mumbai.
 
 Multi-specialty clinics in Mumbai building a patient app see 50% lower no-shows — that's exactly when businesses like yours see the most ROI from getting this in place. Want me to walk you through how it works in 15 minutes? No pitch, just a quick demo.`; },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Foram Thakkar — 9422652530",
   },
   {
     id: "HC-27",
@@ -3850,7 +3850,7 @@ Specifically for businesses like yours I often see three things:
 We've built a CRM + appointment app that lets clients self-book and sends reminders automatically — specifically for healthcare businesses your size in Pune.
 
 Dental practices that launch a patient app reduce no-shows by 40% in 3 months — that's exactly when businesses like yours see the most ROI from getting this in place. Want me to walk you through how it works in 15 minutes? No pitch, just a quick demo.`; },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "8096280972",
   },
   {
     id: "HC-28",
@@ -3883,7 +3883,7 @@ Specifically for businesses like yours I often see three things:
 We've built a CRM + patient app for teleconsult, records, and follow-up reminders — specifically for healthcare businesses your size in Navi Mumbai.
 
 Chronic care management is moving to apps — clinics without one are losing patients — that's exactly when businesses like yours see the most ROI from getting this in place. Want me to walk you through how it works in 15 minutes? No pitch, just a quick demo.`; },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "7648213704",
   },
   {
     id: "HC-29",
@@ -3916,7 +3916,7 @@ Specifically for businesses like yours I often see three things:
 We've built a CRM + appointment app that lets clients self-book and sends reminders automatically — specifically for healthcare businesses your size in Mumbai.
 
 Physio practices that offer a recovery app retain patients 3x longer — that's exactly when businesses like yours see the most ROI from getting this in place. Want me to walk you through how it works in 15 minutes? No pitch, just a quick demo.`; },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Mahesh Kulkarni — 9121913619",
   },
   {
     id: "HC-30",
@@ -3949,7 +3949,7 @@ Specifically for businesses like yours I often see three things:
 We've built a CRM + tele-consult app for video visits, prescriptions, and follow-up reminders — specifically for healthcare businesses your size in Pune.
 
 Mental health platforms are the fastest growing segment — get your own app before competition — that's exactly when businesses like yours see the most ROI from getting this in place. Want me to walk you through how it works in 15 minutes? No pitch, just a quick demo.`; },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Vrinda Joshi — 9169985435",
   },
   {
     id: "HC-31",
@@ -3982,7 +3982,7 @@ Specifically for businesses like yours I often see three things:
 We've built a CRM + patient app for teleconsult, records, and follow-up reminders — specifically for healthcare businesses your size in Thane.
 
 Diagnostic centers sending reports on WhatsApp will face data compliance issues in 2025 — that's exactly when businesses like yours see the most ROI from getting this in place. Want me to walk you through how it works in 15 minutes? No pitch, just a quick demo.`; },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "7682198422",
   },
   {
     id: "HC-32",
@@ -4015,7 +4015,7 @@ Specifically for businesses like yours I often see three things:
 We've built a CRM + custom mobile app your team and clients can use from anywhere — specifically for healthcare businesses your size in Mumbai.
 
 Wellness tourism is booming — Ayurvedic centers with an app attract premium clients — that's exactly when businesses like yours see the most ROI from getting this in place. Want me to walk you through how it works in 15 minutes? No pitch, just a quick demo.`; },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "7186923557",
   },
   {
     id: "HC-33",
@@ -4048,7 +4048,7 @@ Specifically for businesses like yours I often see three things:
 We've built a CRM + patient app for teleconsult, records, and follow-up reminders — specifically for healthcare businesses your size in Pune.
 
 Fertility clinic patients expect a dedicated app — it increases trust and retention — that's exactly when businesses like yours see the most ROI from getting this in place. Want me to walk you through how it works in 15 minutes? No pitch, just a quick demo.`; },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Sachin Rane — 8247510799",
   },
   {
     id: "FIT-8",
@@ -4081,7 +4081,7 @@ Specifically for businesses like yours I often see three things:
 We've built a CRM + member app that keeps clients engaged, tracks attendance, and sends nudges — specifically for fitness businesses your size in Mumbai.
 
 Gyms with a member app see 35% lower dropout rates within 6 months — that's exactly when businesses like yours see the most ROI from getting this in place. Want me to walk you through how it works in 15 minutes? No pitch, just a quick demo.`; },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "7200468444",
   },
   {
     id: "FIT-9",
@@ -4114,7 +4114,7 @@ Specifically for businesses like yours I often see three things:
 We've built a CRM + booking app so customers can reserve slots directly from their phone — specifically for fitness businesses your size in Pune.
 
 Yoga studios that launch a booking app run at 90%+ capacity consistently — that's exactly when businesses like yours see the most ROI from getting this in place. Want me to walk you through how it works in 15 minutes? No pitch, just a quick demo.`; },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Anand Patil — 9384251354",
   },
   {
     id: "FIT-REP8",
@@ -4147,7 +4147,7 @@ Specifically for businesses like yours I often see three things:
 We've built a CRM + member app that keeps clients engaged, tracks attendance, and sends nudges — specifically for fitness businesses your size in Pune.
 
 CrossFit boxes that digitize the experience retain members 40% longer — that's exactly when businesses like yours see the most ROI from getting this in place. Want me to walk you through how it works in 15 minutes? No pitch, just a quick demo.`; },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Sanjay Bhatt — 9869890870",
   },
   {
     id: "FIT-REP9",
@@ -4180,7 +4180,7 @@ Specifically for businesses like yours I often see three things:
 We've built a CRM + booking app so customers can reserve slots directly from their phone — specifically for fitness businesses your size in Mumbai.
 
 Dance studios managing 200+ students need a booking app to stay sane — that's exactly when businesses like yours see the most ROI from getting this in place. Want me to walk you through how it works in 15 minutes? No pitch, just a quick demo.`; },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Yogesh Patil — 9521587623",
   },
   {
     id: "FIT-REP10",
@@ -4213,7 +4213,7 @@ Specifically for businesses like yours I often see three things:
 We've built a full SaaS platform with a mobile app so your business runs digitally end-to-end — specifically for fitness businesses your size in Navi Mumbai.
 
 Online fitness coaches scaling past 100 clients need a SaaS platform to deliver it properly — that's exactly when businesses like yours see the most ROI from getting this in place. Want me to walk you through how it works in 15 minutes? No pitch, just a quick demo.`; },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Mahesh Shah — 9765706794",
   },
   {
     id: "FIT-REP11",
@@ -4246,7 +4246,7 @@ Specifically for businesses like yours I often see three things:
 We've built a CRM + member app that keeps clients engaged, tracks attendance, and sends nudges — specifically for fitness businesses your size in Mumbai.
 
 Martial arts academies with 150+ students need an app to manage belt progression — that's exactly when businesses like yours see the most ROI from getting this in place. Want me to walk you through how it works in 15 minutes? No pitch, just a quick demo.`; },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Ramesh Pandey — 8109206851",
   },
   {
     id: "FIT-REP12",
@@ -4279,7 +4279,7 @@ Specifically for businesses like yours I often see three things:
 We've built a CRM + member app that keeps clients engaged, tracks attendance, and sends nudges — specifically for fitness businesses your size in Pune.
 
 Gyms that launch a member app with integrated supplement shop see 25% higher revenue — that's exactly when businesses like yours see the most ROI from getting this in place. Want me to walk you through how it works in 15 minutes? No pitch, just a quick demo.`; },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Kedar Soman — 9421778998",
   },
   {
     id: "FIT-15",
@@ -4312,7 +4312,7 @@ Specifically for businesses like yours I often see three things:
 We've built a CRM + booking app so customers can reserve slots directly from their phone — specifically for fitness businesses your size in Mumbai.
 
 Pilates studios that add a booking app see 30% fewer no-shows and full classes — that's exactly when businesses like yours see the most ROI from getting this in place. Want me to walk you through how it works in 15 minutes? No pitch, just a quick demo.`; },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Mahesh Yadav — 9498084124",
   },
   {
     id: "ED-26",
@@ -4345,7 +4345,7 @@ Specifically for businesses like yours I often see three things:
 We've built a CRM + student app with schedules, progress tracking, and parent updates — specifically for education businesses your size in Mumbai.
 
 Coaching classes in Mumbai that launch a student app retain 90% of students year-on-year — that's exactly when businesses like yours see the most ROI from getting this in place. Want me to walk you through how it works in 15 minutes? No pitch, just a quick demo.`; },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Sanjay Shinde — 9824493534",
   },
   {
     id: "EDU-REP15",
@@ -4378,7 +4378,7 @@ Specifically for businesses like yours I often see three things:
 We've built a platform that handles your SaaS + Parent App needs end-to-end — specifically for education businesses your size in Mumbai.
 
 Kids' coding schools that launch a learning app see 80% higher retention — that's exactly when businesses like yours see the most ROI from getting this in place. Want me to walk you through how it works in 15 minutes? No pitch, just a quick demo.`; },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Jyoti Sawant — 8976704238",
   },
   {
     id: "ID-REP6",
@@ -4411,7 +4411,7 @@ Specifically for businesses like yours I often see three things:
 We've built a CRM + student app with schedules, progress tracking, and parent updates — specifically for education businesses your size in Pune.
 
 Language institutes that build a learning app double their trial-to-enrolment rate — that's exactly when businesses like yours see the most ROI from getting this in place. Want me to walk you through how it works in 15 minutes? No pitch, just a quick demo.`; },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Pallavi Sawant — 8169403507",
   },
   {
     id: "ID-REP7",
@@ -4444,7 +4444,7 @@ Specifically for businesses like yours I often see three things:
 We've built a CRM + student app with schedules, progress tracking, and parent updates — specifically for education businesses your size in Mumbai.
 
 Art studios that digitize student portfolios attract premium admissions — that's exactly when businesses like yours see the most ROI from getting this in place. Want me to walk you through how it works in 15 minutes? No pitch, just a quick demo.`; },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Suresh Gupta — 9421685864",
   },
   {
     id: "ID-REP8",
@@ -4477,7 +4477,7 @@ Specifically for businesses like yours I often see three things:
 We've built a platform that handles your SaaS + Parent App needs end-to-end — specifically for education businesses your size in Pune.
 
 UPSC coaching institutes that launch a SaaS platform outperform offline-only competitors by 2x — that's exactly when businesses like yours see the most ROI from getting this in place. Want me to walk you through how it works in 15 minutes? No pitch, just a quick demo.`; },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Vaishali Shinde — 9702403578",
   },
   {
     id: "ID-REP9",
@@ -4510,7 +4510,7 @@ Specifically for businesses like yours I often see three things:
 We've built a CRM + student app with schedules, progress tracking, and parent updates — specifically for education businesses your size in Mumbai.
 
 Music schools that offer a practice app have 60% better student retention — that's exactly when businesses like yours see the most ROI from getting this in place. Want me to walk you through how it works in 15 minutes? No pitch, just a quick demo.`; },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Neha Kokane — 8657985506",
   },
   {
     id: "ID-REP10",
@@ -4543,7 +4543,7 @@ Specifically for businesses like yours I often see three things:
 We've built a CRM + student app with schedules, progress tracking, and parent updates — specifically for education businesses your size in Navi Mumbai.
 
 STEM activity centers building a student app see 3x referrals from engaged parents — that's exactly when businesses like yours see the most ROI from getting this in place. Want me to walk you through how it works in 15 minutes? No pitch, just a quick demo.`; },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Tushar Kulkarni — 9170449247",
   },
   {
     id: "FB-9",
@@ -4576,7 +4576,7 @@ Specifically for businesses like yours I often see three things:
 We've built a CRM + delivery app that tracks orders, notifies customers, and handles returns — specifically for food & beverage businesses your size in Mumbai.
 
 Cloud kitchens managing 200+ daily orders on WhatsApp will hit a wall at 300 — that's exactly when businesses like yours see the most ROI from getting this in place. Want me to walk you through how it works in 15 minutes? No pitch, just a quick demo.`; },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Arif Sheikh — 8016400524",
   },
   {
     id: "FB-10",
@@ -4609,7 +4609,7 @@ Specifically for businesses like yours I often see three things:
 We've built a CRM + loyalty app that turns one-time buyers into repeat customers — specifically for food & beverage businesses your size in Pune.
 
 Craft beer taprooms that launch a loyalty app see 50% higher repeat visit frequency — that's exactly when businesses like yours see the most ROI from getting this in place. Want me to walk you through how it works in 15 minutes? No pitch, just a quick demo.`; },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Mahesh Yadav — 9680112805",
   },
   {
     id: "FNB-REP9",
@@ -4642,7 +4642,7 @@ Specifically for businesses like yours I often see three things:
 We've built a CRM + custom mobile app your team and clients can use from anywhere — specifically for food & beverage businesses your size in Mumbai.
 
 Catering companies managing 20+ monthly events need a CRM app to scale without chaos — that's exactly when businesses like yours see the most ROI from getting this in place. Want me to walk you through how it works in 15 minutes? No pitch, just a quick demo.`; },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Chintan Modi — 9699145767",
   },
   {
     id: "FB-12",
@@ -4675,7 +4675,7 @@ Specifically for businesses like yours I often see three things:
 We've built a CRM + custom mobile app your team and clients can use from anywhere — specifically for food & beverage businesses your size in Navi Mumbai.
 
 Meal prep businesses scaling past 150 weekly customers need an app to manage complexity — that's exactly when businesses like yours see the most ROI from getting this in place. Want me to walk you through how it works in 15 minutes? No pitch, just a quick demo.`; },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "7742589531",
   },
   {
     id: "FNB-REP10",
@@ -4708,7 +4708,7 @@ Specifically for businesses like yours I often see three things:
 We've built a CRM + booking app so customers can reserve slots directly from their phone — specifically for food & beverage businesses your size in Mumbai.
 
 Private dining experiences in Mumbai attract premium buyers who expect digital booking — that's exactly when businesses like yours see the most ROI from getting this in place. Want me to walk you through how it works in 15 minutes? No pitch, just a quick demo.`; },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Manasi Bapat — 9748626690",
   },
   {
     id: "FNB-REP11",
@@ -4741,7 +4741,7 @@ Specifically for businesses like yours I often see three things:
 We've built a CRM + loyalty app that turns one-time buyers into repeat customers — specifically for food & beverage businesses your size in Pune.
 
 Artisan bakeries that add a loyalty app see 40% more repeat orders from regulars — that's exactly when businesses like yours see the most ROI from getting this in place. Want me to walk you through how it works in 15 minutes? No pitch, just a quick demo.`; },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Rekha Pillai — 9620178463",
   },
   {
     id: "FIN-8",
@@ -4774,7 +4774,7 @@ Specifically for businesses like yours I often see three things:
 We've built a CRM + branded client portal where your clients can log in and see project updates — specifically for financial services businesses your size in Mumbai.
 
 Wealth advisors without a client portal are losing clients to Zerodha and Groww — that's exactly when businesses like yours see the most ROI from getting this in place. Want me to walk you through how it works in 15 minutes? No pitch, just a quick demo.`; },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Rajan Shaikh — 7620450533",
   },
   {
     id: "FS-REP7",
@@ -4807,7 +4807,7 @@ Specifically for businesses like yours I often see three things:
 We've built a CRM + branded client portal where your clients can log in and see project updates — specifically for financial services businesses your size in Pune.
 
 Insurance brokers losing 20% of renewals annually to manual tracking can't afford another year of Excel — that's exactly when businesses like yours see the most ROI from getting this in place. Want me to walk you through how it works in 15 minutes? No pitch, just a quick demo.`; },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Ravi Chandra — 7208329642",
   },
   {
     id: "FIN-10",
@@ -4840,7 +4840,7 @@ Specifically for businesses like yours I often see three things:
 We've built a CRM + branded client portal where your clients can log in and see project updates — specifically for financial services businesses your size in Navi Mumbai.
 
 NBFC and DSA loan businesses without a digital pipeline lose 30% of applicants to friction — that's exactly when businesses like yours see the most ROI from getting this in place. Want me to walk you through how it works in 15 minutes? No pitch, just a quick demo.`; },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Meena Mehta — 9692322602",
   },
   {
     id: "FIN-11",
@@ -4873,7 +4873,7 @@ Specifically for businesses like yours I often see three things:
 We've built a CRM + branded client portal where your clients can log in and see project updates — specifically for financial services businesses your size in Mumbai.
 
 CA firms without a client portal get buried in WhatsApp messages during tax season — that's exactly when businesses like yours see the most ROI from getting this in place. Want me to walk you through how it works in 15 minutes? No pitch, just a quick demo.`; },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Sunil Singh — 9342160733",
   },
   {
     id: "FIN-12",
@@ -4906,7 +4906,7 @@ Specifically for businesses like yours I often see three things:
 We've built a CRM + branded client portal where your clients can log in and see project updates — specifically for financial services businesses your size in Mumbai.
 
 Micro VCs and family offices without an investor portal lose credibility with LPs — that's exactly when businesses like yours see the most ROI from getting this in place. Want me to walk you through how it works in 15 minutes? No pitch, just a quick demo.`; },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Girish Mehta — 8330365414",
   },
   {
     id: "FS-REP8",
@@ -4939,7 +4939,7 @@ Specifically for businesses like yours I often see three things:
 We've built a CRM + branded client portal where your clients can log in and see project updates — specifically for financial services businesses your size in Pune.
 
 Real estate investment advisors managing 50+ client portfolios need a CRM + portal — that's exactly when businesses like yours see the most ROI from getting this in place. Want me to walk you through how it works in 15 minutes? No pitch, just a quick demo.`; },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Vrushali Deshpande — 9748194511",
   },
   {
     id: "EV-6",
@@ -4972,7 +4972,7 @@ Specifically for businesses like yours I often see three things:
 We've built a CRM + event app for attendee management, ticketing, and post-event follow-up — specifically for events / marketing businesses your size in Mumbai.
 
 Event companies managing 500+ guest lists on Excel risk embarrassing on-the-day failures — that's exactly when businesses like yours see the most ROI from getting this in place. Want me to walk you through how it works in 15 minutes? No pitch, just a quick demo.`; },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Vikas Ansari — 8850142940",
   },
   {
     id: "EVT-REP4",
@@ -5005,7 +5005,7 @@ Specifically for businesses like yours I often see three things:
 We've built a CRM + custom mobile app your team and clients can use from anywhere — specifically for events / marketing businesses your size in Pune.
 
 Event planners handling 10+ events simultaneously need a CRM to stay organized — that's exactly when businesses like yours see the most ROI from getting this in place. Want me to walk you through how it works in 15 minutes? No pitch, just a quick demo.`; },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Ramesh Pandey — 9769146489",
   },
   {
     id: "EV-8",
@@ -5038,7 +5038,7 @@ Specifically for businesses like yours I often see three things:
 We've built a CRM + event app for attendee management, ticketing, and post-event follow-up — specifically for events / marketing businesses your size in Mumbai.
 
 B2B tech conferences growing past 300 attendees need a proper event management platform — that's exactly when businesses like yours see the most ROI from getting this in place. Want me to walk you through how it works in 15 minutes? No pitch, just a quick demo.`; },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Meena Kumar — 8569816934",
   },
   {
     id: "EVT-REP5",
@@ -5071,7 +5071,7 @@ Specifically for businesses like yours I often see three things:
 We've built a CRM + custom mobile app your team and clients can use from anywhere — specifically for events / marketing businesses your size in Mumbai.
 
 Marketing agencies managing 15+ clients can't deliver consistent reporting without a CRM — that's exactly when businesses like yours see the most ROI from getting this in place. Want me to walk you through how it works in 15 minutes? No pitch, just a quick demo.`; },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Kedar Soman — 9769166165",
   },
   {
     id: "EVT-REP6",
@@ -5104,7 +5104,7 @@ Specifically for businesses like yours I often see three things:
 We've built a CRM + custom mobile app your team and clients can use from anywhere — specifically for events / marketing businesses your size in Pune.
 
 Photography studios that offer a client gallery app get 3x the referrals from weddings — that's exactly when businesses like yours see the most ROI from getting this in place. Want me to walk you through how it works in 15 minutes? No pitch, just a quick demo.`; },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Vijay Dubey — 9011517568",
   },
   {
     id: "HR-6",
@@ -5137,7 +5137,7 @@ Specifically for businesses like yours I often see three things:
 We've built a CRM + ATS that manages job pipelines, candidate tracking, and client communication — specifically for hr & recruitment businesses your size in Mumbai.
 
 Recruitment agencies managing 30+ JDs without an ATS lose 25% of candidates to competitors who respond faster — that's exactly when businesses like yours see the most ROI from getting this in place. Want me to walk you through how it works in 15 minutes? No pitch, just a quick demo.`; },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Neha Kumar — 7883561595",
   },
   {
     id: "HR-7",
@@ -5170,7 +5170,7 @@ Specifically for businesses like yours I often see three things:
 We've built a CRM + ATS that manages job pipelines, candidate tracking, and client communication — specifically for hr & recruitment businesses your size in Pune.
 
 IT recruitment agencies in Hinjewadi without an ATS are leaving 40% of placements on the table — that's exactly when businesses like yours see the most ROI from getting this in place. Want me to walk you through how it works in 15 minutes? No pitch, just a quick demo.`; },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Sunita Deshpande — 9465648236",
   },
   {
     id: "HR-REP2",
@@ -5203,7 +5203,7 @@ Specifically for businesses like yours I often see three things:
 We've built a CRM + ATS that manages job pipelines, candidate tracking, and client communication — specifically for hr & recruitment businesses your size in Navi Mumbai.
 
 Staffing agencies managing 200+ contract workers without software are one dispute away from chaos — that's exactly when businesses like yours see the most ROI from getting this in place. Want me to walk you through how it works in 15 minutes? No pitch, just a quick demo.`; },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Urmila Pandya — 9623856215",
   },
   {
     id: "HR-9",
@@ -5236,7 +5236,7 @@ Specifically for businesses like yours I often see three things:
 We've built a CRM + branded client portal where your clients can log in and see project updates — specifically for hr & recruitment businesses your size in Mumbai.
 
 Career coaches scaling past 50 active clients need a CRM + portal to stay personal at scale — that's exactly when businesses like yours see the most ROI from getting this in place. Want me to walk you through how it works in 15 minutes? No pitch, just a quick demo.`; },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Hemant Gaikwad — 9946804436",
   },
   {
     id: "RT-6",
@@ -5269,7 +5269,7 @@ Specifically for businesses like yours I often see three things:
 We've built a CRM + loyalty app that turns one-time buyers into repeat customers — specifically for retail / fashion businesses your size in Mumbai.
 
 Fashion retailers that launch a loyalty app see 45% increase in repeat footfall — that's exactly when businesses like yours see the most ROI from getting this in place. Want me to walk you through how it works in 15 minutes? No pitch, just a quick demo.`; },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Rajan Nair — 8773872148",
   },
   {
     id: "RT-7",
@@ -5302,7 +5302,7 @@ Specifically for businesses like yours I often see three things:
 We've built a CRM + loyalty app that turns one-time buyers into repeat customers — specifically for retail businesses your size in Pune.
 
 Home furnishing retailers building a loyalty CRM see 3x higher lifetime customer value — that's exactly when businesses like yours see the most ROI from getting this in place. Want me to walk you through how it works in 15 minutes? No pitch, just a quick demo.`; },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Sunil Desai — 7433200379",
   },
   {
     id: "RT-8",
@@ -5335,7 +5335,7 @@ Specifically for businesses like yours I often see three things:
 We've built a CRM + custom mobile app your team and clients can use from anywhere — specifically for retail businesses your size in Navi Mumbai.
 
 Neighbourhood grocery stores with 200+ WhatsApp orders daily need an app — that's exactly when businesses like yours see the most ROI from getting this in place. Want me to walk you through how it works in 15 minutes? No pitch, just a quick demo.`; },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "9029800305",
   },
   {
     id: "RT-9",
@@ -5368,7 +5368,7 @@ Specifically for businesses like yours I often see three things:
 We've built a CRM + custom mobile app your team and clients can use from anywhere — specifically for retail / fashion businesses your size in Mumbai.
 
 Jewellery retailers building a CRM + app ahead of wedding season capture 3x more referrals — that's exactly when businesses like yours see the most ROI from getting this in place. Want me to walk you through how it works in 15 minutes? No pitch, just a quick demo.`; },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "7340830114",
   },
   {
     id: "RET-REP5",
@@ -5401,7 +5401,7 @@ Specifically for businesses like yours I often see three things:
 We've built a CRM + loyalty app that turns one-time buyers into repeat customers — specifically for retail businesses your size in Pune.
 
 Indie bookstores building a reader loyalty app retain customers that Amazon can't — that's exactly when businesses like yours see the most ROI from getting this in place. Want me to walk you through how it works in 15 minutes? No pitch, just a quick demo.`; },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Sampada Bhide — 8097965401",
   },
   {
     id: "ID-5",
@@ -5434,7 +5434,7 @@ Specifically for businesses like yours I often see three things:
 We've built a CRM + branded client portal where your clients can log in and see project updates — specifically for interior design businesses your size in Mumbai.
 
 Interior design firms that launch a client portal win more ₹50L+ projects from corporates — that's exactly when businesses like yours see the most ROI from getting this in place. Want me to walk you through how it works in 15 minutes? No pitch, just a quick demo.`; },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "9967599679",
   },
   {
     id: "ID-6",
@@ -5467,7 +5467,7 @@ Specifically for businesses like yours I often see three things:
 We've built a CRM + project management platform so clients and your team stay aligned — specifically for interior design businesses your size in Pune.
 
 Interior designers managing 5+ simultaneous projects without a CRM lose clients at the halfway mark — that's exactly when businesses like yours see the most ROI from getting this in place. Want me to walk you through how it works in 15 minutes? No pitch, just a quick demo.`; },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Asha Tiwari — 8936763201",
   },
   {
     id: "ID-7",
@@ -5500,7 +5500,7 @@ Specifically for businesses like yours I often see three things:
 We've built a CRM + quote management system that turns proposals into signed contracts faster — specifically for interior design businesses your size in Mumbai.
 
 Interior design firms closing less than 30% of their estimates need a CRM + quote system — that's exactly when businesses like yours see the most ROI from getting this in place. Want me to walk you through how it works in 15 minutes? No pitch, just a quick demo.`; },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Abhijit Sawant — 7870831727",
   },
   {
     id: "ID-8",
@@ -5533,7 +5533,7 @@ Specifically for businesses like yours I often see three things:
 We've built a CRM + branded client portal where your clients can log in and see project updates — specifically for interior design businesses your size in Navi Mumbai.
 
 Interior designers adding a client portal see 60% fewer mid-project disputes — that's exactly when businesses like yours see the most ROI from getting this in place. Want me to walk you through how it works in 15 minutes? No pitch, just a quick demo.`; },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Rukhsar Shaikh — 9579868727",
   },
   {
     id: "ID-REP3",
@@ -5566,7 +5566,7 @@ Specifically for businesses like yours I often see three things:
 We've built a CRM + custom mobile app your team and clients can use from anywhere — specifically for interior design businesses your size in Pune.
 
 Interior firms working on new construction projects in Pune Baner have a 6-month window to dominate the market — that's exactly when businesses like yours see the most ROI from getting this in place. Want me to walk you through how it works in 15 minutes? No pitch, just a quick demo.`; },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Poonam Mahajan — 7210426775",
   },
   {
     id: "LOG-REP5",
@@ -5599,7 +5599,7 @@ Specifically for businesses like yours I often see three things:
 We've built a CRM + shipment tracking system so clients always know where their order is — specifically for logistics businesses your size in Navi Mumbai.
 
 Logistics companies without a shipment tracking CRM lose their biggest accounts to competitors who offer visibility — that's exactly when businesses like yours see the most ROI from getting this in place. Want me to walk you through how it works in 15 minutes? No pitch, just a quick demo.`; },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Unmesh Bagul — 9869571579",
   },
   {
     id: "LG-7",
@@ -5632,7 +5632,7 @@ Specifically for businesses like yours I often see three things:
 We've built a CRM + shipment tracking system so clients always know where their order is — specifically for logistics businesses your size in Mumbai.
 
 Third-party logistics for e-commerce needs real-time SLA tracking before scaling past 500 shipments/day — that's exactly when businesses like yours see the most ROI from getting this in place. Want me to walk you through how it works in 15 minutes? No pitch, just a quick demo.`; },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "9130069693",
   },
   {
     id: "LG-8",
@@ -5665,7 +5665,7 @@ Specifically for businesses like yours I often see three things:
 We've built a CRM + custom mobile app your team and clients can use from anywhere — specifically for logistics businesses your size in Pune.
 
 Home relocation companies digitizing their booking and dispatch process see 50% more referrals — that's exactly when businesses like yours see the most ROI from getting this in place. Want me to walk you through how it works in 15 minutes? No pitch, just a quick demo.`; },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "9728434169",
   },
   {
     id: "LG-9",
@@ -5698,7 +5698,7 @@ Specifically for businesses like yours I often see three things:
 We've built a CRM + shipment tracking system so clients always know where their order is — specifically for logistics businesses your size in Mumbai.
 
 Cold chain logistics companies face regulatory pressure to track and document temperature compliance — that's exactly when businesses like yours see the most ROI from getting this in place. Want me to walk you through how it works in 15 minutes? No pitch, just a quick demo.`; },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Bharati Rane — 7487347143",
   },
   {
     id: "LOG-REP6",
@@ -5731,7 +5731,7 @@ Specifically for businesses like yours I often see three things:
 We've built a CRM + custom mobile app your team and clients can use from anywhere — specifically for logistics businesses your size in Navi Mumbai.
 
 Hyperlocal delivery startups scaling to 1000+ deliveries/day need a proper dispatch app — that's exactly when businesses like yours see the most ROI from getting this in place. Want me to walk you through how it works in 15 minutes? No pitch, just a quick demo.`; },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Abhijit Dhamdhere — 9930629057",
   },
   {
     id: "CON-REP1",
@@ -5764,7 +5764,7 @@ Specifically for businesses like yours I often see three things:
 We've built a CRM + branded client portal where your clients can log in and see project updates — specifically for consulting businesses your size in Mumbai.
 
 Management consultants without a client portal lose retainer clients to larger firms with better UX — that's exactly when businesses like yours see the most ROI from getting this in place. Want me to walk you through how it works in 15 minutes? No pitch, just a quick demo.`; },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Devendra Fadnavis Jr — 9623720556",
   },
   {
     id: "CO-2",
@@ -5797,7 +5797,7 @@ Specifically for businesses like yours I often see three things:
 We've built a CRM + branded client portal where your clients can log in and see project updates — specifically for consulting businesses your size in Pune.
 
 Startup advisory firms that build a client portal get featured in investor networks as a premium service — that's exactly when businesses like yours see the most ROI from getting this in place. Want me to walk you through how it works in 15 minutes? No pitch, just a quick demo.`; },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Vinod Pillai — 8812236231",
   },
   {
     id: "CON-REP2",
@@ -5830,7 +5830,7 @@ Specifically for businesses like yours I often see three things:
 We've built a smart CRM that tracks every lead, client, and deal in one dashboard — specifically for consulting businesses your size in Navi Mumbai.
 
 Process consulting firms without a CRM can't scale beyond 10 concurrent clients without losing quality — that's exactly when businesses like yours see the most ROI from getting this in place. Want me to walk you through how it works in 15 minutes? No pitch, just a quick demo.`; },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Bhavna Trivedi — 9930147670",
   },
   {
     id: "MM-1",
@@ -5863,7 +5863,7 @@ Specifically for businesses like yours I often see three things:
 We've built a CRM + branded client portal where your clients can log in and see project updates — specifically for media / marketing businesses your size in Mumbai.
 
 Digital agencies that launch a client reporting portal reduce churn by 60% in year 1 — that's exactly when businesses like yours see the most ROI from getting this in place. Want me to walk you through how it works in 15 minutes? No pitch, just a quick demo.`; },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "6700314251",
   },
   {
     id: "MM-2",
@@ -5896,7 +5896,7 @@ Specifically for businesses like yours I often see three things:
 We've built a CRM + branded client portal where your clients can log in and see project updates — specifically for media / marketing businesses your size in Pune.
 
 Content studios managing 15+ client brands need a CRM + portal to deliver consistently — that's exactly when businesses like yours see the most ROI from getting this in place. Want me to walk you through how it works in 15 minutes? No pitch, just a quick demo.`; },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Preeti Singh — 8876036690",
   },
   {
     id: "MM-3",
@@ -5929,7 +5929,7 @@ Specifically for businesses like yours I often see three things:
 We've built a CRM + custom mobile app your team and clients can use from anywhere — specifically for media / marketing businesses your size in Mumbai.
 
 Influencer marketing agencies managing 50+ creators need a CRM app or they lose brands to agencies that have one — that's exactly when businesses like yours see the most ROI from getting this in place. Want me to walk you through how it works in 15 minutes? No pitch, just a quick demo.`; },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Padmini Gupta — 8054668893",
   },
   {
     id: "LOG-REP7",
@@ -5962,7 +5962,7 @@ Specifically for businesses like yours I often see three things:
 We've built a CRM + custom mobile app your team and clients can use from anywhere — specifically for e-commerce businesses your size in Pune.
 
 Farm-to-home delivery businesses scaling past 300 daily orders need a dedicated app — that's exactly when businesses like yours see the most ROI from getting this in place. Want me to walk you through how it works in 15 minutes? No pitch, just a quick demo.`; },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Radhika Apte — 7600811875",
   },
   {
     id: "LOG-REP8",
@@ -5995,7 +5995,7 @@ Specifically for businesses like yours I often see three things:
 We've built a platform that handles your SaaS + E-commerce Platform needs end-to-end — specifically for e-commerce businesses your size in Mumbai.
 
 Sports D2C brands losing 30% margin to Amazon need a full owned platform with B2B capabilities — that's exactly when businesses like yours see the most ROI from getting this in place. Want me to walk you through how it works in 15 minutes? No pitch, just a quick demo.`; },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Nitin Jain — 9620449555",
   },
   {
     id: "LOG-REP9",
@@ -6028,7 +6028,7 @@ Specifically for businesses like yours I often see three things:
 We've built a CRM + WhatsApp commerce system that automates orders, follow-ups, and broadcasts — specifically for e-commerce businesses your size in Mumbai.
 
 Corporate gifting companies without a WhatsApp commerce CRM miss 40% of Diwali season revenue — that's exactly when businesses like yours see the most ROI from getting this in place. Want me to walk you through how it works in 15 minutes? No pitch, just a quick demo.`; },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Santosh More — 7758686072",
   },
   {
     id: "LOG-REP10",
@@ -6061,7 +6061,7 @@ Specifically for businesses like yours I often see three things:
 We've built a CRM + custom mobile app your team and clients can use from anywhere — specifically for e-commerce businesses your size in Pune.
 
 Custom print D2C brands launching a design preview app double their conversion rate — that's exactly when businesses like yours see the most ROI from getting this in place. Want me to walk you through how it works in 15 minutes? No pitch, just a quick demo.`; },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Geeta Rao — 8655633188",
   },
   {
     id: "EC-25",
@@ -6094,7 +6094,7 @@ Specifically for businesses like yours I often see three things:
 We've built a CRM + loyalty app that turns one-time buyers into repeat customers — specifically for e-commerce businesses your size in Navi Mumbai.
 
 Herbal wellness D2C brands building loyalty apps in 2025 will dominate the repeat purchase market — that's exactly when businesses like yours see the most ROI from getting this in place. Want me to walk you through how it works in 15 minutes? No pitch, just a quick demo.`; },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Salman Sawant — 8670656272",
   },
     {
     id: "HR-REP3",
@@ -6127,7 +6127,7 @@ Specifically for businesses like yours I often see three things:
 We've built a CRM + ATS that manages job pipelines, candidate tracking, and client communication — specifically for hr & recruitment businesses your size in Pune.
 
 IT recruitment agencies in Hinjewadi without an ATS are leaving 40% of placements on the table — that's exactly when businesses like yours see the most ROI from getting this in place. Want me to walk you through how it works in 15 minutes? No pitch, just a quick demo.`; },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Chetan Brahmbhatt — 9518485709",
   },
     {
     id: "HR-REP4",
@@ -6160,7 +6160,7 @@ Specifically for businesses like yours I often see three things:
 We've built a CRM + ATS that manages job pipelines, candidate tracking, and client communication — specifically for hr & recruitment businesses your size in Pune.
 
 IT recruitment agencies in Hinjewadi without an ATS are leaving 40% of placements on the table — that's exactly when businesses like yours see the most ROI from getting this in place. Want me to walk you through how it works in 15 minutes? No pitch, just a quick demo.`; },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Dhaval Parikh — 9769362147",
   },
     {
     id: "HR-REP5",
@@ -6193,7 +6193,7 @@ Specifically for businesses like yours I often see three things:
 We've built a CRM + ATS that manages job pipelines, candidate tracking, and client communication — specifically for hr & recruitment businesses your size in Pune.
 
 IT recruitment agencies in Hinjewadi without an ATS are leaving 40% of placements on the table — that's exactly when businesses like yours see the most ROI from getting this in place. Want me to walk you through how it works in 15 minutes? No pitch, just a quick demo.`; },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Kavita Nair — 8976571145",
   },
     {
     id: "HR-REP6",
@@ -6226,7 +6226,7 @@ Specifically for businesses like yours I often see three things:
 We've built a CRM + ATS that manages job pipelines, candidate tracking, and client communication — specifically for hr & recruitment businesses your size in Pune.
 
 IT recruitment agencies in Hinjewadi without an ATS are leaving 40% of placements on the table — that's exactly when businesses like yours see the most ROI from getting this in place. Want me to walk you through how it works in 15 minutes? No pitch, just a quick demo.`; },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Milind Pawar — 9137185569",
   },
     {
     id: "HR-REP7",
@@ -6259,7 +6259,7 @@ Specifically for businesses like yours I often see three things:
 We've built a CRM + ATS that manages job pipelines, candidate tracking, and client communication — specifically for hr & recruitment businesses your size in Pune.
 
 IT recruitment agencies in Hinjewadi without an ATS are leaving 40% of placements on the table — that's exactly when businesses like yours see the most ROI from getting this in place. Want me to walk you through how it works in 15 minutes? No pitch, just a quick demo.`; },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Shraddha Pol — 9769895702",
   },
     {
     id: "HR-REP8",
@@ -6292,7 +6292,7 @@ Specifically for businesses like yours I often see three things:
 We've built a CRM + ATS that manages job pipelines, candidate tracking, and client communication — specifically for hr & recruitment businesses your size in Pune.
 
 IT recruitment agencies in Hinjewadi without an ATS are leaving 40% of placements on the table — that's exactly when businesses like yours see the most ROI from getting this in place. Want me to walk you through how it works in 15 minutes? No pitch, just a quick demo.`; },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Amit Patel — 9768913875",
   },
     {
     id: "EVT-REP7",
@@ -6325,7 +6325,7 @@ Specifically for businesses like yours I often see three things:
 We've built a CRM + event app for attendee management, ticketing, and post-event follow-up — specifically for events / marketing businesses your size in Mumbai.
 
 B2B tech conferences growing past 300 attendees need a proper event management platform — that's exactly when businesses like yours see the most ROI from getting this in place. Want me to walk you through how it works in 15 minutes? No pitch, just a quick demo.`; },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Anita Desai — 7666386488",
   },
     {
     id: "EVT-REP8",
@@ -6358,7 +6358,7 @@ Specifically for businesses like yours I often see three things:
 We've built a CRM + event app for attendee management, ticketing, and post-event follow-up — specifically for events / marketing businesses your size in Mumbai.
 
 B2B tech conferences growing past 300 attendees need a proper event management platform — that's exactly when businesses like yours see the most ROI from getting this in place. Want me to walk you through how it works in 15 minutes? No pitch, just a quick demo.`; },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Vikram Singh — 7210936020",
   },
     {
     id: "MM-REP1",
@@ -6391,7 +6391,7 @@ Specifically for businesses like yours I often see three things:
 We've built a CRM + branded client portal where your clients can log in and see project updates — specifically for media / marketing businesses your size in Pune.
 
 Content studios managing 15+ client brands need a CRM + portal to deliver consistently — that's exactly when businesses like yours see the most ROI from getting this in place. Want me to walk you through how it works in 15 minutes? No pitch, just a quick demo.`; },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Hardik Patel — 7720421384",
   },
     {
     id: "MM-REP2",
@@ -6424,7 +6424,7 @@ Specifically for businesses like yours I often see three things:
 We've built a CRM + branded client portal where your clients can log in and see project updates — specifically for media / marketing businesses your size in Pune.
 
 Content studios managing 15+ client brands need a CRM + portal to deliver consistently — that's exactly when businesses like yours see the most ROI from getting this in place. Want me to walk you through how it works in 15 minutes? No pitch, just a quick demo.`; },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Nikhil Kulkarni — 9833178686",
   },
     {
     id: "MM-REP3",
@@ -6457,7 +6457,7 @@ Specifically for businesses like yours I often see three things:
 We've built a CRM + branded client portal where your clients can log in and see project updates — specifically for media / marketing businesses your size in Pune.
 
 Content studios managing 15+ client brands need a CRM + portal to deliver consistently — that's exactly when businesses like yours see the most ROI from getting this in place. Want me to walk you through how it works in 15 minutes? No pitch, just a quick demo.`; },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Shriram Kalwit — 9867232361",
   },
     {
     id: "MM-REP4",
@@ -6490,7 +6490,7 @@ Specifically for businesses like yours I often see three things:
 We've built a CRM + branded client portal where your clients can log in and see project updates — specifically for media / marketing businesses your size in Pune.
 
 Content studios managing 15+ client brands need a CRM + portal to deliver consistently — that's exactly when businesses like yours see the most ROI from getting this in place. Want me to walk you through how it works in 15 minutes? No pitch, just a quick demo.`; },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Pooja Iyer — 8600900152",
   },
     {
     id: "MM-REP5",
@@ -6523,7 +6523,7 @@ Specifically for businesses like yours I often see three things:
 We've built a CRM + branded client portal where your clients can log in and see project updates — specifically for media / marketing businesses your size in Pune.
 
 Content studios managing 15+ client brands need a CRM + portal to deliver consistently — that's exactly when businesses like yours see the most ROI from getting this in place. Want me to walk you through how it works in 15 minutes? No pitch, just a quick demo.`; },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Amruta Khanvilkar — 9823871411",
   },
     {
     id: "MM-REP6",
@@ -6556,7 +6556,7 @@ Specifically for businesses like yours I often see three things:
 We've built a CRM + branded client portal where your clients can log in and see project updates — specifically for media / marketing businesses your size in Pune.
 
 Content studios managing 15+ client brands need a CRM + portal to deliver consistently — that's exactly when businesses like yours see the most ROI from getting this in place. Want me to walk you through how it works in 15 minutes? No pitch, just a quick demo.`; },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Lata Kulkarni — 7718827691",
   },
     {
     id: "MM-REP7",
@@ -6589,7 +6589,7 @@ Specifically for businesses like yours I often see three things:
 We've built a CRM + branded client portal where your clients can log in and see project updates — specifically for media / marketing businesses your size in Pune.
 
 Content studios managing 15+ client brands need a CRM + portal to deliver consistently — that's exactly when businesses like yours see the most ROI from getting this in place. Want me to walk you through how it works in 15 minutes? No pitch, just a quick demo.`; },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Akshay Shitole — 7666800280",
   },
     {
     id: "MM-REP8",
@@ -6622,7 +6622,7 @@ Specifically for businesses like yours I often see three things:
 We've built a CRM + branded client portal where your clients can log in and see project updates — specifically for media / marketing businesses your size in Pune.
 
 Content studios managing 15+ client brands need a CRM + portal to deliver consistently — that's exactly when businesses like yours see the most ROI from getting this in place. Want me to walk you through how it works in 15 minutes? No pitch, just a quick demo.`; },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Vikas Salvi — 7209633469",
   },
     {
     id: "MM-REP9",
@@ -6655,7 +6655,7 @@ Specifically for businesses like yours I often see three things:
 We've built a CRM + branded client portal where your clients can log in and see project updates — specifically for media / marketing businesses your size in Pune.
 
 Content studios managing 15+ client brands need a CRM + portal to deliver consistently — that's exactly when businesses like yours see the most ROI from getting this in place. Want me to walk you through how it works in 15 minutes? No pitch, just a quick demo.`; },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Aakash Trivedi — 9167236074",
   },
     {
     id: "MM-REP10",
@@ -6688,7 +6688,7 @@ Specifically for businesses like yours I often see three things:
 We've built a CRM + branded client portal where your clients can log in and see project updates — specifically for media / marketing businesses your size in Pune.
 
 Content studios managing 15+ client brands need a CRM + portal to deliver consistently — that's exactly when businesses like yours see the most ROI from getting this in place. Want me to walk you through how it works in 15 minutes? No pitch, just a quick demo.`; },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Rajesh Kumar — 9920571832",
   },
     {
     id: "MM-REP11",
@@ -6721,7 +6721,7 @@ Specifically for businesses like yours I often see three things:
 We've built a CRM + branded client portal where your clients can log in and see project updates — specifically for media / marketing businesses your size in Pune.
 
 Content studios managing 15+ client brands need a CRM + portal to deliver consistently — that's exactly when businesses like yours see the most ROI from getting this in place. Want me to walk you through how it works in 15 minutes? No pitch, just a quick demo.`; },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Atul Chordia — 9833971776",
   },
     {
     id: "MM-REP12",
@@ -6754,7 +6754,7 @@ Specifically for businesses like yours I often see three things:
 We've built a CRM + branded client portal where your clients can log in and see project updates — specifically for media / marketing businesses your size in Pune.
 
 Content studios managing 15+ client brands need a CRM + portal to deliver consistently — that's exactly when businesses like yours see the most ROI from getting this in place. Want me to walk you through how it works in 15 minutes? No pitch, just a quick demo.`; },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Ruchi Gandha — 9930362778",
   },
     {
     id: "CON-REP3",
@@ -6787,7 +6787,7 @@ Specifically for businesses like yours I often see three things:
 We've built a CRM + branded client portal where your clients can log in and see project updates — specifically for consulting businesses your size in Pune.
 
 Startup advisory firms that build a client portal get featured in investor networks as a premium service — that's exactly when businesses like yours see the most ROI from getting this in place. Want me to walk you through how it works in 15 minutes? No pitch, just a quick demo.`; },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Jyoti Sawant — 7738606404",
   },
     {
     id: "CON-REP4",
@@ -6820,7 +6820,7 @@ Specifically for businesses like yours I often see three things:
 We've built a CRM + branded client portal where your clients can log in and see project updates — specifically for consulting businesses your size in Pune.
 
 Startup advisory firms that build a client portal get featured in investor networks as a premium service — that's exactly when businesses like yours see the most ROI from getting this in place. Want me to walk you through how it works in 15 minutes? No pitch, just a quick demo.`; },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Archana Gokhale — 7600736129",
   },
     {
     id: "CON-REP5",
@@ -6853,7 +6853,7 @@ Specifically for businesses like yours I often see three things:
 We've built a CRM + branded client portal where your clients can log in and see project updates — specifically for consulting businesses your size in Pune.
 
 Startup advisory firms that build a client portal get featured in investor networks as a premium service — that's exactly when businesses like yours see the most ROI from getting this in place. Want me to walk you through how it works in 15 minutes? No pitch, just a quick demo.`; },
-    get contact() { return `Research: JustDial / LinkedIn — ${this.companyName}, ${this.city}`; },
+    contact: "Siddharth Marathe — 8767228473",
   },
 
 ];
