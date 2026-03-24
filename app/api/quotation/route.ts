@@ -111,22 +111,37 @@ Generate a detailed, professional quotation. Return ONLY valid JSON (no markdown
 
     const message = await client.messages.create({
       model: "claude-sonnet-4-6",
-      max_tokens: 1500,
+      max_tokens: 3000,
       messages: [{ role: "user", content: prompt }],
     });
 
     const raw = message.content[0].type === "text" ? message.content[0].text : "{}";
-    const clean = raw.replace(/^```json\s*/, "").replace(/\s*```$/, "").trim();
-    const parsed = JSON.parse(clean);
 
-    const response: QuotationResponse = {
+    // Extract JSON — find first { and last } to handle any surrounding text
+    const firstBrace = raw.indexOf("{");
+    const lastBrace = raw.lastIndexOf("}");
+    if (firstBrace === -1 || lastBrace === -1) throw new Error("No JSON found in response");
+    const jsonStr = raw.slice(firstBrace, lastBrace + 1);
+
+    let parsed: Record<string, unknown>;
+    try {
+      parsed = JSON.parse(jsonStr);
+    } catch {
+      // If still failing, try to fix common issues: unescaped newlines inside strings
+      const fixed = jsonStr
+        .replace(/[\r\n]+/g, " ")           // remove literal newlines inside JSON
+        .replace(/([^\\])\\([^"\\\/bfnrtu])/g, "$1\\\\$2"); // fix bad escapes
+      parsed = JSON.parse(fixed);
+    }
+
+    const response = {
       quoteId: `TCX-${Date.now().toString(36).toUpperCase()}`,
       clientName: body.clientName,
       companyName: body.companyName,
       projectType: body.projectType,
       generatedAt: new Date().toISOString(),
       ...parsed,
-    };
+    } as QuotationResponse;
 
     return Response.json({ success: true, quotation: response });
   } catch (error) {
