@@ -2,7 +2,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
-import { LayoutDashboard, Users, Zap, X, TrendingUp } from "lucide-react";
+import { LayoutDashboard, Users, Zap, X, TrendingUp, FileText } from "lucide-react";
 import { useState } from "react";
 import { cn } from "@/lib/utils";
 
@@ -10,6 +10,7 @@ const navItems = [
   { href: "/dashboard", label: "Dashboard", icon: LayoutDashboard },
   { href: "/leads",     label: "All Leads",  icon: Users },
   { href: "/battle-cards", label: "Battle Cards", icon: Zap },
+  { href: "/quotation", label: "Quote Maker", icon: FileText },
 ];
 
 export function AppSidebar() {
@@ -74,9 +75,9 @@ export function AppSidebar() {
       <div className="px-4 py-4 border-t border-white/10 space-y-1">
         <div className="flex items-center gap-2 text-white/40 text-xs">
           <TrendingUp className="w-3 h-3 shrink-0" />
-          <span>127 leads · 17 industries</span>
+          <span>250 leads · India + International</span>
         </div>
-        <div className="text-white/25 text-xs">Mumbai · Pune · Navi Mumbai</div>
+        <div className="text-white/25 text-xs">Maharashtra · Global</div>
         <div className="text-white/20 text-[10px] pt-1 leading-tight">
           Powered by TwoCoreX (OPC) Pvt Ltd
         </div>
