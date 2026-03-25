@@ -123,7 +123,7 @@ Generate a comprehensive 20-point business intelligence analysis. Be specific to
 
     const message = await client.messages.create({
       model: "claude-sonnet-4-6",
-      max_tokens: 4000,
+      max_tokens: 8096,
       messages: [{ role: "user", content: prompt }],
     });
 
@@ -138,7 +138,13 @@ Generate a comprehensive 20-point business intelligence analysis. Be specific to
     try {
       parsed = JSON.parse(jsonStr);
     } catch {
-      parsed = JSON.parse(jsonStr.replace(/[\r\n]+/g, " "));
+      try {
+        parsed = JSON.parse(jsonStr.replace(/[\r\n]+/g, " "));
+      } catch {
+        // Last resort: strip control characters and retry
+        const cleaned = jsonStr.replace(/[\x00-\x1F\x7F]/g, " ").replace(/,\s*([}\]])/g, "$1");
+        parsed = JSON.parse(cleaned);
+      }
     }
 
     const generatedAt = new Date();

@@ -80,7 +80,7 @@ Generate the ULTIMATE one-call close playbook for this specific prospect. Be bru
 
     const message = await client.messages.create({
       model: "claude-sonnet-4-6",
-      max_tokens: 3000,
+      max_tokens: 8096,
       messages: [{ role: "user", content: prompt }],
     });
 
@@ -95,7 +95,12 @@ Generate the ULTIMATE one-call close playbook for this specific prospect. Be bru
     try {
       parsed = JSON.parse(jsonStr);
     } catch {
-      parsed = JSON.parse(jsonStr.replace(/[\r\n]+/g, " "));
+      try {
+        parsed = JSON.parse(jsonStr.replace(/[\r\n]+/g, " "));
+      } catch {
+        const cleaned = jsonStr.replace(/[\x00-\x1F\x7F]/g, " ").replace(/,\s*([}\]])/g, "$1");
+        parsed = JSON.parse(cleaned);
+      }
     }
 
     const generatedAt = new Date();

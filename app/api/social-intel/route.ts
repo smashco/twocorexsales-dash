@@ -130,7 +130,7 @@ Return ONLY valid JSON (no markdown) with this exact structure:
 
     const message = await client.messages.create({
       model: "claude-sonnet-4-6",
-      max_tokens: 2500,
+      max_tokens: 8096,
       messages: [{ role: "user", content: prompt }],
     });
 
@@ -145,7 +145,12 @@ Return ONLY valid JSON (no markdown) with this exact structure:
     try {
       parsed = JSON.parse(jsonStr);
     } catch {
-      parsed = JSON.parse(jsonStr.replace(/[\r\n]+/g, " "));
+      try {
+        parsed = JSON.parse(jsonStr.replace(/[\r\n]+/g, " "));
+      } catch {
+        const cleaned = jsonStr.replace(/[\x00-\x1F\x7F]/g, " ").replace(/,\s*([}\]])/g, "$1");
+        parsed = JSON.parse(cleaned);
+      }
     }
 
     // Override socialProfiles with any real scraped links
