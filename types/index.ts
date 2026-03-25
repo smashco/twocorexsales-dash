@@ -250,6 +250,86 @@ export interface CloseIntelData {
   followUpPlan: string;
 }
 
+// ── Competitor Intelligence ────────────────────────────────────────────────────
+export interface VendorShoppingSignal {
+  signal: string;
+  evidence: string;
+  confidence: "HIGH" | "MEDIUM" | "LOW";
+  actionableAdvice: string;
+}
+
+export interface CompetitorProfile {
+  companyName: string;
+  relevance: string;
+  techStack: string[];
+  strengths: string[];
+  weaknesses: string[];
+  winAngle: string;
+  pricingEstimate: string;
+}
+
+export interface CompetitorIntelData {
+  leadId: string;
+  generatedAt: string;
+  competitors: CompetitorProfile[];
+  vendorShoppingSignals: VendorShoppingSignal[];
+  evaluationStatus: "Actively Evaluating" | "Recently Switched" | "Loyal to Current" | "No Clear Vendor" | "Dissatisfied with Current";
+  evaluationSummary: string;
+  marketGapAnalysis: {
+    gapDescription: string;
+    opportunity: string;
+    twoCoreXAngle: string;
+  };
+  recommendedPitch: string;
+  urgencyIndicator: "Strike Now" | "Warm Up First" | "Nurture" | "High Alert — Competitor Active";
+}
+
+// ── Proposal Intelligence ──────────────────────────────────────────────────────
+export interface ProposalFeature {
+  name: string;
+  description: string;
+  painItSolves: string;
+  impact: string;
+}
+
+export interface ImplementationPhase {
+  phase: number;
+  title: string;
+  duration: string;
+  deliverables: string[];
+  milestone: string;
+}
+
+export interface BeforeAfterItem {
+  area: string;
+  before: string;
+  after: string;
+}
+
+export interface ProposalIntelData {
+  leadId: string;
+  generatedAt: string;
+  solutionName: string;
+  elevatorPitch: string;
+  features: ProposalFeature[];
+  beforeAfter: BeforeAfterItem[];
+  implementationTimeline: ImplementationPhase[];
+  expectedROI: {
+    timeToROI: string;
+    monthlyTimeSaved: string;
+    revenueImpact: string;
+    costSavings: string;
+  };
+  successMetrics: string[];
+  whyTwoCoreX: string[];
+  pricingJustification: string;
+  callToActionScripts: {
+    primary: string;
+    followUp: string;
+    objectionBridge: string;
+  };
+}
+
 // ── Battle Card ───────────────────────────────────────────────────────────────
 export interface BattleCard {
   lead: Lead;

@@ -92,3 +92,19 @@ model CloseIntelCache {
 
   @@map("close_intel_cache")
 }
+
+model CompetitorIntelCache {
+  leadId      String   @id @map("lead_id")
+  data        Json
+  generatedAt DateTime @default(now()) @map("generated_at")
+
+  @@map("competitor_intel_cache")
+}
+
+model ProposalIntelCache {
+  leadId      String   @id @map("lead_id")
+  data        Json
+  generatedAt DateTime @default(now()) @map("generated_at")
+
+  @@map("proposal_intel_cache")
+}
