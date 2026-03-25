@@ -93,6 +93,14 @@ model CloseIntelCache {
   @@map("close_intel_cache")
 }
 
+model IntentSignalCache {
+  leadId      String   @id @map("lead_id")
+  data        Json
+  generatedAt DateTime @default(now()) @map("generated_at")
+
+  @@map("intent_signal_cache")
+}
+
 model CompetitorIntelCache {
   leadId      String   @id @map("lead_id")
   data        Json

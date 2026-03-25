@@ -18,6 +18,7 @@ import { CloseIntelPanel } from "@/components/lead-detail/CloseIntelPanel";
 import { CompetitorIntelPanel } from "@/components/lead-detail/CompetitorIntelPanel";
 import { ProposalIntelPanel } from "@/components/lead-detail/ProposalIntelPanel";
 import { PDFExportButton } from "@/components/lead-detail/PDFExportButton";
+import { IntentSignalsPanel } from "@/components/lead-detail/IntentSignalsPanel";
 import { ChevronLeft, Globe, Users, AlertCircle, Zap } from "lucide-react";
 
 export function generateStaticParams() {
@@ -124,6 +125,7 @@ export default async function LeadDetailPage({ params }: { params: Promise<{ id:
                 ["close",       "🔥 Close Intel"],
                 ["competitors", "⚔️ Competitors"],
                 ["proposal",    "📋 Our Proposal"],
+                ["intent",      "🎯 Intent Signals"],
               ].map(([val, label]) => (
                 <TabsTrigger key={val} value={val}
                   className="text-xs px-3 py-2 rounded-lg whitespace-nowrap min-h-[36px] data-[state=active]:shadow-sm data-[state=active]:font-semibold">
@@ -235,6 +237,13 @@ export default async function LeadDetailPage({ params }: { params: Promise<{ id:
           <TabsContent value="proposal">
             <div className="bg-white rounded-xl shadow-sm p-4 overflow-hidden">
               <ProposalIntelPanel lead={lead} pricing={pricing} />
+            </div>
+          </TabsContent>
+
+          {/* Intent Signals */}
+          <TabsContent value="intent">
+            <div className="bg-white rounded-xl shadow-sm p-4 overflow-hidden">
+              <IntentSignalsPanel lead={lead} />
             </div>
           </TabsContent>
         </Tabs>

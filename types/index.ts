@@ -250,6 +250,41 @@ export interface CloseIntelData {
   followUpPlan: string;
 }
 
+// ── Live Intent Signals ────────────────────────────────────────────────────────
+export interface DetectedTech {
+  tool: string;
+  category: "CRM" | "ERP / Accounting" | "E-Commerce" | "Payment" | "Marketing" | "HR / Payroll" | "Support" | "Website Builder" | "Logistics" | "Analytics" | "Other";
+  implication: string;
+}
+
+export interface IntentSignal {
+  type: "Vendor Dissatisfaction" | "Active Evaluation" | "Price Shopping" | "Feature Gap" | "No Current Solution" | "Compliance Trigger" | "Growth Trigger" | "Competitor Threat";
+  signal: string;
+  source: string;
+  confidence: "HIGH" | "MEDIUM" | "LOW";
+  urgency: "Strike Now" | "Follow Up This Week" | "Add to Nurture" | "Monitor";
+  salesAdvice: string;
+}
+
+export interface IntentSignalData {
+  leadId: string;
+  generatedAt: string;
+  detectedTechStack: DetectedTech[];
+  techStackGap: string;
+  intentScore: number;
+  intentScoreLabel: "Very High" | "High" | "Medium" | "Low";
+  switchingReadiness: "Ready to Switch" | "Actively Evaluating" | "Considering" | "Satisfied with Current" | "No Current Tool";
+  signals: IntentSignal[];
+  indianMarketContext: string;
+  competitorToolsDetected: string[];
+  recommendedApproach: string;
+  nextBestAction: {
+    action: string;
+    timing: string;
+    openingLine: string;
+  };
+}
+
 // ── Competitor Intelligence ────────────────────────────────────────────────────
 export interface VendorShoppingSignal {
   signal: string;
