@@ -12,6 +12,8 @@ import { AIInsightsPanel } from "@/components/lead-detail/AIInsightsPanel";
 import { PricingCard } from "@/components/lead-detail/PricingCard";
 import { OutreachCustomizer } from "@/components/lead-detail/OutreachCustomizer";
 import { IndustryBriefing } from "@/components/lead-detail/IndustryBriefing";
+import { SocialIntelPanel } from "@/components/lead-detail/SocialIntelPanel";
+import { BizIntelPanel } from "@/components/lead-detail/BizIntelPanel";
 import { ChevronLeft, Globe, Users, AlertCircle, Zap } from "lucide-react";
 
 export function generateStaticParams() {
@@ -108,6 +110,8 @@ export default async function LeadDetailPage({ params }: { params: Promise<{ id:
                 ["ai",        "AI Insights"],
                 ["outreach",  "Outreach"],
                 ["industry",  "Industry"],
+                ["social",    "Social Intel"],
+                ["bizintel",  "Biz Intel"],
               ].map(([val, label]) => (
                 <TabsTrigger key={val} value={val}
                   className="text-xs px-3 py-2 rounded-lg whitespace-nowrap min-h-[36px] data-[state=active]:shadow-sm data-[state=active]:font-semibold">
@@ -184,6 +188,20 @@ export default async function LeadDetailPage({ params }: { params: Promise<{ id:
           <TabsContent value="industry">
             <div className="bg-white rounded-xl shadow-sm p-4 overflow-hidden">
               <IndustryBriefing lead={lead} />
+            </div>
+          </TabsContent>
+
+          {/* Social Intelligence */}
+          <TabsContent value="social">
+            <div className="bg-white rounded-xl shadow-sm p-4 overflow-hidden">
+              <SocialIntelPanel lead={lead} />
+            </div>
+          </TabsContent>
+
+          {/* Business Intelligence */}
+          <TabsContent value="bizintel">
+            <div className="bg-white rounded-xl shadow-sm p-4 overflow-hidden">
+              <BizIntelPanel lead={lead} />
             </div>
           </TabsContent>
         </Tabs>

@@ -153,6 +153,69 @@ export interface LeadViewer {
   lastSeen: string;
 }
 
+// ── Social Intelligence ────────────────────────────────────────────────────────
+export interface SocialIntelData {
+  leadId: string;
+  generatedAt: string;
+  socialProfiles: {
+    linkedin: string | null;
+    instagram: string | null;
+    facebook: string | null;
+    twitter: string | null;
+    youtube: string | null;
+  };
+  onlinePresenceScore: number;
+  onlinePresenceLabel: "Excellent" | "Good" | "Moderate" | "Weak" | "Minimal";
+  companySnapshot: {
+    estimatedFounded: string;
+    founderOrLeader: string;
+    businessType: string;
+    primaryMarket: string;
+    estimatedMonthlyRevenue: string;
+    staffExpansion: string;
+  };
+  recentOnlineActivity: string[];
+  digitalPresenceSummary: string;
+  outreachConversationStarters: string[];
+  socialEngagementLevel: "High" | "Medium" | "Low" | "None";
+  googleBusinessInsights: {
+    estimatedRating: string;
+    reviewActivity: string;
+    businessHours: string;
+  };
+  contentStrategy: string;
+  brandVoice: string;
+  keyPersonnelOnline: string[];
+  websiteAnalysis: string;
+  redFlags: string[];
+}
+
+// ── Business Intelligence ──────────────────────────────────────────────────────
+export interface BizIntelData {
+  leadId: string;
+  generatedAt: string;
+  healthScore: { score: number; label: string; factors: string[] };
+  budgetLikelihood: { percentage: number; reasoning: string; signals: string[] };
+  dealSize: { min: string; max: string; mostLikely: string; reasoning: string };
+  timeToClose: { minWeeks: number; maxWeeks: number; reasoning: string };
+  decisionMaker: { title: string; decisionStyle: string; priorities: string[]; howToApproach: string };
+  swot: { strengths: string[]; weaknesses: string[]; opportunities: string[]; threats: string[] };
+  competitive: { mainCompetitors: string[]; ourAdvantage: string[]; switchingBarriers: string };
+  industryTrends: string[];
+  growthSignals: string[];
+  currentTechStack: string[];
+  digitalMaturity: { score: number; label: string; gaps: string[] };
+  salesCycleRecommendation: { stage: string; nextAction: string; urgency: "HIGH" | "MEDIUM" | "LOW" };
+  revenueEstimate: { annual: string; monthly: string; reasoning: string };
+  roiForClient: { annualSavings: string; timeToROI: string; primaryBenefit: string };
+  marketContext: { localMarketSize: string; growthRate: string; opportunity: string };
+  riskMatrix: { risk: string; likelihood: "HIGH" | "MEDIUM" | "LOW"; impact: "HIGH" | "MEDIUM" | "LOW"; mitigation: string }[];
+  expansionSignals: string[];
+  marketingMaturity: { level: string; currentChannels: string[]; budget: string };
+  buyingSignals: string[];
+  nextBestAction: { action: string; timing: string; reasoning: string; script: string };
+}
+
 // ── Battle Card ───────────────────────────────────────────────────────────────
 export interface BattleCard {
   lead: Lead;
