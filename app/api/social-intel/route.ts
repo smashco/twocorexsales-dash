@@ -163,12 +163,23 @@ Return ONLY valid JSON (no markdown) with this exact structure:
 
     const generatedAt = new Date();
 
-    // Save to DB
-    await prisma.socialIntelCache.upsert({
-      where: { leadId: lead.id },
-      update: { data: parsed, generatedAt },
-      create: { leadId: lead.id, data: parsed, generatedAt },
-    });
+    // Ensure table exists then save
+    try {
+      await prisma.socialIntelCache.upsert({
+        where: { leadId: lead.id },
+        update: { data: parsed, generatedAt },
+        create: { leadId: lead.id, data: parsed, generatedAt },
+      });
+    } catch {
+      await prisma.$executeRawUnsafe(
+        `CREATE TABLE IF NOT EXISTS social_intel_cache (lead_id TEXT PRIMARY KEY, data JSONB NOT NULL, generated_at TIMESTAMPTZ NOT NULL DEFAULT NOW())`
+      );
+      await prisma.socialIntelCache.upsert({
+        where: { leadId: lead.id },
+        update: { data: parsed, generatedAt },
+        create: { leadId: lead.id, data: parsed, generatedAt },
+      });
+    }
 
     const result: SocialIntelData = {
       leadId: lead.id,

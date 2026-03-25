@@ -105,12 +105,23 @@ Generate the ULTIMATE one-call close playbook for this specific prospect. Be bru
 
     const generatedAt = new Date();
 
-    // Save to DB
-    await prisma.closeIntelCache.upsert({
-      where: { leadId: lead.id },
-      update: { data: parsed, generatedAt },
-      create: { leadId: lead.id, data: parsed, generatedAt },
-    });
+    // Ensure table exists then save
+    try {
+      await prisma.closeIntelCache.upsert({
+        where: { leadId: lead.id },
+        update: { data: parsed, generatedAt },
+        create: { leadId: lead.id, data: parsed, generatedAt },
+      });
+    } catch {
+      await prisma.$executeRawUnsafe(
+        `CREATE TABLE IF NOT EXISTS close_intel_cache (lead_id TEXT PRIMARY KEY, data JSONB NOT NULL, generated_at TIMESTAMPTZ NOT NULL DEFAULT NOW())`
+      );
+      await prisma.closeIntelCache.upsert({
+        where: { leadId: lead.id },
+        update: { data: parsed, generatedAt },
+        create: { leadId: lead.id, data: parsed, generatedAt },
+      });
+    }
 
     const result: CloseIntelData = {
       leadId: lead.id,
