@@ -1,5 +1,6 @@
 import Anthropic from "@anthropic-ai/sdk";
 import { NextRequest } from "next/server";
+import { prisma } from "@/lib/db";
 import type { Lead, SocialIntelData } from "@/types";
 
 const client = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
@@ -139,7 +140,8 @@ Return ONLY valid JSON (no markdown) with this exact structure:
     if (firstBrace === -1 || lastBrace === -1) throw new Error("No JSON in response");
     const jsonStr = raw.slice(firstBrace, lastBrace + 1);
 
-    let parsed: Record<string, unknown>;
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    let parsed: any;
     try {
       parsed = JSON.parse(jsonStr);
     } catch {
@@ -154,9 +156,18 @@ Return ONLY valid JSON (no markdown) with this exact structure:
       }
     }
 
+    const generatedAt = new Date();
+
+    // Save to DB
+    await prisma.socialIntelCache.upsert({
+      where: { leadId: lead.id },
+      update: { data: parsed, generatedAt },
+      create: { leadId: lead.id, data: parsed, generatedAt },
+    });
+
     const result: SocialIntelData = {
       leadId: lead.id,
-      generatedAt: new Date().toISOString(),
+      generatedAt: generatedAt.toISOString(),
       ...(parsed as Omit<SocialIntelData, "leadId" | "generatedAt">),
     };
 

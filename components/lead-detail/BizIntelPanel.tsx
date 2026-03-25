@@ -8,7 +8,6 @@ import {
   Shield, Star, ArrowRight
 } from "lucide-react";
 import type { Lead, BizIntelData } from "@/types";
-import { getCachedBizIntel, cacheBizIntel } from "@/lib/crm-storage";
 
 interface Props { lead: Lead; }
 
@@ -42,8 +41,10 @@ export function BizIntelPanel({ lead }: Props) {
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
-    const cached = getCachedBizIntel(lead.id);
-    if (cached) setData(cached);
+    fetch(`/api/biz-intel/${lead.id}`)
+      .then(r => r.json())
+      .then(j => { if (j.success && j.data) setData(j.data); })
+      .catch(() => {});
   }, [lead.id]);
 
   async function generate() {
@@ -57,7 +58,6 @@ export function BizIntelPanel({ lead }: Props) {
       });
       const json = await res.json();
       if (!json.success) throw new Error(json.error);
-      cacheBizIntel(json.data);
       setData(json.data);
     } catch (e) {
       setError(String(e));

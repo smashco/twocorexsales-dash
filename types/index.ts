@@ -216,6 +216,40 @@ export interface BizIntelData {
   nextBestAction: { action: string; timing: string; reasoning: string; script: string };
 }
 
+// ── One-Call Close Intelligence ────────────────────────────────────────────────
+export interface CloseIntelData {
+  leadId: string;
+  generatedAt: string;
+  masterCloseAngle: {
+    headline: string;
+    explanation: string;
+    emotionalTrigger: string;
+  };
+  secretWeapon: string;
+  oneCallScript: {
+    opener: string;
+    painDiagnosis: string[];
+    solutionBridge: string;
+    proofPoint: string;
+    closingAsk: string;
+    silenceInstruction: string;
+  };
+  objectionKillers: {
+    objection: string;
+    rebuttalScript: string;
+    recoveryMove: string;
+  }[];
+  urgencyAmmo: string[];
+  priceAnchor: {
+    costOfInaction: string;
+    valueFrame: string;
+    trialOffer: string;
+  };
+  nuclearOption: string;
+  buyingSignalToWatch: string;
+  followUpPlan: string;
+}
+
 // ── Battle Card ───────────────────────────────────────────────────────────────
 export interface BattleCard {
   lead: Lead;

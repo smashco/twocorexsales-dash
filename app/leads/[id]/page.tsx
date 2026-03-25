@@ -14,6 +14,7 @@ import { OutreachCustomizer } from "@/components/lead-detail/OutreachCustomizer"
 import { IndustryBriefing } from "@/components/lead-detail/IndustryBriefing";
 import { SocialIntelPanel } from "@/components/lead-detail/SocialIntelPanel";
 import { BizIntelPanel } from "@/components/lead-detail/BizIntelPanel";
+import { CloseIntelPanel } from "@/components/lead-detail/CloseIntelPanel";
 import { ChevronLeft, Globe, Users, AlertCircle, Zap } from "lucide-react";
 
 export function generateStaticParams() {
@@ -112,6 +113,7 @@ export default async function LeadDetailPage({ params }: { params: Promise<{ id:
                 ["industry",  "Industry"],
                 ["social",    "Social Intel"],
                 ["bizintel",  "Biz Intel"],
+                ["close",     "🔥 Close Intel"],
               ].map(([val, label]) => (
                 <TabsTrigger key={val} value={val}
                   className="text-xs px-3 py-2 rounded-lg whitespace-nowrap min-h-[36px] data-[state=active]:shadow-sm data-[state=active]:font-semibold">
@@ -202,6 +204,13 @@ export default async function LeadDetailPage({ params }: { params: Promise<{ id:
           <TabsContent value="bizintel">
             <div className="bg-white rounded-xl shadow-sm p-4 overflow-hidden">
               <BizIntelPanel lead={lead} />
+            </div>
+          </TabsContent>
+
+          {/* One-Call Close Intel */}
+          <TabsContent value="close">
+            <div className="bg-white rounded-xl shadow-sm p-4 overflow-hidden">
+              <CloseIntelPanel lead={lead} />
             </div>
           </TabsContent>
         </Tabs>

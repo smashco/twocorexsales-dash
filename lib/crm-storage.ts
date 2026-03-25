@@ -1,5 +1,5 @@
 "use client";
-import type { CRMStore, LeadCRMState, CallLog, CRMStatus, AIInsights, SocialIntelData, BizIntelData } from "@/types";
+import type { CRMStore, LeadCRMState, CallLog, CRMStatus, AIInsights } from "@/types";
 
 const STORAGE_KEY = "b2b_crm_store";
 const INSIGHTS_PREFIX = "ai_insights_";
@@ -107,44 +107,6 @@ export function cacheInsights(insights: AIInsights): void {
   localStorage.setItem(`${INSIGHTS_PREFIX}${insights.leadId}`, JSON.stringify(insights));
 }
 
-// ── Social Intel cache ─────────────────────────────────────────────────────────
-const SOCIAL_INTEL_PREFIX = "social_intel_";
-const BIZ_INTEL_PREFIX = "biz_intel_";
-const INTEL_TTL_MS = 7 * 24 * 60 * 60 * 1000; // 7 days
-
-export function getCachedSocialIntel(leadId: string): SocialIntelData | null {
-  if (typeof window === "undefined") return null;
-  try {
-    const raw = localStorage.getItem(`${SOCIAL_INTEL_PREFIX}${leadId}`);
-    if (!raw) return null;
-    const parsed = JSON.parse(raw) as SocialIntelData;
-    const age = Date.now() - new Date(parsed.generatedAt).getTime();
-    if (age > INTEL_TTL_MS) return null;
-    return parsed;
-  } catch { return null; }
-}
-
-export function cacheSocialIntel(data: SocialIntelData): void {
-  if (typeof window === "undefined") return;
-  localStorage.setItem(`${SOCIAL_INTEL_PREFIX}${data.leadId}`, JSON.stringify(data));
-}
-
-export function getCachedBizIntel(leadId: string): BizIntelData | null {
-  if (typeof window === "undefined") return null;
-  try {
-    const raw = localStorage.getItem(`${BIZ_INTEL_PREFIX}${leadId}`);
-    if (!raw) return null;
-    const parsed = JSON.parse(raw) as BizIntelData;
-    const age = Date.now() - new Date(parsed.generatedAt).getTime();
-    if (age > INTEL_TTL_MS) return null;
-    return parsed;
-  } catch { return null; }
-}
-
-export function cacheBizIntel(data: BizIntelData): void {
-  if (typeof window === "undefined") return;
-  localStorage.setItem(`${BIZ_INTEL_PREFIX}${data.leadId}`, JSON.stringify(data));
-}
 
 export function getStatusCounts(): Record<string, number> {
   const store = getCRMStore();

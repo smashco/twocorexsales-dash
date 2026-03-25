@@ -7,7 +7,6 @@ import {
   TrendingUp, AlertTriangle, Users, Zap, Eye, Share2
 } from "lucide-react";
 import type { Lead, SocialIntelData } from "@/types";
-import { getCachedSocialIntel, cacheSocialIntel } from "@/lib/crm-storage";
 
 interface Props { lead: Lead; }
 
@@ -32,8 +31,10 @@ export function SocialIntelPanel({ lead }: Props) {
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
-    const cached = getCachedSocialIntel(lead.id);
-    if (cached) setData(cached);
+    fetch(`/api/social-intel/${lead.id}`)
+      .then(r => r.json())
+      .then(j => { if (j.success && j.data) setData(j.data); })
+      .catch(() => {});
   }, [lead.id]);
 
   async function generate() {
@@ -47,7 +48,6 @@ export function SocialIntelPanel({ lead }: Props) {
       });
       const json = await res.json();
       if (!json.success) throw new Error(json.error);
-      cacheSocialIntel(json.data);
       setData(json.data);
     } catch (e) {
       setError(String(e));

@@ -1,5 +1,6 @@
 import Anthropic from "@anthropic-ai/sdk";
 import { NextRequest } from "next/server";
+import { prisma } from "@/lib/db";
 import type { Lead, BizIntelData } from "@/types";
 
 const client = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
@@ -132,16 +133,26 @@ Generate a comprehensive 20-point business intelligence analysis. Be specific to
     if (firstBrace === -1 || lastBrace === -1) throw new Error("No JSON in response");
     const jsonStr = raw.slice(firstBrace, lastBrace + 1);
 
-    let parsed: Record<string, unknown>;
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    let parsed: any;
     try {
       parsed = JSON.parse(jsonStr);
     } catch {
       parsed = JSON.parse(jsonStr.replace(/[\r\n]+/g, " "));
     }
 
+    const generatedAt = new Date();
+
+    // Save to DB
+    await prisma.bizIntelCache.upsert({
+      where: { leadId: lead.id },
+      update: { data: parsed, generatedAt },
+      create: { leadId: lead.id, data: parsed, generatedAt },
+    });
+
     const result: BizIntelData = {
       leadId: lead.id,
-      generatedAt: new Date().toISOString(),
+      generatedAt: generatedAt.toISOString(),
       ...(parsed as Omit<BizIntelData, "leadId" | "generatedAt">),
     };
 
