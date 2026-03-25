@@ -75,7 +75,7 @@ export function AppSidebar() {
       <div className="px-4 py-4 border-t border-white/10 space-y-1">
         <div className="flex items-center gap-2 text-white/40 text-xs">
           <TrendingUp className="w-3 h-3 shrink-0" />
-          <span>250 leads · India + International</span>
+          <span>350 leads · India + International</span>
         </div>
         <div className="text-white/25 text-xs">Maharashtra · Global</div>
         <div className="text-white/20 text-[10px] pt-1 leading-tight">

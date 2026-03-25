@@ -6,11 +6,11 @@ import type { QuotationRequest, QuotationResponse } from "@/app/api/quotation/ro
 
 const PROJECT_TYPES: QuotationRequest["projectType"][] = [
   "App Development",
-  "Web Development",
   "CRM Basic",
   "CRM + Portal",
   "CRM + App",
   "Full Platform",
+  "SaaS Platform",
 ];
 
 const INDUSTRIES = [

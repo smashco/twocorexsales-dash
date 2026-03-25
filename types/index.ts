@@ -17,7 +17,14 @@ export type Industry =
   | "Legal / Compliance"
   | "Consulting"
   | "Logistics"
-  | "E-Commerce";
+  | "E-Commerce"
+  | "Manufacturing"
+  | "Agriculture"
+  | "Hospitality"
+  | "Automotive"
+  | "Pharmaceutical"
+  | "Construction"
+  | "Travel & Tourism";
 
 export type Qualification = "HOT" | "WARM";
 export type Category = "HIGH VALUE" | "NURTURE";

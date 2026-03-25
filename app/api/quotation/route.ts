@@ -8,7 +8,7 @@ export interface QuotationRequest {
   companyName: string;
   city: string;
   country: "India" | "International";
-  projectType: "App Development" | "Web Development" | "CRM Basic" | "CRM + Portal" | "CRM + App" | "Full Platform";
+  projectType: "App Development" | "CRM Basic" | "CRM + Portal" | "CRM + App" | "Full Platform" | "SaaS Platform";
   features: string;        // free-text: what features they need
   timeline: string;        // e.g. "3 months", "ASAP", "6 weeks"
   teamSize: string;        // e.g. "5–15 employees"
@@ -50,11 +50,11 @@ export async function POST(req: NextRequest) {
       ? `
 PRICING RULES (India — price-conscious market, TwoCoreX is new company with 3 delivered apps):
 - App Development (iOS + Android): ₹1,00,000 minimum. Range ₹1L–₹5L depending on complexity.
-- Web Development: ₹50,000 minimum. Range ₹50K–₹2L depending on complexity.
 - CRM Basic (contact management, pipeline, reports): ₹80,000 one-time build. OR ₹999/month subscription.
 - CRM + Portal/Web App: ₹1,20,000–₹2,50,000 one-time.
 - CRM + Mobile App: ₹1,50,000–₹3,50,000 one-time.
 - Full Platform (mobile + web + CRM + integrations): ₹3,00,000–₹8,00,000.
+- SaaS Platform (multi-tenant, subscription-based, custom business logic): ₹2,00,000–₹6,00,000 one-time build + ₹1,999–₹4,999/month subscription per client.
 - Monthly maintenance/support: 15% of project cost per year.
 - Opening offer: "3 months free subscription" or "20% launch discount as our reference client."
 - Payment terms: 40% advance, 30% at mid-milestone, 30% on delivery.
@@ -63,11 +63,11 @@ PRICING RULES (India — price-conscious market, TwoCoreX is new company with 3 
       : `
 PRICING RULES (International — USD/GBP/AUD etc.):
 - App Development (iOS + Android): $5,000 USD minimum. Range $5K–$25K depending on complexity.
-- Web Development: $2,500 USD minimum. Range $2.5K–$10K.
 - CRM Basic: $3,000 USD one-time. OR $150/month.
 - CRM + Portal: $5,000–$12,000 USD.
 - CRM + Mobile App: $7,000–$18,000 USD.
 - Full Platform: $15,000–$40,000 USD.
+- SaaS Platform (multi-tenant, subscription-based): $8,000–$20,000 USD build + $99–$299/month per client subscription.
 - Monthly support: 15% of project cost annually.
 - Opening offer: "First international reference client discount: 20% off standard rate."
 - Payment terms: 50% advance, 50% on delivery (milestone-based for large projects).

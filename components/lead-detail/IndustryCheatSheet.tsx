@@ -199,6 +199,83 @@ const CHEAT_SHEETS: Record<Industry, CheatSheetData> = {
     typicalObjection: "\"We just opened and need to stabilize first\"",
     insiderTip: "Frame the CRM as a 'first 3 months free' pilot — F&B owners are risk-averse about costs.",
   },
+  Manufacturing: {
+    buyingTriggers: [
+      "Scaling production and need better vendor/client pipeline tracking",
+      "Sales team managing 50+ distributor accounts manually",
+      "Lost repeat orders due to poor follow-up on quotations",
+    ],
+    decisionMaker: "Owner / Sales Director / General Manager",
+    bestChannel: "Phone > LinkedIn > WhatsApp",
+    typicalObjection: "\"We have an ERP system that handles everything\"",
+    insiderTip: "Position as a sales pipeline and distributor follow-up tool — most ERPs don't have a CRM module.",
+  },
+  Agriculture: {
+    buyingTriggers: [
+      "Expanding dealer/distributor network beyond 20 partners",
+      "Seasonal buying cycles causing lead drop-off",
+      "Tracking farmer queries and agri-input sales manually",
+    ],
+    decisionMaker: "Founder / Regional Sales Head / Business Owner",
+    bestChannel: "WhatsApp > Phone > Field Visit",
+    typicalObjection: "\"Our customers don't use apps or digital tools\"",
+    insiderTip: "Lead with WhatsApp-first workflow — agri businesses operate entirely on WhatsApp and calls.",
+  },
+  Hospitality: {
+    buyingTriggers: [
+      "Managing group bookings and corporate inquiries manually",
+      "Guest feedback and repeat-stay follow-up getting missed",
+      "Expanding from one property to multiple locations",
+    ],
+    decisionMaker: "General Manager / Owner / Revenue Manager",
+    bestChannel: "Phone > WhatsApp > Email",
+    typicalObjection: "\"We use our PMS (Property Management System) for everything\"",
+    insiderTip: "Focus on the pre-booking sales pipeline and corporate account management — PMS doesn't cover that.",
+  },
+  Automotive: {
+    buyingTriggers: [
+      "Test drive leads not converting due to poor follow-up",
+      "Service reminder and upsell calls being missed",
+      "Managing 3+ showroom locations or service centers",
+    ],
+    decisionMaker: "Dealer Principal / Sales Manager / Owner",
+    bestChannel: "Phone > WhatsApp > SMS",
+    typicalObjection: "\"We use the OEM's DMS (Dealer Management System)\"",
+    insiderTip: "DMS systems lack customer nurturing. Lead with post-visit follow-up and insurance/service upsell automation.",
+  },
+  Pharmaceutical: {
+    buyingTriggers: [
+      "MR (Medical Rep) visits not being tracked or followed up",
+      "Doctor relationship management getting disorganized",
+      "Expanding into new territory or product line",
+    ],
+    decisionMaker: "Regional Sales Manager / Business Head / Founder",
+    bestChannel: "Phone > LinkedIn > Email",
+    typicalObjection: "\"Our MRs use their own tracking sheets\"",
+    insiderTip: "Show the doctor visit log and sample tracking — pharma reps love anything that reduces reporting time.",
+  },
+  Construction: {
+    buyingTriggers: [
+      "Managing multiple project sites with different client stakeholders",
+      "Quotation follow-ups getting lost across email and WhatsApp",
+      "Vendor and subcontractor coordination becoming chaotic",
+    ],
+    decisionMaker: "Director / Project Head / Business Development Manager",
+    bestChannel: "Phone > WhatsApp > LinkedIn",
+    typicalObjection: "\"Every project is custom, we can't standardize our pipeline\"",
+    insiderTip: "Lead with quotation tracking and client escalation management — construction deals are long-cycle and leak in follow-up.",
+  },
+  "Travel & Tourism": {
+    buyingTriggers: [
+      "Peak season inquiry overload with manual follow-up",
+      "Repeat traveller and referral tracking non-existent",
+      "Scaling from B2C to corporate travel packages",
+    ],
+    decisionMaker: "Owner / Operations Manager / Sales Head",
+    bestChannel: "WhatsApp > Instagram DM > Phone",
+    typicalObjection: "\"Travel is seasonal — we don't need a CRM year-round\"",
+    insiderTip: "Show year-round value: off-season nurture campaigns and repeat-traveller win-back sequences drive 30%+ of revenue.",
+  },
   "E-Commerce": {
     buyingTriggers: [
       "Cart abandonment rate above 60%",
