@@ -239,7 +239,7 @@ export default function LeadsPage() {
                       className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-xs font-medium"
                       style={{ background: sc.bg, color: sc.color }}
                     >
-                      {pricing.serviceCategory === "CRM + App" || pricing.serviceCategory === "SaaS Platform"
+                      {pricing.serviceCategory === "Custom App" || pricing.serviceCategory === "CRM + Portal"
                         ? <Hammer className="w-3 h-3" /> : null}
                       {pricing.serviceCategory}
                     </span>
@@ -304,7 +304,7 @@ export default function LeadsPage() {
                       <td className="px-3 py-2.5">
                         <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-xs font-medium"
                               style={{ background: sc.bg, color: sc.color }}>
-                          {pricing.serviceCategory === "CRM + App" || pricing.serviceCategory === "SaaS Platform"
+                          {pricing.serviceCategory === "Custom App" || pricing.serviceCategory === "CRM + Portal"
                             ? <Hammer className="w-3 h-3" /> : null}
                           {pricing.serviceCategory}
                         </span>

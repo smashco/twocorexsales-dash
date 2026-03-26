@@ -67,26 +67,27 @@ export interface Lead {
 
 // ── Pricing ───────────────────────────────────────────────────────────────────
 export type PricingTier = "Starter" | "Growth" | "Business";
-export type ServiceCategory = "CRM Only" | "CRM + Portal/Web" | "CRM + App" | "SaaS Platform";
+export type ServiceCategory = "Basic CRM" | "Custom App" | "CRM + Portal" | "ERP Standard" | "Enterprise ERP";
 
 export interface ProjectDevCost {
   label: string;
-  minCost: number;
+  minCost: number;   // one-time project build cost (INR)
   maxCost: number;
-  note: string;
   floorCost: number;
+  note: string;
 }
 
 export interface PricingRecommendation {
   tier: PricingTier;
   serviceCategory: ServiceCategory;
-  monthlyPrice: number;
-  annualPrice: number;
-  floorPrice: number;
+  projectPrice: number;          // recommended one-time project cost (INR, min ₹1.3L)
+  monthlyPrice: number;          // 10% of projectPrice / month (support + hosting)
+  annualPrice: number;           // monthlyPrice × 10 (2 months free)
+  floorPrice: number;            // min acceptable project cost
   openingOffer: string;
   annualPitch: string;
   rationale: string;
-  projectDev: ProjectDevCost | null;
+  projectDev: ProjectDevCost;
 }
 
 // ── CRM State ─────────────────────────────────────────────────────────────────
