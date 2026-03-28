@@ -163,7 +163,7 @@ export function SocialIntelPanel({ lead }: Props) {
             ))}
           </div>
           <div className="pt-1">
-            <a href={`https://${lead.website}`} target="_blank" rel="noopener noreferrer"
+            <a href={lead.website} target="_blank" rel="noopener noreferrer"
                className="flex items-center gap-1.5 text-xs text-blue-600 hover:underline">
               <Globe className="w-3.5 h-3.5" /> {lead.website} <ExternalLink className="w-3 h-3" />
             </a>

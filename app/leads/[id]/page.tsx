@@ -87,7 +87,7 @@ export default async function LeadDetailPage({ params }: { params: Promise<{ id:
             </div>
             <div className="flex items-center gap-2 text-xs text-gray-600">
               <Globe className="w-3.5 h-3.5 text-gray-400 shrink-0" />
-              <a href={`https://${lead.website}`} target="_blank" rel="noopener noreferrer"
+              <a href={lead.website} target="_blank" rel="noopener noreferrer"
                  className="text-blue-600 hover:underline truncate">{lead.website}</a>
             </div>
             <div className="flex items-center gap-2 text-xs text-gray-600">
