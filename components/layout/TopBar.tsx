@@ -37,7 +37,7 @@ export function TopBar({ title }: { title: string }) {
 
   return (
     <>
-      <header className="h-14 border-b bg-white flex items-center gap-3 px-3 lg:px-6 sticky top-0 z-30 shadow-sm">
+      <header className="h-14 border-b bg-white flex items-center gap-3 px-3 lg:px-6 sticky top-0 z-30 shadow-sm relative">
         {/* Hamburger — mobile only */}
         <button
           className="lg:hidden flex items-center justify-center w-10 h-10 rounded-lg text-gray-600 hover:bg-gray-100 transition-colors shrink-0"
@@ -61,11 +61,14 @@ export function TopBar({ title }: { title: string }) {
           </div>
         </div>
 
-        {/* Page title */}
-        <h1 className="font-semibold text-gray-800 text-base truncate flex-1 min-w-0">
+        {/* Page title — centered on mobile via absolute, normal flex on desktop */}
+        <h1 className="font-semibold text-gray-800 text-base truncate absolute inset-x-0 text-center pointer-events-none px-28 lg:static lg:flex-1 lg:min-w-0 lg:text-left lg:pointer-events-auto lg:px-0">
           <span className="hidden lg:inline">TwoCoreX Sales — </span>
           {title}
         </h1>
+
+        {/* Spacer — keeps search button right-aligned on mobile when title is absolute */}
+        <div className="flex-1 lg:hidden" aria-hidden="true" />
 
         {/* Search button */}
         <button

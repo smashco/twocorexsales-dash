@@ -2,15 +2,16 @@
 import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
-import { LayoutDashboard, Users, Zap, X, TrendingUp, FileText } from "lucide-react";
+import { LayoutDashboard, Users, Zap, X, TrendingUp, FileText, Globe } from "lucide-react";
 import { useState } from "react";
 import { cn } from "@/lib/utils";
 
 const navItems = [
-  { href: "/dashboard", label: "Dashboard", icon: LayoutDashboard },
-  { href: "/leads",     label: "All Leads",  icon: Users },
-  { href: "/battle-cards", label: "Battle Cards", icon: Zap },
-  { href: "/quotation", label: "Quote Maker", icon: FileText },
+  { href: "/dashboard",     label: "Dashboard",     icon: LayoutDashboard },
+  { href: "/leads",         label: "All Leads",      icon: Users },
+  { href: "/international", label: "International",  icon: Globe },
+  { href: "/battle-cards",  label: "Battle Cards",   icon: Zap },
+  { href: "/quotation",     label: "Quote Maker",    icon: FileText },
 ];
 
 export function AppSidebar() {
@@ -75,9 +76,9 @@ export function AppSidebar() {
       <div className="px-4 py-4 border-t border-white/10 space-y-1">
         <div className="flex items-center gap-2 text-white/40 text-xs">
           <TrendingUp className="w-3 h-3 shrink-0" />
-          <span>350 leads · India + International</span>
+          <span>300 India + 100 International</span>
         </div>
-        <div className="text-white/25 text-xs">Maharashtra · Global</div>
+        <div className="text-white/25 text-xs">India · UAE · UK · USA · More</div>
         <div className="text-white/20 text-[10px] pt-1 leading-tight">
           Powered by TwoCoreX (OPC) Pvt Ltd
         </div>
@@ -116,9 +117,6 @@ export function AppSidebar() {
         <SidebarContent />
       </aside>
 
-      {/* Mobile hamburger trigger — rendered here so TopBar can use a prop instead */}
-      {/* The TopBar controls the hamburger button; we expose a setter via a custom event */}
-      {/* We mount a hidden button with id for TopBar to call */}
       <button
         id="sidebar-open-btn"
         className="sr-only"

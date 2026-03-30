@@ -46,6 +46,7 @@ export interface Lead {
   id: string;
   companyName: string;
   city: string;
+  country?: string;
   industry: Industry;
   website: string;
   employees: string;

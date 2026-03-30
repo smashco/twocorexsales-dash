@@ -16,13 +16,15 @@ export default function DashboardPage() {
       <TopBar title="Dashboard" />
       <div className="flex-1 p-3 md:p-4 lg:p-6 space-y-4 md:space-y-6">
 
-        {/* KPI Row — 2 cols on mobile, 4 on desktop (5th card wraps to next row on md, full row on lg) */}
-        <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-3">
+        {/* KPI Row — 2 cols on mobile (5th card full-width), 5 cols on md+ */}
+        <div className="grid grid-cols-2 md:grid-cols-5 gap-3">
           <StatsCard label="Total Leads" value={stats.totalLeads} sub="Across Maharashtra" icon={Users} color="navy" />
           <StatsCard label="HOT Leads" value={stats.hotCount} sub="Ready to close" icon={Flame} color="red" />
           <StatsCard label="WARM Leads" value={stats.warmCount} sub="Need nurturing" icon={Thermometer} color="amber" />
           <StatsCard label="High Value" value={stats.highValueCount} sub="Priority targets" icon={Star} color="green" />
-          <StatsCard label="Avg Score" value={`${stats.avgScore}/10`} sub="Lead quality" icon={TrendingUp} color="blue" />
+          <div className="col-span-2 md:col-span-1">
+            <StatsCard label="Avg Score" value={`${stats.avgScore}/10`} sub="Lead quality" icon={TrendingUp} color="blue" />
+          </div>
         </div>
 
         {/* Charts Row 1 — full width on mobile, 2-col on desktop */}

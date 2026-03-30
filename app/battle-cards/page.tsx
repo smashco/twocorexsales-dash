@@ -19,6 +19,15 @@ export default function BattleCardsPage() {
     const store = getCRMStore();
     const ranked = rankLeads(LEADS, store.leads).slice(0, 12);
     setCards(ranked);
+
+    // Restore leads contacted today from persistent storage
+    const todayStr = new Date().toDateString();
+    const alreadyContacted = new Set(
+      Object.values(store.leads)
+        .filter(l => l.lastContactedAt && new Date(l.lastContactedAt).toDateString() === todayStr)
+        .map(l => l.leadId)
+    );
+    setContacted(alreadyContacted);
   };
 
   useEffect(() => { load(); }, []);

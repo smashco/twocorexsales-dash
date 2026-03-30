@@ -1,14 +1,15 @@
 "use client";
-import { useState, useMemo } from "react";
+import { useState, useMemo, useEffect } from "react";
 import Link from "next/link";
 import { LEADS } from "@/data/leads";
 import { filterLeads, sortLeads, getIndustries } from "@/lib/leads";
 import { getPricingRecommendation, getServiceCategory, SERVICE_CATEGORY_LABELS } from "@/lib/pricing";
+import { getCRMStore } from "@/lib/crm-storage";
 import { TopBar } from "@/components/layout/TopBar";
 import { Badge } from "@/components/ui/badge";
 import { Input } from "@/components/ui/input";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
-import { Search, ArrowUpDown, Building2, Hammer, SlidersHorizontal, X } from "lucide-react";
+import { Search, ArrowUpDown, Building2, Hammer, SlidersHorizontal, X, CheckCircle } from "lucide-react";
 import type { Qualification, IntentLevel, Category, ServiceCategory } from "@/types";
 
 const industries = getIndustries(LEADS);
@@ -23,6 +24,17 @@ export default function LeadsPage() {
   const [sort, setSort] = useState<"score" | "companyName">("score");
   const [sortDir, setSortDir] = useState<"asc" | "desc">("desc");
   const [filtersOpen, setFiltersOpen] = useState(false);
+  const [contactedIds, setContactedIds] = useState<Set<string>>(new Set());
+
+  useEffect(() => {
+    const store = getCRMStore();
+    const ids = new Set(
+      Object.values(store.leads)
+        .filter(l => l.lastContactedAt)
+        .map(l => l.leadId)
+    );
+    setContactedIds(ids);
+  }, []);
 
   const filtered = useMemo(() => {
     let leads = filterLeads(LEADS, {
@@ -249,11 +261,16 @@ export default function LeadsPage() {
                   </div>
 
                   {/* Bottom row: industry tag + intent */}
-                  <div className="flex items-center gap-2 mt-2">
+                  <div className="flex items-center gap-2 mt-2 flex-wrap">
                     <Badge variant="outline" className="text-xs py-0 px-1.5">{lead.industry}</Badge>
                     <span className={`text-xs font-semibold ${lead.intentLevel === "HIGH" ? "text-red-600" : "text-amber-600"}`}>
                       {lead.intentLevel} intent
                     </span>
+                    {contactedIds.has(lead.id) && (
+                      <span className="inline-flex items-center gap-1 text-xs font-semibold text-green-700 bg-green-50 border border-green-200 rounded-full px-2 py-0.5">
+                        <CheckCircle className="w-3 h-3" /> Contacted
+                      </span>
+                    )}
                     {pricing.projectDev && (
                       <span className="text-xs text-purple-700 font-medium ml-auto">
                         +₹{(pricing.projectDev.minCost / 1000).toFixed(0)}K–{(pricing.projectDev.maxCost / 1000).toFixed(0)}K dev
@@ -279,7 +296,7 @@ export default function LeadsPage() {
             <table className="w-full text-sm">
               <thead>
                 <tr className="border-b" style={{ background: "var(--navy)" }}>
-                  {["ID", "Company", "City", "Industry", "Service Type", "Score", "Qual", "Intent", "Monthly", "Dev Cost", "Action"].map(h => (
+                  {["ID", "Company", "City", "Industry", "Service Type", "Score", "Qual", "Intent", "Monthly", "Dev Cost", "Status", "Action"].map(h => (
                     <th key={h} className="px-3 py-2.5 text-left text-xs font-semibold text-white/80">{h}</th>
                   ))}
                 </tr>
@@ -341,6 +358,15 @@ export default function LeadsPage() {
                             </div>
                             <div className="text-xs text-gray-400">one-time</div>
                           </div>
+                        ) : (
+                          <span className="text-xs text-gray-300">—</span>
+                        )}
+                      </td>
+                      <td className="px-3 py-2.5">
+                        {contactedIds.has(lead.id) ? (
+                          <span className="inline-flex items-center gap-1 text-xs font-semibold text-green-700 bg-green-50 border border-green-200 rounded-full px-2 py-0.5 whitespace-nowrap">
+                            <CheckCircle className="w-3 h-3" /> Contacted
+                          </span>
                         ) : (
                           <span className="text-xs text-gray-300">—</span>
                         )}
