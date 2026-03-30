@@ -20,6 +20,8 @@ import { ProposalIntelPanel } from "@/components/lead-detail/ProposalIntelPanel"
 import { PDFExportButton } from "@/components/lead-detail/PDFExportButton";
 import { IntentSignalsPanel } from "@/components/lead-detail/IntentSignalsPanel";
 import { OurServicesPanel } from "@/components/lead-detail/OurServicesPanel";
+import { ContactPanel } from "@/components/lead-detail/ContactPanel";
+import { FirstOutreachPanel } from "@/components/lead-detail/FirstOutreachPanel";
 import { ChevronLeft, Globe, Users, AlertCircle, Zap } from "lucide-react";
 
 export function generateStaticParams() {
@@ -119,7 +121,7 @@ export default async function LeadDetailPage({ params }: { params: Promise<{ id:
                 ["script",    "Sales Script"],
                 ["crm",       "CRM Tracker"],
                 ["ai",        "AI Insights"],
-                ["outreach",  "Outreach"],
+                ["msg",       "Outreach"],
                 ["industry",  "Industry"],
                 ["social",    "Social Intel"],
                 ["bizintel",  "Biz Intel"],
@@ -128,6 +130,8 @@ export default async function LeadDetailPage({ params }: { params: Promise<{ id:
                 ["proposal",    "📋 Our Proposal"],
                 ["intent",      "🎯 Intent Signals"],
                 ["services",    "💼 Our Services"],
+                ["contact",     "📞 Contact"],
+                ["outreach",    "🚀 First Outreach"],
               ].map(([val, label]) => (
                 <TabsTrigger key={val} value={val}
                   className="text-xs px-3 py-2 rounded-lg whitespace-nowrap min-h-[36px] data-[state=active]:shadow-sm data-[state=active]:font-semibold">
@@ -194,7 +198,7 @@ export default async function LeadDetailPage({ params }: { params: Promise<{ id:
           </TabsContent>
 
           {/* Outreach */}
-          <TabsContent value="outreach">
+          <TabsContent value="msg">
             <div className="bg-white rounded-xl shadow-sm p-4 overflow-hidden">
               <OutreachCustomizer leadId={lead.id} originalMessage={lead.outreachMessage} />
             </div>
@@ -252,6 +256,20 @@ export default async function LeadDetailPage({ params }: { params: Promise<{ id:
           <TabsContent value="services">
             <div className="bg-white rounded-xl shadow-sm p-4 overflow-hidden">
               <OurServicesPanel lead={lead} pricing={pricing} />
+            </div>
+          </TabsContent>
+
+          {/* Contact */}
+          <TabsContent value="contact">
+            <div className="bg-white rounded-xl shadow-sm p-4 overflow-hidden">
+              <ContactPanel lead={lead} />
+            </div>
+          </TabsContent>
+
+          {/* First Outreach */}
+          <TabsContent value="outreach">
+            <div className="bg-white rounded-xl shadow-sm p-4 overflow-hidden">
+              <FirstOutreachPanel lead={lead} pricing={pricing} />
             </div>
           </TabsContent>
         </Tabs>

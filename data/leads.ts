@@ -20,7 +20,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "Growing export orders need digital ops",
     action: "Call within 24 hours — reference the buying trigger directly",
-    outreachMessage: "Hi, I came across Jyoti Plastic Works and noticed you're scaling operations in manufacturing. Many companies at your stage face issues with manual production tracking losing oem orders. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across Jyoti Plastic Works and noticed you're scaling operations in manufacturing. Many companies at your stage face issues with manual production tracking losing oem orders. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "Operations Director",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -42,7 +42,7 @@ export const leads: Lead[] = [
     intentLevel: "MEDIUM" as "HIGH" | "MEDIUM",
     buyingTrigger: "New FMCG client demanding digital operations",
     action: "Connect on LinkedIn first, then follow up with a call within 72 hours",
-    outreachMessage: "Hi, I came across Papa Packaging and noticed you're scaling operations in manufacturing. Many companies at your stage face issues with repeat order follow-ups done manually. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across Papa Packaging and noticed you're scaling operations in manufacturing. Many companies at your stage face issues with repeat order follow-ups done manually. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "Proprietor",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -64,7 +64,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "ISO audit flagged multiple process gaps",
     action: "Call within 24 hours — reference the buying trigger directly",
-    outreachMessage: "Hi, I came across Chemco Group and noticed you're scaling operations in manufacturing. Many companies at your stage face issues with batch tracking maintained in paper registers. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across Chemco Group and noticed you're scaling operations in manufacturing. Many companies at your stage face issues with batch tracking maintained in paper registers. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "MD",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -86,7 +86,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "Lost a ₹12L bid due to no digital presence",
     action: "Call within 24 hours — reference the buying trigger directly",
-    outreachMessage: "Hi, I came across Miranda Automation and noticed you're scaling operations in manufacturing. Many companies at your stage face issues with project timelines tracked in excel sheets. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across Miranda Automation and noticed you're scaling operations in manufacturing. Many companies at your stage face issues with project timelines tracked in excel sheets. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "Founder",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -108,7 +108,7 @@ export const leads: Lead[] = [
     intentLevel: "MEDIUM" as "HIGH" | "MEDIUM",
     buyingTrigger: "New D2C brand client asked for tracking portal",
     action: "Connect on LinkedIn first, then follow up with a call within 72 hours",
-    outreachMessage: "Hi, I came across Shruti Flexipack and noticed you're scaling operations in manufacturing. Many companies at your stage face issues with customer orders tracked in notebook. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across Shruti Flexipack and noticed you're scaling operations in manufacturing. Many companies at your stage face issues with customer orders tracked in notebook. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "Owner",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -130,7 +130,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "Missed AMC renewal cost them a ₹6L client",
     action: "Call within 24 hours — reference the buying trigger directly",
-    outreachMessage: "Hi, I came across Sensograph Technologies and noticed you're scaling operations in manufacturing. Many companies at your stage face issues with amc renewals tracked manually causing lapses. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across Sensograph Technologies and noticed you're scaling operations in manufacturing. Many companies at your stage face issues with amc renewals tracked manually causing lapses. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "Director",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -152,7 +152,7 @@ export const leads: Lead[] = [
     intentLevel: "MEDIUM" as "HIGH" | "MEDIUM",
     buyingTrigger: "New hire needs proper system handoff",
     action: "Connect on LinkedIn first, then follow up with a call within 72 hours",
-    outreachMessage: "Hi, I came across VS Machines and noticed you're scaling operations in manufacturing. Many companies at your stage face issues with no spare parts inventory management system. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across VS Machines and noticed you're scaling operations in manufacturing. Many companies at your stage face issues with no spare parts inventory management system. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "MD",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -174,7 +174,7 @@ export const leads: Lead[] = [
     intentLevel: "MEDIUM" as "HIGH" | "MEDIUM",
     buyingTrigger: "Onboarded larger B2B customer demanding status updates",
     action: "Connect on LinkedIn first, then follow up with a call within 72 hours",
-    outreachMessage: "Hi, I came across RP Plastic Industries and noticed you're scaling operations in manufacturing. Many companies at your stage face issues with order tracking via whatsapp groups only. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across RP Plastic Industries and noticed you're scaling operations in manufacturing. Many companies at your stage face issues with order tracking via whatsapp groups only. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "Proprietor",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -196,7 +196,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "Bidding for ₹20L corporate contracts needing credibility",
     action: "Call within 24 hours — reference the buying trigger directly",
-    outreachMessage: "Hi, I came across Efficient Innovations and noticed you're scaling operations in manufacturing. Many companies at your stage face issues with project delivery tracking entirely manual. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across Efficient Innovations and noticed you're scaling operations in manufacturing. Many companies at your stage face issues with project delivery tracking entirely manual. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "Founder",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -218,7 +218,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "OEM customer requiring digital quality proof documentation",
     action: "Call within 24 hours — reference the buying trigger directly",
-    outreachMessage: "Hi, I came across Patel Precision and noticed you're scaling operations in manufacturing. Many companies at your stage face issues with tolerance and inspection records in paper logs. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across Patel Precision and noticed you're scaling operations in manufacturing. Many companies at your stage face issues with tolerance and inspection records in paper logs. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "Owner",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -240,7 +240,7 @@ export const leads: Lead[] = [
     intentLevel: "MEDIUM" as "HIGH" | "MEDIUM",
     buyingTrigger: "Lost ₹8L order because no follow-up system",
     action: "Connect on LinkedIn first, then follow up with a call within 72 hours",
-    outreachMessage: "Hi, I came across Polyrub Plastics and noticed you're scaling operations in manufacturing. Many companies at your stage face issues with customer complaints tracked only in email. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across Polyrub Plastics and noticed you're scaling operations in manufacturing. Many companies at your stage face issues with customer complaints tracked only in email. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "GM Sales",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -262,7 +262,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "Key chemical plant account asked for order tracking portal",
     action: "Call within 24 hours — reference the buying trigger directly",
-    outreachMessage: "Hi, I came across Chem Seals and noticed you're scaling operations in manufacturing. Many companies at your stage face issues with order quotes sent via whatsapp only. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across Chem Seals and noticed you're scaling operations in manufacturing. Many companies at your stage face issues with order quotes sent via whatsapp only. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "Director",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -284,7 +284,7 @@ export const leads: Lead[] = [
     intentLevel: "MEDIUM" as "HIGH" | "MEDIUM",
     buyingTrigger: "Food and pharma clients now mandating supplier quality records",
     action: "Call and ask about their after-sales service tracking process",
-    outreachMessage: "Hi, I came across ASelvax Automation and noticed you're a leading packaging machine manufacturer in Navi Mumbai. Many manufacturers at your stage lose repeat service contracts because follow-ups happen over WhatsApp with no record trail. We've built a CRM and service management platform specifically for Indian SMBs — our first clients in Navi Mumbai get 3 months completely free. Would 15 minutes this week work?",
+    outreachMessage: "Hi, I came across ASelvax Automation and noticed you're a leading packaging machine manufacturer in Navi Mumbai. Many manufacturers at your stage lose repeat service contracts because follow-ups happen over WhatsApp with no record trail. We've built a CRM and service management platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work?",
     contact: "Founder / Service Director",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -306,7 +306,7 @@ export const leads: Lead[] = [
     intentLevel: "MEDIUM" as "HIGH" | "MEDIUM",
     buyingTrigger: "Expanding to B2B corporate furniture segment",
     action: "Connect on LinkedIn first, then follow up with a call within 72 hours",
-    outreachMessage: "Hi, I came across Goldline Furniture and noticed you're scaling operations in manufacturing. Many companies at your stage face issues with order customization tracked in spreadsheets. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across Goldline Furniture and noticed you're scaling operations in manufacturing. Many companies at your stage face issues with order customization tracked in spreadsheets. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "Proprietor",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -328,7 +328,7 @@ export const leads: Lead[] = [
     intentLevel: "MEDIUM" as "HIGH" | "MEDIUM",
     buyingTrigger: "Distributor network growing, manual process not scalable",
     action: "Connect on LinkedIn first, then follow up with a call within 72 hours",
-    outreachMessage: "Hi, I came across Sudarshan Paints and noticed you're scaling operations in manufacturing. Many companies at your stage face issues with dealer orders via phone and whatsapp only. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across Sudarshan Paints and noticed you're scaling operations in manufacturing. Many companies at your stage face issues with dealer orders via phone and whatsapp only. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "Sales Head",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -350,7 +350,7 @@ export const leads: Lead[] = [
     intentLevel: "MEDIUM" as "HIGH" | "MEDIUM",
     buyingTrigger: "B2B clients from Chakan MIDC requiring GST-linked order portals",
     action: "Call and reference their Chakan manufacturing setup and growing client list",
-    outreachMessage: "Hi, I came across Sai Packaging Industries and noticed you're a well-established corrugated box manufacturer in Pune. Many packaging companies your size lose B2B reorder business simply because follow-ups fall through the cracks. We've built a lightweight CRM specifically for Indian SMB manufacturers — your first 3 months are completely free. Would 15 minutes this week work to show you a demo?",
+    outreachMessage: "Hi, I came across Sai Packaging Industries and noticed you're a well-established corrugated box manufacturer in Pune. Many packaging companies your size lose B2B reorder business simply because follow-ups fall through the cracks. We've built a lightweight CRM specifically for Indian SMB manufacturers — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a demo?",
     contact: "Owner / Director",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -372,7 +372,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "ISO certification audit flagged manual service tracking as a compliance gap",
     action: "Call within 48 hours — reference ISO audit and service tracking pain point",
-    outreachMessage: "Hi, I came across Nichrome Packaging Solutions and noticed you're a leading packaging machine manufacturer in Pune. Companies scaling like you often hit a wall when ISO audits flag manual service records as a compliance risk. We've built an ERP and CRM platform for Indian SMB manufacturers — our first clients in Pune get 3 months completely free. Would 15 minutes this week work to show you how it solves this?",
+    outreachMessage: "Hi, I came across Nichrome Packaging Solutions and noticed you're a leading packaging machine manufacturer in Pune. Companies scaling like you often hit a wall when ISO audits flag manual service records as a compliance risk. We've built an ERP and CRM platform for Indian SMB manufacturers — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you how it solves this?",
     contact: "Service Manager / Operations Director",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -394,7 +394,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "Corporate clients want digital pickup scheduling system",
     action: "Call within 24 hours — reference the buying trigger directly",
-    outreachMessage: "Hi, I came across Greenway E-Waste and noticed you're scaling operations in manufacturing. Many companies at your stage face issues with e-waste pickup requests only via phone calls. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across Greenway E-Waste and noticed you're scaling operations in manufacturing. Many companies at your stage face issues with e-waste pickup requests only via phone calls. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "Founder",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -416,7 +416,7 @@ export const leads: Lead[] = [
     intentLevel: "MEDIUM" as "HIGH" | "MEDIUM",
     buyingTrigger: "Auto OEM customer demanding digital work orders",
     action: "Connect on LinkedIn first, then follow up with a call within 72 hours",
-    outreachMessage: "Hi, I came across Modern Rubber & Plastic and noticed you're scaling operations in manufacturing. Many companies at your stage face issues with mould inventory tracked entirely manually. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across Modern Rubber & Plastic and noticed you're scaling operations in manufacturing. Many companies at your stage face issues with mould inventory tracked entirely manually. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "Owner",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -438,7 +438,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "Tier-1 auto customer requires digital quality system",
     action: "Call within 24 hours — reference the buying trigger directly",
-    outreachMessage: "Hi, I came across Pune Polymers and noticed you're scaling operations in manufacturing. Many companies at your stage face issues with raw material procurement done manually. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across Pune Polymers and noticed you're scaling operations in manufacturing. Many companies at your stage face issues with raw material procurement done manually. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "MD",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -460,7 +460,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "Expanding to 3rd plant requires centralized ERP now",
     action: "Call within 24 hours — reference the buying trigger directly",
-    outreachMessage: "Hi, I came across Shriram Rubber Products and noticed you're scaling operations in manufacturing. Many companies at your stage face issues with two plants with no shared data system. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across Shriram Rubber Products and noticed you're scaling operations in manufacturing. Many companies at your stage face issues with two plants with no shared data system. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "Director Operations",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -482,7 +482,7 @@ export const leads: Lead[] = [
     intentLevel: "MEDIUM" as "HIGH" | "MEDIUM",
     buyingTrigger: "New export order requires digital traceability proof",
     action: "Connect on LinkedIn first, then follow up with a call within 72 hours",
-    outreachMessage: "Hi, I came across Precision Engineering Works and noticed you're scaling operations in manufacturing. Many companies at your stage face issues with job orders maintained in paper log books. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across Precision Engineering Works and noticed you're scaling operations in manufacturing. Many companies at your stage face issues with job orders maintained in paper log books. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "Proprietor",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -504,7 +504,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "Parent company audit requiring ERP compliance",
     action: "Call within 24 hours — reference the buying trigger directly",
-    outreachMessage: "Hi, I came across Fibro India and noticed you're scaling operations in manufacturing. Many companies at your stage face issues with spare parts orders from dealers done manually. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across Fibro India and noticed you're scaling operations in manufacturing. Many companies at your stage face issues with spare parts orders from dealers done manually. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "GM Operations",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -526,7 +526,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "MSME transformation initiative with SIDBI grant available",
     action: "Call within 24 hours — reference the buying trigger directly",
-    outreachMessage: "Hi, I came across Wadhokar Group and noticed you're scaling operations in manufacturing. Many companies at your stage face issues with multi-customer scheduling conflicts frequent. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across Wadhokar Group and noticed you're scaling operations in manufacturing. Many companies at your stage face issues with multi-customer scheduling conflicts frequent. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "VP Operations",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -548,7 +548,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "New defense sector client requires digital traceability",
     action: "Call within 24 hours — reference the buying trigger directly",
-    outreachMessage: "Hi, I came across Innovatios Technology and noticed you're scaling operations in manufacturing. Many companies at your stage face issues with pcb order tracking in excel sheets. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across Innovatios Technology and noticed you're scaling operations in manufacturing. Many companies at your stage face issues with pcb order tracking in excel sheets. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "Founder",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -570,7 +570,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "Global expansion into recycling and specialty materials markets requires structured sales ops",
     action: "Call within 48 hours — reference their global dealer expansion and manufacturing tech positioning",
-    outreachMessage: "Hi, I came across STEER World — a remarkable Bangalore-based engineering company leading in twin-screw extrusion and advanced manufacturing. Companies scaling globally without a CRM lose deals at the dealer and distributor level every quarter. We've built a CRM for engineering manufacturers — first companies in Bangalore get 3 months completely free. Would 15 minutes this week work?",
+    outreachMessage: "Hi, I came across STEER World — a remarkable Bangalore-based engineering company leading in twin-screw extrusion and advanced manufacturing. Companies scaling globally without a CRM lose deals at the dealer and distributor level every quarter. We've built a CRM for engineering manufacturers — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work?",
     contact: "VP Sales / Business Development Head",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -592,7 +592,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "OEM demanding AS9100 digital compliance documentation",
     action: "Call within 24 hours — reference the buying trigger directly",
-    outreachMessage: "Hi, I came across BVPL Turbine Parts and noticed you're scaling operations in manufacturing. Many companies at your stage face issues with aerospace parts certification tracking entirely manual. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across BVPL Turbine Parts and noticed you're scaling operations in manufacturing. Many companies at your stage face issues with aerospace parts certification tracking entirely manual. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "Director",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -614,7 +614,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "NABL accreditation requires digital calibration records",
     action: "Call within 24 hours — reference the buying trigger directly",
-    outreachMessage: "Hi, I came across Sushma Industries and noticed you're scaling operations in manufacturing. Many companies at your stage face issues with calibration records still in paper format. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across Sushma Industries and noticed you're scaling operations in manufacturing. Many companies at your stage face issues with calibration records still in paper format. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "MD",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -636,7 +636,7 @@ export const leads: Lead[] = [
     intentLevel: "MEDIUM" as "HIGH" | "MEDIUM",
     buyingTrigger: "Growing distributor network across Maharashtra needs systematic management",
     action: "Call and ask how they currently track distributor reorders",
-    outreachMessage: "Hi, I came across OGP and noticed you're a top packaging film supplier in Pune. Many distribution-focused manufacturers lose repeat business because reorder tracking is all on WhatsApp with no system. We've built a simple CRM specifically for Indian SMB manufacturers — your first 3 months are completely free. Would 15 minutes work this week?",
+    outreachMessage: "Hi, I came across OGP and noticed you're a top packaging film supplier in Pune. Many distribution-focused manufacturers lose repeat business because reorder tracking is all on WhatsApp with no system. We've built a simple CRM specifically for Indian SMB manufacturers — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes work this week?",
     contact: "Sales Manager / Director",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -658,7 +658,7 @@ export const leads: Lead[] = [
     intentLevel: "MEDIUM" as "HIGH" | "MEDIUM",
     buyingTrigger: "Missed 3 follow-ups and lost ₹8L machinery order",
     action: "Connect on LinkedIn first, then follow up with a call within 72 hours",
-    outreachMessage: "Hi, I came across Hytek Marketing and noticed you're scaling operations in manufacturing. Many companies at your stage face issues with machine quotations sent via email only. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across Hytek Marketing and noticed you're scaling operations in manufacturing. Many companies at your stage face issues with machine quotations sent via email only. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "Director Sales",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -680,7 +680,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "D2C food brand client requiring GMP compliance proof",
     action: "Call within 24 hours — reference the buying trigger directly",
-    outreachMessage: "Hi, I came across Suite42 Manufacturing and noticed you're scaling operations in manufacturing. Many companies at your stage face issues with contract manufacturing orders via whatsapp. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across Suite42 Manufacturing and noticed you're scaling operations in manufacturing. Many companies at your stage face issues with contract manufacturing orders via whatsapp. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "Founder",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -702,7 +702,7 @@ export const leads: Lead[] = [
     intentLevel: "MEDIUM" as "HIGH" | "MEDIUM",
     buyingTrigger: "Chemical plant client wants digital MRO management system",
     action: "Connect on LinkedIn first, then follow up with a call within 72 hours",
-    outreachMessage: "Hi, I came across Padmatech Industries and noticed you're scaling operations in manufacturing. Many companies at your stage face issues with process equipment orders tracked in excel. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across Padmatech Industries and noticed you're scaling operations in manufacturing. Many companies at your stage face issues with process equipment orders tracked in excel. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "MD",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -724,7 +724,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "Scaling from ₹5Cr to ₹15Cr needs structured operations",
     action: "Call within 24 hours — reference the buying trigger directly",
-    outreachMessage: "Hi, I came across Pulraj Electronics and noticed you're scaling operations in manufacturing. Many companies at your stage face issues with bom sheets spread across multiple excel files. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across Pulraj Electronics and noticed you're scaling operations in manufacturing. Many companies at your stage face issues with bom sheets spread across multiple excel files. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "Director",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -746,7 +746,7 @@ export const leads: Lead[] = [
     intentLevel: "MEDIUM" as "HIGH" | "MEDIUM",
     buyingTrigger: "ISO 9001 certification requiring digital QMS",
     action: "Connect on LinkedIn first, then follow up with a call within 72 hours",
-    outreachMessage: "Hi, I came across Aerostar Manufacturing and noticed you're scaling operations in manufacturing. Many companies at your stage face issues with multi-industry component tracking entirely manual. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across Aerostar Manufacturing and noticed you're scaling operations in manufacturing. Many companies at your stage face issues with multi-industry component tracking entirely manual. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "Operations Head",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -768,7 +768,7 @@ export const leads: Lead[] = [
     intentLevel: "MEDIUM" as "HIGH" | "MEDIUM",
     buyingTrigger: "Pharma client requiring digital batch traceability chain",
     action: "Connect on LinkedIn first, then follow up with a call within 72 hours",
-    outreachMessage: "Hi, I came across Seema Finechem Industries and noticed you're scaling operations in manufacturing. Many companies at your stage face issues with chemical batch orders received via email. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across Seema Finechem Industries and noticed you're scaling operations in manufacturing. Many companies at your stage face issues with chemical batch orders received via email. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "Proprietor",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -790,7 +790,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "E-commerce client requiring real-time stock visibility",
     action: "Call within 24 hours — reference the buying trigger directly",
-    outreachMessage: "Hi, I came across Akash Storage & Distribution and noticed you're scaling operations in logistics. Many companies at your stage face issues with wms is outdated manual system causing errors. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across Akash Storage & Distribution and noticed you're scaling operations in logistics. Many companies at your stage face issues with wms is outdated manual system causing errors. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "Director",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -812,7 +812,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "Lost MNC client due to no digital tracking system",
     action: "Call within 24 hours — reference the buying trigger directly",
-    outreachMessage: "Hi, I came across Ash Logistics and noticed you're scaling operations in logistics. Many companies at your stage face issues with freight tracking via phone calls only. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across Ash Logistics and noticed you're scaling operations in logistics. Many companies at your stage face issues with freight tracking via phone calls only. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "MD",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -834,7 +834,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "New investor requiring operational dashboards immediately",
     action: "Call within 24 hours — reference the buying trigger directly",
-    outreachMessage: "Hi, I came across Warehousing Wallah and noticed you're scaling operations in logistics. Many companies at your stage face issues with 3pl client reporting done manually in excel. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across Warehousing Wallah and noticed you're scaling operations in logistics. Many companies at your stage face issues with 3pl client reporting done manually in excel. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "Founder",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -856,7 +856,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "Expansion into Bhiwandi and new warehousing contracts driving need for unified ops platform",
     action: "Call within 48 hours — reference their Bhiwandi warehousing expansion and multi-modal scale",
-    outreachMessage: "Hi, I came across Allcargo Logistics — one of India's leading integrated logistics companies. At your scale of multi-modal freight across Mumbai and Bhiwandi, manual coordination is a constant bottleneck. We've built an operations and CRM platform for logistics companies — first clients in Mumbai get 3 months completely free. Would 15 minutes this week work?",
+    outreachMessage: "Hi, I came across Allcargo Logistics — one of India's leading integrated logistics companies. At your scale of multi-modal freight across Mumbai and Bhiwandi, manual coordination is a constant bottleneck. We've built an operations and CRM platform for logistics companies — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work?",
     contact: "VP Operations / Business Development Head",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -878,7 +878,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "Fast-growing D2C client needs digital ops system",
     action: "Call within 24 hours — reference the buying trigger directly",
-    outreachMessage: "Hi, I came across Warehousing Express and noticed you're scaling operations in logistics. Many companies at your stage face issues with daily mis in excel sent via whatsapp to clients. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across Warehousing Express and noticed you're scaling operations in logistics. Many companies at your stage face issues with daily mis in excel sent via whatsapp to clients. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "Operations Manager",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -900,7 +900,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "Expanding to Bangalore needs unified platform now",
     action: "Call within 24 hours — reference the buying trigger directly",
-    outreachMessage: "Hi, I came across CWLS Logistics and noticed you're scaling operations in logistics. Many companies at your stage face issues with multi-city warehouses with no shared data system. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across CWLS Logistics and noticed you're scaling operations in logistics. Many companies at your stage face issues with multi-city warehouses with no shared data system. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "Director Operations",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -922,7 +922,7 @@ export const leads: Lead[] = [
     intentLevel: "MEDIUM" as "HIGH" | "MEDIUM",
     buyingTrigger: "Scaling from local to national transport operations",
     action: "Connect on LinkedIn first, then follow up with a call within 72 hours",
-    outreachMessage: "Hi, I came across Bhairav Logistics and noticed you're scaling operations in logistics. Many companies at your stage face issues with freight quotes given via phone only. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across Bhairav Logistics and noticed you're scaling operations in logistics. Many companies at your stage face issues with freight quotes given via phone only. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "Proprietor",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -944,7 +944,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "Major EXIM client asking for API integration capability",
     action: "Call within 24 hours — reference the buying trigger directly",
-    outreachMessage: "Hi, I came across 20Cube Logistics and noticed you're scaling operations in logistics. Many companies at your stage face issues with freight forwarding docs in multiple fragmented tools. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across 20Cube Logistics and noticed you're scaling operations in logistics. Many companies at your stage face issues with freight forwarding docs in multiple fragmented tools. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "VP Technology",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -966,7 +966,7 @@ export const leads: Lead[] = [
     intentLevel: "MEDIUM" as "HIGH" | "MEDIUM",
     buyingTrigger: "Compliance audit flagging all manual processes",
     action: "Connect on LinkedIn first, then follow up with a call within 72 hours",
-    outreachMessage: "Hi, I came across Veritas Logistics and noticed you're scaling operations in logistics. Many companies at your stage face issues with consignment tracking entirely manual. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across Veritas Logistics and noticed you're scaling operations in logistics. Many companies at your stage face issues with consignment tracking entirely manual. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "Director",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -988,7 +988,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "New pharma client requires cold chain digital tracking",
     action: "Call within 24 hours — reference the buying trigger directly",
-    outreachMessage: "Hi, I came across AAJ Supply Chain and noticed you're scaling operations in logistics. Many companies at your stage face issues with supply chain visibility gaps across multiple nodes. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across AAJ Supply Chain and noticed you're scaling operations in logistics. Many companies at your stage face issues with supply chain visibility gaps across multiple nodes. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "COO",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -1010,7 +1010,7 @@ export const leads: Lead[] = [
     intentLevel: "MEDIUM" as "HIGH" | "MEDIUM",
     buyingTrigger: "Growing intra-city logistics demand in Mumbai requires automated dispatch and tracking",
     action: "Call and ask how they currently handle last-mile dispatch coordination in Mumbai",
-    outreachMessage: "Hi, I came across Porter — one of India's most-used intra-city logistics platforms. As you scale dispatch operations across Mumbai, the gap between driver availability and booking demand is usually a coordination and CRM problem. We've built logistics CRM tools — first clients in Mumbai get 3 months completely free. Would 15 minutes this week work?",
+    outreachMessage: "Hi, I came across Porter — one of India's most-used intra-city logistics platforms. As you scale dispatch operations across Mumbai, the gap between driver availability and booking demand is usually a coordination and CRM problem. We've built logistics CRM tools — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work?",
     contact: "Operations Head / City Manager Mumbai",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -1032,7 +1032,7 @@ export const leads: Lead[] = [
     intentLevel: "MEDIUM" as "HIGH" | "MEDIUM",
     buyingTrigger: "MSME client requested professional logistics software",
     action: "Connect on LinkedIn first, then follow up with a call within 72 hours",
-    outreachMessage: "Hi, I came across Vivek Logistics and noticed you're scaling operations in logistics. Many companies at your stage face issues with customer rate enquiries via call and whatsapp. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across Vivek Logistics and noticed you're scaling operations in logistics. Many companies at your stage face issues with customer rate enquiries via call and whatsapp. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "Owner",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -1054,7 +1054,7 @@ export const leads: Lead[] = [
     intentLevel: "MEDIUM" as "HIGH" | "MEDIUM",
     buyingTrigger: "Growing EXIM volume needs process automation urgently",
     action: "Connect on LinkedIn first, then follow up with a call within 72 hours",
-    outreachMessage: "Hi, I came across APT Logistics and noticed you're scaling operations in logistics. Many companies at your stage face issues with freight rate management in excel only. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across APT Logistics and noticed you're scaling operations in logistics. Many companies at your stage face issues with freight rate management in excel only. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "Director",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -1076,7 +1076,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "New retail chain client requires WMS and cold chain tracking",
     action: "Call within 24 hours — reference the buying trigger directly",
-    outreachMessage: "Hi, I came across Robinsons Global Logistics and noticed you're scaling operations in logistics. Many companies at your stage face issues with 3pl operations across cities uncoordinated. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across Robinsons Global Logistics and noticed you're scaling operations in logistics. Many companies at your stage face issues with 3pl operations across cities uncoordinated. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "CEO",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -1098,7 +1098,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "Raised Series A, scaling fulfillment centers nationally",
     action: "Call within 24 hours — reference the buying trigger directly",
-    outreachMessage: "Hi, I came across WareIQ Fulfillment and noticed you're scaling operations in logistics. Many companies at your stage face issues with fulfillment center operations need ml optimization. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across WareIQ Fulfillment and noticed you're scaling operations in logistics. Many companies at your stage face issues with fulfillment center operations need ml optimization. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "VP Engineering",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -1120,7 +1120,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "New institutional client demanding real-time dashboards",
     action: "Call within 24 hours — reference the buying trigger directly",
-    outreachMessage: "Hi, I came across Varuna Group Logistics and noticed you're scaling operations in logistics. Many companies at your stage face issues with multi-branch warehouse data in complete silos. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across Varuna Group Logistics and noticed you're scaling operations in logistics. Many companies at your stage face issues with multi-branch warehouse data in complete silos. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "GM Operations",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -1142,7 +1142,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "E-commerce clients demanding SLA dashboards urgently",
     action: "Call within 24 hours — reference the buying trigger directly",
-    outreachMessage: "Hi, I came across ZenXL Logistics and noticed you're scaling operations in logistics. Many companies at your stage face issues with last mile routing completely manual. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across ZenXL Logistics and noticed you're scaling operations in logistics. Many companies at your stage face issues with last mile routing completely manual. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "Founder",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -1164,7 +1164,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "E-commerce clients mandating real-time inventory and delivery visibility",
     action: "Call within 24 hours — reference e-commerce client visibility demands directly",
-    outreachMessage: "Hi, I came across VTC 3PL Services and noticed you're one of Pune's leading 3PL providers managing large-scale warehousing. FMCG and e-commerce clients are now demanding real-time visibility — and many 3PLs at your scale are losing contracts over manual tracking. We've built an ERP and WMS platform for Indian logistics SMBs — first clients in Pune get 3 months free. Would 15 minutes this week work?",
+    outreachMessage: "Hi, I came across VTC 3PL Services and noticed you're one of Pune's leading 3PL providers managing large-scale warehousing. FMCG and e-commerce clients are now demanding real-time visibility — and many 3PLs at your scale are losing contracts over manual tracking. We've built an ERP and WMS platform for Indian logistics SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work?",
     contact: "Operations Director",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -1186,7 +1186,7 @@ export const leads: Lead[] = [
     intentLevel: "MEDIUM" as "HIGH" | "MEDIUM",
     buyingTrigger: "New FMCG contract requiring real-time shipment tracking",
     action: "Connect on LinkedIn first, then follow up with a call within 72 hours",
-    outreachMessage: "Hi, I came across Navata SCS and noticed you're scaling operations in logistics. Many companies at your stage face issues with surface logistics tracking limited. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across Navata SCS and noticed you're scaling operations in logistics. Many companies at your stage face issues with surface logistics tracking limited. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "Operations Head",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -1208,7 +1208,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "Quick commerce client wants API-level integration",
     action: "Call within 24 hours — reference the buying trigger directly",
-    outreachMessage: "Hi, I came across EZ Logistics and noticed you're scaling operations in logistics. Many companies at your stage face issues with last mile booking via phone calls only. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across EZ Logistics and noticed you're scaling operations in logistics. Many companies at your stage face issues with last mile booking via phone calls only. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "Founder",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -1230,7 +1230,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "Raised funding, scaling sort centers nationally",
     action: "Call within 24 hours — reference the buying trigger directly",
-    outreachMessage: "Hi, I came across Unbox Robotics and noticed you're scaling operations in logistics. Many companies at your stage face issues with parcel sorting data not centrally tracked. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across Unbox Robotics and noticed you're scaling operations in logistics. Many companies at your stage face issues with parcel sorting data not centrally tracked. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "CTO",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -1252,7 +1252,7 @@ export const leads: Lead[] = [
     intentLevel: "MEDIUM" as "HIGH" | "MEDIUM",
     buyingTrigger: "3PL client demanding digital proof of delivery",
     action: "Connect on LinkedIn first, then follow up with a call within 72 hours",
-    outreachMessage: "Hi, I came across AAJ Swift Logistics and noticed you're scaling operations in logistics. Many companies at your stage face issues with shipment visibility gaps on long-haul routes. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across AAJ Swift Logistics and noticed you're scaling operations in logistics. Many companies at your stage face issues with shipment visibility gaps on long-haul routes. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "Operations Director",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -1274,7 +1274,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "Top-5 air freight ranking drives client expectations for digital service",
     action: "Call within 48 hours — ask about their client communication and tracking workflow",
-    outreachMessage: "Hi, I came across Odyssey Logistics and noticed you're ranked among the top freight forwarders in Mumbai. At your scale, clients increasingly expect a digital portal for real-time shipment tracking — and it's becoming a differentiator in winning tenders. We've built a CRM and client portal specifically for Indian freight and logistics firms — first 3 months are completely free. Would 15 minutes this week work?",
+    outreachMessage: "Hi, I came across Odyssey Logistics and noticed you're ranked among the top freight forwarders in Mumbai. At your scale, clients increasingly expect a digital portal for real-time shipment tracking — and it's becoming a differentiator in winning tenders. We've built a CRM and client portal specifically for Indian freight and logistics firms — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work?",
     contact: "Operations Manager / Director",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -1296,7 +1296,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "Century-old firm undergoing 2024 digital transformation initiative",
     action: "Call within 24 hours — reference their digital transformation initiative",
-    outreachMessage: "Hi, I came across Liladhar Pasoo Forwarders — a truly legendary name in Indian logistics. Companies with your multi-city and multi-modal complexity often have billing reconciliation gaps that cost 3-5% of revenue annually. We've built an enterprise ERP for Indian logistics companies — your first 3 months are completely free as part of our early adopter program. Would 15 minutes this week make sense?",
+    outreachMessage: "Hi, I came across Liladhar Pasoo Forwarders — a truly legendary name in Indian logistics. Companies with your multi-city and multi-modal complexity often have billing reconciliation gaps that cost 3-5% of revenue annually. We've built an enterprise ERP for Indian logistics companies — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week make sense?",
     contact: "Operations Director / Regional Head",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -1318,7 +1318,7 @@ export const leads: Lead[] = [
     intentLevel: "MEDIUM" as "HIGH" | "MEDIUM",
     buyingTrigger: "MNC client requiring integrated freight management",
     action: "Connect on LinkedIn first, then follow up with a call within 72 hours",
-    outreachMessage: "Hi, I came across Crane Worldwide India and noticed you're scaling operations in logistics. Many companies at your stage face issues with multi-modal freight tracking fragmented. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across Crane Worldwide India and noticed you're scaling operations in logistics. Many companies at your stage face issues with multi-modal freight tracking fragmented. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "Country Manager",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -1340,7 +1340,7 @@ export const leads: Lead[] = [
     intentLevel: "MEDIUM" as "HIGH" | "MEDIUM",
     buyingTrigger: "FMCG clients mandating vendor compliance portals for 2024 renewals",
     action: "Call and reference the FMCG compliance portal requirement",
-    outreachMessage: "Hi, I came across LP LogiScience and noticed you're a contract logistics specialist in Mumbai. Many 3PL companies are now losing FMCG contract renewals because clients demand real-time vendor portals they don't yet have. We've built a CRM and client portal specifically for Indian logistics firms — first 3 months are completely free. Would 15 minutes this week work?",
+    outreachMessage: "Hi, I came across LP LogiScience and noticed you're a contract logistics specialist in Mumbai. Many 3PL companies are now losing FMCG contract renewals because clients demand real-time vendor portals they don't yet have. We've built a CRM and client portal specifically for Indian logistics firms — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work?",
     contact: "Warehouse Manager / Operations Head",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -1362,7 +1362,7 @@ export const leads: Lead[] = [
     intentLevel: "MEDIUM" as "HIGH" | "MEDIUM",
     buyingTrigger: "Rising competition from Shiprocket and Porter pressuring margin",
     action: "Call and ask how they differentiate from larger freight aggregator platforms",
-    outreachMessage: "Hi, I came across TruckSuvidha and noticed you're a growing freight marketplace in Bangalore. With Shiprocket and Porter competing aggressively, having a CRM to retain your direct shipper relationships is becoming critical. We've built a custom CRM and ops platform for Indian logistics startups — first 3 months are completely free. Would 15 minutes this week work?",
+    outreachMessage: "Hi, I came across TruckSuvidha and noticed you're a growing freight marketplace in Bangalore. With Shiprocket and Porter competing aggressively, having a CRM to retain your direct shipper relationships is becoming critical. We've built a custom CRM and ops platform for Indian logistics startups — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work?",
     contact: "Business Development Manager",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -1384,7 +1384,7 @@ export const leads: Lead[] = [
     intentLevel: "MEDIUM" as "HIGH" | "MEDIUM",
     buyingTrigger: "US parent requiring Indian operations digitization",
     action: "Connect on LinkedIn first, then follow up with a call within 72 hours",
-    outreachMessage: "Hi, I came across Logistics Plus India and noticed you're scaling operations in logistics. Many companies at your stage face issues with global freight quotes managed in excel sheets. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across Logistics Plus India and noticed you're scaling operations in logistics. Many companies at your stage face issues with global freight quotes managed in excel sheets. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "Country Head",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -1406,7 +1406,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "New quick-commerce client demands API-level tracking",
     action: "Call within 24 hours — reference the buying trigger directly",
-    outreachMessage: "Hi, I came across Shadowfax Last Mile and noticed you're scaling operations in logistics. Many companies at your stage face issues with gig delivery workforce management manual. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across Shadowfax Last Mile and noticed you're scaling operations in logistics. Many companies at your stage face issues with gig delivery workforce management manual. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "VP Operations",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -1428,7 +1428,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "Legacy system retirement, need modern TMS",
     action: "Call within 24 hours — reference the buying trigger directly",
-    outreachMessage: "Hi, I came across Jeena & Company and noticed you're scaling operations in logistics. Many companies at your stage face issues with multimodal freight ops across 30 cities fragmented. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across Jeena & Company and noticed you're scaling operations in logistics. Many companies at your stage face issues with multimodal freight ops across 30 cities fragmented. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "IT Head",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -1450,7 +1450,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "RBI digital lending guidelines requiring audit trail",
     action: "Call within 24 hours — reference the buying trigger directly",
-    outreachMessage: "Hi, I came across Blend Financial Services and noticed you're scaling operations in financial services. Many companies at your stage face issues with loan applications tracked in excel sheets. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across Blend Financial Services and noticed you're scaling operations in financial services. Many companies at your stage face issues with loan applications tracked in excel sheets. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "Founder",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -1472,7 +1472,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "RBI NBFC compliance audit upcoming this quarter",
     action: "Call within 24 hours — reference the buying trigger directly",
-    outreachMessage: "Hi, I came across Capwise Financial Services and noticed you're scaling operations in financial services. Many companies at your stage face issues with nbfc loan portfolio managed in excel. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across Capwise Financial Services and noticed you're scaling operations in financial services. Many companies at your stage face issues with nbfc loan portfolio managed in excel. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "Director",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -1494,7 +1494,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "Growing insurance product portfolio requires structured agent CRM and renewal automation",
     action: "Call within 48 hours — reference policy renewal management and cross-sell tracking needs",
-    outreachMessage: "Hi, I came across Tata AIG — one of India's most trusted general insurance brands. Insurance agents who manage renewals without a CRM consistently lose 20-30% of renewal opportunities to competitors. We've built a lightweight CRM for insurance brokers and agents — first clients in Mumbai get 3 months completely free. Would 15 minutes this week work?",
+    outreachMessage: "Hi, I came across Tata AIG — one of India's most trusted general insurance brands. Insurance agents who manage renewals without a CRM consistently lose 20-30% of renewal opportunities to competitors. We've built a lightweight CRM for insurance brokers and agents — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work?",
     contact: "Sales Manager / Agency Distribution Head",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -1516,7 +1516,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "Growing fleet insurance portfolio needs digital scale",
     action: "Call within 24 hours — reference the buying trigger directly",
-    outreachMessage: "Hi, I came across Navnit Insurance Broking and noticed you're scaling operations in financial services. Many companies at your stage face issues with policy database across 20 insurers not unified. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across Navnit Insurance Broking and noticed you're scaling operations in financial services. Many companies at your stage face issues with policy database across 20 insurers not unified. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "MD",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -1538,7 +1538,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "Series C raised, onboarding 500 new anchor partners",
     action: "Call within 24 hours — reference the buying trigger directly",
-    outreachMessage: "Hi, I came across Mintifi Supply Finance and noticed you're scaling operations in financial services. Many companies at your stage face issues with distributor credit underwriting manual data collection. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across Mintifi Supply Finance and noticed you're scaling operations in financial services. Many companies at your stage face issues with distributor credit underwriting manual data collection. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "VP Technology",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -1560,7 +1560,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "Raised Series A for rural market expansion",
     action: "Call within 24 hours — reference the buying trigger directly",
-    outreachMessage: "Hi, I came across Finhaat Insurance Tech and noticed you're scaling operations in financial services. Many companies at your stage face issues with b2b insurance partner onboarding is slow. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across Finhaat Insurance Tech and noticed you're scaling operations in financial services. Many companies at your stage face issues with b2b insurance partner onboarding is slow. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "Co-Founder",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -1582,7 +1582,7 @@ export const leads: Lead[] = [
     intentLevel: "MEDIUM" as "HIGH" | "MEDIUM",
     buyingTrigger: "GST audit season reveals major process gaps",
     action: "Connect on LinkedIn first, then follow up with a call within 72 hours",
-    outreachMessage: "Hi, I came across Alliance Tax Experts and noticed you're scaling operations in financial services. Many companies at your stage face issues with gst filing reminders sent via whatsapp. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across Alliance Tax Experts and noticed you're scaling operations in financial services. Many companies at your stage face issues with gst filing reminders sent via whatsapp. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "CA Partner",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -1604,7 +1604,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "SEBI ESG mandate driving green finance product growth",
     action: "Call within 24 hours — reference the buying trigger directly",
-    outreachMessage: "Hi, I came across Ecofy Green Finance and noticed you're scaling operations in financial services. Many companies at your stage face issues with green loan application tracking is manual. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across Ecofy Green Finance and noticed you're scaling operations in financial services. Many companies at your stage face issues with green loan application tracking is manual. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "Founder",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -1626,7 +1626,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "Scaling advisor-led wealth management model nationally",
     action: "Call within 24 hours — reference the buying trigger directly",
-    outreachMessage: "Hi, I came across Scripbox Wealth and noticed you're scaling operations in financial services. Many companies at your stage face issues with wealth advisor crm not integrated with portfolio. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across Scripbox Wealth and noticed you're scaling operations in financial services. Many companies at your stage face issues with wealth advisor crm not integrated with portfolio. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "VP Engineering",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -1648,7 +1648,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "Series C funding for consumer lending scale-up",
     action: "Call within 24 hours — reference the buying trigger directly",
-    outreachMessage: "Hi, I came across EarlySalary Lending and noticed you're scaling operations in financial services. Many companies at your stage face issues with salary advance app lacks employer crm module. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across EarlySalary Lending and noticed you're scaling operations in financial services. Many companies at your stage face issues with salary advance app lacks employer crm module. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "CTO",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -1670,7 +1670,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "Expanding to 100 new cities needs CRM at scale",
     action: "Call within 24 hours — reference the buying trigger directly",
-    outreachMessage: "Hi, I came across Rupeek Gold Loans and noticed you're scaling operations in financial services. Many companies at your stage face issues with field agent loan disbursement workflow manual. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across Rupeek Gold Loans and noticed you're scaling operations in financial services. Many companies at your stage face issues with field agent loan disbursement workflow manual. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "VP Operations",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -1692,7 +1692,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "RBI NBFC license obtained, scaling lending operations",
     action: "Call within 24 hours — reference the buying trigger directly",
-    outreachMessage: "Hi, I came across LoanTap NBFC and noticed you're scaling operations in financial services. Many companies at your stage face issues with personal loan application workflow done manually. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across LoanTap NBFC and noticed you're scaling operations in financial services. Many companies at your stage face issues with personal loan application workflow done manually. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "CTO",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -1714,7 +1714,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "Launching B2B corporate investing product",
     action: "Call within 24 hours — reference the buying trigger directly",
-    outreachMessage: "Hi, I came across Groww Investments and noticed you're scaling operations in financial services. Many companies at your stage face issues with advisor-facing tools need much better b2b crm. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across Groww Investments and noticed you're scaling operations in financial services. Many companies at your stage face issues with advisor-facing tools need much better b2b crm. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "VP Product",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -1736,7 +1736,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "Scaling corporate salary account B2B product",
     action: "Call within 24 hours — reference the buying trigger directly",
-    outreachMessage: "Hi, I came across Fi Neobank and noticed you're scaling operations in financial services. Many companies at your stage face issues with salary account employer onboarding is manual. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across Fi Neobank and noticed you're scaling operations in financial services. Many companies at your stage face issues with salary account employer onboarding is manual. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "B2B Sales Head",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -1758,7 +1758,7 @@ export const leads: Lead[] = [
     intentLevel: "MEDIUM" as "HIGH" | "MEDIUM",
     buyingTrigger: "Growing foreign subsidiary advisory practice needs professional client management",
     action: "Call and ask how they currently manage compliance deadlines across 50+ clients",
-    outreachMessage: "Hi, I came across BC Shetty & Co — a highly regarded CA firm in Bangalore. Firms growing their advisory practice often lose clients to competitors simply because follow-up and deadline tracking falls through the cracks in Excel. We've built a lightweight CRM for CA and advisory firms — your first 3 months are completely free. Would 15 minutes this week work?",
+    outreachMessage: "Hi, I came across BC Shetty & Co — a highly regarded CA firm in Bangalore. Firms growing their advisory practice often lose clients to competitors simply because follow-up and deadline tracking falls through the cracks in Excel. We've built a lightweight CRM for CA and advisory firms — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work?",
     contact: "Partner / Director",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -1780,7 +1780,7 @@ export const leads: Lead[] = [
     intentLevel: "MEDIUM" as "HIGH" | "MEDIUM",
     buyingTrigger: "Moving from solo practice to firm of 5 accountants",
     action: "Connect on LinkedIn first, then follow up with a call within 72 hours",
-    outreachMessage: "Hi, I came across FinGurus Accounting and noticed you're scaling operations in financial services. Many companies at your stage face issues with bookkeeping client data in multiple folders. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across FinGurus Accounting and noticed you're scaling operations in financial services. Many companies at your stage face issues with bookkeeping client data in multiple folders. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "Founder",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -1802,7 +1802,7 @@ export const leads: Lead[] = [
     intentLevel: "MEDIUM" as "HIGH" | "MEDIUM",
     buyingTrigger: "Partnership firm transitioning to formal LLP structure",
     action: "Connect on LinkedIn first, then follow up with a call within 72 hours",
-    outreachMessage: "Hi, I came across Shibaraya & Co CA and noticed you're scaling operations in financial services. Many companies at your stage face issues with gst and income tax deadlines in notebook. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across Shibaraya & Co CA and noticed you're scaling operations in financial services. Many companies at your stage face issues with gst and income tax deadlines in notebook. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "Founding Partner",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -1824,7 +1824,7 @@ export const leads: Lead[] = [
     intentLevel: "MEDIUM" as "HIGH" | "MEDIUM",
     buyingTrigger: "Adding FEMA and company law practice needs tracking",
     action: "Connect on LinkedIn first, then follow up with a call within 72 hours",
-    outreachMessage: "Hi, I came across Swasthik & Co Chartered and noticed you're scaling operations in financial services. Many companies at your stage face issues with msme registrations tracked in manual file. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across Swasthik & Co Chartered and noticed you're scaling operations in financial services. Many companies at your stage face issues with msme registrations tracked in manual file. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "CA Partner",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -1846,7 +1846,7 @@ export const leads: Lead[] = [
     intentLevel: "MEDIUM" as "HIGH" | "MEDIUM",
     buyingTrigger: "Taking on 30 new outsourcing clients this month",
     action: "Connect on LinkedIn first, then follow up with a call within 72 hours",
-    outreachMessage: "Hi, I came across S3 Solutions Accounting and noticed you're scaling operations in financial services. Many companies at your stage face issues with cloud accounting client data scattered everywhere. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across S3 Solutions Accounting and noticed you're scaling operations in financial services. Many companies at your stage face issues with cloud accounting client data scattered everywhere. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "Director",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -1868,7 +1868,7 @@ export const leads: Lead[] = [
     intentLevel: "MEDIUM" as "HIGH" | "MEDIUM",
     buyingTrigger: "Big 4 audit firms outsourcing work requiring process standards",
     action: "Connect on LinkedIn first, then follow up with a call within 72 hours",
-    outreachMessage: "Hi, I came across BCL India CA Firm and noticed you're scaling operations in financial services. Many companies at your stage face issues with audit engagement tracking done manually. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across BCL India CA Firm and noticed you're scaling operations in financial services. Many companies at your stage face issues with audit engagement tracking done manually. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "Partner",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -1890,7 +1890,7 @@ export const leads: Lead[] = [
     intentLevel: "MEDIUM" as "HIGH" | "MEDIUM",
     buyingTrigger: "Expanding to company secretarial and FEMA services",
     action: "Connect on LinkedIn first, then follow up with a call within 72 hours",
-    outreachMessage: "Hi, I came across KAPG & Associates CA and noticed you're scaling operations in financial services. Many companies at your stage face issues with direct and indirect tax compliance calendars manual. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across KAPG & Associates CA and noticed you're scaling operations in financial services. Many companies at your stage face issues with direct and indirect tax compliance calendars manual. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "Senior Partner",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -1912,7 +1912,7 @@ export const leads: Lead[] = [
     intentLevel: "MEDIUM" as "HIGH" | "MEDIUM",
     buyingTrigger: "10x growth in NRI client base needs structured ops",
     action: "Connect on LinkedIn first, then follow up with a call within 72 hours",
-    outreachMessage: "Hi, I came across CA Bangalore Services and noticed you're scaling operations in financial services. Many companies at your stage face issues with client tax filing status not easily trackable. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across CA Bangalore Services and noticed you're scaling operations in financial services. Many companies at your stage face issues with client tax filing status not easily trackable. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "Founder CA",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -1934,7 +1934,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "NSE listing and rapid Tier-2 expansion driving need for ops standardization",
     action: "Call within 48 hours — reference their NSE listing and expansion into Tier-2 cities",
-    outreachMessage: "Hi, I came across MoneyBoxx Finance — congratulations on the NSE listing! Scaling NBFC operations into Tier-2 cities with fragmented loan pipeline tracking can cost both speed and compliance. We've built a CRM and operations platform for Indian fintech and NBFC companies — first clients in Mumbai get 3 months completely free. Would 15 minutes this week work?",
+    outreachMessage: "Hi, I came across MoneyBoxx Finance — congratulations on the NSE listing! Scaling NBFC operations into Tier-2 cities with fragmented loan pipeline tracking can cost both speed and compliance. We've built a CRM and operations platform for Indian fintech and NBFC companies — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work?",
     contact: "Operations Director / Head of Lending",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -1956,7 +1956,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "Launching home collection service requires mobile app",
     action: "Call within 24 hours — reference the buying trigger directly",
-    outreachMessage: "Hi, I came across NDC Diagnostic Centre and noticed you're scaling operations in healthcare. Many companies at your stage face issues with report delivery via sms only. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across NDC Diagnostic Centre and noticed you're scaling operations in healthcare. Many companies at your stage face issues with report delivery via sms only. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "Director",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -1978,7 +1978,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "Digital health startup integrating clinic networks",
     action: "Call within 24 hours — reference the buying trigger directly",
-    outreachMessage: "Hi, I came across Clinico Health Platform and noticed you're scaling operations in healthcare. Many companies at your stage face issues with clinic billing only through tally software. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across Clinico Health Platform and noticed you're scaling operations in healthcare. Many companies at your stage face issues with clinic billing only through tally software. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "Founder",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -2000,7 +2000,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "Scaling to 10 new centres needs unified system",
     action: "Call within 24 hours — reference the buying trigger directly",
-    outreachMessage: "Hi, I came across NM Medical Diagnostics and noticed you're scaling operations in healthcare. Many companies at your stage face issues with multi-centre operations not centralized at all. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across NM Medical Diagnostics and noticed you're scaling operations in healthcare. Many companies at your stage face issues with multi-centre operations not centralized at all. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "Operations Director",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -2022,7 +2022,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "Insurance company partnership requires digital claim system",
     action: "Call within 24 hours — reference the buying trigger directly",
-    outreachMessage: "Hi, I came across Suburban Diagnostics and noticed you're scaling operations in healthcare. Many companies at your stage face issues with lis integration with his is still manual. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across Suburban Diagnostics and noticed you're scaling operations in healthcare. Many companies at your stage face issues with lis integration with his is still manual. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "CEO",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -2044,7 +2044,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "Hospital chain requiring digital sample tracking portal",
     action: "Call within 24 hours — reference the buying trigger directly",
-    outreachMessage: "Hi, I came across CTL Lab Diagnostics and noticed you're scaling operations in healthcare. Many companies at your stage face issues with lab report delivery delays causing patient complaints. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across CTL Lab Diagnostics and noticed you're scaling operations in healthcare. Many companies at your stage face issues with lab report delivery delays causing patient complaints. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "Director",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -2066,7 +2066,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "Rapid clinic expansion and D2C growth requires structured patient journey management",
     action: "Call within 48 hours — reference their aligner growth and need for patient retention automation",
-    outreachMessage: "Hi, I came across makeO Toothsi — one of India's most exciting dental care brands. At your scale of clear aligner consultations across Mumbai clinics and online, the biggest revenue gap is usually patient follow-up timing. We've built a healthcare CRM for dental and wellness brands — first clinics in Mumbai get 3 months completely free. Would 15 minutes this week work?",
+    outreachMessage: "Hi, I came across makeO Toothsi — one of India's most exciting dental care brands. At your scale of clear aligner consultations across Mumbai clinics and online, the biggest revenue gap is usually patient follow-up timing. We've built a healthcare CRM for dental and wellness brands — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work?",
     contact: "Head of Marketing / Clinic Operations Head",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -2088,7 +2088,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "Corporate tie-up requiring digital employee health portal",
     action: "Call within 24 hours — reference the buying trigger directly",
-    outreachMessage: "Hi, I came across Henotic Diagnostics and noticed you're scaling operations in healthcare. Many companies at your stage face issues with pet and ct scan scheduling done manually. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across Henotic Diagnostics and noticed you're scaling operations in healthcare. Many companies at your stage face issues with pet and ct scan scheduling done manually. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "MD",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -2110,7 +2110,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "Raised Series A for pan-India diagnostic expansion",
     action: "Call within 24 hours — reference the buying trigger directly",
-    outreachMessage: "Hi, I came across Orange Health Labs and noticed you're scaling operations in healthcare. Many companies at your stage face issues with phlebotomist routing not optimized at all. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across Orange Health Labs and noticed you're scaling operations in healthcare. Many companies at your stage face issues with phlebotomist routing not optimized at all. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "Co-Founder",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -2132,7 +2132,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "Corporates asking for employee diabetes management program",
     action: "Call within 24 hours — reference the buying trigger directly",
-    outreachMessage: "Hi, I came across Sugar.fit Diabetes Care and noticed you're scaling operations in healthcare. Many companies at your stage face issues with diabetes coaching program tracking entirely manual. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across Sugar.fit Diabetes Care and noticed you're scaling operations in healthcare. Many companies at your stage face issues with diabetes coaching program tracking entirely manual. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "Co-Founder",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -2154,7 +2154,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "Onboarding 1000 new clinics needs automated CRM",
     action: "Call within 24 hours — reference the buying trigger directly",
-    outreachMessage: "Hi, I came across HealthPlix EMR and noticed you're scaling operations in healthcare. Many companies at your stage face issues with emr software needs better crm for clinic onboarding. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across HealthPlix EMR and noticed you're scaling operations in healthcare. Many companies at your stage face issues with emr software needs better crm for clinic onboarding. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "Head of Sales",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -2176,7 +2176,7 @@ export const leads: Lead[] = [
     intentLevel: "MEDIUM" as "HIGH" | "MEDIUM",
     buyingTrigger: "New Pune corporate zone expansion requires digital ops",
     action: "Connect on LinkedIn first, then follow up with a call within 72 hours",
-    outreachMessage: "Hi, I came across Sunrise Diagnosis Pune and noticed you're scaling operations in healthcare. Many companies at your stage face issues with multi-specialty diagnostics booking done manually. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across Sunrise Diagnosis Pune and noticed you're scaling operations in healthcare. Many companies at your stage face issues with multi-specialty diagnostics booking done manually. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "Director",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -2198,7 +2198,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "Corporate mental health tie-ups require structured platform",
     action: "Call within 24 hours — reference the buying trigger directly",
-    outreachMessage: "Hi, I came across DocVita Telemedicine and noticed you're scaling operations in healthcare. Many companies at your stage face issues with therapist scheduling via whatsapp only. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across DocVita Telemedicine and noticed you're scaling operations in healthcare. Many companies at your stage face issues with therapist scheduling via whatsapp only. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "Founder",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -2220,7 +2220,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "Series A raised, scaling SME group health insurance",
     action: "Call within 24 hours — reference the buying trigger directly",
-    outreachMessage: "Hi, I came across Onsurity Health Insurance and noticed you're scaling operations in healthcare. Many companies at your stage face issues with employer group health enrollment done manually. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across Onsurity Health Insurance and noticed you're scaling operations in healthcare. Many companies at your stage face issues with employer group health enrollment done manually. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "VP Business",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -2242,7 +2242,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "Large IT company wanting employee telemedicine benefit",
     action: "Call within 24 hours — reference the buying trigger directly",
-    outreachMessage: "Hi, I came across mfine Telemedicine and noticed you're scaling operations in healthcare. Many companies at your stage face issues with b2b corporate health plan management manual. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across mfine Telemedicine and noticed you're scaling operations in healthcare. Many companies at your stage face issues with b2b corporate health plan management manual. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "B2B Sales Lead",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -2264,7 +2264,7 @@ export const leads: Lead[] = [
     intentLevel: "MEDIUM" as "HIGH" | "MEDIUM",
     buyingTrigger: "Corporate wellness clients asking for digital health tracking",
     action: "Connect on LinkedIn first, then follow up with a call within 72 hours",
-    outreachMessage: "Hi, I came across Healing Earth Ayurveda and noticed you're scaling operations in healthcare. Many companies at your stage face issues with consultation booking via phone calls only. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across Healing Earth Ayurveda and noticed you're scaling operations in healthcare. Many companies at your stage face issues with consultation booking via phone calls only. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "Founder",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -2286,7 +2286,7 @@ export const leads: Lead[] = [
     intentLevel: "MEDIUM" as "HIGH" | "MEDIUM",
     buyingTrigger: "Partnering with insurance for ayurveda wellness benefits",
     action: "Connect on LinkedIn first, then follow up with a call within 72 hours",
-    outreachMessage: "Hi, I came across Ayushman Ayurvedic Centre and noticed you're scaling operations in healthcare. Many companies at your stage face issues with patient records kept in physical files. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across Ayushman Ayurvedic Centre and noticed you're scaling operations in healthcare. Many companies at your stage face issues with patient records kept in physical files. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "Director",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -2308,7 +2308,7 @@ export const leads: Lead[] = [
     intentLevel: "MEDIUM" as "HIGH" | "MEDIUM",
     buyingTrigger: "AYUSH empanelment requires digital hospital records",
     action: "Connect on LinkedIn first, then follow up with a call within 72 hours",
-    outreachMessage: "Hi, I came across Bharati Ayurved Hospital and noticed you're scaling operations in healthcare. Many companies at your stage face issues with inpatient records stored in paper files. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across Bharati Ayurved Hospital and noticed you're scaling operations in healthcare. Many companies at your stage face issues with inpatient records stored in paper files. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "Medical Director",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -2330,7 +2330,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "Scaling to 40+ cities requires standardized operations platform",
     action: "Call within 48 hours — reference their multi-city expansion and ops complexity",
-    outreachMessage: "Hi, I came across Portea Medical and noticed you're India's leading home healthcare company scaling across 40+ cities. At that scale, manual nurse dispatch and patient record fragmentation can cost both quality and revenue. We've built a CRM and operations platform for healthcare companies — first clients in Bangalore get 3 months completely free. Would 15 minutes this week work?",
+    outreachMessage: "Hi, I came across Portea Medical and noticed you're India's leading home healthcare company scaling across 40+ cities. At that scale, manual nurse dispatch and patient record fragmentation can cost both quality and revenue. We've built a CRM and operations platform for healthcare companies — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work?",
     contact: "City Operations Manager",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -2352,7 +2352,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "Pharma partners requiring physician data analytics platform",
     action: "Call within 24 hours — reference the buying trigger directly",
-    outreachMessage: "Hi, I came across Docplexus Medical Network and noticed you're scaling operations in healthcare. Many companies at your stage face issues with doctor community engagement via email blasts only. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across Docplexus Medical Network and noticed you're scaling operations in healthcare. Many companies at your stage face issues with doctor community engagement via email blasts only. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "Co-Founder",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -2374,7 +2374,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "Corporate wellness contracts growing rapidly and demanding integrated reporting",
     action: "Call within 48 hours — reference corporate wellness contract growth",
-    outreachMessage: "Hi, I came across HealthSpring and noticed you're one of India's most trusted primary care networks based in Mumbai. Growing corporate wellness contracts demand integrated reporting that manual systems can't deliver reliably. We've built a CRM and clinic operations platform specifically for multi-location healthcare companies — first 3 months are completely free. Would 15 minutes this week work?",
+    outreachMessage: "Hi, I came across HealthSpring and noticed you're one of India's most trusted primary care networks based in Mumbai. Growing corporate wellness contracts demand integrated reporting that manual systems can't deliver reliably. We've built a CRM and clinic operations platform specifically for multi-location healthcare companies — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work?",
     contact: "Operations Director / Head of Clinics",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -2396,7 +2396,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "NASSCOM partnership requires digital LMS platform",
     action: "Call within 24 hours — reference the buying trigger directly",
-    outreachMessage: "Hi, I came across GlobalGyan Academy and noticed you're scaling operations in education. Many companies at your stage face issues with corporate training program tracking in excel sheets. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across GlobalGyan Academy and noticed you're scaling operations in education. Many companies at your stage face issues with corporate training program tracking in excel sheets. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "Co-Founder",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -2418,7 +2418,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "Raised funding, scaling to 100K students this year",
     action: "Call within 24 hours — reference the buying trigger directly",
-    outreachMessage: "Hi, I came across CareerNinja EdTech and noticed you're scaling operations in education. Many companies at your stage face issues with student progress tracking entirely manual. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across CareerNinja EdTech and noticed you're scaling operations in education. Many companies at your stage face issues with student progress tracking entirely manual. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "CTO",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -2440,7 +2440,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "NEP 2020 compliance requiring digital learning platform",
     action: "Call within 24 hours — reference the buying trigger directly",
-    outreachMessage: "Hi, I came across TeamLease EdTech and noticed you're scaling operations in education. Many companies at your stage face issues with university partnership management across states manual. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across TeamLease EdTech and noticed you're scaling operations in education. Many companies at your stage face issues with university partnership management across states manual. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "VP Technology",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -2462,7 +2462,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "Shifting to hybrid model needs unified LMS platform",
     action: "Call within 24 hours — reference the buying trigger directly",
-    outreachMessage: "Hi, I came across IMS Learning Resources and noticed you're scaling operations in education. Many companies at your stage face issues with centre-wise student performance tracking fragmented. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across IMS Learning Resources and noticed you're scaling operations in education. Many companies at your stage face issues with centre-wise student performance tracking fragmented. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "Director Operations",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -2484,7 +2484,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "Scaling from 200 to 2000 students requires system",
     action: "Call within 24 hours — reference the buying trigger directly",
-    outreachMessage: "Hi, I came across Digital Gurukul and noticed you're scaling operations in education. Many companies at your stage face issues with digital marketing course student tracking manual. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across Digital Gurukul and noticed you're scaling operations in education. Many companies at your stage face issues with digital marketing course student tracking manual. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "Founder",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -2506,7 +2506,7 @@ export const leads: Lead[] = [
     intentLevel: "MEDIUM" as "HIGH" | "MEDIUM",
     buyingTrigger: "State board tie-up requiring digital student records",
     action: "Connect on LinkedIn first, then follow up with a call within 72 hours",
-    outreachMessage: "Hi, I came across EDIIFY Education Platform and noticed you're scaling operations in education. Many companies at your stage face issues with student admissions via google forms only. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across EDIIFY Education Platform and noticed you're scaling operations in education. Many companies at your stage face issues with student admissions via google forms only. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "Founder",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -2528,7 +2528,7 @@ export const leads: Lead[] = [
     intentLevel: "MEDIUM" as "HIGH" | "MEDIUM",
     buyingTrigger: "Tie-up with 20 colleges requires structured portal",
     action: "Connect on LinkedIn first, then follow up with a call within 72 hours",
-    outreachMessage: "Hi, I came across EduRiser Counseling and noticed you're scaling operations in education. Many companies at your stage face issues with student loan advisory tracked in physical register. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across EduRiser Counseling and noticed you're scaling operations in education. Many companies at your stage face issues with student loan advisory tracked in physical register. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "Director",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -2550,7 +2550,7 @@ export const leads: Lead[] = [
     intentLevel: "MEDIUM" as "HIGH" | "MEDIUM",
     buyingTrigger: "Scaling online course enrollments demands proper lead nurturing beyond manual follow-ups",
     action: "Call and ask how they currently track leads from course landing pages to enrollment",
-    outreachMessage: "Hi, I came across IIM Skills — a great professional training platform with strong course offerings. EdTech companies that grow fast often lose leads simply because follow-ups happen too late or fall through the cracks. We've built a lightweight CRM for education companies — your first 3 months are completely free. Would 15 minutes this week work?",
+    outreachMessage: "Hi, I came across IIM Skills — a great professional training platform with strong course offerings. EdTech companies that grow fast often lose leads simply because follow-ups happen too late or fall through the cracks. We've built a lightweight CRM for education companies — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work?",
     contact: "Founder / Head of Admissions",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -2572,7 +2572,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "Auto OEM client requiring custom eLearning portal",
     action: "Call within 24 hours — reference the buying trigger directly",
-    outreachMessage: "Hi, I came across DelphianLogic eLearning and noticed you're scaling operations in education. Many companies at your stage face issues with corporate elearning deployment done manually. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across DelphianLogic eLearning and noticed you're scaling operations in education. Many companies at your stage face issues with corporate elearning deployment done manually. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "Director",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -2594,7 +2594,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "Closing enterprise deal requiring integration proof",
     action: "Call within 24 hours — reference the buying trigger directly",
-    outreachMessage: "Hi, I came across Invince LMS Platform and noticed you're scaling operations in education. Many companies at your stage face issues with b2b saas lms sales pipeline in excel sheets. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across Invince LMS Platform and noticed you're scaling operations in education. Many companies at your stage face issues with b2b saas lms sales pipeline in excel sheets. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "VP Sales",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -2616,7 +2616,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "Series D raised, building enterprise customer success team",
     action: "Call within 24 hours — reference the buying trigger directly",
-    outreachMessage: "Hi, I came across Mindtickle Sales Training and noticed you're scaling operations in education. Many companies at your stage face issues with sales readiness data not connected to crm. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across Mindtickle Sales Training and noticed you're scaling operations in education. Many companies at your stage face issues with sales readiness data not connected to crm. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "VP Customer Success",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -2638,7 +2638,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "IIM partnership requiring digital enrollment system",
     action: "Call within 24 hours — reference the buying trigger directly",
-    outreachMessage: "Hi, I came across Jaro Executive Education and noticed you're scaling operations in education. Many companies at your stage face issues with executive education enrollment pipeline manual. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across Jaro Executive Education and noticed you're scaling operations in education. Many companies at your stage face issues with executive education enrollment pipeline manual. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "VP Operations",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -2660,7 +2660,7 @@ export const leads: Lead[] = [
     intentLevel: "MEDIUM" as "HIGH" | "MEDIUM",
     buyingTrigger: "NSDC certification requiring digital compliance records",
     action: "Connect on LinkedIn first, then follow up with a call within 72 hours",
-    outreachMessage: "Hi, I came across IACVE Vocational Training and noticed you're scaling operations in education. Many companies at your stage face issues with student admissions tracking in physical register. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across IACVE Vocational Training and noticed you're scaling operations in education. Many companies at your stage face issues with student admissions tracking in physical register. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "Director",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -2682,7 +2682,7 @@ export const leads: Lead[] = [
     intentLevel: "MEDIUM" as "HIGH" | "MEDIUM",
     buyingTrigger: "PMKVY scheme tie-up requiring digital attendance records",
     action: "Connect on LinkedIn first, then follow up with a call within 72 hours",
-    outreachMessage: "Hi, I came across Learnet Skills Institute and noticed you're scaling operations in education. Many companies at your stage face issues with multi-industry vocational training tracking fragmented. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across Learnet Skills Institute and noticed you're scaling operations in education. Many companies at your stage face issues with multi-industry vocational training tracking fragmented. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "Director",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -2704,7 +2704,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "Corporate training contracts requiring portal access",
     action: "Call within 24 hours — reference the buying trigger directly",
-    outreachMessage: "Hi, I came across Apponix IT Academy and noticed you're scaling operations in education. Many companies at your stage face issues with it training batch management in excel. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across Apponix IT Academy and noticed you're scaling operations in education. Many companies at your stage face issues with it training batch management in excel. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "Founder",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -2726,7 +2726,7 @@ export const leads: Lead[] = [
     intentLevel: "MEDIUM" as "HIGH" | "MEDIUM",
     buyingTrigger: "Adding weekend batches requires digital scheduling system",
     action: "Connect on LinkedIn first, then follow up with a call within 72 hours",
-    outreachMessage: "Hi, I came across IIPC Training Institute and noticed you're scaling operations in education. Many companies at your stage face issues with student enrollment in manual physical register. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across IIPC Training Institute and noticed you're scaling operations in education. Many companies at your stage face issues with student enrollment in manual physical register. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "Director",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -2748,7 +2748,7 @@ export const leads: Lead[] = [
     intentLevel: "MEDIUM" as "HIGH" | "MEDIUM",
     buyingTrigger: "HRMS company partnership requiring LMS integration",
     action: "Connect on LinkedIn first, then follow up with a call within 72 hours",
-    outreachMessage: "Hi, I came across Unique System Skills and noticed you're scaling operations in education. Many companies at your stage face issues with corporate soft skills training booking manual. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across Unique System Skills and noticed you're scaling operations in education. Many companies at your stage face issues with corporate soft skills training booking manual. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "Founder",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -2770,7 +2770,7 @@ export const leads: Lead[] = [
     intentLevel: "MEDIUM" as "HIGH" | "MEDIUM",
     buyingTrigger: "Corporate training clients want self-service portal access",
     action: "Connect on LinkedIn first, then follow up with a call within 72 hours",
-    outreachMessage: "Hi, I came across Aspire Techsoft Training and noticed you're scaling operations in education. Many companies at your stage face issues with it training enquiries via website form only. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across Aspire Techsoft Training and noticed you're scaling operations in education. Many companies at your stage face issues with it training enquiries via website form only. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "Director",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -2792,7 +2792,7 @@ export const leads: Lead[] = [
     intentLevel: "MEDIUM" as "HIGH" | "MEDIUM",
     buyingTrigger: "Taking on IT MNC clients requiring documented process",
     action: "Connect on LinkedIn first, then follow up with a call within 72 hours",
-    outreachMessage: "Hi, I came across SourceKode Technologies and noticed you're scaling operations in education. Many companies at your stage face issues with corporate trainer profiles not digitized anywhere. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across SourceKode Technologies and noticed you're scaling operations in education. Many companies at your stage face issues with corporate trainer profiles not digitized anywhere. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "Founder",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -2814,7 +2814,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "Raising seed round, investors require metrics dashboard",
     action: "Call within 24 hours — reference the buying trigger directly",
-    outreachMessage: "Hi, I came across Codegnan IT Institute and noticed you're scaling operations in education. Many companies at your stage face issues with student mentoring sessions completely untracked. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across Codegnan IT Institute and noticed you're scaling operations in education. Many companies at your stage face issues with student mentoring sessions completely untracked. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "Founder",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -2836,7 +2836,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "Scaling D2C to wholesale channel needs ERP integration",
     action: "Call within 24 hours — reference the buying trigger directly",
-    outreachMessage: "Hi, I came across Bewakoof and noticed you're scaling operations in e-commerce. Many companies at your stage face issues with vendor management portal urgently needed. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across Bewakoof and noticed you're scaling operations in e-commerce. Many companies at your stage face issues with vendor management portal urgently needed. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "VP Tech",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -2858,7 +2858,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "Scaling from 15 to 18 cities requires ops automation for delivery efficiency",
     action: "Call and reference their multi-city delivery ops complexity",
-    outreachMessage: "Hi, I came across Country Delight and noticed you're scaling fresh dairy delivery across 18 cities. Daily subscription management at that scale becomes incredibly complex without purpose-built ops tools. We've built a custom CRM and delivery ops platform for D2C companies — first clients in Mumbai get 3 months completely free. Would 15 minutes this week work?",
+    outreachMessage: "Hi, I came across Country Delight and noticed you're scaling fresh dairy delivery across 18 cities. Daily subscription management at that scale becomes incredibly complex without purpose-built ops tools. We've built a custom CRM and delivery ops platform for D2C companies — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work?",
     contact: "City Operations Manager",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -2880,7 +2880,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "International expansion requires structured digital ops",
     action: "Call within 24 hours — reference the buying trigger directly",
-    outreachMessage: "Hi, I came across SuperBottoms Baby and noticed you're scaling operations in e-commerce. Many companies at your stage face issues with d2c returns management entirely manual. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across SuperBottoms Baby and noticed you're scaling operations in e-commerce. Many companies at your stage face issues with d2c returns management entirely manual. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "Founder",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -2902,7 +2902,7 @@ export const leads: Lead[] = [
     intentLevel: "MEDIUM" as "HIGH" | "MEDIUM",
     buyingTrigger: "Moving from Instagram to own website needs order system",
     action: "Connect on LinkedIn first, then follow up with a call within 72 hours",
-    outreachMessage: "Hi, I came across Luxe Sarees and noticed you're scaling operations in e-commerce. Many companies at your stage face issues with custom saree order management entirely manual. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across Luxe Sarees and noticed you're scaling operations in e-commerce. Many companies at your stage face issues with custom saree order management entirely manual. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "Proprietor",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -2924,7 +2924,7 @@ export const leads: Lead[] = [
     intentLevel: "MEDIUM" as "HIGH" | "MEDIUM",
     buyingTrigger: "B2B corporate gifting clients want booking portal",
     action: "Connect on LinkedIn first, then follow up with a call within 72 hours",
-    outreachMessage: "Hi, I came across Fashion Loop Rentals and noticed you're scaling operations in e-commerce. Many companies at your stage face issues with fashion rental inventory tracked in excel only. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across Fashion Loop Rentals and noticed you're scaling operations in e-commerce. Many companies at your stage face issues with fashion rental inventory tracked in excel only. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "Founder",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -2946,7 +2946,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "Scaling custom menswear nationally requires ops platform",
     action: "Call within 24 hours — reference the buying trigger directly",
-    outreachMessage: "Hi, I came across The Pant Project and noticed you're scaling operations in e-commerce. Many companies at your stage face issues with custom trouser measurement data in excel sheets. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across The Pant Project and noticed you're scaling operations in e-commerce. Many companies at your stage face issues with custom trouser measurement data in excel sheets. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "Founder",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -2968,7 +2968,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "Series B raised, scaling health subscription brand",
     action: "Call within 24 hours — reference the buying trigger directly",
-    outreachMessage: "Hi, I came across Mosaic Wellness D2C and noticed you're scaling operations in e-commerce. Many companies at your stage face issues with d2c health supplement subscription management manual. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across Mosaic Wellness D2C and noticed you're scaling operations in e-commerce. Many companies at your stage face issues with d2c health supplement subscription management manual. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "Co-Founder",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -2990,7 +2990,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "Scaling luxury skincare brand requires structured ops",
     action: "Call within 24 hours — reference the buying trigger directly",
-    outreachMessage: "Hi, I came across 82 Degrees East Skincare and noticed you're scaling operations in e-commerce. Many companies at your stage face issues with premium d2c inventory management is fragmented. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across 82 Degrees East Skincare and noticed you're scaling operations in e-commerce. Many companies at your stage face issues with premium d2c inventory management is fragmented. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "Co-Founder",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -3012,7 +3012,7 @@ export const leads: Lead[] = [
     intentLevel: "MEDIUM" as "HIGH" | "MEDIUM",
     buyingTrigger: "Farm-to-fork model scaling to 16 cities nationwide",
     action: "Connect on LinkedIn first, then follow up with a call within 72 hours",
-    outreachMessage: "Hi, I came across Zama Organics and noticed you're scaling operations in e-commerce. Many companies at your stage face issues with farm procurement tracking in excel sheets only. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across Zama Organics and noticed you're scaling operations in e-commerce. Many companies at your stage face issues with farm procurement tracking in excel sheets only. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "Founder",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -3034,7 +3034,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "Series B raised, expanding to international markets",
     action: "Call within 24 hours — reference the buying trigger directly",
-    outreachMessage: "Hi, I came across mCaffeine Personal Care and noticed you're scaling operations in e-commerce. Many companies at your stage face issues with influencer campaign roi tracking entirely manual. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across mCaffeine Personal Care and noticed you're scaling operations in e-commerce. Many companies at your stage face issues with influencer campaign roi tracking entirely manual. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "VP Operations",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -3056,7 +3056,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "Scaling from Pune to Navi Mumbai needs digital ops",
     action: "Call within 24 hours — reference the buying trigger directly",
-    outreachMessage: "Hi, I came across Desi Farms India and noticed you're scaling operations in e-commerce. Many companies at your stage face issues with dairy subscription management done manually. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across Desi Farms India and noticed you're scaling operations in e-commerce. Many companies at your stage face issues with dairy subscription management done manually. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "Founder",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -3078,7 +3078,7 @@ export const leads: Lead[] = [
     intentLevel: "MEDIUM" as "HIGH" | "MEDIUM",
     buyingTrigger: "Amazon Seller Central integration needs backend ops",
     action: "Connect on LinkedIn first, then follow up with a call within 72 hours",
-    outreachMessage: "Hi, I came across Nariyal Cosmetics and noticed you're scaling operations in e-commerce. Many companies at your stage face issues with d2c order fulfillment tracked in excel. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across Nariyal Cosmetics and noticed you're scaling operations in e-commerce. Many companies at your stage face issues with d2c order fulfillment tracked in excel. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "Co-Founder",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -3100,7 +3100,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "Shark Tank appearance causing 10x demand surge",
     action: "Call within 24 hours — reference the buying trigger directly",
-    outreachMessage: "Hi, I came across Go Zero Ice Cream and noticed you're scaling operations in e-commerce. Many companies at your stage face issues with cold chain delivery tracking is manual. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across Go Zero Ice Cream and noticed you're scaling operations in e-commerce. Many companies at your stage face issues with cold chain delivery tracking is manual. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "Founder",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -3122,7 +3122,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "ESG mandate from corporates for eco-friendly gifting",
     action: "Call within 24 hours — reference the buying trigger directly",
-    outreachMessage: "Hi, I came across Amala Earth Marketplace and noticed you're scaling operations in e-commerce. Many companies at your stage face issues with sustainable brand curation tracking in excel only. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across Amala Earth Marketplace and noticed you're scaling operations in e-commerce. Many companies at your stage face issues with sustainable brand curation tracking in excel only. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "Co-Founder",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -3144,7 +3144,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "Inc42 FAST42 recognition driving rapid retail and distributor expansion",
     action: "Call within 48 hours — reference their FAST42 recognition and channel growth",
-    outreachMessage: "Hi, I came across Pilgrim Beauty — congratulations on the Inc42 FAST42 recognition! Brands scaling that fast often hit a wall with distributor onboarding and channel reconciliation tracked in Excel. We've built a CRM and partner portal platform for D2C brands — first clients in Mumbai get 3 months completely free. Would 15 minutes this week work?",
+    outreachMessage: "Hi, I came across Pilgrim Beauty — congratulations on the Inc42 FAST42 recognition! Brands scaling that fast often hit a wall with distributor onboarding and channel reconciliation tracked in Excel. We've built a CRM and partner portal platform for D2C brands — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work?",
     contact: "Head of Sales / Channel Operations",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -3166,7 +3166,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "Series B raised, opening 30 new retail stores",
     action: "Call within 24 hours — reference the buying trigger directly",
-    outreachMessage: "Hi, I came across Mokobara Luggage and noticed you're scaling operations in e-commerce. Many companies at your stage face issues with offline retail store inventory sync with online missing. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across Mokobara Luggage and noticed you're scaling operations in e-commerce. Many companies at your stage face issues with offline retail store inventory sync with online missing. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "COO",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -3188,7 +3188,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "Series B funding raised to scale distribution to 15,000 retail points",
     action: "Call within 48 hours — reference their Series B and 15,000 outlet expansion",
-    outreachMessage: "Hi, I came across Plum Goodness — really impressive growth to 15,000 retail points! Scaling a salon and D2C channel simultaneously without a CRM usually means losing 20-30% of reorder revenue. We've built a CRM and sales ops platform for D2C beauty brands — first clients in Mumbai get 3 months completely free. Would 15 minutes this week work?",
+    outreachMessage: "Hi, I came across Plum Goodness — really impressive growth to 15,000 retail points! Scaling a salon and D2C channel simultaneously without a CRM usually means losing 20-30% of reorder revenue. We've built a CRM and sales ops platform for D2C beauty brands — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work?",
     contact: "Head of D2C / Sales Operations",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -3210,7 +3210,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "Expanding IP licensing partnerships requires deal CRM",
     action: "Call within 24 hours — reference the buying trigger directly",
-    outreachMessage: "Hi, I came across The Souled Store and noticed you're scaling operations in e-commerce. Many companies at your stage face issues with ip licensing deal management done manually. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across The Souled Store and noticed you're scaling operations in e-commerce. Many companies at your stage face issues with ip licensing deal management done manually. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "VP Operations",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -3232,7 +3232,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "Rapid D2C growth requiring structured customer retention and analytics",
     action: "Call within 48 hours — reference their fast growth and need for retention automation",
-    outreachMessage: "Hi, I came across Snitch — one of the fastest growing men's fashion brands in India. At your growth stage, the biggest revenue leaks are usually cart abandonment, repeat-purchase gaps, and untracked wholesale accounts. We've built a lightweight CRM and analytics layer for D2C brands — first brands in Bangalore get 3 months completely free. Would 15 minutes this week work?",
+    outreachMessage: "Hi, I came across Snitch — one of the fastest growing men's fashion brands in India. At your growth stage, the biggest revenue leaks are usually cart abandonment, repeat-purchase gaps, and untracked wholesale accounts. We've built a lightweight CRM and analytics layer for D2C brands — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work?",
     contact: "Co-founder / Head of Growth",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -3254,7 +3254,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "Raised Series A, scaling evidence-based skincare",
     action: "Call within 24 hours — reference the buying trigger directly",
-    outreachMessage: "Hi, I came across Foxtale Skincare and noticed you're scaling operations in e-commerce. Many companies at your stage face issues with d2c skincare subscription tracking entirely manual. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across Foxtale Skincare and noticed you're scaling operations in e-commerce. Many companies at your stage face issues with d2c skincare subscription tracking entirely manual. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "Co-Founder",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -3276,7 +3276,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "RERA compliance requiring digital project records",
     action: "Call within 24 hours — reference the buying trigger directly",
-    outreachMessage: "Hi, I came across Haware Engineers and noticed you're scaling operations in construction. Many companies at your stage face issues with project site updates via whatsapp to clients. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across Haware Engineers and noticed you're scaling operations in construction. Many companies at your stage face issues with project site updates via whatsapp to clients. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "Director",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -3298,7 +3298,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "New Pune township project needs digital ops system",
     action: "Call within 24 hours — reference the buying trigger directly",
-    outreachMessage: "Hi, I came across Pinnacle Infraheights and noticed you're scaling operations in construction. Many companies at your stage face issues with turnkey project milestones tracked in physical files. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across Pinnacle Infraheights and noticed you're scaling operations in construction. Many companies at your stage face issues with turnkey project milestones tracked in physical files. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "MD",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -3320,7 +3320,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "30-year-old firm digitizing to manage multi-state project portfolio growth",
     action: "Call within 48 hours — reference their multi-city expansion and project complexity",
-    outreachMessage: "Hi, I came across MIPL Group — 30 years of interior contracting excellence across multiple cities. At your scale, managing subcontractor payments and project milestones across states via WhatsApp costs real revenue. We've built an ERP and project management platform for interior contracting firms — first clients in Mumbai get 3 months completely free. Would 15 minutes this week work?",
+    outreachMessage: "Hi, I came across MIPL Group — 30 years of interior contracting excellence across multiple cities. At your scale, managing subcontractor payments and project milestones across states via WhatsApp costs real revenue. We've built an ERP and project management platform for interior contracting firms — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work?",
     contact: "Project Director / Operations Head",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -3342,7 +3342,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "Growing high-rise project portfolio in Mumbai and Navi Mumbai requires real-time site tracking",
     action: "Call within 48 hours — reference their high-rise construction expansion across Mumbai",
-    outreachMessage: "Hi, I came across Capacit'e Infraprojects — an impressive high-rise construction company with major Mumbai projects. At your project scale, the gap between site realities and client expectations is usually a CRM and project visibility problem. We've built a construction CRM and client portal — first construction companies in Mumbai get 3 months completely free. Would 15 minutes this week work?",
+    outreachMessage: "Hi, I came across Capacit'e Infraprojects — an impressive high-rise construction company with major Mumbai projects. At your project scale, the gap between site realities and client expectations is usually a CRM and project visibility problem. We've built a construction CRM and client portal — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work?",
     contact: "Project Director / Business Development Head",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -3364,7 +3364,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "New industrial client requiring project transparency",
     action: "Call within 24 hours — reference the buying trigger directly",
-    outreachMessage: "Hi, I came across Arconex Turnkey Solutions and noticed you're scaling operations in construction. Many companies at your stage face issues with epc project tracking across sites is manual. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across Arconex Turnkey Solutions and noticed you're scaling operations in construction. Many companies at your stage face issues with epc project tracking across sites is manual. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "Director",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -3386,7 +3386,7 @@ export const leads: Lead[] = [
     intentLevel: "MEDIUM" as "HIGH" | "MEDIUM",
     buyingTrigger: "Scaling from residential to commercial projects",
     action: "Connect on LinkedIn first, then follow up with a call within 72 hours",
-    outreachMessage: "Hi, I came across Innovative Building Solution and noticed you're scaling operations in construction. Many companies at your stage face issues with interior project quotations in word documents. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across Innovative Building Solution and noticed you're scaling operations in construction. Many companies at your stage face issues with interior project quotations in word documents. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "Founder",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -3408,7 +3408,7 @@ export const leads: Lead[] = [
     intentLevel: "MEDIUM" as "HIGH" | "MEDIUM",
     buyingTrigger: "Commercial project requiring documented milestone sign-off",
     action: "Connect on LinkedIn first, then follow up with a call within 72 hours",
-    outreachMessage: "Hi, I came across Pragati Interior Works and noticed you're scaling operations in construction. Many companies at your stage face issues with mep project timeline tracked in excel only. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across Pragati Interior Works and noticed you're scaling operations in construction. Many companies at your stage face issues with mep project timeline tracked in excel only. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "Proprietor",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -3430,7 +3430,7 @@ export const leads: Lead[] = [
     intentLevel: "MEDIUM" as "HIGH" | "MEDIUM",
     buyingTrigger: "Large hospital MEP project requires professional ops",
     action: "Connect on LinkedIn first, then follow up with a call within 72 hours",
-    outreachMessage: "Hi, I came across Shreeraj MEP Consultants and noticed you're scaling operations in construction. Many companies at your stage face issues with mep drawing revisions tracked via email thread. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across Shreeraj MEP Consultants and noticed you're scaling operations in construction. Many companies at your stage face issues with mep drawing revisions tracked via email thread. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "Director",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -3452,7 +3452,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "ISO certification audit requires digital process records",
     action: "Call within 24 hours — reference the buying trigger directly",
-    outreachMessage: "Hi, I came across KIPL Infrastructure and noticed you're scaling operations in construction. Many companies at your stage face issues with commercial turnkey ops in spreadsheets only. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across KIPL Infrastructure and noticed you're scaling operations in construction. Many companies at your stage face issues with commercial turnkey ops in spreadsheets only. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "Director",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -3474,7 +3474,7 @@ export const leads: Lead[] = [
     intentLevel: "MEDIUM" as "HIGH" | "MEDIUM",
     buyingTrigger: "IT park commercial interior projects from Pune tech corridor scaling up",
     action: "Call and ask about their current project pipeline and client management process",
-    outreachMessage: "Hi, I came across SS Infrastructure and noticed you're a leading commercial construction and interiors firm in Pune. As your IT park and commercial project pipeline grows, tracking site progress and client approvals via WhatsApp becomes a liability. We've built a lightweight CRM for construction firms — first clients in Pune get 3 months completely free. Would 15 minutes this week work?",
+    outreachMessage: "Hi, I came across SS Infrastructure and noticed you're a leading commercial construction and interiors firm in Pune. As your IT park and commercial project pipeline grows, tracking site progress and client approvals via WhatsApp becomes a liability. We've built a lightweight CRM for construction firms — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work?",
     contact: "Site Manager / Director",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -3496,7 +3496,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "New corporate campus fit-out across 6 cities",
     action: "Call within 24 hours — reference the buying trigger directly",
-    outreachMessage: "Hi, I came across GBRN Projects Pune and noticed you're scaling operations in construction. Many companies at your stage face issues with pan-india office fit-out projects tracked in excel. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across GBRN Projects Pune and noticed you're scaling operations in construction. Many companies at your stage face issues with pan-india office fit-out projects tracked in excel. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "Director",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -3518,7 +3518,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "IT park client requiring digital project update portal",
     action: "Call within 24 hours — reference the buying trigger directly",
-    outreachMessage: "Hi, I came across Keystone Building Concepts and noticed you're scaling operations in construction. Many companies at your stage face issues with civil and interior fit-out tracking in complete silos. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across Keystone Building Concepts and noticed you're scaling operations in construction. Many companies at your stage face issues with civil and interior fit-out tracking in complete silos. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "MD",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -3540,7 +3540,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "New retail chain client needing 50 store fit-outs",
     action: "Call within 24 hours — reference the buying trigger directly",
-    outreachMessage: "Hi, I came across Brawn Globus Design Build and noticed you're scaling operations in construction. Many companies at your stage face issues with design-build project management in excel sheets. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across Brawn Globus Design Build and noticed you're scaling operations in construction. Many companies at your stage face issues with design-build project management in excel sheets. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "Director",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -3562,7 +3562,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "MNC client requiring project management software proof",
     action: "Call within 24 hours — reference the buying trigger directly",
-    outreachMessage: "Hi, I came across Cherry Hill Interiors and noticed you're scaling operations in construction. Many companies at your stage face issues with high-end office design project tracking is manual. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across Cherry Hill Interiors and noticed you're scaling operations in construction. Many companies at your stage face issues with high-end office design project tracking is manual. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "Founder",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -3584,7 +3584,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "ISO 9001 certification required by new corporate client",
     action: "Call within 24 hours — reference the buying trigger directly",
-    outreachMessage: "Hi, I came across Masterpiece Interiors and noticed you're scaling operations in construction. Many companies at your stage face issues with turnkey project ops across bangalore and pune manual. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across Masterpiece Interiors and noticed you're scaling operations in construction. Many companies at your stage face issues with turnkey project ops across bangalore and pune manual. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "Director",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -3606,7 +3606,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "MNC client requiring documented project workflow",
     action: "Call within 24 hours — reference the buying trigger directly",
-    outreachMessage: "Hi, I came across GMAM Designs and noticed you're scaling operations in construction. Many companies at your stage face issues with commercial fit-out project quotations done manually. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across GMAM Designs and noticed you're scaling operations in construction. Many companies at your stage face issues with commercial fit-out project quotations done manually. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "Founder",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -3628,7 +3628,7 @@ export const leads: Lead[] = [
     intentLevel: "MEDIUM" as "HIGH" | "MEDIUM",
     buyingTrigger: "IT park client requiring portal-based project updates",
     action: "Connect on LinkedIn first, then follow up with a call within 72 hours",
-    outreachMessage: "Hi, I came across SIPL Interior Projects and noticed you're scaling operations in construction. Many companies at your stage face issues with interior fit-out quotations only via pdf email. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across SIPL Interior Projects and noticed you're scaling operations in construction. Many companies at your stage face issues with interior fit-out quotations only via pdf email. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "Proprietor",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -3650,7 +3650,7 @@ export const leads: Lead[] = [
     intentLevel: "MEDIUM" as "HIGH" | "MEDIUM",
     buyingTrigger: "High-value Mumbai clientele demanding professional project management portals",
     action: "Call and reference the premium client expectations driving professionalization",
-    outreachMessage: "Hi, I came across Swami Interior Works and noticed you're known for luxury interior design in Mumbai. High-value clients at your tier are increasingly expecting a professional project portal rather than WhatsApp updates. We've built a lightweight CRM and client portal for interior firms — first clients in Mumbai get 3 months completely free. Would 15 minutes this week work?",
+    outreachMessage: "Hi, I came across Swami Interior Works and noticed you're known for luxury interior design in Mumbai. High-value clients at your tier are increasingly expecting a professional project portal rather than WhatsApp updates. We've built a lightweight CRM and client portal for interior firms — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work?",
     contact: "Interior Designer / Owner",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -3672,7 +3672,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "Corporate clients asking for digital event briefs",
     action: "Call within 24 hours — reference the buying trigger directly",
-    outreachMessage: "Hi, I came across Events Zone and noticed you're scaling operations in hospitality. Many companies at your stage face issues with event enquiries received only via phone calls. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across Events Zone and noticed you're scaling operations in hospitality. Many companies at your stage face issues with event enquiries received only via phone calls. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "Founder",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -3694,7 +3694,7 @@ export const leads: Lead[] = [
     intentLevel: "MEDIUM" as "HIGH" | "MEDIUM",
     buyingTrigger: "Celebrity client required professional event management system",
     action: "Connect on LinkedIn first, then follow up with a call within 72 hours",
-    outreachMessage: "Hi, I came across Solitaire Events and noticed you're scaling operations in hospitality. Many companies at your stage face issues with wedding event coordination via whatsapp only. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across Solitaire Events and noticed you're scaling operations in hospitality. Many companies at your stage face issues with wedding event coordination via whatsapp only. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "Director",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -3716,7 +3716,7 @@ export const leads: Lead[] = [
     intentLevel: "MEDIUM" as "HIGH" | "MEDIUM",
     buyingTrigger: "Corporates requiring digital documentation compliance",
     action: "Connect on LinkedIn first, then follow up with a call within 72 hours",
-    outreachMessage: "Hi, I came across We & You Events and noticed you're scaling operations in hospitality. Many companies at your stage face issues with event budget tracking in excel only. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across We & You Events and noticed you're scaling operations in hospitality. Many companies at your stage face issues with event budget tracking in excel only. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "Founder",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -3738,7 +3738,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "International MICE client requiring digital event ops",
     action: "Call within 24 hours — reference the buying trigger directly",
-    outreachMessage: "Hi, I came across ICE India Events and noticed you're scaling operations in hospitality. Many companies at your stage face issues with mice event management tracked in excel. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across ICE India Events and noticed you're scaling operations in hospitality. Many companies at your stage face issues with mice event management tracked in excel. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "MD",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -3760,7 +3760,7 @@ export const leads: Lead[] = [
     intentLevel: "MEDIUM" as "HIGH" | "MEDIUM",
     buyingTrigger: "Expanding from weddings to corporate events segment",
     action: "Connect on LinkedIn first, then follow up with a call within 72 hours",
-    outreachMessage: "Hi, I came across FB Celebrations and noticed you're scaling operations in hospitality. Many companies at your stage face issues with wedding packages inquiry via instagram only. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across FB Celebrations and noticed you're scaling operations in hospitality. Many companies at your stage face issues with wedding packages inquiry via instagram only. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "Founder",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -3782,7 +3782,7 @@ export const leads: Lead[] = [
     intentLevel: "MEDIUM" as "HIGH" | "MEDIUM",
     buyingTrigger: "FMCG brand client requesting digital campaign reports",
     action: "Connect on LinkedIn first, then follow up with a call within 72 hours",
-    outreachMessage: "Hi, I came across Craftworld Events Pune and noticed you're scaling operations in hospitality. Many companies at your stage face issues with corporate event pipeline tracked in excel. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across Craftworld Events Pune and noticed you're scaling operations in hospitality. Many companies at your stage face issues with corporate event pipeline tracked in excel. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "Director",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -3804,7 +3804,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "Scaling from local to national festival circuit",
     action: "Call within 24 hours — reference the buying trigger directly",
-    outreachMessage: "Hi, I came across Truppa & Fest and noticed you're scaling operations in hospitality. Many companies at your stage face issues with festival event production tracking is manual. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across Truppa & Fest and noticed you're scaling operations in hospitality. Many companies at your stage face issues with festival event production tracking is manual. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "Co-Founder",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -3826,7 +3826,7 @@ export const leads: Lead[] = [
     intentLevel: "MEDIUM" as "HIGH" | "MEDIUM",
     buyingTrigger: "New Navi Mumbai corporate zone client base expanding",
     action: "Connect on LinkedIn first, then follow up with a call within 72 hours",
-    outreachMessage: "Hi, I came across Red Letters Events and noticed you're scaling operations in hospitality. Many companies at your stage face issues with corporate event quotation process is manual. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across Red Letters Events and noticed you're scaling operations in hospitality. Many companies at your stage face issues with corporate event quotation process is manual. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "Director",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -3848,7 +3848,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "Corporate travel recovery post-COVID driving demand for professional booking portals",
     action: "Call within 48 hours — reference their multi-property corporate booking opportunity",
-    outreachMessage: "Hi, I came across Bawa Group of Hotels — a wonderful collection of boutique hotels in Mumbai. Corporate travel is bouncing back strongly and hotels that offer a professional booking portal and dedicated account management are winning long-term contracts. We've built a CRM and client portal for hospitality companies — first properties in Mumbai get 3 months completely free. Would 15 minutes this week work?",
+    outreachMessage: "Hi, I came across Bawa Group of Hotels — a wonderful collection of boutique hotels in Mumbai. Corporate travel is bouncing back strongly and hotels that offer a professional booking portal and dedicated account management are winning long-term contracts. We've built a CRM and client portal for hospitality companies — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work?",
     contact: "Revenue Manager / General Manager",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -3870,7 +3870,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "International conference client requiring professional ops",
     action: "Call within 24 hours — reference the buying trigger directly",
-    outreachMessage: "Hi, I came across Musafir Conference Services and noticed you're scaling operations in hospitality. Many companies at your stage face issues with mice travel ops tracked in excel sheets. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across Musafir Conference Services and noticed you're scaling operations in hospitality. Many companies at your stage face issues with mice travel ops tracked in excel sheets. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "Director",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -3892,7 +3892,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "Digital transformation initiative post-COVID recovery",
     action: "Call within 24 hours — reference the buying trigger directly",
-    outreachMessage: "Hi, I came across Flamingo Travels and noticed you're scaling operations in travel & tourism. Many companies at your stage face issues with group tour booking management done manually. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across Flamingo Travels and noticed you're scaling operations in travel & tourism. Many companies at your stage face issues with group tour booking management done manually. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "VP Technology",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -3914,7 +3914,7 @@ export const leads: Lead[] = [
     intentLevel: "MEDIUM" as "HIGH" | "MEDIUM",
     buyingTrigger: "Corporate travel account requiring digital approval workflow",
     action: "Connect on LinkedIn first, then follow up with a call within 72 hours",
-    outreachMessage: "Hi, I came across Nirmala Travels and noticed you're scaling operations in travel & tourism. Many companies at your stage face issues with holiday package enquiries via phone only. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across Nirmala Travels and noticed you're scaling operations in travel & tourism. Many companies at your stage face issues with holiday package enquiries via phone only. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "Proprietor",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -3936,7 +3936,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "IPO preparation requires audit-ready digital processes",
     action: "Call within 24 hours — reference the buying trigger directly",
-    outreachMessage: "Hi, I came across Veena World Tours and noticed you're scaling operations in travel & tourism. Many companies at your stage face issues with 500+ monthly group tours management in excel. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across Veena World Tours and noticed you're scaling operations in travel & tourism. Many companies at your stage face issues with 500+ monthly group tours management in excel. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "VP Operations",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -3958,7 +3958,7 @@ export const leads: Lead[] = [
     intentLevel: "MEDIUM" as "HIGH" | "MEDIUM",
     buyingTrigger: "Scaling to corporate team building market needs system",
     action: "Connect on LinkedIn first, then follow up with a call within 72 hours",
-    outreachMessage: "Hi, I came across Nomad Trails Treks and noticed you're scaling operations in travel & tourism. Many companies at your stage face issues with adventure trip slots managed in google sheets. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across Nomad Trails Treks and noticed you're scaling operations in travel & tourism. Many companies at your stage face issues with adventure trip slots managed in google sheets. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "Founder",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -3980,7 +3980,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "Corporate travel recovery driving demand for digital client management portals",
     action: "Call within 48 hours — reference their MICE and corporate travel portfolio growth",
-    outreachMessage: "Hi, I came across Gilpin Travel Management — one of Mumbai's leading corporate travel agencies. As corporate travel volumes recover, clients are increasingly expecting a digital portal for booking, approvals, and expense tracking. We've built a CRM and client portal for travel management companies — first clients in Mumbai get 3 months completely free. Would 15 minutes this week work?",
+    outreachMessage: "Hi, I came across Gilpin Travel Management — one of Mumbai's leading corporate travel agencies. As corporate travel volumes recover, clients are increasingly expecting a digital portal for booking, approvals, and expense tracking. We've built a CRM and client portal for travel management companies — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work?",
     contact: "Head of Corporate Sales / Director",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -4002,7 +4002,7 @@ export const leads: Lead[] = [
     intentLevel: "MEDIUM" as "HIGH" | "MEDIUM",
     buyingTrigger: "Expanding to pan-India corporate events market",
     action: "Connect on LinkedIn first, then follow up with a call within 72 hours",
-    outreachMessage: "Hi, I came across Verve Events Pune and noticed you're scaling operations in events / marketing. Many companies at your stage face issues with event enquiry pipeline tracked in excel sheets. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across Verve Events Pune and noticed you're scaling operations in events / marketing. Many companies at your stage face issues with event enquiry pipeline tracked in excel sheets. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "Director",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -4024,7 +4024,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "Bollywood production house client requiring digital tracking",
     action: "Call within 24 hours — reference the buying trigger directly",
-    outreachMessage: "Hi, I came across Brandesense Events and noticed you're scaling operations in events / marketing. Many companies at your stage face issues with ooh campaign tracking in excel sheets only. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across Brandesense Events and noticed you're scaling operations in events / marketing. Many companies at your stage face issues with ooh campaign tracking in excel sheets only. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "Founder",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -4046,7 +4046,7 @@ export const leads: Lead[] = [
     intentLevel: "MEDIUM" as "HIGH" | "MEDIUM",
     buyingTrigger: "MNC Pune client wants professional event management",
     action: "Connect on LinkedIn first, then follow up with a call within 72 hours",
-    outreachMessage: "Hi, I came across Yours Truly Events and noticed you're scaling operations in events / marketing. Many companies at your stage face issues with corporate event planning all on whatsapp. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across Yours Truly Events and noticed you're scaling operations in events / marketing. Many companies at your stage face issues with corporate event planning all on whatsapp. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "Founder",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -4068,7 +4068,7 @@ export const leads: Lead[] = [
     intentLevel: "MEDIUM" as "HIGH" | "MEDIUM",
     buyingTrigger: "Corporate client requiring digital event brief system",
     action: "Connect on LinkedIn first, then follow up with a call within 72 hours",
-    outreachMessage: "Hi, I came across Absolute Concepts Events and noticed you're scaling operations in events / marketing. Many companies at your stage face issues with event concept decks done manually in powerpoint. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across Absolute Concepts Events and noticed you're scaling operations in events / marketing. Many companies at your stage face issues with event concept decks done manually in powerpoint. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "Proprietor",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -4090,7 +4090,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "Pan-India B2B event series needs digital ops platform",
     action: "Call within 24 hours — reference the buying trigger directly",
-    outreachMessage: "Hi, I came across Marrquee Events and noticed you're scaling operations in events / marketing. Many companies at your stage face issues with international award-winning events ops in excel. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across Marrquee Events and noticed you're scaling operations in events / marketing. Many companies at your stage face issues with international award-winning events ops in excel. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "Director",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -4112,7 +4112,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "USFDA audit requiring digital quality management system",
     action: "Call within 24 hours — reference the buying trigger directly",
-    outreachMessage: "Hi, I came across Oceanic Pharmachem and noticed you're scaling operations in pharmaceutical. Many companies at your stage face issues with api export documentation is entirely manual. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across Oceanic Pharmachem and noticed you're scaling operations in pharmaceutical. Many companies at your stage face issues with api export documentation is entirely manual. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "Director Regulatory",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -4134,7 +4134,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "EU GMP audit requiring electronic batch records system",
     action: "Call within 24 hours — reference the buying trigger directly",
-    outreachMessage: "Hi, I came across Amber Lifesciences and noticed you're scaling operations in pharmaceutical. Many companies at your stage face issues with third-party manufacturing orders tracked in excel. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across Amber Lifesciences and noticed you're scaling operations in pharmaceutical. Many companies at your stage face issues with third-party manufacturing orders tracked in excel. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "VP Operations",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -4156,7 +4156,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "ISO-certified export house recognition demanding full digital traceability",
     action: "Call within 48 hours — reference export compliance and traceability requirements",
-    outreachMessage: "Hi, I came across Salius Pharma and noticed you're a recognized export house for pharmaceutical ingredients in Navi Mumbai. Export compliance audits are increasingly flagging manual batch records as a serious risk for ISO-certified exporters. We've built an ERP platform for Indian pharma SMBs — first clients in Navi Mumbai get 3 months completely free. Would 15 minutes this week work?",
+    outreachMessage: "Hi, I came across Salius Pharma and noticed you're a recognized export house for pharmaceutical ingredients in Navi Mumbai. Export compliance audits are increasingly flagging manual batch records as a serious risk for ISO-certified exporters. We've built an ERP platform for Indian pharma SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work?",
     contact: "Director / Operations Manager",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -4178,7 +4178,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "WHO-GMP certification requiring digital quality system",
     action: "Call within 24 hours — reference the buying trigger directly",
-    outreachMessage: "Hi, I came across Sudarshan Pharma Industries and noticed you're scaling operations in pharmaceutical. Many companies at your stage face issues with api manufacturing batch tracking in excel sheets. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across Sudarshan Pharma Industries and noticed you're scaling operations in pharmaceutical. Many companies at your stage face issues with api manufacturing batch tracking in excel sheets. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "Director",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -4200,7 +4200,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "EPFO digitization audit requiring process documentation",
     action: "Call within 24 hours — reference the buying trigger directly",
-    outreachMessage: "Hi, I came across Wren & Pecker HR Consulting and noticed you're scaling operations in consulting. Many companies at your stage face issues with payroll processing for 500 clients in excel only. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across Wren & Pecker HR Consulting and noticed you're scaling operations in consulting. Many companies at your stage face issues with payroll processing for 500 clients in excel only. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "Director",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -4222,7 +4222,7 @@ export const leads: Lead[] = [
     intentLevel: "MEDIUM" as "HIGH" | "MEDIUM",
     buyingTrigger: "Startup ecosystem growth means 3x client load this year",
     action: "Connect on LinkedIn first, then follow up with a call within 72 hours",
-    outreachMessage: "Hi, I came across FinTax Startup Consulting and noticed you're scaling operations in consulting. Many companies at your stage face issues with startup gst filing tracked in whatsapp groups. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across FinTax Startup Consulting and noticed you're scaling operations in consulting. Many companies at your stage face issues with startup gst filing tracked in whatsapp groups. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "Founder",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -4244,7 +4244,7 @@ export const leads: Lead[] = [
     intentLevel: "MEDIUM" as "HIGH" | "MEDIUM",
     buyingTrigger: "Scaling from 20 to 50 MSME clients this year",
     action: "Connect on LinkedIn first, then follow up with a call within 72 hours",
-    outreachMessage: "Hi, I came across VCT Business Consultancy and noticed you're scaling operations in consulting. Many companies at your stage face issues with business advisory pipeline tracked in email only. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across VCT Business Consultancy and noticed you're scaling operations in consulting. Many companies at your stage face issues with business advisory pipeline tracked in email only. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "Principal Consultant",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -4266,7 +4266,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "Managing ₹50Cr MSME fund needs digital deal tracking",
     action: "Call within 24 hours — reference the buying trigger directly",
-    outreachMessage: "Hi, I came across Simplex Alliance MSME and noticed you're scaling operations in consulting. Many companies at your stage face issues with msme financing advisory deal pipeline in email only. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across Simplex Alliance MSME and noticed you're scaling operations in consulting. Many companies at your stage face issues with msme financing advisory deal pipeline in email only. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "Managing Partner",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -4288,7 +4288,7 @@ export const leads: Lead[] = [
     intentLevel: "MEDIUM" as "HIGH" | "MEDIUM",
     buyingTrigger: "Expanding MSME advisory practice needs scalable client management tool",
     action: "Call and position CRM as a tool that helps them serve more SME clients better",
-    outreachMessage: "Hi, I came across Ma Foi Business Consulting and noticed you're a trusted advisory firm for SMEs in Pune. Consulting firms that grow without a CRM often lose client follow-ups and repeat advisory revenue. We've built a lightweight CRM specifically for consulting and advisory firms — your first 3 months are completely free. Would 15 minutes this week work?",
+    outreachMessage: "Hi, I came across Ma Foi Business Consulting and noticed you're a trusted advisory firm for SMEs in Pune. Consulting firms that grow without a CRM often lose client follow-ups and repeat advisory revenue. We've built a lightweight CRM specifically for consulting and advisory firms — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work?",
     contact: "Managing Partner / Director",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -4310,7 +4310,7 @@ export const leads: Lead[] = [
     intentLevel: "MEDIUM" as "HIGH" | "MEDIUM",
     buyingTrigger: "High-value residential client demanding project portal",
     action: "Connect on LinkedIn first, then follow up with a call within 72 hours",
-    outreachMessage: "Hi, I came across Elevation Interior Design and noticed you're scaling operations in interior design. Many companies at your stage face issues with interior project quotations in word documents. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across Elevation Interior Design and noticed you're scaling operations in interior design. Many companies at your stage face issues with interior project quotations in word documents. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "Principal Designer",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -4332,7 +4332,7 @@ export const leads: Lead[] = [
     intentLevel: "MEDIUM" as "HIGH" | "MEDIUM",
     buyingTrigger: "Commercial fit-out project requires structured documentation",
     action: "Connect on LinkedIn first, then follow up with a call within 72 hours",
-    outreachMessage: "Hi, I came across Jyani Interior Works and noticed you're scaling operations in interior design. Many companies at your stage face issues with civil and interior project milestones in excel. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across Jyani Interior Works and noticed you're scaling operations in interior design. Many companies at your stage face issues with civil and interior project milestones in excel. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "Director",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -4354,7 +4354,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "MNC client requiring project management software proof",
     action: "Call within 24 hours — reference the buying trigger directly",
-    outreachMessage: "Hi, I came across Chie Design Studio and noticed you're scaling operations in interior design. Many companies at your stage face issues with interior design concept approvals on whatsapp only. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across Chie Design Studio and noticed you're scaling operations in interior design. Many companies at your stage face issues with interior design concept approvals on whatsapp only. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "Principal Architect",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -4376,7 +4376,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "Labour law amendment requires digital compliance trail",
     action: "Call within 24 hours — reference the buying trigger directly",
-    outreachMessage: "Hi, I came across Kaizen HR & Payroll and noticed you're scaling operations in hr & recruitment. Many companies at your stage face issues with payroll compliance for 200 clients in excel only. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across Kaizen HR & Payroll and noticed you're scaling operations in hr & recruitment. Many companies at your stage face issues with payroll compliance for 200 clients in excel only. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "Director",
     get salesScript() { return generateSalesScript(this as Lead); }
   },
@@ -4398,7 +4398,7 @@ export const leads: Lead[] = [
     intentLevel: "HIGH" as "HIGH" | "MEDIUM",
     buyingTrigger: "Tier-1 OEM requiring IATF 16949 digital QMS",
     action: "Call within 24 hours — reference the buying trigger directly",
-    outreachMessage: "Hi, I came across Takshi Auto Components and noticed you're scaling operations in automotive. Many companies at your stage face issues with auto component quality records still on paper. We've built a custom CRM and ERP platform specifically for Indian SMBs — our first clients in your city get 3 months free trial. Would 15 minutes this week work to show you a quick demo?",
+    outreachMessage: "Hi, I came across Takshi Auto Components and noticed you're scaling operations in automotive. Many companies at your stage face issues with auto component quality records still on paper. We've built a custom CRM and ERP platform specifically for Indian SMBs — trusted by Indian SMBs across manufacturing, logistics, healthcare, and services sectors. Would 15 minutes this week work to show you a quick demo?",
     contact: "Director Operations",
     get salesScript() { return generateSalesScript(this as Lead); }
   },

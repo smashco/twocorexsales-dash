@@ -1,0 +1,3081 @@
+[
+  {
+    "id": "MFG-1",
+    "companyName": "Jyoti Plastic Works",
+    "contactTitle": "Operations Director",
+    "city": "Mumbai",
+    "website": "https://jyotiworld.com",
+    "phones": [],
+    "emails": [
+      "marketing@jyotiworld.com"
+    ],
+    "scrapedFrom": [
+      "https://jyotiworld.com"
+    ]
+  },
+  {
+    "id": "MFG-2",
+    "companyName": "Papa Packaging",
+    "contactTitle": "Proprietor",
+    "city": "Navi Mumbai",
+    "website": "https://papapackaging.in",
+    "phones": [
+      "07971189493"
+    ],
+    "emails": [],
+    "scrapedFrom": [
+      "https://papapackaging.in"
+    ]
+  },
+  {
+    "id": "MFG-3",
+    "companyName": "Chemco Group",
+    "contactTitle": "MD",
+    "city": "Mumbai",
+    "website": "https://chemcogroup.com",
+    "phones": [
+      "+919699610000"
+    ],
+    "emails": [
+      "inquiry@chemcogroup.com"
+    ],
+    "scrapedFrom": [
+      "https://chemcogroup.com"
+    ]
+  },
+  {
+    "id": "MFG-4",
+    "companyName": "Miranda Automation",
+    "contactTitle": "Founder",
+    "city": "Navi Mumbai",
+    "website": "https://mirandaautomation.com",
+    "phones": [],
+    "emails": [],
+    "scrapedFrom": [
+      "https://mirandaautomation.com"
+    ]
+  },
+  {
+    "id": "MFG-5",
+    "companyName": "Shruti Flexipack",
+    "contactTitle": "Owner",
+    "city": "Navi Mumbai",
+    "website": "https://shrutiflexipack.com",
+    "phones": [
+      "+919619909581",
+      "7506129084"
+    ],
+    "emails": [
+      "director@shrutiflexipack.com"
+    ],
+    "scrapedFrom": [
+      "https://shrutiflexipack.com"
+    ]
+  },
+  {
+    "id": "MFG-6",
+    "companyName": "Sensograph Technologies",
+    "contactTitle": "Director",
+    "city": "Mumbai",
+    "website": "https://sensograph.in",
+    "phones": [
+      "+919920232025",
+      "9920232025",
+      "2227671931"
+    ],
+    "emails": [
+      "sales@sensograph.in",
+      "mgt@sensograph.in"
+    ],
+    "scrapedFrom": [
+      "https://sensograph.in"
+    ]
+  },
+  {
+    "id": "MFG-7",
+    "companyName": "VS Machines",
+    "contactTitle": "MD",
+    "city": "Mumbai",
+    "website": "https://vsmachines.co.in",
+    "phones": [
+      "08048987609"
+    ],
+    "emails": [],
+    "scrapedFrom": [
+      "https://vsmachines.co.in"
+    ]
+  },
+  {
+    "id": "MFG-8",
+    "companyName": "RP Plastic Industries",
+    "contactTitle": "Proprietor",
+    "city": "Mumbai",
+    "website": "https://rpplasticindustries.com",
+    "phones": [],
+    "emails": [
+      "rpplasticindustries@gmail.com"
+    ],
+    "scrapedFrom": [
+      "https://rpplasticindustries.com"
+    ]
+  },
+  {
+    "id": "MFG-9",
+    "companyName": "Efficient Innovations",
+    "contactTitle": "Founder",
+    "city": "Mumbai",
+    "website": "https://efficientinnovations.in",
+    "phones": [
+      "+912262367521"
+    ],
+    "emails": [
+      "hr@efficientengg.com"
+    ],
+    "scrapedFrom": [
+      "https://efficientinnovations.in"
+    ]
+  },
+  {
+    "id": "MFG-10",
+    "companyName": "Patel Precision",
+    "contactTitle": "Owner",
+    "city": "Mumbai",
+    "website": "https://patelprecision.com",
+    "phones": [
+      "+919820808852"
+    ],
+    "emails": [
+      "rakesh@patelprecision.com"
+    ],
+    "scrapedFrom": [
+      "https://patelprecision.com"
+    ]
+  },
+  {
+    "id": "MFG-11",
+    "companyName": "Polyrub Plastics",
+    "contactTitle": "GM Sales",
+    "city": "Mumbai",
+    "website": "https://polyrubplastics.com",
+    "phones": [
+      "+919257038850"
+    ],
+    "emails": [
+      "info@polyrubplastics.com"
+    ],
+    "scrapedFrom": [
+      "https://polyrubplastics.com",
+      "https://polyrubplastics.com/contact"
+    ]
+  },
+  {
+    "id": "MFG-12",
+    "companyName": "Chem Seals",
+    "contactTitle": "Director",
+    "city": "Mumbai",
+    "website": "https://chemseals.com",
+    "phones": [
+      "+919619590007",
+      "9619590007"
+    ],
+    "emails": [
+      "chemseals@chemseals.com"
+    ],
+    "scrapedFrom": [
+      "https://chemseals.com",
+      "https://chemseals.com/contact"
+    ]
+  },
+  {
+    "id": "MFG-13",
+    "companyName": "ASelvax Automation",
+    "contactTitle": "Founder / Service Director",
+    "city": "Navi Mumbai",
+    "website": "https://aselvax.in",
+    "phones": [
+      "+917506037477"
+    ],
+    "emails": [
+      "automation@aselvax.in"
+    ],
+    "scrapedFrom": [
+      "https://aselvax.in"
+    ]
+  },
+  {
+    "id": "MFG-14",
+    "companyName": "Goldline Furniture",
+    "contactTitle": "Proprietor",
+    "city": "Mumbai",
+    "website": "https://goldlinefurniture.com",
+    "phones": [
+      "08046045534"
+    ],
+    "emails": [],
+    "scrapedFrom": [
+      "https://goldlinefurniture.com"
+    ]
+  },
+  {
+    "id": "MFG-15",
+    "companyName": "Sudarshan Paints",
+    "contactTitle": "Sales Head",
+    "city": "Navi Mumbai",
+    "website": "https://sudarshanpaints.in",
+    "phones": [
+      "08048983907"
+    ],
+    "emails": [],
+    "scrapedFrom": [
+      "https://sudarshanpaints.in"
+    ]
+  },
+  {
+    "id": "MFG-16",
+    "companyName": "Sai Packaging Industries",
+    "contactTitle": "Owner / Director",
+    "city": "Pune",
+    "website": "https://saipkgind.com",
+    "phones": [
+      "+919067474360"
+    ],
+    "emails": [
+      "saipkgind@yahoo.com",
+      "sahil.prabhune@saipkgind.com"
+    ],
+    "scrapedFrom": [
+      "https://saipkgind.com"
+    ]
+  },
+  {
+    "id": "MFG-17",
+    "companyName": "Nichrome Packaging Solutions",
+    "contactTitle": "Service Manager / Operations Director",
+    "city": "Pune",
+    "website": "https://nichrome.com",
+    "phones": [],
+    "emails": [
+      "marketing@nichrome.com",
+      "exports@nichrome.com"
+    ],
+    "scrapedFrom": [
+      "https://nichrome.com"
+    ]
+  },
+  {
+    "id": "MFG-18",
+    "companyName": "Greenway E-Waste",
+    "contactTitle": "Founder",
+    "city": "Mumbai",
+    "website": "https://greenwayewaste.co.in",
+    "phones": [],
+    "emails": [],
+    "scrapedFrom": [
+      "https://greenwayewaste.co.in"
+    ]
+  },
+  {
+    "id": "MFG-19",
+    "companyName": "Modern Rubber & Plastic",
+    "contactTitle": "Owner",
+    "city": "Mumbai",
+    "website": "https://modernrubberplastic.com",
+    "phones": [
+      "+919136219785"
+    ],
+    "emails": [
+      "modern@modernrubberplastic.com"
+    ],
+    "scrapedFrom": [
+      "https://modernrubberplastic.com"
+    ]
+  },
+  {
+    "id": "MFG-20",
+    "companyName": "Pune Polymers",
+    "contactTitle": "MD",
+    "city": "Pune",
+    "website": "https://punepolymers.com",
+    "phones": [],
+    "emails": [
+      "pune_polymers@yahoo.in"
+    ],
+    "scrapedFrom": [
+      "https://punepolymers.com"
+    ]
+  },
+  {
+    "id": "MFG-21",
+    "companyName": "Shriram Rubber Products",
+    "contactTitle": "Director Operations",
+    "city": "Pune",
+    "website": "https://shriramrubber.com",
+    "phones": [
+      "9822090266"
+    ],
+    "emails": [],
+    "scrapedFrom": [
+      "https://shriramrubber.com"
+    ]
+  },
+  {
+    "id": "MFG-22",
+    "companyName": "Precision Engineering Works",
+    "contactTitle": "Proprietor",
+    "city": "Pune",
+    "website": "https://pewpune.com",
+    "phones": [
+      "02066142131",
+      "+919049583043"
+    ],
+    "emails": [
+      "aypathan@pewpune.com"
+    ],
+    "scrapedFrom": [
+      "https://pewpune.com"
+    ]
+  },
+  {
+    "id": "MFG-23",
+    "companyName": "Fibro India",
+    "contactTitle": "GM Operations",
+    "city": "Pune",
+    "website": "https://fibro-india.com",
+    "phones": [],
+    "emails": [
+      "info@staging-web.srv.media",
+      "info@fibro-india.com"
+    ],
+    "scrapedFrom": [
+      "https://fibro-india.com"
+    ]
+  },
+  {
+    "id": "MFG-24",
+    "companyName": "Wadhokar Group",
+    "contactTitle": "VP Operations",
+    "city": "Pune",
+    "website": "https://wadhokar.com",
+    "phones": [],
+    "emails": [
+      "marketing@wadhokar.com"
+    ],
+    "scrapedFrom": [
+      "https://wadhokar.com"
+    ]
+  },
+  {
+    "id": "MFG-25",
+    "companyName": "Innovatios Technology",
+    "contactTitle": "Founder",
+    "city": "Bangalore",
+    "website": "https://innovatiostech.com",
+    "phones": [],
+    "emails": [
+      "enquiry@innovatiostech.com"
+    ],
+    "scrapedFrom": [
+      "https://innovatiostech.com"
+    ]
+  },
+  {
+    "id": "MFG-26",
+    "companyName": "STEER World",
+    "contactTitle": "VP Sales / Business Development Head",
+    "city": "Bangalore",
+    "website": "https://steerlife.com",
+    "phones": [
+      "+918042723300"
+    ],
+    "emails": [
+      "info@steerworld.com"
+    ],
+    "scrapedFrom": [
+      "https://steerlife.com"
+    ]
+  },
+  {
+    "id": "MFG-27",
+    "companyName": "BVPL Turbine Parts",
+    "contactTitle": "Director",
+    "city": "Bangalore",
+    "website": "https://bvplturbineparts.com",
+    "phones": [],
+    "emails": [
+      "thanmai@bvplturbineparts.com",
+      "bvpl@bvplturbineparts.com"
+    ],
+    "scrapedFrom": [
+      "https://bvplturbineparts.com",
+      "https://bvplturbineparts.com/contact"
+    ]
+  },
+  {
+    "id": "MFG-28",
+    "companyName": "Sushma Industries",
+    "contactTitle": "MD",
+    "city": "Bangalore",
+    "website": "https://sushmaindustries.com",
+    "phones": [],
+    "emails": [],
+    "scrapedFrom": [
+      "https://sushmaindustries.com",
+      "https://sushmaindustries.com/contact"
+    ]
+  },
+  {
+    "id": "MFG-29",
+    "companyName": "OGP Packaging Films",
+    "contactTitle": "Sales Manager / Director",
+    "city": "Pune",
+    "website": "https://ogpteck.com",
+    "phones": [
+      "+919860094602"
+    ],
+    "emails": [
+      "ogpsangeeta@gmail.com"
+    ],
+    "scrapedFrom": [
+      "https://ogpteck.com",
+      "https://ogpteck.com/contact"
+    ]
+  },
+  {
+    "id": "MFG-30",
+    "companyName": "Hytek Marketing",
+    "contactTitle": "Director Sales",
+    "city": "Bangalore",
+    "website": "https://hytekmarketing.biz",
+    "phones": [
+      "+912040036229",
+      "+918041306055",
+      "+918041305955"
+    ],
+    "emails": [
+      "hytek@hytekmarketing.biz"
+    ],
+    "scrapedFrom": [
+      "https://hytekmarketing.biz"
+    ]
+  },
+  {
+    "id": "MFG-31",
+    "companyName": "Suite42 Manufacturing",
+    "contactTitle": "Founder",
+    "city": "Bangalore",
+    "website": "https://suite42.in",
+    "phones": [],
+    "emails": [
+      "contact@mj9.169.myftpupload.com"
+    ],
+    "scrapedFrom": [
+      "https://suite42.in"
+    ]
+  },
+  {
+    "id": "MFG-32",
+    "companyName": "Padmatech Industries",
+    "contactTitle": "MD",
+    "city": "Pune",
+    "website": "https://padmatechindustries.com",
+    "phones": [
+      "+919146140044",
+      "+919822552882"
+    ],
+    "emails": [
+      "padmatechindustries@gmail.com",
+      "marketing1@padmatech.in",
+      "marketing@padmatechindustries.com"
+    ],
+    "scrapedFrom": [
+      "https://padmatechindustries.com"
+    ]
+  },
+  {
+    "id": "MFG-33",
+    "companyName": "Pulraj Electronics",
+    "contactTitle": "Director",
+    "city": "Navi Mumbai",
+    "website": "https://pulraj.com",
+    "phones": [
+      "+918828477804"
+    ],
+    "emails": [],
+    "scrapedFrom": [
+      "https://pulraj.com"
+    ]
+  },
+  {
+    "id": "MFG-34",
+    "companyName": "Aerostar Manufacturing",
+    "contactTitle": "Operations Head",
+    "city": "Bangalore",
+    "website": "https://aerostarmfg.com",
+    "phones": [],
+    "emails": [],
+    "scrapedFrom": []
+  },
+  {
+    "id": "MFG-35",
+    "companyName": "Seema Finechem Industries",
+    "contactTitle": "Proprietor",
+    "city": "Navi Mumbai",
+    "website": "https://seemafinechem.com",
+    "phones": [],
+    "emails": [
+      "sales@seemafinechem.com",
+      "inquiry@seemafinechem.com"
+    ],
+    "scrapedFrom": [
+      "https://seemafinechem.com"
+    ]
+  },
+  {
+    "id": "LOG-1",
+    "companyName": "Akash Storage & Distribution",
+    "contactTitle": "Director",
+    "city": "Mumbai",
+    "website": "https://akashwarehouse.com",
+    "phones": [],
+    "emails": [
+      "info@akashwarehouse.com"
+    ],
+    "scrapedFrom": [
+      "https://akashwarehouse.com"
+    ]
+  },
+  {
+    "id": "LOG-2",
+    "companyName": "Ash Logistics",
+    "contactTitle": "MD",
+    "city": "Mumbai",
+    "website": "https://ash-logistics.com",
+    "phones": [],
+    "emails": [
+      "business@abhigroup.co.in",
+      "hr1@impact-logistics.in"
+    ],
+    "scrapedFrom": [
+      "https://ash-logistics.com"
+    ]
+  },
+  {
+    "id": "LOG-3",
+    "companyName": "Warehousing Wallah",
+    "contactTitle": "Founder",
+    "city": "Mumbai",
+    "website": "https://warehousingwallah.com",
+    "phones": [
+      "+919167261110"
+    ],
+    "emails": [
+      "info@warehousingwallah.com"
+    ],
+    "scrapedFrom": [
+      "https://warehousingwallah.com"
+    ]
+  },
+  {
+    "id": "LOG-4",
+    "companyName": "Allcargo Logistics",
+    "contactTitle": "VP Operations / Business Development Head",
+    "city": "Mumbai",
+    "website": "https://www.allcargologistics.com",
+    "phones": [],
+    "emails": [
+      "customerservices@allcargologistics.com"
+    ],
+    "scrapedFrom": [
+      "https://www.allcargologistics.com",
+      "https://www.allcargologistics.com/contact"
+    ]
+  },
+  {
+    "id": "LOG-5",
+    "companyName": "Warehousing Express",
+    "contactTitle": "Operations Manager",
+    "city": "Mumbai",
+    "website": "https://warehousingexpress.com",
+    "phones": [
+      "+919278208606"
+    ],
+    "emails": [
+      "info@warehousingexpress.com",
+      "sales@warehousingexpress.com"
+    ],
+    "scrapedFrom": [
+      "https://warehousingexpress.com"
+    ]
+  },
+  {
+    "id": "LOG-6",
+    "companyName": "CWLS Logistics",
+    "contactTitle": "Director Operations",
+    "city": "Mumbai",
+    "website": "https://cwls.co.in",
+    "phones": [
+      "+918668990871"
+    ],
+    "emails": [
+      "info@cwls.co.in"
+    ],
+    "scrapedFrom": [
+      "https://cwls.co.in"
+    ]
+  },
+  {
+    "id": "LOG-7",
+    "companyName": "Bhairav Logistics",
+    "contactTitle": "Proprietor",
+    "city": "Mumbai",
+    "website": "https://bhairavlogistics.com",
+    "phones": [
+      "+917843091000"
+    ],
+    "emails": [
+      "bhairavlogistics62@gmail.com"
+    ],
+    "scrapedFrom": [
+      "https://bhairavlogistics.com"
+    ]
+  },
+  {
+    "id": "LOG-8",
+    "companyName": "20Cube Logistics",
+    "contactTitle": "VP Technology",
+    "city": "Mumbai",
+    "website": "https://20cube.com",
+    "phones": [],
+    "emails": [
+      "support@20cube.com"
+    ],
+    "scrapedFrom": [
+      "https://20cube.com"
+    ]
+  },
+  {
+    "id": "LOG-9",
+    "companyName": "Veritas Logistics",
+    "contactTitle": "Director",
+    "city": "Mumbai",
+    "website": "https://veritaslogistics.com",
+    "phones": [
+      "+919930129206"
+    ],
+    "emails": [],
+    "scrapedFrom": [
+      "https://veritaslogistics.com"
+    ]
+  },
+  {
+    "id": "LOG-10",
+    "companyName": "AAJ Supply Chain",
+    "contactTitle": "COO",
+    "city": "Mumbai",
+    "website": "https://aajenterprises.com",
+    "phones": [
+      "+918586967796"
+    ],
+    "emails": [
+      "info@aajscm.com"
+    ],
+    "scrapedFrom": [
+      "https://aajenterprises.com"
+    ]
+  },
+  {
+    "id": "LOG-11",
+    "companyName": "Porter Logistics",
+    "contactTitle": "Operations Head / City Manager Mumbai",
+    "city": "Mumbai",
+    "website": "https://www.porter.in",
+    "phones": [],
+    "emails": [
+      "help@theporter.in"
+    ],
+    "scrapedFrom": [
+      "https://www.porter.in"
+    ]
+  },
+  {
+    "id": "LOG-12",
+    "companyName": "Vivek Logistics",
+    "contactTitle": "Owner",
+    "city": "Thane",
+    "website": "https://viveklogestic.com",
+    "phones": [
+      "+919320504491",
+      "9320504491",
+      "9975397968"
+    ],
+    "emails": [
+      "info@viveklogestic.com"
+    ],
+    "scrapedFrom": [
+      "https://viveklogestic.com"
+    ]
+  },
+  {
+    "id": "LOG-13",
+    "companyName": "APT Logistics",
+    "contactTitle": "Director",
+    "city": "Mumbai",
+    "website": "https://aptlogistics.com",
+    "phones": [
+      "02249787801",
+      "+919820517857",
+      "+918433988532"
+    ],
+    "emails": [],
+    "scrapedFrom": [
+      "https://aptlogistics.com"
+    ]
+  },
+  {
+    "id": "LOG-14",
+    "companyName": "Robinsons Global Logistics",
+    "contactTitle": "CEO",
+    "city": "Mumbai",
+    "website": "https://myrgl.com",
+    "phones": [],
+    "emails": [
+      "info@myrgl.com"
+    ],
+    "scrapedFrom": [
+      "https://myrgl.com",
+      "https://myrgl.com/contact"
+    ]
+  },
+  {
+    "id": "LOG-15",
+    "companyName": "WareIQ Fulfillment",
+    "contactTitle": "VP Engineering",
+    "city": "Pune",
+    "website": "https://wareiq.com",
+    "phones": [],
+    "emails": [
+      "sales@wareiq.com",
+      "support@wareiq.com"
+    ],
+    "scrapedFrom": [
+      "https://wareiq.com"
+    ]
+  },
+  {
+    "id": "LOG-16",
+    "companyName": "Varuna Group Logistics",
+    "contactTitle": "GM Operations",
+    "city": "Pune",
+    "website": "https://varuna.net",
+    "phones": [],
+    "emails": [
+      "marketing@varuna.net",
+      "info@varuna.net"
+    ],
+    "scrapedFrom": [
+      "https://varuna.net"
+    ]
+  },
+  {
+    "id": "LOG-17",
+    "companyName": "ZenXL Logistics",
+    "contactTitle": "Founder",
+    "city": "Bangalore",
+    "website": "https://zenxl.in",
+    "phones": [
+      "+919133332256",
+      "+919133332260"
+    ],
+    "emails": [
+      "info@zenxl.in",
+      "sales@zenxl.in"
+    ],
+    "scrapedFrom": [
+      "https://zenxl.in"
+    ]
+  },
+  {
+    "id": "LOG-18",
+    "companyName": "VTC 3PL Services",
+    "contactTitle": "Operations Director",
+    "city": "Pune",
+    "website": "https://vtc3pl.com",
+    "phones": [],
+    "emails": [],
+    "scrapedFrom": []
+  },
+  {
+    "id": "LOG-19",
+    "companyName": "Navata SCS",
+    "contactTitle": "Operations Head",
+    "city": "Bangalore",
+    "website": "https://navatascs.com",
+    "phones": [
+      "+919346062283"
+    ],
+    "emails": [
+      "info@navatascs.com"
+    ],
+    "scrapedFrom": [
+      "https://navatascs.com"
+    ]
+  },
+  {
+    "id": "LOG-20",
+    "companyName": "EZ Logistics",
+    "contactTitle": "Founder",
+    "city": "Bangalore",
+    "website": "https://ezlogistics.in",
+    "phones": [],
+    "emails": [],
+    "scrapedFrom": [
+      "https://ezlogistics.in"
+    ]
+  },
+  {
+    "id": "LOG-21",
+    "companyName": "Unbox Robotics",
+    "contactTitle": "CTO",
+    "city": "Pune",
+    "website": "https://unboxrobotics.com",
+    "phones": [],
+    "emails": [],
+    "scrapedFrom": [
+      "https://unboxrobotics.com",
+      "https://unboxrobotics.com/contact"
+    ]
+  },
+  {
+    "id": "LOG-22",
+    "companyName": "AAJ Swift Logistics",
+    "contactTitle": "Operations Director",
+    "city": "Bangalore",
+    "website": "https://aajswift.com",
+    "phones": [
+      "+918586967796"
+    ],
+    "emails": [
+      "info@aajswift.com"
+    ],
+    "scrapedFrom": [
+      "https://aajswift.com"
+    ]
+  },
+  {
+    "id": "LOG-23",
+    "companyName": "Odyssey Logistics",
+    "contactTitle": "Operations Manager / Director",
+    "city": "Mumbai",
+    "website": "https://odysseylogistics.net",
+    "phones": [],
+    "emails": [],
+    "scrapedFrom": [
+      "https://odysseylogistics.net"
+    ]
+  },
+  {
+    "id": "LOG-24",
+    "companyName": "Liladhar Pasoo Forwarders",
+    "contactTitle": "Operations Director / Regional Head",
+    "city": "Mumbai",
+    "website": "https://liladharpasoo.com",
+    "phones": [],
+    "emails": [
+      "sales@lpindia.com"
+    ],
+    "scrapedFrom": [
+      "https://liladharpasoo.com"
+    ]
+  },
+  {
+    "id": "LOG-25",
+    "companyName": "Crane Worldwide India",
+    "contactTitle": "Country Manager",
+    "city": "Bangalore",
+    "website": "https://craneww.com",
+    "phones": [],
+    "emails": [],
+    "scrapedFrom": [
+      "https://craneww.com",
+      "https://craneww.com/about-us"
+    ]
+  },
+  {
+    "id": "LOG-26",
+    "companyName": "LP LogiScience",
+    "contactTitle": "Warehouse Manager / Operations Head",
+    "city": "Mumbai",
+    "website": "https://lplogiscience.com",
+    "phones": [],
+    "emails": [
+      "info@lplogiscience.com"
+    ],
+    "scrapedFrom": [
+      "https://lplogiscience.com"
+    ]
+  },
+  {
+    "id": "LOG-27",
+    "companyName": "TruckSuvidha",
+    "contactTitle": "Business Development Manager",
+    "city": "Bangalore",
+    "website": "https://trucksuvidha.com",
+    "phones": [],
+    "emails": [
+      "info@trucksuvidha.com"
+    ],
+    "scrapedFrom": [
+      "https://trucksuvidha.com"
+    ]
+  },
+  {
+    "id": "LOG-28",
+    "companyName": "Logistics Plus India",
+    "contactTitle": "Country Head",
+    "city": "Pune",
+    "website": "https://logisticsplus.com",
+    "phones": [],
+    "emails": [],
+    "scrapedFrom": []
+  },
+  {
+    "id": "LOG-29",
+    "companyName": "Shadowfax Last Mile",
+    "contactTitle": "VP Operations",
+    "city": "Bangalore",
+    "website": "https://shadowfax.in",
+    "phones": [],
+    "emails": [
+      "hello@shadowfax.in"
+    ],
+    "scrapedFrom": [
+      "https://shadowfax.in"
+    ]
+  },
+  {
+    "id": "LOG-30",
+    "companyName": "Jeena & Company",
+    "contactTitle": "IT Head",
+    "city": "Mumbai",
+    "website": "https://jeena.com",
+    "phones": [
+      "+912262532111",
+      "02262532111"
+    ],
+    "emails": [
+      "contact@jeena.co.in",
+      "info@jeena.co.in",
+      "nkatgara@jeena.co.in"
+    ],
+    "scrapedFrom": [
+      "https://jeena.com",
+      "https://jeena.com/contact"
+    ]
+  },
+  {
+    "id": "FIN-1",
+    "companyName": "Blend Financial Services",
+    "contactTitle": "Founder",
+    "city": "Mumbai",
+    "website": "https://blendfinance.com",
+    "phones": [
+      "+912267770000"
+    ],
+    "emails": [
+      "communications@blendfinance.com",
+      "contact@blendfinance.com"
+    ],
+    "scrapedFrom": [
+      "https://blendfinance.com"
+    ]
+  },
+  {
+    "id": "FIN-2",
+    "companyName": "Capwise Financial Services",
+    "contactTitle": "Director",
+    "city": "Mumbai",
+    "website": "https://capwisefin.com",
+    "phones": [
+      "+912249678572"
+    ],
+    "emails": [
+      "info@capwise.com",
+      "info@capwisefin.com"
+    ],
+    "scrapedFrom": [
+      "https://capwisefin.com"
+    ]
+  },
+  {
+    "id": "FIN-3",
+    "companyName": "Tata AIG Insurance",
+    "contactTitle": "Sales Manager / Agency Distribution Head",
+    "city": "Mumbai",
+    "website": "https://www.tataaig.com",
+    "phones": [],
+    "emails": [
+      "customersupport@tataaig.com"
+    ],
+    "scrapedFrom": [
+      "https://www.tataaig.com"
+    ]
+  },
+  {
+    "id": "FIN-4",
+    "companyName": "Navnit Insurance Broking",
+    "contactTitle": "MD",
+    "city": "Mumbai",
+    "website": "https://navnitinsurance.com",
+    "phones": [
+      "+912262526252"
+    ],
+    "emails": [
+      "operation@navnitinsurance.com"
+    ],
+    "scrapedFrom": [
+      "https://navnitinsurance.com"
+    ]
+  },
+  {
+    "id": "FIN-5",
+    "companyName": "Mintifi Supply Finance",
+    "contactTitle": "VP Technology",
+    "city": "Mumbai",
+    "website": "https://mintifi.com",
+    "phones": [],
+    "emails": [
+      "careers@mintifi.com",
+      "help@mintifi.com"
+    ],
+    "scrapedFrom": [
+      "https://mintifi.com",
+      "https://mintifi.com/about"
+    ]
+  },
+  {
+    "id": "FIN-6",
+    "companyName": "Finhaat Insurance Tech",
+    "contactTitle": "Co-Founder",
+    "city": "Mumbai",
+    "website": "https://finhaat.com",
+    "phones": [
+      "02246055160"
+    ],
+    "emails": [
+      "info@finhaat.com",
+      "complaints@finhaatinsurance.com",
+      "cyberincident@finhaat.com",
+      "support@aarogyahaat.com"
+    ],
+    "scrapedFrom": [
+      "https://finhaat.com"
+    ]
+  },
+  {
+    "id": "FIN-7",
+    "companyName": "Alliance Tax Experts",
+    "contactTitle": "CA Partner",
+    "city": "Navi Mumbai",
+    "website": "https://alltaxfin.com",
+    "phones": [],
+    "emails": [
+      "info@alltaxfin.com"
+    ],
+    "scrapedFrom": [
+      "https://alltaxfin.com"
+    ]
+  },
+  {
+    "id": "FIN-8",
+    "companyName": "Ecofy Green Finance",
+    "contactTitle": "Founder",
+    "city": "Mumbai",
+    "website": "https://ecofy.co.in",
+    "phones": [],
+    "emails": [
+      "support@ecofy.co.in"
+    ],
+    "scrapedFrom": [
+      "https://ecofy.co.in",
+      "https://ecofy.co.in/contact"
+    ]
+  },
+  {
+    "id": "FIN-9",
+    "companyName": "Scripbox Wealth",
+    "contactTitle": "VP Engineering",
+    "city": "Bangalore",
+    "website": "https://scripbox.com",
+    "phones": [],
+    "emails": [],
+    "scrapedFrom": [
+      "https://scripbox.com",
+      "https://scripbox.com/contact-us"
+    ]
+  },
+  {
+    "id": "FIN-10",
+    "companyName": "EarlySalary Lending",
+    "contactTitle": "CTO",
+    "city": "Pune",
+    "website": "https://earlysalary.com",
+    "phones": [
+      "02067639797"
+    ],
+    "emails": [
+      "care@fibe.in",
+      "pr@fibe.in"
+    ],
+    "scrapedFrom": [
+      "https://earlysalary.com",
+      "https://earlysalary.com/contact-us"
+    ]
+  },
+  {
+    "id": "FIN-11",
+    "companyName": "Rupeek Gold Loans",
+    "contactTitle": "VP Operations",
+    "city": "Bangalore",
+    "website": "https://rupeek.com",
+    "phones": [
+      "08068186818"
+    ],
+    "emails": [
+      "care@rupeek.com",
+      "support@rupeek.com"
+    ],
+    "scrapedFrom": [
+      "https://rupeek.com"
+    ]
+  },
+  {
+    "id": "FIN-12",
+    "companyName": "LoanTap NBFC",
+    "contactTitle": "CTO",
+    "city": "Pune",
+    "website": "https://loantap.in",
+    "phones": [],
+    "emails": [
+      "cs.fintech@loantap.in",
+      "cs.loantapcredit@help.loantap.in",
+      "nodal.loantapcredit@loantap.in",
+      "gro.loantapcredit@loantap.in"
+    ],
+    "scrapedFrom": [
+      "https://loantap.in",
+      "https://loantap.in/contact"
+    ]
+  },
+  {
+    "id": "FIN-13",
+    "companyName": "Groww Investments",
+    "contactTitle": "VP Product",
+    "city": "Bangalore",
+    "website": "https://groww.in",
+    "phones": [],
+    "emails": [],
+    "scrapedFrom": [
+      "https://groww.in",
+      "https://groww.in/about-us"
+    ]
+  },
+  {
+    "id": "FIN-14",
+    "companyName": "Fi Neobank",
+    "contactTitle": "B2B Sales Head",
+    "city": "Bangalore",
+    "website": "https://fi.money",
+    "phones": [],
+    "emails": [
+      "hello@fi.money",
+      "contact@federalbank.co.in"
+    ],
+    "scrapedFrom": [
+      "https://fi.money"
+    ]
+  },
+  {
+    "id": "FIN-15",
+    "companyName": "BC Shetty & Co",
+    "contactTitle": "Partner / Director",
+    "city": "Bangalore",
+    "website": "https://bcshettyco.com",
+    "phones": [
+      "08023443636",
+      "+918197981450"
+    ],
+    "emails": [
+      "shivashankara@bcshettyco.com",
+      "career@bcshettyco.com"
+    ],
+    "scrapedFrom": [
+      "https://bcshettyco.com"
+    ]
+  },
+  {
+    "id": "FIN-16",
+    "companyName": "FinGurus Accounting",
+    "contactTitle": "Founder",
+    "city": "Bangalore",
+    "website": "https://fingurus.com",
+    "phones": [],
+    "emails": [
+      "marketing@fingurus.com"
+    ],
+    "scrapedFrom": [
+      "https://fingurus.com"
+    ]
+  },
+  {
+    "id": "FIN-17",
+    "companyName": "Shibaraya & Co CA",
+    "contactTitle": "Founding Partner",
+    "city": "Bangalore",
+    "website": "https://shibaraya.com",
+    "phones": [],
+    "emails": [
+      "shibaraya.co@gmail.com",
+      "office@shibaraya.com"
+    ],
+    "scrapedFrom": [
+      "https://shibaraya.com"
+    ]
+  },
+  {
+    "id": "FIN-18",
+    "companyName": "Swasthik & Co Chartered",
+    "contactTitle": "CA Partner",
+    "city": "Bangalore",
+    "website": "https://swasthikandco.com",
+    "phones": [
+      "+916363252934",
+      "+919916240685"
+    ],
+    "emails": [
+      "info@swasthikandco.com"
+    ],
+    "scrapedFrom": [
+      "https://swasthikandco.com"
+    ]
+  },
+  {
+    "id": "FIN-19",
+    "companyName": "S3 Solutions Accounting",
+    "contactTitle": "Director",
+    "city": "Bangalore",
+    "website": "https://s3solutions.in",
+    "phones": [
+      "08042042944"
+    ],
+    "emails": [],
+    "scrapedFrom": [
+      "https://s3solutions.in"
+    ]
+  },
+  {
+    "id": "FIN-20",
+    "companyName": "BCL India CA Firm",
+    "contactTitle": "Partner",
+    "city": "Bangalore",
+    "website": "https://bclindia.in",
+    "phones": [],
+    "emails": [
+      "pavan@bclindia.in",
+      "info@bclindia.in"
+    ],
+    "scrapedFrom": [
+      "https://bclindia.in"
+    ]
+  },
+  {
+    "id": "FIN-21",
+    "companyName": "KAPG & Associates CA",
+    "contactTitle": "Senior Partner",
+    "city": "Bangalore",
+    "website": "https://cakapg.com",
+    "phones": [
+      "+919740262997"
+    ],
+    "emails": [
+      "accounts@cakapg.com"
+    ],
+    "scrapedFrom": [
+      "https://cakapg.com"
+    ]
+  },
+  {
+    "id": "FIN-22",
+    "companyName": "CA Bangalore Services",
+    "contactTitle": "Founder CA",
+    "city": "Bangalore",
+    "website": "https://cainbangalore.com",
+    "phones": [
+      "+919902977233",
+      "08023597723"
+    ],
+    "emails": [
+      "support@cainbangalore.com"
+    ],
+    "scrapedFrom": [
+      "https://cainbangalore.com"
+    ]
+  },
+  {
+    "id": "FIN-23",
+    "companyName": "MoneyBoxx Finance",
+    "contactTitle": "Operations Director / Head of Lending",
+    "city": "Mumbai",
+    "website": "https://moneyboxxfinance.com",
+    "phones": [
+      "02268290000",
+      "+912268290000",
+      "9919409045"
+    ],
+    "emails": [
+      "customer.care@moneyboxxfinance.com"
+    ],
+    "scrapedFrom": [
+      "https://moneyboxxfinance.com",
+      "https://moneyboxxfinance.com/contact"
+    ]
+  },
+  {
+    "id": "HLTH-1",
+    "companyName": "NDC Diagnostic Centre",
+    "contactTitle": "Director",
+    "city": "Navi Mumbai",
+    "website": "https://ndcdiagnostic.in",
+    "phones": [
+      "8657017320",
+      "+917718802447",
+      "+917718802436",
+      "02231851595"
+    ],
+    "emails": [
+      "contact@ndcdiagnostic.com",
+      "seawoods.appts@ndcdiagnostic.com",
+      "kharghar.appts@ndcdiagnostic.com",
+      "kalyan.appts@ndcdiagnostic.com"
+    ],
+    "scrapedFrom": [
+      "https://ndcdiagnostic.in/contact"
+    ]
+  },
+  {
+    "id": "HLTH-2",
+    "companyName": "Clinico Health Platform",
+    "contactTitle": "Founder",
+    "city": "Mumbai",
+    "website": "https://clinico.in",
+    "phones": [
+      "9504555555",
+      "8454943555",
+      "7304227005"
+    ],
+    "emails": [],
+    "scrapedFrom": [
+      "https://clinico.in"
+    ]
+  },
+  {
+    "id": "HLTH-3",
+    "companyName": "NM Medical Diagnostics",
+    "contactTitle": "Operations Director",
+    "city": "Mumbai",
+    "website": "https://nmmedical.com",
+    "phones": [
+      "+918108104007",
+      "+917506665658",
+      "9372745477",
+      "+918657414376"
+    ],
+    "emails": [
+      "info@nmmedical.com"
+    ],
+    "scrapedFrom": [
+      "https://nmmedical.com"
+    ]
+  },
+  {
+    "id": "HLTH-4",
+    "companyName": "Suburban Diagnostics",
+    "contactTitle": "CEO",
+    "city": "Mumbai",
+    "website": "https://suburbandiagnostics.com",
+    "phones": [
+      "+917208957933"
+    ],
+    "emails": [
+      "customerservice@suburbandiagnostics.com"
+    ],
+    "scrapedFrom": [
+      "https://suburbandiagnostics.com"
+    ]
+  },
+  {
+    "id": "HLTH-5",
+    "companyName": "CTL Lab Diagnostics",
+    "contactTitle": "Director",
+    "city": "Mumbai",
+    "website": "https://ctllab.in",
+    "phones": [
+      "+919619939393",
+      "+919659690090",
+      "9659690090"
+    ],
+    "emails": [
+      "ctlinfo@clinitechlab.com"
+    ],
+    "scrapedFrom": [
+      "https://ctllab.in"
+    ]
+  },
+  {
+    "id": "HLTH-6",
+    "companyName": "makeO Toothsi",
+    "contactTitle": "Head of Marketing / Clinic Operations Head",
+    "city": "Mumbai",
+    "website": "https://www.toothsi.in",
+    "phones": [
+      "7303330000"
+    ],
+    "emails": [
+      "customersupport@toothsi.in",
+      "careers@toothsi.in"
+    ],
+    "scrapedFrom": [
+      "https://www.toothsi.in",
+      "https://www.toothsi.in/contact-us"
+    ]
+  },
+  {
+    "id": "HLTH-7",
+    "companyName": "Henotic Diagnostics",
+    "contactTitle": "MD",
+    "city": "Navi Mumbai",
+    "website": "https://henoticdiagnostics.com",
+    "phones": [
+      "08879327184",
+      "09372853584"
+    ],
+    "emails": [],
+    "scrapedFrom": [
+      "https://henoticdiagnostics.com"
+    ]
+  },
+  {
+    "id": "HLTH-8",
+    "companyName": "Orange Health Labs",
+    "contactTitle": "Co-Founder",
+    "city": "Bangalore",
+    "website": "https://orangehealth.in",
+    "phones": [
+      "9008111144"
+    ],
+    "emails": [],
+    "scrapedFrom": [
+      "https://orangehealth.in"
+    ]
+  },
+  {
+    "id": "HLTH-9",
+    "companyName": "Sugar.fit Diabetes Care",
+    "contactTitle": "Co-Founder",
+    "city": "Bangalore",
+    "website": "https://sugarfit.com",
+    "phones": [],
+    "emails": [
+      "hello@sugarfit.com"
+    ],
+    "scrapedFrom": [
+      "https://sugarfit.com"
+    ]
+  },
+  {
+    "id": "HLTH-10",
+    "companyName": "HealthPlix EMR",
+    "contactTitle": "Head of Sales",
+    "city": "Bangalore",
+    "website": "https://healthplix.com",
+    "phones": [],
+    "emails": [
+      "support@healthplix.com"
+    ],
+    "scrapedFrom": [
+      "https://healthplix.com",
+      "https://healthplix.com/contact-us"
+    ]
+  },
+  {
+    "id": "HLTH-11",
+    "companyName": "Sunrise Diagnosis Pune",
+    "contactTitle": "Director",
+    "city": "Pune",
+    "website": "https://sunrisediagnosis.com",
+    "phones": [
+      "9028801188",
+      "9028566644",
+      "+919028801188",
+      "9028566611"
+    ],
+    "emails": [
+      "operationsunrise1@gmail.com"
+    ],
+    "scrapedFrom": [
+      "https://sunrisediagnosis.com"
+    ]
+  },
+  {
+    "id": "HLTH-12",
+    "companyName": "DocVita Telemedicine",
+    "contactTitle": "Founder",
+    "city": "Mumbai",
+    "website": "https://docvita.com",
+    "phones": [
+      "+919109191486"
+    ],
+    "emails": [],
+    "scrapedFrom": [
+      "https://docvita.com",
+      "https://docvita.com/contact"
+    ]
+  },
+  {
+    "id": "HLTH-13",
+    "companyName": "Onsurity Health Insurance",
+    "contactTitle": "VP Business",
+    "city": "Bangalore",
+    "website": "https://onsurity.com",
+    "phones": [],
+    "emails": [],
+    "scrapedFrom": []
+  },
+  {
+    "id": "HLTH-14",
+    "companyName": "mfine Telemedicine",
+    "contactTitle": "B2B Sales Lead",
+    "city": "Bangalore",
+    "website": "https://mfine.co",
+    "phones": [],
+    "emails": [
+      "support@mfine.co"
+    ],
+    "scrapedFrom": [
+      "https://mfine.co",
+      "https://mfine.co/contact"
+    ]
+  },
+  {
+    "id": "HLTH-15",
+    "companyName": "Healing Earth Ayurveda",
+    "contactTitle": "Founder",
+    "city": "Bangalore",
+    "website": "https://healingearth.co.in",
+    "phones": [
+      "+917899903943"
+    ],
+    "emails": [
+      "info@healingearth.co.in"
+    ],
+    "scrapedFrom": [
+      "https://healingearth.co.in"
+    ]
+  },
+  {
+    "id": "HLTH-16",
+    "companyName": "Ayushman Ayurvedic Centre",
+    "contactTitle": "Director",
+    "city": "Bangalore",
+    "website": "https://ayushmanayurvedic.in",
+    "phones": [
+      "+918722758684",
+      "+918040951212",
+      "+919538161313",
+      "+919916693854"
+    ],
+    "emails": [
+      "info@ayushmanayurvedic.in"
+    ],
+    "scrapedFrom": [
+      "https://ayushmanayurvedic.in"
+    ]
+  },
+  {
+    "id": "HLTH-17",
+    "companyName": "Bharati Ayurved Hospital",
+    "contactTitle": "Medical Director",
+    "city": "Pune",
+    "website": "https://bharatiayurvedhospital.com",
+    "phones": [
+      "02040555600"
+    ],
+    "emails": [
+      "coayurved@bharatividyapeeth.edu"
+    ],
+    "scrapedFrom": [
+      "https://bharatiayurvedhospital.com"
+    ]
+  },
+  {
+    "id": "HLTH-18",
+    "companyName": "Portea Medical",
+    "contactTitle": "City Operations Manager",
+    "city": "Bangalore",
+    "website": "https://portea.com",
+    "phones": [],
+    "emails": [
+      "bookings@portea.com",
+      "customersupport@portea.com"
+    ],
+    "scrapedFrom": [
+      "https://portea.com"
+    ]
+  },
+  {
+    "id": "HLTH-19",
+    "companyName": "Docplexus Medical Network",
+    "contactTitle": "Co-Founder",
+    "city": "Pune",
+    "website": "https://docplexus.in",
+    "phones": [],
+    "emails": [],
+    "scrapedFrom": [
+      "https://docplexus.in",
+      "https://docplexus.in/contact"
+    ]
+  },
+  {
+    "id": "HLTH-20",
+    "companyName": "HealthSpring Clinics",
+    "contactTitle": "Operations Director / Head of Clinics",
+    "city": "Mumbai",
+    "website": "https://healthspring.in",
+    "phones": [
+      "+918652886529"
+    ],
+    "emails": [
+      "info@healthspring.in"
+    ],
+    "scrapedFrom": [
+      "https://healthspring.in"
+    ]
+  },
+  {
+    "id": "EDU-1",
+    "companyName": "GlobalGyan Academy",
+    "contactTitle": "Co-Founder",
+    "city": "Mumbai",
+    "website": "https://globalgyan.in",
+    "phones": [
+      "+919920977731"
+    ],
+    "emails": [
+      "engage@globalgyan.in"
+    ],
+    "scrapedFrom": [
+      "https://globalgyan.in"
+    ]
+  },
+  {
+    "id": "EDU-2",
+    "companyName": "LearnTube by CareerNinja",
+    "contactTitle": "CTO",
+    "city": "Mumbai",
+    "website": "https://learntube.ai",
+    "phones": [],
+    "emails": [],
+    "scrapedFrom": [
+      "https://learntube.ai",
+      "https://learntube.ai/contact"
+    ]
+  },
+  {
+    "id": "EDU-3",
+    "companyName": "TeamLease EdTech",
+    "contactTitle": "VP Technology",
+    "city": "Bangalore",
+    "website": "https://teamleaseedtech.com",
+    "phones": [],
+    "emails": [
+      "edtech@teamlease.com"
+    ],
+    "scrapedFrom": [
+      "https://teamleaseedtech.com"
+    ]
+  },
+  {
+    "id": "EDU-4",
+    "companyName": "IMS Learning Resources",
+    "contactTitle": "Director Operations",
+    "city": "Mumbai",
+    "website": "https://imsindia.com",
+    "phones": [],
+    "emails": [
+      "ims@imsindia.com"
+    ],
+    "scrapedFrom": [
+      "https://imsindia.com",
+      "https://imsindia.com/contact"
+    ]
+  },
+  {
+    "id": "EDU-5",
+    "companyName": "Digital Gurukul",
+    "contactTitle": "Founder",
+    "city": "Mumbai",
+    "website": "https://digitalgurukul.in",
+    "phones": [],
+    "emails": [],
+    "scrapedFrom": []
+  },
+  {
+    "id": "EDU-6",
+    "companyName": "EDIIFY Education Platform",
+    "contactTitle": "Founder",
+    "city": "Mumbai",
+    "website": "https://ediify.com",
+    "phones": [
+      "+918766814699"
+    ],
+    "emails": [
+      "ediify.com@gmail.com"
+    ],
+    "scrapedFrom": [
+      "https://ediify.com"
+    ]
+  },
+  {
+    "id": "EDU-7",
+    "companyName": "EduRiser Counseling",
+    "contactTitle": "Director",
+    "city": "Mumbai",
+    "website": "https://eduriser.com",
+    "phones": [],
+    "emails": [
+      "marketing@eduriser.com"
+    ],
+    "scrapedFrom": [
+      "https://eduriser.com"
+    ]
+  },
+  {
+    "id": "EDU-8",
+    "companyName": "IIM Skills",
+    "contactTitle": "Founder / Head of Admissions",
+    "city": "Mumbai",
+    "website": "https://www.iimskills.com",
+    "phones": [
+      "+919580740740"
+    ],
+    "emails": [],
+    "scrapedFrom": [
+      "https://www.iimskills.com"
+    ]
+  },
+  {
+    "id": "EDU-9",
+    "companyName": "DelphianLogic eLearning",
+    "contactTitle": "Director",
+    "city": "Pune",
+    "website": "https://delphianlogic.com",
+    "phones": [],
+    "emails": [],
+    "scrapedFrom": [
+      "https://delphianlogic.com",
+      "https://delphianlogic.com/contact"
+    ]
+  },
+  {
+    "id": "EDU-10",
+    "companyName": "Invince LMS Platform",
+    "contactTitle": "VP Sales",
+    "city": "Pune",
+    "website": "https://invince.com",
+    "phones": [],
+    "emails": [],
+    "scrapedFrom": [
+      "https://invince.com"
+    ]
+  },
+  {
+    "id": "EDU-11",
+    "companyName": "Mindtickle Sales Training",
+    "contactTitle": "VP Customer Success",
+    "city": "Pune",
+    "website": "https://mindtickle.com",
+    "phones": [],
+    "emails": [],
+    "scrapedFrom": [
+      "https://mindtickle.com",
+      "https://mindtickle.com/contact"
+    ]
+  },
+  {
+    "id": "EDU-12",
+    "companyName": "Jaro Executive Education",
+    "contactTitle": "VP Operations",
+    "city": "Mumbai",
+    "website": "https://jaro.in",
+    "phones": [
+      "9240218482",
+      "+917208935225",
+      "8433712216"
+    ],
+    "emails": [
+      "puja.m@jaro.in"
+    ],
+    "scrapedFrom": [
+      "https://jaro.in"
+    ]
+  },
+  {
+    "id": "EDU-13",
+    "companyName": "IACVE Vocational Training",
+    "contactTitle": "Director",
+    "city": "Bangalore",
+    "website": "https://iacve.com",
+    "phones": [
+      "+919911887155",
+      "9999135155"
+    ],
+    "emails": [
+      "query.iacve@gmail.com"
+    ],
+    "scrapedFrom": [
+      "https://iacve.com"
+    ]
+  },
+  {
+    "id": "EDU-14",
+    "companyName": "Learnet Skills Institute",
+    "contactTitle": "Director",
+    "city": "Mumbai",
+    "website": "https://learnetskills.com",
+    "phones": [],
+    "emails": [
+      "info@learnetskills.com"
+    ],
+    "scrapedFrom": [
+      "https://learnetskills.com"
+    ]
+  },
+  {
+    "id": "EDU-15",
+    "companyName": "Apponix IT Academy",
+    "contactTitle": "Founder",
+    "city": "Bangalore",
+    "website": "https://apponix.com",
+    "phones": [
+      "+918050580888",
+      "8050580888",
+      "7022775888",
+      "8050539888"
+    ],
+    "emails": [
+      "info@apponix.com"
+    ],
+    "scrapedFrom": [
+      "https://apponix.com"
+    ]
+  },
+  {
+    "id": "EDU-16",
+    "companyName": "IIPC Training Institute",
+    "contactTitle": "Director",
+    "city": "Pune",
+    "website": "https://iipcindia.com",
+    "phones": [
+      "7040118989"
+    ],
+    "emails": [
+      "training@iipcindia.com"
+    ],
+    "scrapedFrom": [
+      "https://iipcindia.com"
+    ]
+  },
+  {
+    "id": "EDU-17",
+    "companyName": "Unique System Skills",
+    "contactTitle": "Founder",
+    "city": "Pune",
+    "website": "https://www.systemskills.in",
+    "phones": [
+      "+919970666888",
+      "9970666888"
+    ],
+    "emails": [
+      "training_india@systemskills.com"
+    ],
+    "scrapedFrom": [
+      "https://www.systemskills.in"
+    ]
+  },
+  {
+    "id": "EDU-18",
+    "companyName": "Aspire Techsoft Training",
+    "contactTitle": "Director",
+    "city": "Pune",
+    "website": "https://aspireit.net",
+    "phones": [
+      "+919960935600",
+      "+916364012099",
+      "+917620830992",
+      "9960935600"
+    ],
+    "emails": [],
+    "scrapedFrom": [
+      "https://aspireit.net"
+    ]
+  },
+  {
+    "id": "EDU-19",
+    "companyName": "SourceKode Technologies",
+    "contactTitle": "Founder",
+    "city": "Pune",
+    "website": "https://sourcekode.in",
+    "phones": [],
+    "emails": [
+      "info@sourcekode.in"
+    ],
+    "scrapedFrom": [
+      "https://sourcekode.in"
+    ]
+  },
+  {
+    "id": "EDU-20",
+    "companyName": "Codegnan IT Institute",
+    "contactTitle": "Founder",
+    "city": "Bangalore",
+    "website": "https://codegnan.com",
+    "phones": [
+      "+919642988688",
+      "+919642988788",
+      "+919888748888",
+      "+919888758888"
+    ],
+    "emails": [],
+    "scrapedFrom": [
+      "https://codegnan.com"
+    ]
+  },
+  {
+    "id": "ECM-1",
+    "companyName": "Bewakoof",
+    "contactTitle": "VP Tech",
+    "city": "Mumbai",
+    "website": "https://bewakoof.com",
+    "phones": [],
+    "emails": [],
+    "scrapedFrom": [
+      "https://bewakoof.com",
+      "https://bewakoof.com/contact-us"
+    ]
+  },
+  {
+    "id": "ECM-2",
+    "companyName": "Country Delight",
+    "contactTitle": "City Operations Manager",
+    "city": "Mumbai",
+    "website": "https://countrydelight.in",
+    "phones": [],
+    "emails": [],
+    "scrapedFrom": [
+      "https://countrydelight.in",
+      "https://countrydelight.in/contact"
+    ]
+  },
+  {
+    "id": "ECM-3",
+    "companyName": "SuperBottoms Baby",
+    "contactTitle": "Founder",
+    "city": "Mumbai",
+    "website": "https://superbottoms.com",
+    "phones": [
+      "9702314940"
+    ],
+    "emails": [
+      "connect@superbottoms.com"
+    ],
+    "scrapedFrom": [
+      "https://superbottoms.com",
+      "https://superbottoms.com/contact-us"
+    ]
+  },
+  {
+    "id": "ECM-4",
+    "companyName": "Luxe Sarees",
+    "contactTitle": "Proprietor",
+    "city": "Mumbai",
+    "website": "https://luxesarees.com",
+    "phones": [],
+    "emails": [],
+    "scrapedFrom": [
+      "https://luxesarees.com",
+      "https://luxesarees.com/contact"
+    ]
+  },
+  {
+    "id": "ECM-5",
+    "companyName": "Fashion Loop Rentals",
+    "contactTitle": "Founder",
+    "city": "Mumbai",
+    "website": "https://fashionloop.in",
+    "phones": [],
+    "emails": [
+      "info@fashionloop.in"
+    ],
+    "scrapedFrom": [
+      "https://fashionloop.in"
+    ]
+  },
+  {
+    "id": "ECM-6",
+    "companyName": "The Pant Project",
+    "contactTitle": "Founder",
+    "city": "Mumbai",
+    "website": "https://thepantproject.com",
+    "phones": [
+      "+918657735200"
+    ],
+    "emails": [
+      "contact@pantproject.com"
+    ],
+    "scrapedFrom": [
+      "https://thepantproject.com"
+    ]
+  },
+  {
+    "id": "ECM-7",
+    "companyName": "Mosaic Wellness D2C",
+    "contactTitle": "Co-Founder",
+    "city": "Mumbai",
+    "website": "https://mosaicwellness.in",
+    "phones": [],
+    "emails": [],
+    "scrapedFrom": [
+      "https://mosaicwellness.in",
+      "https://mosaicwellness.in/contact-us"
+    ]
+  },
+  {
+    "id": "ECM-8",
+    "companyName": "82 Degrees East Skincare",
+    "contactTitle": "Co-Founder",
+    "city": "Mumbai",
+    "website": "https://82e.com",
+    "phones": [],
+    "emails": [],
+    "scrapedFrom": [
+      "https://82e.com"
+    ]
+  },
+  {
+    "id": "ECM-9",
+    "companyName": "Zama Organics",
+    "contactTitle": "Founder",
+    "city": "Mumbai",
+    "website": "https://zamaorganics.com",
+    "phones": [],
+    "emails": [],
+    "scrapedFrom": [
+      "https://zamaorganics.com"
+    ]
+  },
+  {
+    "id": "ECM-10",
+    "companyName": "mCaffeine Personal Care",
+    "contactTitle": "VP Operations",
+    "city": "Mumbai",
+    "website": "https://mcaffeine.com",
+    "phones": [
+      "9004079229"
+    ],
+    "emails": [
+      "woot@mcaffeine.com"
+    ],
+    "scrapedFrom": [
+      "https://mcaffeine.com",
+      "https://mcaffeine.com/about"
+    ]
+  },
+  {
+    "id": "ECM-11",
+    "companyName": "Desi Farms India",
+    "contactTitle": "Founder",
+    "city": "Pune",
+    "website": "https://desifarmsindia.in",
+    "phones": [],
+    "emails": [],
+    "scrapedFrom": [
+      "https://desifarmsindia.in",
+      "https://desifarmsindia.in/contact"
+    ]
+  },
+  {
+    "id": "ECM-12",
+    "companyName": "Nariyal Cosmetics",
+    "contactTitle": "Co-Founder",
+    "city": "Pune",
+    "website": "https://nariyal.co.in",
+    "phones": [],
+    "emails": [],
+    "scrapedFrom": [
+      "https://nariyal.co.in"
+    ]
+  },
+  {
+    "id": "ECM-13",
+    "companyName": "Go Zero Ice Cream",
+    "contactTitle": "Founder",
+    "city": "Mumbai",
+    "website": "https://letsgozero.in",
+    "phones": [],
+    "emails": [],
+    "scrapedFrom": [
+      "https://letsgozero.in"
+    ]
+  },
+  {
+    "id": "ECM-14",
+    "companyName": "Amala Earth Marketplace",
+    "contactTitle": "Co-Founder",
+    "city": "Bangalore",
+    "website": "https://amala.earth",
+    "phones": [],
+    "emails": [],
+    "scrapedFrom": [
+      "https://amala.earth"
+    ]
+  },
+  {
+    "id": "ECM-15",
+    "companyName": "Pilgrim Beauty",
+    "contactTitle": "Head of Sales / Channel Operations",
+    "city": "Mumbai",
+    "website": "https://discoverpilgrim.com",
+    "phones": [],
+    "emails": [],
+    "scrapedFrom": [
+      "https://discoverpilgrim.com"
+    ]
+  },
+  {
+    "id": "ECM-16",
+    "companyName": "Mokobara Luggage",
+    "contactTitle": "COO",
+    "city": "Bangalore",
+    "website": "https://mokobara.com",
+    "phones": [
+      "7975298840",
+      "+918904892616"
+    ],
+    "emails": [
+      "support@mokobara.com",
+      "bulkorders@mokobara.com",
+      "careers@mokobara.com"
+    ],
+    "scrapedFrom": [
+      "https://mokobara.com"
+    ]
+  },
+  {
+    "id": "ECM-17",
+    "companyName": "Plum Goodness",
+    "contactTitle": "Head of D2C / Sales Operations",
+    "city": "Mumbai",
+    "website": "https://plumgoodness.com",
+    "phones": [
+      "7506496604",
+      "7700929800"
+    ],
+    "emails": [
+      "hello@plumgoodness.com",
+      "hi@emails.plumgoodness.com"
+    ],
+    "scrapedFrom": [
+      "https://plumgoodness.com"
+    ]
+  },
+  {
+    "id": "ECM-18",
+    "companyName": "The Souled Store",
+    "contactTitle": "VP Operations",
+    "city": "Mumbai",
+    "website": "https://thesouledstore.com",
+    "phones": [],
+    "emails": [],
+    "scrapedFrom": [
+      "https://thesouledstore.com",
+      "https://thesouledstore.com/contact"
+    ]
+  },
+  {
+    "id": "ECM-19",
+    "companyName": "Snitch Fashion D2C",
+    "contactTitle": "Co-founder / Head of Growth",
+    "city": "Bangalore",
+    "website": "https://snitch.com",
+    "phones": [],
+    "emails": [],
+    "scrapedFrom": [
+      "https://snitch.com"
+    ]
+  },
+  {
+    "id": "ECM-20",
+    "companyName": "Foxtale Skincare",
+    "contactTitle": "Co-Founder",
+    "city": "Mumbai",
+    "website": "https://foxtale.in",
+    "phones": [],
+    "emails": [],
+    "scrapedFrom": []
+  },
+  {
+    "id": "CON-1",
+    "companyName": "Haware Builders",
+    "contactTitle": "Director",
+    "city": "Navi Mumbai",
+    "website": "https://hawarebuilders.com",
+    "phones": [],
+    "emails": [
+      "helpdesk@hawarebuilders.com",
+      "hr@hawarebuilders.com"
+    ],
+    "scrapedFrom": [
+      "https://hawarebuilders.com"
+    ]
+  },
+  {
+    "id": "CON-2",
+    "companyName": "Pinnacle Infraheights",
+    "contactTitle": "MD",
+    "city": "Navi Mumbai",
+    "website": "https://pihpl.com",
+    "phones": [
+      "+918108548000"
+    ],
+    "emails": [],
+    "scrapedFrom": [
+      "https://pihpl.com"
+    ]
+  },
+  {
+    "id": "CON-3",
+    "companyName": "MIPL Group Interiors",
+    "contactTitle": "Project Director / Operations Head",
+    "city": "Mumbai",
+    "website": "https://themiplgroup.com",
+    "phones": [
+      "+918976587642"
+    ],
+    "emails": [
+      "projects@themiplgroup.com"
+    ],
+    "scrapedFrom": [
+      "https://themiplgroup.com"
+    ]
+  },
+  {
+    "id": "CON-4",
+    "companyName": "Capacit'e Infraprojects",
+    "contactTitle": "Project Director / Business Development Head",
+    "city": "Mumbai",
+    "website": "https://capacite.in",
+    "phones": [],
+    "emails": [
+      "info@capacite.in",
+      "bd@capacite.in"
+    ],
+    "scrapedFrom": [
+      "https://capacite.in"
+    ]
+  },
+  {
+    "id": "CON-5",
+    "companyName": "Arconex Turnkey Solutions",
+    "contactTitle": "Director",
+    "city": "Mumbai",
+    "website": "https://arconex.in",
+    "phones": [
+      "9819274937"
+    ],
+    "emails": [
+      "office@arconex.in"
+    ],
+    "scrapedFrom": [
+      "https://arconex.in"
+    ]
+  },
+  {
+    "id": "CON-6",
+    "companyName": "Innovative Building Solution",
+    "contactTitle": "Founder",
+    "city": "Navi Mumbai",
+    "website": "https://innovativebuildingsolution.in",
+    "phones": [
+      "7506986305"
+    ],
+    "emails": [],
+    "scrapedFrom": [
+      "https://innovativebuildingsolution.in"
+    ]
+  },
+  {
+    "id": "CON-7",
+    "companyName": "Pragati Interior Works",
+    "contactTitle": "Proprietor",
+    "city": "Thane",
+    "website": "https://pragatiinteriorworks.com",
+    "phones": [
+      "9004431593",
+      "9819503499"
+    ],
+    "emails": [
+      "pragatigroupofcompany@gmail.com"
+    ],
+    "scrapedFrom": [
+      "https://pragatiinteriorworks.com"
+    ]
+  },
+  {
+    "id": "CON-8",
+    "companyName": "Shreeraj MEP Consultants",
+    "contactTitle": "Director",
+    "city": "Navi Mumbai",
+    "website": "https://shreerajconsultants.com",
+    "phones": [
+      "+919930560912"
+    ],
+    "emails": [
+      "vishalwable@shreerajconsultants.com"
+    ],
+    "scrapedFrom": [
+      "https://shreerajconsultants.com"
+    ]
+  },
+  {
+    "id": "CON-9",
+    "companyName": "KIPL Infrastructure",
+    "contactTitle": "Director",
+    "city": "Mumbai",
+    "website": "https://kiplinfra.com",
+    "phones": [
+      "+917506009680"
+    ],
+    "emails": [
+      "admin@kiplinfra.com"
+    ],
+    "scrapedFrom": [
+      "https://kiplinfra.com"
+    ]
+  },
+  {
+    "id": "CON-10",
+    "companyName": "SS Enterprises",
+    "contactTitle": "Site Manager / Director",
+    "city": "Pune",
+    "website": "https://ssinfrastructureindia.com",
+    "phones": [
+      "+918806312227",
+      "+919552396847",
+      "+919850671819",
+      "+919763597272"
+    ],
+    "emails": [
+      "info@domain.com",
+      "ssenterprises2206@gmail.com",
+      "jaymalharindustries1212@gmail.com"
+    ],
+    "scrapedFrom": [
+      "https://ssinfrastructureindia.com"
+    ]
+  },
+  {
+    "id": "CON-11",
+    "companyName": "GBRN Projects Pune",
+    "contactTitle": "Director",
+    "city": "Pune",
+    "website": "https://gbrnprojects.in",
+    "phones": [
+      "+912067139016",
+      "+919823121727",
+      "+919823230296"
+    ],
+    "emails": [
+      "hr@gbrn.in",
+      "info@gbrnprojects.in"
+    ],
+    "scrapedFrom": [
+      "https://gbrnprojects.in"
+    ]
+  },
+  {
+    "id": "CON-12",
+    "companyName": "Keystone Building Concepts",
+    "contactTitle": "MD",
+    "city": "Bangalore",
+    "website": "https://keystonebuildingconcepts.com",
+    "phones": [
+      "9999095559"
+    ],
+    "emails": [
+      "info@keystonebuildingconcepts.com"
+    ],
+    "scrapedFrom": [
+      "https://keystonebuildingconcepts.com"
+    ]
+  },
+  {
+    "id": "CON-13",
+    "companyName": "Brawn Globus Design Build",
+    "contactTitle": "Director",
+    "city": "Bangalore",
+    "website": "https://brawnglobus.com",
+    "phones": [],
+    "emails": [],
+    "scrapedFrom": [
+      "https://brawnglobus.com",
+      "https://brawnglobus.com/contact"
+    ]
+  },
+  {
+    "id": "CON-14",
+    "companyName": "Cherry Hill Interiors",
+    "contactTitle": "Founder",
+    "city": "Bangalore",
+    "website": "https://cherryhill.in",
+    "phones": [
+      "+918049046100",
+      "+914442057113",
+      "+914048522253",
+      "+919310207770"
+    ],
+    "emails": [
+      "childelhi@cherryhill.in",
+      "chilbengaluru@cherryhill.in",
+      "chilchennai@cherryhill.in",
+      "chilhyderabad@cherryhill.in"
+    ],
+    "scrapedFrom": [
+      "https://cherryhill.in"
+    ]
+  },
+  {
+    "id": "CON-15",
+    "companyName": "Masterpiece Interiors",
+    "contactTitle": "Director",
+    "city": "Bangalore",
+    "website": "https://masterpieceinteriors.net",
+    "phones": [
+      "+918025451919"
+    ],
+    "emails": [
+      "arulrajesh@masterpieceinteriors.net",
+      "masterpieceofficesystems@gmail.com"
+    ],
+    "scrapedFrom": [
+      "https://masterpieceinteriors.net"
+    ]
+  },
+  {
+    "id": "CON-16",
+    "companyName": "GMAM Designs",
+    "contactTitle": "Founder",
+    "city": "Mumbai",
+    "website": "https://gmam.in",
+    "phones": [
+      "+917977211058",
+      "+917021275001"
+    ],
+    "emails": [
+      "info@gmam.in",
+      "gmamfurniture@gmail.com"
+    ],
+    "scrapedFrom": [
+      "https://gmam.in"
+    ]
+  },
+  {
+    "id": "CON-17",
+    "companyName": "SIPL Interior Projects",
+    "contactTitle": "Proprietor",
+    "city": "Pune",
+    "website": "https://siplprojects.in",
+    "phones": [
+      "+919657242270",
+      "+9102029950594",
+      "+917262951090"
+    ],
+    "emails": [],
+    "scrapedFrom": [
+      "https://siplprojects.in"
+    ]
+  },
+  {
+    "id": "CON-18",
+    "companyName": "Swami Interior Works",
+    "contactTitle": "Interior Designer / Owner",
+    "city": "Mumbai",
+    "website": "https://swamiinterior.in",
+    "phones": [
+      "9136479291"
+    ],
+    "emails": [
+      "friends@swamiinterior.in"
+    ],
+    "scrapedFrom": [
+      "https://swamiinterior.in",
+      "https://swamiinterior.in/contact"
+    ]
+  },
+  {
+    "id": "HOS-1",
+    "companyName": "Events Zone",
+    "contactTitle": "Founder",
+    "city": "Mumbai",
+    "website": "https://eventszone.in",
+    "phones": [
+      "+917387202569"
+    ],
+    "emails": [
+      "info.eventszone@gmail.com"
+    ],
+    "scrapedFrom": [
+      "https://eventszone.in"
+    ]
+  },
+  {
+    "id": "HOS-2",
+    "companyName": "Solitaire Events",
+    "contactTitle": "Director",
+    "city": "Mumbai",
+    "website": "https://solitaireevents.in",
+    "phones": [
+      "+919867561115"
+    ],
+    "emails": [
+      "girish@solitaireevents.in"
+    ],
+    "scrapedFrom": [
+      "https://solitaireevents.in"
+    ]
+  },
+  {
+    "id": "HOS-3",
+    "companyName": "We & You Events",
+    "contactTitle": "Founder",
+    "city": "Mumbai",
+    "website": "https://weandyouevents.com",
+    "phones": [
+      "+919321146514",
+      "+919321189835"
+    ],
+    "emails": [
+      "askweandyouevents@gmail.com",
+      "eventsbyweandyou@gmail.com"
+    ],
+    "scrapedFrom": [
+      "https://weandyouevents.com"
+    ]
+  },
+  {
+    "id": "HOS-4",
+    "companyName": "ICE India Events",
+    "contactTitle": "MD",
+    "city": "Mumbai",
+    "website": "https://iceindia.biz",
+    "phones": [],
+    "emails": [
+      "webqueries@iceindia.biz",
+      "vendors@iceindia.biz"
+    ],
+    "scrapedFrom": [
+      "https://iceindia.biz"
+    ]
+  },
+  {
+    "id": "HOS-5",
+    "companyName": "FB Celebrations",
+    "contactTitle": "Founder",
+    "city": "Mumbai",
+    "website": "https://fbcelebrations.com",
+    "phones": [],
+    "emails": [
+      "info@fbcelebrations.com"
+    ],
+    "scrapedFrom": [
+      "https://fbcelebrations.com"
+    ]
+  },
+  {
+    "id": "HOS-6",
+    "companyName": "Craftworld Events Pune",
+    "contactTitle": "Director",
+    "city": "Pune",
+    "website": "https://craftworldevents.com",
+    "phones": [
+      "09820344426"
+    ],
+    "emails": [
+      "info@craftworldevents.com"
+    ],
+    "scrapedFrom": [
+      "https://craftworldevents.com"
+    ]
+  },
+  {
+    "id": "HOS-7",
+    "companyName": "Truppa & Fest",
+    "contactTitle": "Co-Founder",
+    "city": "Mumbai",
+    "website": "https://truppandfest.com",
+    "phones": [
+      "9790768696"
+    ],
+    "emails": [
+      "resv@lambfriday.com"
+    ],
+    "scrapedFrom": [
+      "https://truppandfest.com",
+      "https://truppandfest.com/contact"
+    ]
+  },
+  {
+    "id": "HOS-8",
+    "companyName": "Red Letters Events",
+    "contactTitle": "Director",
+    "city": "Navi Mumbai",
+    "website": "https://redlettersevents.com",
+    "phones": [
+      "+919819466566",
+      "+919322226085"
+    ],
+    "emails": [
+      "contact@redlettersevents.com"
+    ],
+    "scrapedFrom": [
+      "https://redlettersevents.com",
+      "https://redlettersevents.com/contact"
+    ]
+  },
+  {
+    "id": "HOS-9",
+    "companyName": "Bawa Group of Hotels",
+    "contactTitle": "Revenue Manager / General Manager",
+    "city": "Mumbai",
+    "website": "https://bawahotels.com",
+    "phones": [],
+    "emails": [
+      "crs1@bawahotels.com",
+      "bawacontinental@bawahotels.com",
+      "bawasuites@bawahotels.com",
+      "bawaregency@bawahotels.com"
+    ],
+    "scrapedFrom": [
+      "https://bawahotels.com"
+    ]
+  },
+  {
+    "id": "HOS-10",
+    "companyName": "Musafir Conference Services",
+    "contactTitle": "Director",
+    "city": "Mumbai",
+    "website": "https://musafirtravels.com",
+    "phones": [
+      "+919619597919",
+      "9819288528",
+      "7208003907"
+    ],
+    "emails": [
+      "info@musafirtravels.com"
+    ],
+    "scrapedFrom": [
+      "https://musafirtravels.com"
+    ]
+  },
+  {
+    "id": "TRV-1",
+    "companyName": "Flamingo Travels",
+    "contactTitle": "VP Technology",
+    "city": "Mumbai",
+    "website": "https://flamingotravels.co.in",
+    "phones": [],
+    "emails": [
+      "world@flamingotravels.co.in"
+    ],
+    "scrapedFrom": [
+      "https://flamingotravels.co.in"
+    ]
+  },
+  {
+    "id": "TRV-2",
+    "companyName": "Nirmala Travels",
+    "contactTitle": "Proprietor",
+    "city": "Mumbai",
+    "website": "https://nirmalatravels.com",
+    "phones": [],
+    "emails": [],
+    "scrapedFrom": [
+      "https://nirmalatravels.com",
+      "https://nirmalatravels.com/contact"
+    ]
+  },
+  {
+    "id": "TRV-3",
+    "companyName": "Veena World Tours",
+    "contactTitle": "VP Operations",
+    "city": "Pune",
+    "website": "https://veenaworld.com",
+    "phones": [],
+    "emails": [
+      "travel@veenaworld.com",
+      "feedback@veenaworld.com"
+    ],
+    "scrapedFrom": [
+      "https://veenaworld.com"
+    ]
+  },
+  {
+    "id": "TRV-4",
+    "companyName": "Nomad Trails Treks",
+    "contactTitle": "Founder",
+    "city": "Mumbai",
+    "website": "https://nomadtrails.in",
+    "phones": [],
+    "emails": [
+      "nomad2adventures@gmail.com"
+    ],
+    "scrapedFrom": [
+      "https://nomadtrails.in"
+    ]
+  },
+  {
+    "id": "TRV-5",
+    "companyName": "Gilpin Travel Management",
+    "contactTitle": "Head of Corporate Sales / Director",
+    "city": "Mumbai",
+    "website": "https://gilpintravel.com",
+    "phones": [
+      "02267719300"
+    ],
+    "emails": [
+      "websupport@gilpintravelindia.com"
+    ],
+    "scrapedFrom": [
+      "https://gilpintravel.com"
+    ]
+  },
+  {
+    "id": "EVT-1",
+    "companyName": "Verve Events Pune",
+    "contactTitle": "Director",
+    "city": "Pune",
+    "website": "https://verveevents.in",
+    "phones": [
+      "+919810053192"
+    ],
+    "emails": [
+      "info@verveevents.in"
+    ],
+    "scrapedFrom": [
+      "https://verveevents.in"
+    ]
+  },
+  {
+    "id": "EVT-2",
+    "companyName": "Brandesense Events",
+    "contactTitle": "Founder",
+    "city": "Pune",
+    "website": "https://brandesense.in",
+    "phones": [
+      "+918962505550",
+      "+918104172980",
+      "+912066203455"
+    ],
+    "emails": [
+      "info@brandesense.in"
+    ],
+    "scrapedFrom": [
+      "https://brandesense.in"
+    ]
+  },
+  {
+    "id": "EVT-3",
+    "companyName": "Yours Truly Events",
+    "contactTitle": "Founder",
+    "city": "Pune",
+    "website": "https://yourstruly.events",
+    "phones": [
+      "+919764008685"
+    ],
+    "emails": [
+      "yourtrulyeventt@gmail.com"
+    ],
+    "scrapedFrom": [
+      "https://yourstruly.events"
+    ]
+  },
+  {
+    "id": "EVT-4",
+    "companyName": "Absolute Concepts Events",
+    "contactTitle": "Proprietor",
+    "city": "Pune",
+    "website": "https://absoluteconcepts.in",
+    "phones": [
+      "9422324339",
+      "9158778887",
+      "9689893320"
+    ],
+    "emails": [
+      "info@yourdomain.com",
+      "solutions@absoluteconcepts.in",
+      "weddings@absoluteconcepts.in"
+    ],
+    "scrapedFrom": [
+      "https://absoluteconcepts.in",
+      "https://absoluteconcepts.in/contact"
+    ]
+  },
+  {
+    "id": "EVT-5",
+    "companyName": "Marrquee Events",
+    "contactTitle": "Director",
+    "city": "Pune",
+    "website": "https://marrquee.com",
+    "phones": [
+      "+919890263111"
+    ],
+    "emails": [
+      "rajesh@marrquee.com",
+      "careers@marrquee.com",
+      "partners@marrquee.com"
+    ],
+    "scrapedFrom": [
+      "https://marrquee.com"
+    ]
+  },
+  {
+    "id": "PHA-1",
+    "companyName": "Oceanic Pharmachem",
+    "contactTitle": "Director Regulatory",
+    "city": "Mumbai",
+    "website": "https://oceanicpharmachem.com",
+    "phones": [],
+    "emails": [
+      "info@oceanicpharmachem.com"
+    ],
+    "scrapedFrom": [
+      "https://oceanicpharmachem.com",
+      "https://oceanicpharmachem.com/contact"
+    ]
+  },
+  {
+    "id": "PHA-2",
+    "companyName": "Amber Lifesciences",
+    "contactTitle": "VP Operations",
+    "city": "Navi Mumbai",
+    "website": "https://amberlife.in",
+    "phones": [],
+    "emails": [],
+    "scrapedFrom": [
+      "https://amberlife.in",
+      "https://amberlife.in/contact"
+    ]
+  },
+  {
+    "id": "PHA-3",
+    "companyName": "Salius Pharma",
+    "contactTitle": "Director / Operations Manager",
+    "city": "Navi Mumbai",
+    "website": "https://saliuspharma.in",
+    "phones": [
+      "08048951049"
+    ],
+    "emails": [],
+    "scrapedFrom": [
+      "https://saliuspharma.in"
+    ]
+  },
+  {
+    "id": "PHA-4",
+    "companyName": "Sudarshan Pharma Industries",
+    "contactTitle": "Director",
+    "city": "Mumbai",
+    "website": "https://sudarshanpharma.com",
+    "phones": [
+      "+912242221111",
+      "+912242221123",
+      "+912242221160"
+    ],
+    "emails": [
+      "compliance@sudarshanpharma.com",
+      "sudarshangroupexports@gmail.com",
+      "sachinchemicals@gmail.com",
+      "purchase@sudarshanpharma.com"
+    ],
+    "scrapedFrom": [
+      "https://sudarshanpharma.com"
+    ]
+  },
+  {
+    "id": "CON2-1",
+    "companyName": "Wren & Pecker HR Consulting",
+    "contactTitle": "Director",
+    "city": "Mumbai",
+    "website": "https://wnphr.com",
+    "phones": [
+      "9922910390"
+    ],
+    "emails": [
+      "info@wnphr.com"
+    ],
+    "scrapedFrom": [
+      "https://wnphr.com"
+    ]
+  },
+  {
+    "id": "CON2-2",
+    "companyName": "FinTax Startup Consulting",
+    "contactTitle": "Founder",
+    "city": "Navi Mumbai",
+    "website": "https://taxsaverz.com",
+    "phones": [
+      "+917210000745"
+    ],
+    "emails": [
+      "info@fintaxx.in"
+    ],
+    "scrapedFrom": [
+      "https://taxsaverz.com"
+    ]
+  },
+  {
+    "id": "CON2-3",
+    "companyName": "VCT Business Consultancy",
+    "contactTitle": "Principal Consultant",
+    "city": "Mumbai",
+    "website": "https://vctconsultancy.com",
+    "phones": [
+      "9821139467",
+      "9867370222",
+      "+9102225941166"
+    ],
+    "emails": [
+      "vctcon@yahoo.com",
+      "vctcons@gmail.com",
+      "vctcons@yahoo.com"
+    ],
+    "scrapedFrom": [
+      "https://vctconsultancy.com",
+      "https://vctconsultancy.com/contacts"
+    ]
+  },
+  {
+    "id": "CON2-4",
+    "companyName": "Simplex Alliance MSME",
+    "contactTitle": "Managing Partner",
+    "city": "Mumbai",
+    "website": "https://simplexalliance.com",
+    "phones": [],
+    "emails": [
+      "info@simplexalliance.com",
+      "hr@simplexalliance.com"
+    ],
+    "scrapedFrom": [
+      "https://simplexalliance.com",
+      "https://simplexalliance.com/contact"
+    ]
+  },
+  {
+    "id": "CON2-5",
+    "companyName": "Ma Foi Business Consulting",
+    "contactTitle": "Managing Partner / Director",
+    "city": "Pune",
+    "website": "https://mafoibusinessconsulting.com",
+    "phones": [],
+    "emails": [
+      "info@mafoistrategy.com"
+    ],
+    "scrapedFrom": [
+      "https://mafoibusinessconsulting.com"
+    ]
+  },
+  {
+    "id": "INT-1",
+    "companyName": "Elevation Interior Design",
+    "contactTitle": "Principal Designer",
+    "city": "Thane",
+    "website": "https://elevationinterior.com",
+    "phones": [
+      "9892343410",
+      "2225898444"
+    ],
+    "emails": [],
+    "scrapedFrom": [
+      "https://elevationinterior.com"
+    ]
+  },
+  {
+    "id": "INT-2",
+    "companyName": "Jyani Interior Works",
+    "contactTitle": "Director",
+    "city": "Thane",
+    "website": "https://jyaniinterior.com",
+    "phones": [
+      "+919224598745",
+      "+919155500500"
+    ],
+    "emails": [
+      "bhawarlal@jyaniinterior.com"
+    ],
+    "scrapedFrom": [
+      "https://jyaniinterior.com"
+    ]
+  },
+  {
+    "id": "INT-3",
+    "companyName": "Chie Design Studio",
+    "contactTitle": "Principal Architect",
+    "city": "Mumbai",
+    "website": "https://chiedesign.in",
+    "phones": [],
+    "emails": [
+      "projects@chiedesign.in"
+    ],
+    "scrapedFrom": [
+      "https://chiedesign.in"
+    ]
+  },
+  {
+    "id": "HR-1",
+    "companyName": "Kaizen HR & Payroll",
+    "contactTitle": "Director",
+    "city": "Mumbai",
+    "website": "https://hrpayrollindia.in",
+    "phones": [],
+    "emails": [
+      "kaizen@kaizenlla.com"
+    ],
+    "scrapedFrom": [
+      "https://hrpayrollindia.in"
+    ]
+  },
+  {
+    "id": "AUTO-1",
+    "companyName": "Takshi Auto Components",
+    "contactTitle": "Director Operations",
+    "city": "Pune",
+    "website": "https://takshiauto.com",
+    "phones": [
+      "+912025655506"
+    ],
+    "emails": [
+      "enquiry@takshiauto.com"
+    ],
+    "scrapedFrom": [
+      "https://takshiauto.com"
+    ]
+  }
+]
