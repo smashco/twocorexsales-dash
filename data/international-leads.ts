@@ -1183,7 +1183,7 @@ export const INTL_LEADS: (Lead & { country: string })[] = [
   },
   {
     id: "INT-084", companyName: "Penang Heritage Tours", city: "Penang", country: "Malaysia",
-    industry: "Travel & Tourism" as Lead["industry"], website: "https://penangheritage tours.com.my",
+    industry: "Travel & Tourism" as Lead["industry"], website: "https://penangheritagetours.com.my",
     employees: "15-25", serviceFit: "Basic CRM", qualification: "WARM" as "HOT"|"WARM",
     confidencePct: 62, score: 7, category: "NURTURE" as "HIGH VALUE"|"NURTURE",
     painPoint1: "tour bookings taken via WhatsApp with no confirmation system",
