@@ -119,6 +119,239 @@ function CopyButton({ text, label = "Copy" }: { text: string; label?: string }) 
   );
 }
 
+// ── PDF Generator ─────────────────────────────────────────────────────────────
+function buildIntlPrintHTML(lead: Lead): string {
+  const pricing = getIntlPricingRecommendation(lead);
+  const country = lead.country ?? "USA";
+  const c = pricing.currency;
+  const fmt = (v: number) => `${c.symbol}${v.toLocaleString(c.locale)}`;
+  const intel = INTL_INTEL[lead.industry] ?? DEFAULT_INTEL;
+  const timeline = CAT_TIMELINE[pricing.serviceCategory];
+  const today = new Date().toLocaleDateString("en-US", { day: "numeric", month: "long", year: "numeric" });
+
+  const catColor: Record<ServiceCategory, string> = {
+    "Basic CRM": "#374151", "Custom App": "#7C3AED", "CRM + Portal": "#1D4ED8",
+    "ERP Standard": "#065F46", "Enterprise ERP": "#B45309"
+  };
+  const accent = catColor[pricing.serviceCategory];
+
+  return `<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Proposal — ${lead.companyName}</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1a1a2e; font-size: 11pt; line-height: 1.6; }
+  @page { margin: 18mm 20mm; size: A4; }
+  .page-break { page-break-after: always; }
+  .cover { min-height: 250mm; display: flex; flex-direction: column; justify-content: space-between; padding: 30mm 0 20mm; }
+  .cover-logo { font-size: 28pt; font-weight: 900; letter-spacing: -1px; color: #1a1a2e; }
+  .cover-logo span { color: ${accent}; }
+  .cover-tagline { font-size: 9pt; color: #6B7280; letter-spacing: 2px; text-transform: uppercase; margin-top: 4px; }
+  .cover-divider { height: 3px; background: ${accent}; width: 60px; margin: 24px 0; }
+  .cover-title { font-size: 24pt; font-weight: 800; color: #1a1a2e; line-height: 1.2; }
+  .cover-subtitle { font-size: 13pt; color: #6B7280; margin-top: 10px; }
+  .cover-meta { margin-top: 40px; padding: 20px; background: #F9FAFB; border-left: 4px solid ${accent}; border-radius: 0 8px 8px 0; }
+  .cover-meta p { font-size: 10pt; color: #374151; margin-bottom: 6px; }
+  .cover-meta p strong { color: #1a1a2e; }
+  .cover-footer { font-size: 8pt; color: #9CA3AF; border-top: 1px solid #E5E7EB; padding-top: 12px; }
+  .section { margin-bottom: 22px; }
+  .section-label { font-size: 8pt; font-weight: 700; letter-spacing: 2.5px; text-transform: uppercase; color: ${accent}; margin-bottom: 8px; }
+  .section-title { font-size: 16pt; font-weight: 800; color: #1a1a2e; margin-bottom: 12px; }
+  .section-body { font-size: 10.5pt; color: #374151; line-height: 1.75; }
+  .highlight { background: #F9FAFB; border-left: 3px solid ${accent}; padding: 12px 16px; border-radius: 0 8px 8px 0; margin: 14px 0; font-size: 10pt; color: #374151; line-height: 1.7; }
+  .highlight strong { color: #1a1a2e; }
+  .pain-grid { display: flex; flex-direction: column; gap: 10px; margin: 14px 0; }
+  .pain-card { border: 1px solid #E5E7EB; border-radius: 8px; padding: 12px 16px; }
+  .pain-num { display: inline-flex; align-items: center; justify-content: center; width: 22px; height: 22px; border-radius: 50%; font-size: 9pt; font-weight: 700; color: white; background: ${accent}; margin-right: 8px; }
+  .pain-text { font-size: 10.5pt; font-weight: 600; color: #1a1a2e; display: inline; }
+  .pain-impact { font-size: 9.5pt; color: #6B7280; margin-top: 5px; padding-left: 30px; font-style: italic; }
+  .price-table { width: 100%; border-collapse: collapse; margin: 14px 0; font-size: 10pt; }
+  .price-table th { background: ${accent}; color: white; padding: 10px 14px; text-align: left; font-size: 9pt; font-weight: 700; }
+  .price-table td { padding: 10px 14px; border-bottom: 1px solid #F3F4F6; }
+  .price-table .price-val { font-weight: 700; font-size: 12pt; color: ${accent}; }
+  .price-table .price-sub { font-size: 8.5pt; color: #9CA3AF; }
+  .process { display: flex; flex-direction: column; gap: 8px; margin: 14px 0; }
+  .process-step { display: flex; gap: 12px; align-items: flex-start; }
+  .process-num { flex-shrink: 0; width: 26px; height: 26px; border-radius: 50%; background: ${accent}; color: white; font-size: 9pt; font-weight: 700; display: flex; align-items: center; justify-content: center; }
+  .process-content h4 { font-size: 10pt; font-weight: 700; color: #1a1a2e; }
+  .process-content p { font-size: 9.5pt; color: #6B7280; }
+  .guarantee-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin: 12px 0; }
+  .guarantee-item { display: flex; gap: 8px; font-size: 9.5pt; color: #374151; }
+  .guarantee-check { color: #10B981; font-weight: 700; flex-shrink: 0; }
+  .cta-box { background: #1a1a2e; color: white; padding: 24px; border-radius: 12px; margin-top: 16px; text-align: center; }
+  .cta-box h3 { font-size: 14pt; font-weight: 800; margin-bottom: 8px; }
+  .cta-box p { font-size: 10pt; color: rgba(255,255,255,0.7); margin-bottom: 16px; }
+  .cta-contact { font-size: 10pt; color: rgba(255,255,255,0.9); }
+  .doc-footer { position: fixed; bottom: 0; left: 0; right: 0; border-top: 1px solid #E5E7EB; padding: 6px 20mm; display: flex; justify-content: space-between; font-size: 8pt; color: #9CA3AF; }
+</style>
+</head>
+<body>
+
+<!-- PAGE 1: COVER -->
+<div class="cover">
+  <div>
+    <div class="cover-logo">Two<span>CoreX</span></div>
+    <div class="cover-tagline">Custom Software for Global Businesses</div>
+    <div class="cover-divider"></div>
+    <div class="cover-title">Business Analysis &amp;<br>Custom Solution Proposal</div>
+    <div class="cover-subtitle">Prepared exclusively for ${lead.companyName} · ${country}</div>
+  </div>
+  <div class="cover-meta">
+    <p><strong>Prepared for:</strong> ${lead.contact}, ${lead.companyName}</p>
+    <p><strong>Market:</strong> ${lead.industry} · ${lead.city}, ${country}</p>
+    <p><strong>Company Size:</strong> ${lead.employees} employees</p>
+    <p><strong>Proposed Solution:</strong> ${pricing.serviceCategory}</p>
+    <p><strong>Investment:</strong> ${fmt(pricing.localProjectPrice)} (${c.code})</p>
+    <p><strong>Date:</strong> ${today}</p>
+    <p><strong>Prepared by:</strong> TwoCoreX · smith@twocorex.com</p>
+  </div>
+  <div class="cover-footer">
+    Confidential business analysis prepared exclusively for ${lead.companyName}. TwoCoreX · Custom ERP, CRM &amp; Mobile Systems for Growing Businesses Worldwide.
+  </div>
+</div>
+<div class="page-break"></div>
+
+<!-- PAGE 2: RESEARCH + CHALLENGES -->
+<div class="section">
+  <div class="section-label">About Your Business</div>
+  <div class="section-title">What We Observed About ${lead.companyName}</div>
+  <div class="section-body">
+    ${lead.companyName} is a ${lead.employees}-employee ${lead.industry} company based in ${lead.city}, ${country}.
+  </div>
+  <div class="highlight"><strong>Market Context:</strong> ${intel.marketContext}</div>
+  <div class="section-body">${intel.painStat}</div>
+</div>
+
+<div class="section">
+  <div class="section-label">Operational Analysis</div>
+  <div class="section-title">The 3 Gaps We Identified</div>
+  <div class="pain-grid">
+    ${[lead.painPoint1, lead.painPoint2, lead.painPoint3].map((p, i) => `
+    <div class="pain-card">
+      <div><span class="pain-num">${i + 1}</span><span class="pain-text">${p.charAt(0).toUpperCase() + p.slice(1)}</span></div>
+      <div class="pain-impact">→ This is ${getPainImpact(p)}</div>
+    </div>`).join("")}
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-label">Why Now</div>
+  <div class="section-title">The Right Time for ${lead.companyName} to Act</div>
+  <div class="highlight"><strong>Business Signal:</strong> ${lead.buyingTrigger}</div>
+  <div class="section-body">${intel.urgencyTrend}</div>
+</div>
+<div class="page-break"></div>
+
+<!-- PAGE 3: SOLUTION -->
+<div class="section">
+  <div class="section-label">Proposed Solution</div>
+  <div class="section-title">Custom ${pricing.serviceCategory} — Built for ${lead.companyName}</div>
+  <div class="section-body">
+    We design and build a custom ${pricing.serviceCategory} from the ground up — not off-the-shelf software, but a system architected specifically for ${lead.companyName}'s workflow and industry requirements.
+  </div>
+  <div class="highlight"><strong>Service Fit:</strong> ${lead.serviceFit}</div>
+</div>
+
+<div class="section">
+  <div class="section-label">Expected Business Impact</div>
+  <div class="section-title">What ${lead.companyName} Gains</div>
+  <div class="highlight">${intel.digitalBenefit}</div>
+  <div class="guarantee-grid">
+    <div class="guarantee-item"><span class="guarantee-check">✓</span> Eliminate manual tracking errors</div>
+    <div class="guarantee-item"><span class="guarantee-check">✓</span> Real-time visibility across operations</div>
+    <div class="guarantee-item"><span class="guarantee-check">✓</span> Faster client communication</div>
+    <div class="guarantee-item"><span class="guarantee-check">✓</span> Compliant invoicing and reports</div>
+    <div class="guarantee-item"><span class="guarantee-check">✓</span> Team accountability and task tracking</div>
+    <div class="guarantee-item"><span class="guarantee-check">✓</span> Data-driven management decisions</div>
+  </div>
+</div>
+<div class="page-break"></div>
+
+<!-- PAGE 4: INVESTMENT -->
+<div class="section">
+  <div class="section-label">Investment (${c.code})</div>
+  <div class="section-title">Fixed-Price Proposal for ${lead.companyName}</div>
+  <table class="price-table">
+    <thead><tr><th>Description</th><th>Amount (${c.code})</th><th>Notes</th></tr></thead>
+    <tbody>
+      <tr>
+        <td><strong>Custom System Build</strong><br><span class="price-sub">${pricing.serviceCategory} — one-time project fee</span></td>
+        <td><span class="price-val">${fmt(pricing.localProjectPrice)}</span></td>
+        <td><span class="price-sub">Fixed price, no hidden costs</span></td>
+      </tr>
+      <tr>
+        <td><strong>Monthly Support</strong><br><span class="price-sub">Hosting + bug fixes + updates + priority support</span></td>
+        <td><span class="price-val">${fmt(pricing.localMonthlyPrice)}/mo</span></td>
+        <td><span class="price-sub">Cancel anytime</span></td>
+      </tr>
+      <tr>
+        <td><strong>Annual Support Plan</strong><br><span class="price-sub">All upgrades + priority support + 2 months free</span></td>
+        <td><span class="price-val">${fmt(pricing.localAnnualPrice)}/yr</span></td>
+        <td><span class="price-sub">Save ${fmt(pricing.localMonthlyPrice * 2)} vs monthly</span></td>
+      </tr>
+    </tbody>
+  </table>
+  <div class="highlight">
+    <strong>What's Included:</strong><br><br>
+    Source code ownership (100% yours) · 3 months free warranty · Staff training · NDA + fixed-price contract · SSL certificate · Cloud hosting setup · Weekly progress demos
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-label">Timeline</div>
+  <div class="section-title">Delivery in ${timeline}</div>
+  <div class="process">
+    <div class="process-step"><div class="process-num">1</div><div class="process-content"><h4>Discovery &amp; Design</h4><p>Requirements workshop, UI/UX wireframes, database architecture — with your sign-off before coding begins</p></div></div>
+    <div class="process-step"><div class="process-num">2</div><div class="process-content"><h4>Development (Agile Sprints)</h4><p>Weekly demo updates — you see progress every week</p></div></div>
+    <div class="process-step"><div class="process-num">3</div><div class="process-content"><h4>Testing &amp; QA</h4><p>Full testing on real devices and scenarios — zero known bugs at launch</p></div></div>
+    <div class="process-step"><div class="process-num">4</div><div class="process-content"><h4>Launch, Training &amp; Handover</h4><p>Deploy, onboard your team, train staff, and hand over source code</p></div></div>
+  </div>
+</div>
+<div class="page-break"></div>
+
+<!-- PAGE 5: ABOUT + CTA -->
+<div class="section">
+  <div class="section-label">About TwoCoreX</div>
+  <div class="section-title">Why Global Businesses Work With Us</div>
+  <div class="section-body">
+    TwoCoreX is a custom software development company with dedicated teams in India building world-class ERP, CRM, and mobile systems for businesses worldwide. We deliver top-tier quality at competitive rates — not resold SaaS, not modified templates.
+  </div>
+  <div class="guarantee-grid" style="margin-top: 14px;">
+    <div class="guarantee-item"><span class="guarantee-check">✓</span> Fixed-price contracts — no scope creep</div>
+    <div class="guarantee-item"><span class="guarantee-check">✓</span> Source code delivered — 100% ownership</div>
+    <div class="guarantee-item"><span class="guarantee-check">✓</span> Built for your local compliance needs</div>
+    <div class="guarantee-item"><span class="guarantee-check">✓</span> NDA signed before project begins</div>
+    <div class="guarantee-item"><span class="guarantee-check">✓</span> Mobile-responsive + iOS/Android apps</div>
+    <div class="guarantee-item"><span class="guarantee-check">✓</span> API integrations with your existing tools</div>
+    <div class="guarantee-item"><span class="guarantee-check">✓</span> Cloud hosted — 99.9% uptime SLA</div>
+    <div class="guarantee-item"><span class="guarantee-check">✓</span> 3 months free warranty post-launch</div>
+  </div>
+  <div class="section-label" style="margin-top: 20px;">Technology Stack</div>
+  <div class="highlight">
+    <strong>Frontend:</strong> React.js / Next.js · <strong>Mobile:</strong> React Native (iOS + Android) ·
+    <strong>Backend:</strong> Node.js + Express · <strong>Database:</strong> PostgreSQL / MongoDB ·
+    <strong>Cloud:</strong> AWS / GCP · <strong>Payments:</strong> Stripe / PayPal ·
+    <strong>Messaging:</strong> WhatsApp / Twilio · <strong>Auth:</strong> JWT + OAuth
+  </div>
+</div>
+
+<div class="cta-box">
+  <h3>Ready to See What We'd Build for ${lead.companyName}?</h3>
+  <p>We'd welcome a 20-minute call to walk you through a live demo of a similar ${pricing.serviceCategory} we've deployed for a ${lead.industry} company — and show you exactly what we'd build for you.</p>
+  <div class="cta-contact">✉ smith@twocorex.com · 🌐 www.twocorex.com</div>
+</div>
+
+<div class="doc-footer">
+  <span>Confidential — Prepared for ${lead.companyName}</span>
+  <span>TwoCoreX · ${today}</span>
+</div>
+
+</body>
+</html>`;
+}
+
 // ── Main Component ────────────────────────────────────────────────────────────
 export function IntlFirstOutreachPanel({ lead }: { lead: Lead }) {
   const [activeTab, setActiveTab] = useState<"preview" | "email" | "reply">("preview");
@@ -173,6 +406,16 @@ smith@twocorex.com | www.twocorex.com`;
 
   const subject = encodeURIComponent(`${lead.companyName} — Custom ${lead.industry} System Proposal`);
 
+  function downloadPDF() {
+    const html = buildIntlPrintHTML(lead);
+    const w = window.open("", "_blank");
+    if (!w) return;
+    w.document.write(html);
+    w.document.close();
+    w.focus();
+    setTimeout(() => { w.print(); }, 600);
+  }
+
   function sendGmail() {
     navigator.clipboard.writeText(emailText);
     window.open(`https://mail.google.com/mail/?view=cm&fs=1&su=${subject}`, "_blank");
@@ -218,8 +461,12 @@ smith@twocorex.com | www.twocorex.com`;
           <span className="ml-auto text-xs px-2 py-0.5 rounded-full text-white/60 bg-white/10">{country} · {c.code}</span>
         </div>
         <div className="flex gap-3 flex-wrap">
-          <button onClick={sendGmail}
+          <button onClick={downloadPDF}
             className="flex items-center gap-2 px-4 py-2 rounded-lg text-xs font-bold" style={{ background: "#FCD34D", color: "#1A1A2E" }}>
+            <FileDown className="w-3.5 h-3.5" /> Download PDF
+          </button>
+          <button onClick={sendGmail}
+            className="flex items-center gap-2 px-4 py-2 rounded-lg text-xs font-bold bg-white/10 text-white hover:bg-white/20 transition-all">
             <Mail className="w-3.5 h-3.5" /> Gmail (body copied)
           </button>
           <a href={`https://www.linkedin.com/search/results/people/?keywords=${encodeURIComponent(`${lead.contact} ${lead.companyName}`)}`}
@@ -344,8 +591,12 @@ smith@twocorex.com | www.twocorex.com`;
               <p className="text-white font-bold">Send this proposal to {lead.companyName}</p>
             </div>
             <div className="flex gap-3 justify-center flex-wrap">
-              <button onClick={sendGmail}
+              <button onClick={downloadPDF}
                 className="flex items-center gap-2 px-5 py-2.5 rounded-lg text-sm font-bold" style={{ background: "#FCD34D", color: "#1A1A2E" }}>
+                <FileDown className="w-4 h-4" /> Download PDF
+              </button>
+              <button onClick={sendGmail}
+                className="flex items-center gap-2 px-5 py-2.5 rounded-lg text-sm font-bold bg-white/10 text-white hover:bg-white/20 transition-all">
                 <Mail className="w-4 h-4" /> Gmail (body copied)
               </button>
               <a href={`https://www.linkedin.com/search/results/people/?keywords=${encodeURIComponent(`${lead.contact} ${lead.companyName}`)}`}
