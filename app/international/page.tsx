@@ -2,7 +2,8 @@
 import { useState, useMemo, useEffect } from "react";
 import Link from "next/link";
 import { INTL_LEADS } from "@/data/international-leads";
-import { getPricingRecommendation, SERVICE_CATEGORY_LABELS } from "@/lib/pricing";
+import { getIntlPricingRecommendation } from "@/lib/intl-pricing";
+import { SERVICE_CATEGORY_LABELS } from "@/lib/pricing";
 import { getCRMStore } from "@/lib/crm-storage";
 import { TopBar } from "@/components/layout/TopBar";
 import { Badge } from "@/components/ui/badge";
@@ -199,7 +200,7 @@ export default function InternationalLeadsPage() {
         {/* Mobile Cards */}
         <div className="md:hidden space-y-3">
           {filtered.map(lead => {
-            const pricing = getPricingRecommendation(lead);
+            const pricing = getIntlPricingRecommendation(lead);
             const tz = COUNTRY_TZ[lead.country!];
             return (
               <Link key={lead.id} href={`/international/${lead.id}`}
@@ -260,7 +261,7 @@ export default function InternationalLeadsPage() {
               </thead>
               <tbody>
                 {filtered.map((lead, i) => {
-                  const pricing = getPricingRecommendation(lead);
+                  const pricing = getIntlPricingRecommendation(lead);
                   const sc = SERVICE_CATEGORY_LABELS[pricing.serviceCategory];
                   const tz = COUNTRY_TZ[lead.country!];
                   return (

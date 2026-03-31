@@ -1,13 +1,13 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { INTL_LEADS } from "@/data/international-leads";
-import { getPricingRecommendation } from "@/lib/pricing";
+import { getIntlPricingRecommendation } from "@/lib/intl-pricing";
 import { TopBar } from "@/components/layout/TopBar";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { SalesScriptViewer } from "@/components/lead-detail/SalesScriptViewer";
 import { CRMTracker } from "@/components/lead-detail/CRMTracker";
 import { AIInsightsPanel } from "@/components/lead-detail/AIInsightsPanel";
-import { PricingCard } from "@/components/lead-detail/PricingCard";
+import { IntlPricingCard } from "@/components/lead-detail/IntlPricingCard";
 import { OutreachCustomizer } from "@/components/lead-detail/OutreachCustomizer";
 import { IndustryBriefing } from "@/components/lead-detail/IndustryBriefing";
 import { SocialIntelPanel } from "@/components/lead-detail/SocialIntelPanel";
@@ -15,11 +15,9 @@ import { BizIntelPanel } from "@/components/lead-detail/BizIntelPanel";
 import { CloseIntelPanel } from "@/components/lead-detail/CloseIntelPanel";
 import { CompetitorIntelPanel } from "@/components/lead-detail/CompetitorIntelPanel";
 import { ProposalIntelPanel } from "@/components/lead-detail/ProposalIntelPanel";
-import { PDFExportButton } from "@/components/lead-detail/PDFExportButton";
+// PDFExportButton not used for intl (uses INR formatting)
 import { IntentSignalsPanel } from "@/components/lead-detail/IntentSignalsPanel";
-import { OurServicesPanel } from "@/components/lead-detail/OurServicesPanel";
 import { ContactPanel } from "@/components/lead-detail/ContactPanel";
-import { FirstOutreachPanel } from "@/components/lead-detail/FirstOutreachPanel";
 import { ChevronLeft, Globe, Users, AlertCircle, Zap, Clock } from "lucide-react";
 import type { Lead } from "@/types";
 
@@ -49,7 +47,7 @@ export default async function IntlLeadDetailPage({ params }: { params: Promise<{
   const { id } = await params;
   const lead = INTL_LEADS.find(l => l.id === id);
   if (!lead) notFound();
-  const pricing = getPricingRecommendation(lead as Lead);
+  const pricing = getIntlPricingRecommendation(lead as Lead);
   const tz = COUNTRY_TZ[lead.country];
 
   return (
@@ -135,11 +133,6 @@ export default async function IntlLeadDetailPage({ params }: { params: Promise<{
           )}
         </div>
 
-        {/* PDF Export */}
-        <div className="flex justify-end">
-          <PDFExportButton lead={lead as Lead} pricing={pricing} />
-        </div>
-
         {/* Tabs */}
         <Tabs defaultValue="overview" className="space-y-4">
           <div className="overflow-x-auto tabs-scroll -mx-3 md:mx-0 px-3 md:px-0">
@@ -157,9 +150,7 @@ export default async function IntlLeadDetailPage({ params }: { params: Promise<{
                 ["competitors", "⚔️ Competitors"],
                 ["proposal",    "📋 Our Proposal"],
                 ["intent",      "🎯 Intent Signals"],
-                ["services",    "💼 Our Services"],
                 ["contact",     "📞 Contact"],
-                ["outreach",    "🚀 First Outreach"],
               ].map(([val, label]) => (
                 <TabsTrigger key={val} value={val}
                   className="text-xs px-3 py-2 rounded-lg whitespace-nowrap min-h-[36px] data-[state=active]:shadow-sm data-[state=active]:font-semibold">
@@ -199,7 +190,7 @@ export default async function IntlLeadDetailPage({ params }: { params: Promise<{
                 </div>
               </div>
             </div>
-            <PricingCard pricing={pricing} />
+            <IntlPricingCard pricing={pricing} />
           </TabsContent>
 
           {/* Sales Script */}
@@ -279,13 +270,6 @@ export default async function IntlLeadDetailPage({ params }: { params: Promise<{
             </div>
           </TabsContent>
 
-          {/* Our Services */}
-          <TabsContent value="services">
-            <div className="bg-white rounded-xl shadow-sm p-4 overflow-hidden">
-              <OurServicesPanel lead={lead as Lead} pricing={pricing} />
-            </div>
-          </TabsContent>
-
           {/* Contact */}
           <TabsContent value="contact">
             <div className="bg-white rounded-xl shadow-sm p-4 overflow-hidden">
@@ -293,12 +277,6 @@ export default async function IntlLeadDetailPage({ params }: { params: Promise<{
             </div>
           </TabsContent>
 
-          {/* First Outreach */}
-          <TabsContent value="outreach">
-            <div className="bg-white rounded-xl shadow-sm p-4 overflow-hidden">
-              <FirstOutreachPanel lead={lead as Lead} pricing={pricing} />
-            </div>
-          </TabsContent>
         </Tabs>
 
       </div>
