@@ -269,6 +269,122 @@ function buildIntlPrintHTML(lead: Lead): string {
 </div>
 <div class="page-break"></div>
 
+<!-- PAGE 3B: BUSINESS IMPACT ANALYSIS (CHARTS) -->
+<div class="section">
+  <div class="section-label">Business Impact Analysis</div>
+  <div class="section-title">Projected ROI for ${lead.companyName}</div>
+  <div class="section-body" style="margin-bottom:16px;">Based on our analysis of ${lead.companyName}'s operations, here is the projected business impact of implementing a custom ${pricing.serviceCategory}:</div>
+
+  <!-- Efficiency Donut Charts -->
+  <div style="display:flex;gap:20px;justify-content:center;margin:20px 0;flex-wrap:wrap;">
+    ${[
+      { label: "Efficiency Gain", pct: 75, color: "#059669" },
+      { label: "Error Reduction", pct: 85, color: "#3B82F6" },
+      { label: "Time Savings", pct: 60, color: "#8B5CF6" },
+      { label: "Revenue Impact", pct: 40, color: "#F59E0B" },
+    ].map(({ label, pct, color }) => {
+      const r = 35; const circ = 2 * Math.PI * r; const offset = circ * (1 - pct / 100);
+      return `<div style="text-align:center;flex:1;min-width:100px;">
+        <svg width="90" height="90" viewBox="0 0 90 90" style="transform:rotate(-90deg)">
+          <circle cx="45" cy="45" r="${r}" fill="none" stroke="#E5E7EB" stroke-width="7"/>
+          <circle cx="45" cy="45" r="${r}" fill="none" stroke="${color}" stroke-width="7" stroke-dasharray="${circ}" stroke-dashoffset="${offset}" stroke-linecap="round"/>
+        </svg>
+        <div style="margin-top:-60px;position:relative;font-size:16pt;font-weight:900;color:${color};">${pct}%</div>
+        <div style="margin-top:28px;font-size:8pt;color:#6B7280;font-weight:600;">${label}</div>
+      </div>`;
+    }).join("")}
+  </div>
+
+  <!-- Operations Improvement Bars -->
+  <div style="margin:24px 0;">
+    <div style="font-size:8pt;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:${accent};margin-bottom:12px;">Projected Operations Improvement</div>
+    ${[
+      { label: "Manual Process Elimination", pct: 80, color: "#059669" },
+      { label: "Data Accuracy Improvement", pct: 92, color: "#3B82F6" },
+      { label: "Response Time Improvement", pct: 70, color: "#8B5CF6" },
+      { label: "Customer Satisfaction Lift", pct: 65, color: "#F59E0B" },
+      { label: "Team Productivity Gain", pct: 55, color: "#EF4444" },
+    ].map(({ label, pct, color }) => `
+      <div style="margin-bottom:10px;">
+        <div style="display:flex;justify-content:space-between;font-size:9pt;margin-bottom:3px;">
+          <span style="color:#374151;font-weight:500;">${label}</span>
+          <span style="font-weight:700;color:${color};">${pct}%</span>
+        </div>
+        <div style="height:10px;background:#F3F4F6;border-radius:5px;overflow:hidden;">
+          <div style="height:100%;width:${pct}%;background:${color};border-radius:5px;"></div>
+        </div>
+      </div>`).join("")}
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-label">ROI Waterfall</div>
+  <div class="section-title">Where ${lead.companyName} Saves &amp; Earns</div>
+  <div style="display:flex;align-items:flex-end;gap:12px;height:120px;margin:20px 0;padding:0 10px;">
+    ${[
+      { label: "Labour Saved", pct: 85, color: "#059669" },
+      { label: "Error Reduction", pct: 70, color: "#10B981" },
+      { label: "Speed Gain", pct: 60, color: "#34D399" },
+      { label: "Revenue Growth", pct: 45, color: "#6EE7B7" },
+      { label: "Client Retention", pct: 55, color: "#A7F3D0" },
+    ].map(({ label, pct, color }) => `
+      <div style="flex:1;text-align:center;">
+        <div style="font-size:9pt;font-weight:700;color:#374151;margin-bottom:4px;">${pct}%</div>
+        <div style="height:${pct}%;background:${color};border-radius:4px 4px 0 0;min-height:10px;"></div>
+        <div style="font-size:7pt;color:#6B7280;margin-top:4px;line-height:1.2;">${label}</div>
+      </div>`).join("")}
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-label">Before vs After TwoCoreX</div>
+  <div style="border:1px solid #E5E7EB;border-radius:8px;overflow:hidden;margin:14px 0;">
+    <div style="display:grid;grid-template-columns:1fr 1fr 1fr;background:#1a1a2e;">
+      <div style="padding:8px 12px;font-size:8pt;font-weight:700;color:#D1D5DB;text-transform:uppercase;letter-spacing:1px;">Area</div>
+      <div style="padding:8px 12px;font-size:8pt;font-weight:700;color:#FCA5A5;text-transform:uppercase;letter-spacing:1px;border-left:1px solid #374151;">Before</div>
+      <div style="padding:8px 12px;font-size:8pt;font-weight:700;color:#6EE7B7;text-transform:uppercase;letter-spacing:1px;border-left:1px solid #374151;">After TwoCoreX</div>
+    </div>
+    ${[
+      ["Order Management", "WhatsApp + Excel + phone calls", "Unified digital platform with real-time tracking"],
+      ["Client Communication", "Scattered across email and chat", "Automated updates via CRM pipeline"],
+      ["Financial Tracking", "Manual spreadsheets, errors common", "Auto-generated invoices and reports"],
+      ["Team Coordination", "Phone calls, no visibility", "Task assignment, progress dashboards"],
+      ["Business Decisions", "Gut feeling, delayed reports", "Real-time analytics and KPI dashboards"],
+    ].map(([area, before, after], i) => `
+      <div style="display:grid;grid-template-columns:1fr 1fr 1fr;border-top:1px solid #F3F4F6;${i % 2 ? 'background:#FAFAFA;' : ''}">
+        <div style="padding:8px 12px;font-size:9pt;font-weight:600;color:#1a1a2e;">${area}</div>
+        <div style="padding:8px 12px;font-size:9pt;color:#DC2626;border-left:1px solid #F3F4F6;">✕ ${before}</div>
+        <div style="padding:8px 12px;font-size:9pt;color:#059669;font-weight:500;border-left:1px solid #F3F4F6;">✓ ${after}</div>
+      </div>`).join("")}
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-label">Growth Projection</div>
+  <div class="section-title">12-Month Outlook</div>
+  <!-- Growth curve SVG -->
+  <div style="margin:16px 0;">
+    <svg viewBox="0 0 500 120" style="width:100%;height:100px;">
+      <defs>
+        <linearGradient id="growthGrad" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" stop-color="${accent}" stop-opacity="0.3"/>
+          <stop offset="100%" stop-color="${accent}" stop-opacity="0.02"/>
+        </linearGradient>
+      </defs>
+      <polygon points="0,120 0,100 50,90 100,78 150,65 200,50 250,40 300,30 350,22 400,15 450,10 500,5 500,120" fill="url(#growthGrad)"/>
+      <polyline points="0,100 50,90 100,78 150,65 200,50 250,40 300,30 350,22 400,15 450,10 500,5" fill="none" stroke="${accent}" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+      ${[0, 100, 200, 300, 400, 500].map((x, i) => `<circle cx="${x}" cy="${[100, 78, 50, 30, 15, 5][i]}" r="3" fill="${accent}"/>`).join("")}
+    </svg>
+    <div style="display:flex;justify-content:space-between;font-size:8pt;color:#9CA3AF;padding:0 4px;">
+      <span>Month 1</span><span>Month 3</span><span>Month 6</span><span>Month 9</span><span>Month 12</span><span>Month 12+</span>
+    </div>
+  </div>
+  <div class="highlight">
+    <strong>Key milestones:</strong> Operations stabilise by Month 2 · Team fully trained by Month 3 · First measurable ROI by Month 4 · Full operational efficiency by Month 6 · ${lead.companyName} outperforms manual competitors within 12 months.
+  </div>
+</div>
+<div class="page-break"></div>
+
 <!-- PAGE 4: INVESTMENT -->
 <div class="section">
   <div class="section-label">Investment (${c.code})</div>
@@ -307,6 +423,52 @@ function buildIntlPrintHTML(lead: Lead): string {
     <div class="process-step"><div class="process-num">2</div><div class="process-content"><h4>Development (Agile Sprints)</h4><p>Weekly demo updates — you see progress every week</p></div></div>
     <div class="process-step"><div class="process-num">3</div><div class="process-content"><h4>Testing &amp; QA</h4><p>Full testing on real devices and scenarios — zero known bugs at launch</p></div></div>
     <div class="process-step"><div class="process-num">4</div><div class="process-content"><h4>Launch, Training &amp; Handover</h4><p>Deploy, onboard your team, train staff, and hand over source code</p></div></div>
+  </div>
+</div>
+<!-- Cost of Inaction -->
+<div class="section">
+  <div class="section-label" style="color:#DC2626;">The Cost of Not Acting</div>
+  <div class="section-title" style="color:#DC2626;">What Happens If ${lead.companyName} Delays</div>
+  <div style="border:2px solid #FCA5A5;border-radius:8px;overflow:hidden;margin:14px 0;">
+    <div style="background:#FEF2F2;padding:16px;">
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;">
+        ${[
+          ["Revenue Leak", "Every month without a system, ${lead.companyName} loses potential revenue to manual errors, slow follow-ups, and missed opportunities."],
+          ["Competitor Gap", "Your competitors who digitise first will capture the clients you lose to slow response times and poor tracking."],
+          ["Team Burnout", "Manual processes drain your best people — they spend 60%+ of their time on admin instead of growth activities."],
+          ["Compliance Risk", "As regulations tighten, operating without digital records creates audit and compliance exposure."],
+        ].map(([title, desc]) => `
+          <div style="background:white;border-radius:6px;padding:12px;border:1px solid #FECACA;">
+            <div style="font-size:10pt;font-weight:700;color:#DC2626;margin-bottom:4px;">⚠ ${title}</div>
+            <div style="font-size:9pt;color:#374151;line-height:1.5;">${desc}</div>
+          </div>`).join("")}
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Risk-free guarantee -->
+<div style="background:#1a1a2e;color:white;border-radius:12px;padding:24px;margin:16px 0;text-align:center;">
+  <div style="font-size:14pt;font-weight:800;margin-bottom:8px;">🛡 Our Risk-Free Guarantee</div>
+  <div style="font-size:10pt;color:rgba(255,255,255,0.7);line-height:1.7;max-width:400px;margin:0 auto;">
+    Fixed-price contract — no surprises. NDA before we start. Source code is 100% yours. 3 months free warranty. If we don't deliver what we promised, you don't pay the final 50%.
+  </div>
+</div>
+
+<!-- Social proof / credibility -->
+<div class="section">
+  <div class="section-label">Why Businesses Trust TwoCoreX</div>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px;margin:14px 0;">
+    ${[
+      ["50+", "Projects Delivered", "Across 15+ industries worldwide"],
+      ["4–6 weeks", "Average Delivery", "For CRM and portal projects"],
+      ["100%", "Code Ownership", "Every line of code is yours forever"],
+    ].map(([num, label, sub]) => `
+      <div style="text-align:center;border:1px solid #E5E7EB;border-radius:8px;padding:16px;">
+        <div style="font-size:20pt;font-weight:900;color:${accent};">${num}</div>
+        <div style="font-size:9pt;font-weight:700;color:#1a1a2e;margin-top:4px;">${label}</div>
+        <div style="font-size:8pt;color:#6B7280;margin-top:2px;">${sub}</div>
+      </div>`).join("")}
   </div>
 </div>
 <div class="page-break"></div>
