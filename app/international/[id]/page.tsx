@@ -29,16 +29,16 @@ const FLAG: Record<string, string> = {
   "South Africa": "🇿🇦", "Nigeria": "🇳🇬",
 };
 
-const COUNTRY_TZ: Record<string, { label: string; bestCall: string }> = {
-  "UAE":          { label: "UAE (GST)",   bestCall: "11 AM–1 PM IST / 3–5 PM IST" },
-  "UK":           { label: "UK (BST)",    bestCall: "1:30–4:30 PM IST" },
-  "USA":          { label: "USA (ET)",    bestCall: "6:30–9 PM IST" },
-  "Canada":       { label: "Canada (ET)", bestCall: "6:30–9 PM IST" },
-  "Australia":    { label: "AUS (AEST)", bestCall: "5–8 AM IST" },
-  "Singapore":    { label: "SGT",         bestCall: "7–11 AM IST" },
-  "Malaysia":     { label: "MYT",         bestCall: "7–11 AM IST" },
-  "South Africa": { label: "SAST",        bestCall: "11:30 AM–2:30 PM IST" },
-  "Nigeria":      { label: "WAT",         bestCall: "12:30–3:30 PM IST" },
+const COUNTRY_TZ: Record<string, { label: string; bestCall: string; workHoursIST: string }> = {
+  "UAE":          { label: "UAE (GST)",   bestCall: "11 AM–1 PM IST / 3–5 PM IST",  workHoursIST: "10:30 AM – 7:30 PM IST" },
+  "UK":           { label: "UK (BST)",    bestCall: "1:30–4:30 PM IST",             workHoursIST: "1:30 PM – 10:30 PM IST" },
+  "USA":          { label: "USA (ET)",    bestCall: "6:30–9 PM IST",               workHoursIST: "6:30 PM – 3:30 AM IST" },
+  "Canada":       { label: "Canada (ET)", bestCall: "6:30–9 PM IST",               workHoursIST: "6:30 PM – 3:30 AM IST" },
+  "Australia":    { label: "AUS (AEST)", bestCall: "5–8 AM IST",                   workHoursIST: "4:30 AM – 1:30 PM IST" },
+  "Singapore":    { label: "SGT",         bestCall: "7–11 AM IST",                  workHoursIST: "6:30 AM – 3:30 PM IST" },
+  "Malaysia":     { label: "MYT",         bestCall: "7–11 AM IST",                  workHoursIST: "6:30 AM – 3:30 PM IST" },
+  "South Africa": { label: "SAST",        bestCall: "11:30 AM–2:30 PM IST",        workHoursIST: "12:30 PM – 9:30 PM IST" },
+  "Nigeria":      { label: "WAT",         bestCall: "12:30–3:30 PM IST",           workHoursIST: "1:30 PM – 10:30 PM IST" },
 };
 
 export function generateStaticParams() {
@@ -119,12 +119,18 @@ export default async function IntlLeadDetailPage({ params }: { params: Promise<{
             </div>
           </div>
 
-          {/* Best call time banner */}
+          {/* Timezone banner */}
           {tz && (
-            <div className="px-4 md:px-5 py-2.5 bg-blue-50 border-b border-blue-100 flex items-center gap-2 text-xs text-blue-700">
-              <Clock className="w-3.5 h-3.5 shrink-0" />
-              <span><strong>Best call time (IST):</strong> {tz.bestCall}</span>
-              <span className="text-blue-400 ml-1">· {tz.label}</span>
+            <div className="px-4 md:px-5 py-2.5 bg-blue-50 border-b border-blue-100 flex flex-wrap items-center gap-x-4 gap-y-1 text-xs text-blue-700">
+              <span className="flex items-center gap-1.5">
+                <Clock className="w-3.5 h-3.5 shrink-0" />
+                <strong>Best call:</strong> {tz.bestCall}
+              </span>
+              <span className="text-blue-400">·</span>
+              <span className="flex items-center gap-1 text-blue-600">
+                🕐 <strong>Working hours (IST):</strong> {tz.workHoursIST}
+              </span>
+              <span className="text-blue-400 ml-auto hidden sm:block">{tz.label}</span>
             </div>
           )}
         </div>

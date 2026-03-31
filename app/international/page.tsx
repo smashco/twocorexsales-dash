@@ -12,16 +12,16 @@ import { Search, ArrowUpDown, Globe, SlidersHorizontal, X, CheckCircle, Clock } 
 import type { Qualification, IntentLevel } from "@/types";
 
 // ── Time zone offsets from IST (UTC+5:30) ────────────────────────────────────
-const COUNTRY_TZ: Record<string, { offset: number; label: string; bestCall: string }> = {
-  "UAE":          { offset: +0.5,  label: "UAE (GST)",  bestCall: "11 AM–1 PM IST / 3–5 PM IST" },
-  "UK":           { offset: -5.5,  label: "UK (BST)",   bestCall: "1:30–4:30 PM IST (during UK morning)" },
-  "USA":          { offset: -10.5, label: "USA (ET)",   bestCall: "6:30–9 PM IST (US morning)" },
-  "Canada":       { offset: -10.5, label: "Canada (ET)","bestCall": "6:30–9 PM IST" },
-  "Australia":    { offset: +4.5,  label: "AUS (AEST)", bestCall: "5–8 AM IST (AUS morning)" },
-  "Singapore":    { offset: +2.5,  label: "SGT",        bestCall: "7–11 AM IST" },
-  "Malaysia":     { offset: +2.5,  label: "MYT",        bestCall: "7–11 AM IST" },
-  "South Africa": { offset: -3.5,  label: "SAST",       bestCall: "11:30 AM–2:30 PM IST" },
-  "Nigeria":      { offset: -4.5,  label: "WAT",        bestCall: "12:30–3:30 PM IST" },
+const COUNTRY_TZ: Record<string, { offset: number; label: string; bestCall: string; workHoursIST: string }> = {
+  "UAE":          { offset: +0.5,  label: "UAE (GST)",  bestCall: "11 AM–1 PM IST / 3–5 PM IST",    workHoursIST: "10:30 AM – 7:30 PM IST" },
+  "UK":           { offset: -5.5,  label: "UK (BST)",   bestCall: "1:30–4:30 PM IST",               workHoursIST: "1:30 PM – 10:30 PM IST" },
+  "USA":          { offset: -10.5, label: "USA (ET)",   bestCall: "6:30–9 PM IST",                  workHoursIST: "6:30 PM – 3:30 AM IST" },
+  "Canada":       { offset: -10.5, label: "Canada (ET)", bestCall: "6:30–9 PM IST",                 workHoursIST: "6:30 PM – 3:30 AM IST" },
+  "Australia":    { offset: +4.5,  label: "AUS (AEST)", bestCall: "5–8 AM IST",                     workHoursIST: "4:30 AM – 1:30 PM IST" },
+  "Singapore":    { offset: +2.5,  label: "SGT",        bestCall: "7–11 AM IST",                    workHoursIST: "6:30 AM – 3:30 PM IST" },
+  "Malaysia":     { offset: +2.5,  label: "MYT",        bestCall: "7–11 AM IST",                    workHoursIST: "6:30 AM – 3:30 PM IST" },
+  "South Africa": { offset: -3.5,  label: "SAST",       bestCall: "11:30 AM–2:30 PM IST",           workHoursIST: "12:30 PM – 9:30 PM IST" },
+  "Nigeria":      { offset: -4.5,  label: "WAT",        bestCall: "12:30–3:30 PM IST",              workHoursIST: "1:30 PM – 10:30 PM IST" },
 };
 
 const FLAG: Record<string, string> = {
@@ -222,9 +222,12 @@ export default function InternationalLeadsPage() {
                     <Badge variant="outline" className="text-xs py-0 px-1.5">{lead.industry}</Badge>
                     <span className={`text-xs font-semibold ${lead.intentLevel === "HIGH" ? "text-red-600" : "text-amber-600"}`}>{lead.intentLevel} intent</span>
                     {tz && (
-                      <span className="inline-flex items-center gap-1 text-xs text-blue-600 bg-blue-50 border border-blue-100 rounded-full px-2 py-0.5">
-                        <Clock className="w-3 h-3" /> {tz.bestCall}
-                      </span>
+                      <div className="flex flex-col gap-0.5">
+                        <span className="inline-flex items-center gap-1 text-xs text-blue-600 bg-blue-50 border border-blue-100 rounded-full px-2 py-0.5">
+                          <Clock className="w-3 h-3" /> {tz.bestCall}
+                        </span>
+                        <span className="text-xs text-gray-400 pl-1">🕐 Works: {tz.workHoursIST}</span>
+                      </div>
                     )}
                     {contactedIds.has(lead.id) && (
                       <span className="inline-flex items-center gap-1 text-xs font-semibold text-green-700 bg-green-50 border border-green-200 rounded-full px-2 py-0.5">
@@ -296,7 +299,8 @@ export default function InternationalLeadsPage() {
                         {tz ? (
                           <div>
                             <div className="text-xs font-medium text-blue-700 whitespace-nowrap">{tz.bestCall}</div>
-                            <div className="text-xs text-gray-400">{tz.label}</div>
+                            <div className="text-xs text-gray-400 whitespace-nowrap">Works: {tz.workHoursIST}</div>
+                            <div className="text-xs text-gray-300">{tz.label}</div>
                           </div>
                         ) : <span className="text-xs text-gray-300">—</span>}
                       </td>
