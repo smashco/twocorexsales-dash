@@ -9,7 +9,16 @@ import { CRMTracker } from "@/components/lead-detail/CRMTracker";
 import { AIInsightsPanel } from "@/components/lead-detail/AIInsightsPanel";
 import { PricingCard } from "@/components/lead-detail/PricingCard";
 import { OutreachCustomizer } from "@/components/lead-detail/OutreachCustomizer";
+import { IndustryBriefing } from "@/components/lead-detail/IndustryBriefing";
+import { SocialIntelPanel } from "@/components/lead-detail/SocialIntelPanel";
+import { BizIntelPanel } from "@/components/lead-detail/BizIntelPanel";
+import { CloseIntelPanel } from "@/components/lead-detail/CloseIntelPanel";
+import { CompetitorIntelPanel } from "@/components/lead-detail/CompetitorIntelPanel";
+import { ProposalIntelPanel } from "@/components/lead-detail/ProposalIntelPanel";
+import { PDFExportButton } from "@/components/lead-detail/PDFExportButton";
+import { IntentSignalsPanel } from "@/components/lead-detail/IntentSignalsPanel";
 import { OurServicesPanel } from "@/components/lead-detail/OurServicesPanel";
+import { ContactPanel } from "@/components/lead-detail/ContactPanel";
 import { FirstOutreachPanel } from "@/components/lead-detail/FirstOutreachPanel";
 import { ChevronLeft, Globe, Users, AlertCircle, Zap, Clock } from "lucide-react";
 import type { Lead } from "@/types";
@@ -21,15 +30,15 @@ const FLAG: Record<string, string> = {
 };
 
 const COUNTRY_TZ: Record<string, { label: string; bestCall: string }> = {
-  "UAE":          { label: "UAE (GST)",  bestCall: "11 AM–1 PM IST / 3–5 PM IST" },
-  "UK":           { label: "UK (BST)",   bestCall: "1:30–4:30 PM IST" },
-  "USA":          { label: "USA (ET)",   bestCall: "6:30–9 PM IST" },
+  "UAE":          { label: "UAE (GST)",   bestCall: "11 AM–1 PM IST / 3–5 PM IST" },
+  "UK":           { label: "UK (BST)",    bestCall: "1:30–4:30 PM IST" },
+  "USA":          { label: "USA (ET)",    bestCall: "6:30–9 PM IST" },
   "Canada":       { label: "Canada (ET)", bestCall: "6:30–9 PM IST" },
   "Australia":    { label: "AUS (AEST)", bestCall: "5–8 AM IST" },
-  "Singapore":    { label: "SGT",        bestCall: "7–11 AM IST" },
-  "Malaysia":     { label: "MYT",        bestCall: "7–11 AM IST" },
-  "South Africa": { label: "SAST",       bestCall: "11:30 AM–2:30 PM IST" },
-  "Nigeria":      { label: "WAT",        bestCall: "12:30–3:30 PM IST" },
+  "Singapore":    { label: "SGT",         bestCall: "7–11 AM IST" },
+  "Malaysia":     { label: "MYT",         bestCall: "7–11 AM IST" },
+  "South Africa": { label: "SAST",        bestCall: "11:30 AM–2:30 PM IST" },
+  "Nigeria":      { label: "WAT",         bestCall: "12:30–3:30 PM IST" },
 };
 
 export function generateStaticParams() {
@@ -95,19 +104,34 @@ export default async function IntlLeadDetailPage({ params }: { params: Promise<{
             </div>
             <div className="flex items-center gap-2 text-xs text-gray-600">
               <Globe className="w-3.5 h-3.5 text-gray-400 shrink-0" />
-              <a href={lead.website} target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline truncate">{lead.website.replace(/^https?:\/\//, "")}</a>
+              <a href={lead.website} target="_blank" rel="noopener noreferrer"
+                className="text-blue-600 hover:underline truncate">{lead.website.replace(/^https?:\/\//, "")}</a>
             </div>
             <div className="flex items-center gap-2 text-xs text-gray-600">
               <Zap className="w-3.5 h-3.5 text-gray-400 shrink-0" />
               <span className="truncate">{lead.serviceFit}</span>
             </div>
-            {tz && (
-              <div className="flex items-center gap-2 text-xs text-blue-700">
-                <Clock className="w-3.5 h-3.5 shrink-0" />
-                <span><strong>Best call:</strong> {tz.bestCall}</span>
-              </div>
-            )}
+            <div className="flex items-center gap-2 text-xs text-gray-600">
+              <AlertCircle className="w-3.5 h-3.5 text-gray-400 shrink-0" />
+              <span className={`font-semibold ${lead.intentLevel === "HIGH" ? "text-red-600" : "text-amber-600"}`}>
+                {lead.intentLevel} intent
+              </span>
+            </div>
           </div>
+
+          {/* Best call time banner */}
+          {tz && (
+            <div className="px-4 md:px-5 py-2.5 bg-blue-50 border-b border-blue-100 flex items-center gap-2 text-xs text-blue-700">
+              <Clock className="w-3.5 h-3.5 shrink-0" />
+              <span><strong>Best call time (IST):</strong> {tz.bestCall}</span>
+              <span className="text-blue-400 ml-1">· {tz.label}</span>
+            </div>
+          )}
+        </div>
+
+        {/* PDF Export */}
+        <div className="flex justify-end">
+          <PDFExportButton lead={lead as Lead} pricing={pricing} />
         </div>
 
         {/* Tabs */}
@@ -115,13 +139,21 @@ export default async function IntlLeadDetailPage({ params }: { params: Promise<{
           <div className="overflow-x-auto tabs-scroll -mx-3 md:mx-0 px-3 md:px-0">
             <TabsList className="bg-white shadow-sm border rounded-xl p-1 h-auto inline-flex flex-nowrap gap-1 min-w-max md:flex-wrap md:w-full md:min-w-0">
               {[
-                ["overview", "Overview"],
-                ["script",   "Sales Script"],
-                ["crm",      "CRM Tracker"],
-                ["ai",       "AI Insights"],
-                ["msg",      "Outreach"],
-                ["services", "💼 Our Services"],
-                ["outreach", "🚀 First Outreach"],
+                ["overview",    "Overview"],
+                ["script",      "Sales Script"],
+                ["crm",         "CRM Tracker"],
+                ["ai",          "AI Insights"],
+                ["msg",         "Outreach"],
+                ["industry",    "Industry"],
+                ["social",      "Social Intel"],
+                ["bizintel",    "Biz Intel"],
+                ["close",       "🔥 Close Intel"],
+                ["competitors", "⚔️ Competitors"],
+                ["proposal",    "📋 Our Proposal"],
+                ["intent",      "🎯 Intent Signals"],
+                ["services",    "💼 Our Services"],
+                ["contact",     "📞 Contact"],
+                ["outreach",    "🚀 First Outreach"],
               ].map(([val, label]) => (
                 <TabsTrigger key={val} value={val}
                   className="text-xs px-3 py-2 rounded-lg whitespace-nowrap min-h-[36px] data-[state=active]:shadow-sm data-[state=active]:font-semibold">
@@ -155,50 +187,107 @@ export default async function IntlLeadDetailPage({ params }: { params: Promise<{
                   <p className="text-xs font-semibold text-gray-500 uppercase tracking-wide mb-1">Recommended Action</p>
                   <p className="text-sm text-gray-700">{lead.action}</p>
                 </div>
-                {tz && (
-                  <div className="rounded-lg p-3 bg-blue-50 border border-blue-100">
-                    <p className="text-xs font-semibold text-blue-700 uppercase tracking-wide mb-1 flex items-center gap-1">
-                      <Clock className="w-3 h-3" /> Best Time to Call (IST)
-                    </p>
-                    <p className="text-sm text-blue-800 font-medium">{tz.bestCall}</p>
-                    <p className="text-xs text-blue-500">{tz.label}</p>
-                  </div>
-                )}
+                <div>
+                  <p className="text-xs font-semibold text-gray-500 uppercase tracking-wide mb-1">Contact Research</p>
+                  <p className="text-sm text-gray-500">{lead.contact}</p>
+                </div>
               </div>
             </div>
             <PricingCard pricing={pricing} />
           </TabsContent>
 
+          {/* Sales Script */}
           <TabsContent value="script">
             <div className="bg-white rounded-xl shadow-sm p-4 overflow-hidden">
               <SalesScriptViewer script={lead.salesScript} />
             </div>
           </TabsContent>
 
+          {/* CRM */}
           <TabsContent value="crm">
             <div className="bg-white rounded-xl shadow-sm p-4 overflow-hidden">
               <CRMTracker leadId={lead.id} />
             </div>
           </TabsContent>
 
+          {/* AI Insights */}
           <TabsContent value="ai">
             <div className="bg-white rounded-xl shadow-sm p-4 overflow-hidden">
               <AIInsightsPanel lead={lead as Lead} />
             </div>
           </TabsContent>
 
+          {/* Outreach */}
           <TabsContent value="msg">
             <div className="bg-white rounded-xl shadow-sm p-4 overflow-hidden">
               <OutreachCustomizer leadId={lead.id} originalMessage={lead.outreachMessage} />
             </div>
           </TabsContent>
 
+          {/* Industry */}
+          <TabsContent value="industry">
+            <div className="bg-white rounded-xl shadow-sm p-4 overflow-hidden">
+              <IndustryBriefing lead={lead as Lead} />
+            </div>
+          </TabsContent>
+
+          {/* Social Intel */}
+          <TabsContent value="social">
+            <div className="bg-white rounded-xl shadow-sm p-4 overflow-hidden">
+              <SocialIntelPanel lead={lead as Lead} />
+            </div>
+          </TabsContent>
+
+          {/* Biz Intel */}
+          <TabsContent value="bizintel">
+            <div className="bg-white rounded-xl shadow-sm p-4 overflow-hidden">
+              <BizIntelPanel lead={lead as Lead} />
+            </div>
+          </TabsContent>
+
+          {/* Close Intel */}
+          <TabsContent value="close">
+            <div className="bg-white rounded-xl shadow-sm p-4 overflow-hidden">
+              <CloseIntelPanel lead={lead as Lead} />
+            </div>
+          </TabsContent>
+
+          {/* Competitors */}
+          <TabsContent value="competitors">
+            <div className="bg-white rounded-xl shadow-sm p-4 overflow-hidden">
+              <CompetitorIntelPanel lead={lead as Lead} />
+            </div>
+          </TabsContent>
+
+          {/* Our Proposal */}
+          <TabsContent value="proposal">
+            <div className="bg-white rounded-xl shadow-sm p-4 overflow-hidden">
+              <ProposalIntelPanel lead={lead as Lead} pricing={pricing} />
+            </div>
+          </TabsContent>
+
+          {/* Intent Signals */}
+          <TabsContent value="intent">
+            <div className="bg-white rounded-xl shadow-sm p-4 overflow-hidden">
+              <IntentSignalsPanel lead={lead as Lead} />
+            </div>
+          </TabsContent>
+
+          {/* Our Services */}
           <TabsContent value="services">
             <div className="bg-white rounded-xl shadow-sm p-4 overflow-hidden">
               <OurServicesPanel lead={lead as Lead} pricing={pricing} />
             </div>
           </TabsContent>
 
+          {/* Contact */}
+          <TabsContent value="contact">
+            <div className="bg-white rounded-xl shadow-sm p-4 overflow-hidden">
+              <ContactPanel lead={lead as Lead} />
+            </div>
+          </TabsContent>
+
+          {/* First Outreach */}
           <TabsContent value="outreach">
             <div className="bg-white rounded-xl shadow-sm p-4 overflow-hidden">
               <FirstOutreachPanel lead={lead as Lead} pricing={pricing} />
