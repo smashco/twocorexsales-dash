@@ -15,9 +15,9 @@ import { BizIntelPanel } from "@/components/lead-detail/BizIntelPanel";
 import { CloseIntelPanel } from "@/components/lead-detail/CloseIntelPanel";
 import { CompetitorIntelPanel } from "@/components/lead-detail/CompetitorIntelPanel";
 import { ProposalIntelPanel } from "@/components/lead-detail/ProposalIntelPanel";
-// PDFExportButton not used for intl (uses INR formatting)
 import { IntentSignalsPanel } from "@/components/lead-detail/IntentSignalsPanel";
 import { ContactPanel } from "@/components/lead-detail/ContactPanel";
+import { IntlFirstOutreachPanel } from "@/components/lead-detail/IntlFirstOutreachPanel";
 import { ChevronLeft, Globe, Users, AlertCircle, Zap, Clock } from "lucide-react";
 import type { Lead } from "@/types";
 
@@ -151,6 +151,7 @@ export default async function IntlLeadDetailPage({ params }: { params: Promise<{
                 ["proposal",    "📋 Our Proposal"],
                 ["intent",      "🎯 Intent Signals"],
                 ["contact",     "📞 Contact"],
+                ["outreach",    "🚀 First Outreach"],
               ].map(([val, label]) => (
                 <TabsTrigger key={val} value={val}
                   className="text-xs px-3 py-2 rounded-lg whitespace-nowrap min-h-[36px] data-[state=active]:shadow-sm data-[state=active]:font-semibold">
@@ -274,6 +275,13 @@ export default async function IntlLeadDetailPage({ params }: { params: Promise<{
           <TabsContent value="contact">
             <div className="bg-white rounded-xl shadow-sm p-4 overflow-hidden">
               <ContactPanel lead={lead as Lead} />
+            </div>
+          </TabsContent>
+
+          {/* First Outreach (International) */}
+          <TabsContent value="outreach">
+            <div className="bg-white rounded-xl shadow-sm p-4 overflow-hidden">
+              <IntlFirstOutreachPanel lead={lead as Lead} />
             </div>
           </TabsContent>
 

@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import Image from "next/image";
 import { FileText, Loader2, RefreshCw, Copy, Check, CheckCircle2, ArrowRight, Clock, TrendingUp, Zap, Star, BarChart3, PieChart, Target, Rocket, Shield, DollarSign } from "lucide-react";
 import type { Lead, PricingRecommendation, ProposalIntelData } from "@/types";
 
@@ -182,6 +183,9 @@ export function ProposalIntelPanel({ lead, pricing }: Props) {
         <div className="absolute bottom-0 left-0 w-32 h-32 bg-indigo-500/10 rounded-full blur-3xl" />
         <div className="relative">
           <div className="flex items-center gap-2 mb-2">
+            <div className="w-7 h-7 rounded-md bg-white/10 flex items-center justify-center overflow-hidden">
+              <Image src="/logo.png" alt="TwoCoreX" width={24} height={24} className="object-contain" />
+            </div>
             <Rocket className="w-4 h-4 text-sky-400" />
             <p className="text-xs font-bold text-sky-400 uppercase tracking-wider">Proposed Solution</p>
           </div>
